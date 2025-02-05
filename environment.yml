@@ -1,0 +1,13 @@
+name: pycon-2025
+channels:
+  - pytorch
+  - defaults
+  - conda-forge
+dependencies:
+  - ca-certificates=2024.12.31
+  - icu=73.1
+  - libcxx=14.0.6
+  - libuv=1.48.0
+  - nodejs=20.17.0
+  - openssl=3.0.15
+  - zlib=1.2.13
