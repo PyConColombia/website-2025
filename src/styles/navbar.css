@@ -1,0 +1,9 @@
+.navbar-custom {
+  background-color: var(--purple-dark) !important;
+  padding: 10px 0;
+}
+
+.navbar-custom .navbar-nav .nav-link {
+  color: var(--white);
+  font-size: 15px;
+}

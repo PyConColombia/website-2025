@@ -1,0 +1,70 @@
+:root {
+  --purple-dark: #3c00d7;
+  --purple: #4100f5;
+  --green: #deff00;
+  --black: #1a1414;
+  --white: #fff8ec;
+}
+
+@font-face {
+  font-family: 'Saira';
+  src: url('/fonts/saira/Saira-Light.ttf') format('ttf');
+  font-weight: 400;
+  font-style: light;
+}
+
+@font-face {
+  font-family: 'Saira';
+  src: url('/fonts/saira/Saira-Regular.ttf') format('ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Saira';
+  src: url('/fonts/saira/Saira-Bold.ttf') format('ttf');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Saira';
+  src: url('/fonts/saira/Saira-Italic.ttf') format('ttf');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Saira';
+  src: url('/fonts/saira/Saira-Bold-Italic.ttf') format('ttf');
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('/fonts/proxima-nova/proximanova_light.ttf') format('ttf');
+  font-weight: 400;
+  font-style: light;
+}
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('/fonts/proxima-nova/proximanova_regular.ttf') format('ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('/fonts/proxima-nova/proximanova-bold.otf') format('otf');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('/fonts/proxima-nova/proximanova-boldit.otf') format('otf');
+  font-weight: 700;
+  font-style: italic;
+}

@@ -2,7 +2,7 @@ import LandingPage from '@/pages/LandingPage';
 import Layout from '@/layout';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import '@/styles/App.css';
+import '@/styles/main.css';
 
 const App = () => {
   return (
