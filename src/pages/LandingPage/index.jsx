@@ -1,20 +1,120 @@
-import { Col, Container, Row } from 'react-bootstrap';
+import { Col, Container, Image, Row } from 'react-bootstrap';
 
 const LandingPage = () => {
   return (
-    <div className="content-wrapper">
-      <Container>
-        <Row className="justify-content-center">
-          <Col lg={3}>
-            <h1>Landing Page</h1>
-            <p>
-              This is a landing page. You can add your content here. You can also add more
-              components to this page.
-            </p>
-          </Col>
-        </Row>
-      </Container>
-    </div>
+    <>
+      <div className="content-wrapper top-section">
+        <div className="description">
+          <Container>
+            <Row className="justify-content-center">
+              <Col lg={9}>
+                <Row className="justify-content-center">
+                  <Col lg={6}>
+                    <Row>
+                      <div className="logo-wrapper">
+                        <Image
+                          src="/images/logo.webp"
+                          alt="Logo"
+                          width="100%"
+                          height="auto"
+                          className="img-fluid"
+                        />
+                      </div>
+                    </Row>
+                    <Row>
+                      <Col lg={7}>
+                        <span className="subtitle">Medellín, Colombia</span>
+                        <span className="subtitle">Jun 20, 21 & 22</span>
+                      </Col>
+                      <Col lg={4}>
+                        <div className="wrapper-date">
+                          <span className="date">2025</span>
+                        </div>
+                      </Col>
+                    </Row>
+                  </Col>
+                </Row>
+                <Row className="justify-content-center">
+                  <Col lg={5}>
+                    <div className="question-ticket">
+                      <h2>
+                        Ready to dive into the <span className="bold-text">world of Python</span>?
+                      </h2>
+                      <span className="question-description">
+                        Come explore, learn, and connect with others just as passionate as you are.
+                      </span>
+                      <button className="btn btn-primary button-ticket">Get your tickets</button>
+                    </div>
+                  </Col>
+                  <Col lg={6}>
+                    <Image
+                      src="/images/content/description.webp"
+                      alt="Hero"
+                      width="100%"
+                      height="auto"
+                    />
+                  </Col>
+                </Row>
+              </Col>
+            </Row>
+          </Container>
+        </div>
+      </div>
+
+      <div className="content-topics"></div>
+
+      <div className="content-wrapper bottom-section">
+        <Container>
+          <Row className="justify-content-center">
+            <Col lg={8}>
+              <Row className="justify-content-center">
+                <Col lg={6}>
+                  <Image
+                    src="/images/content/subscribe.webp"
+                    alt="Hero"
+                    width="100%"
+                    height="auto"
+                  />
+                </Col>
+                <Col lg={5} className="ms-auto">
+                  <h2>
+                    Want to <span className="bold-text">know more</span>?
+                  </h2>
+                  <form>
+                    <div className="form-group">
+                      <input
+                        type="email"
+                        className="form-control"
+                        id="exampleInputEmail1"
+                        aria-describedby="emailHelp"
+                        placeholder="Enter your email"
+                      />
+                      <input
+                        type="email"
+                        className="form-control"
+                        id="exampleInputEmail1"
+                        aria-describedby="emailHelp"
+                        placeholder="Enter your email"
+                      />
+                      <input
+                        type="email"
+                        className="form-control"
+                        id="exampleInputEmail1"
+                        aria-describedby="emailHelp"
+                        placeholder="Enter your email"
+                      />
+                    </div>
+                    <button type="submit" className="btn btn-primary">
+                      Submit
+                    </button>
+                  </form>
+                </Col>
+              </Row>
+            </Col>
+          </Row>
+        </Container>
+      </div>
+    </>
   );
 };
 
