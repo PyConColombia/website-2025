@@ -22,11 +22,11 @@ const LandingPage = () => {
                       </div>
                     </Row>
                     <Row>
-                      <Col lg={7}>
+                      <Col sm={6} lg={6}>
                         <span className="subtitle">Medellín, Colombia</span>
-                        <span className="subtitle">Jun 20, 21 & 22</span>
+                        <span className="subtitle date-text">Jun 20, 21 & 22</span>
                       </Col>
-                      <Col lg={4}>
+                      <Col sm={5} lg={5}>
                         <div className="wrapper-date">
                           <span className="date">2025</span>
                         </div>
@@ -61,7 +61,23 @@ const LandingPage = () => {
         </div>
       </div>
 
-      <div className="content-topics"></div>
+      <div className="content-topics">
+        <Container>
+          <Row className="justify-content-center">
+            <Col lg={12}>
+              <div className="topics-container">
+                <div className="topics-scroll">
+                  <div className="topic">Mobile</div>
+                  <div className="topic">Development</div>
+                  <div className="topic">Testing</div>
+                  <div className="topic">Blockchain</div>
+                  <div className="topic">Artifial Intelligence</div>
+                </div>
+              </div>
+            </Col>
+          </Row>
+        </Container>
+      </div>
 
       <div className="content-wrapper bottom-section">
         <Container>

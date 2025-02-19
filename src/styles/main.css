@@ -7,10 +7,11 @@
 html,
 body {
   color: var(--white);
-  font-family: 'Proxima Nova', sans-serif;
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
   margin: 0;
   padding: 0;
-  font-size: 16px;
 }
 
 h1,
@@ -20,4 +21,16 @@ h4,
 h5,
 h6 {
   font-family: 'Saira', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  transition:
+    color 0.5s ease,
+    transform 0.5s ease;
+}
+
+a:hover {
+  text-decoration: underline;
+  text-underline-offset: 5px;
 }

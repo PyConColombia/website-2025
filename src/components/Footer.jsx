@@ -7,10 +7,12 @@ const Footer = () => {
         <Row className="justify-content-center">
           <Col lg={10}>
             <Row>
-              <Col lg={3}>
-                <Image src="/images/logo.webp" alt="Logo" width="100%" height="auto" />
+              <Col lg={5}>
+                <div className="footer-logo">
+                  <Image src="/images/logo.webp" alt="Logo" width="100%" height="auto" />
+                </div>
               </Col>
-              <Col lg={4}>
+              {/* <Col lg={3}>
                 <span className="footer-subtitle">Legales</span>
                 <div className="footer-separator" />
                 <ul className="footer-list">
@@ -19,11 +21,9 @@ const Footer = () => {
                       Terms of Service
                     </a>
                   </li>
-                  <li>Privacy Policy</li>
-                  <li>Cookie Policy</li>
                 </ul>
-              </Col>
-              <Col lg={5}>
+              </Col> */}
+              <Col lg={4}>
                 <span className="footer-subtitle">Otros</span>
                 <div className="footer-separator" />
 

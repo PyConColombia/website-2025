@@ -25,10 +25,10 @@ const NavbarCustom = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mx-auto">
-            <Nav.Link href="#">Keynotes</Nav.Link>
+            {/* <Nav.Link href="#">Keynotes</Nav.Link>
             <Nav.Link href="#">Speakers</Nav.Link>
             <Nav.Link href="#link">Schedule</Nav.Link>
-            <Nav.Link href="#link">Sponsors</Nav.Link>
+            <Nav.Link href="#link">Sponsors</Nav.Link> */}
             {/* <NavDropdown title="Dropdown" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
