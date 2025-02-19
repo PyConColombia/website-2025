@@ -107,3 +107,31 @@
   margin: 10px auto;
   max-width: 450px;
 }
+
+.content-wrapper .content-form {
+  padding: 30px 5px;
+}
+
+.content-wrapper .content-form .form-title {
+  font-size: 25px;
+  margin: 15px auto;
+  text-align: center;
+}
+
+.content-wrapper .content-form .form-group .form-input {
+  border-radius: 40px;
+  font-size: 15px;
+  margin: 15px auto;
+  padding: 8px 20px;
+}
+
+.content-wrapper .content-form .button-submit {
+  padding: 8px 17px;
+  font-size: 16px;
+  width: 100%;
+}
+
+.content-wrapper .content-form .button-submit:disabled {
+  background-color: var(--green);
+  color: var(--purple);
+}
