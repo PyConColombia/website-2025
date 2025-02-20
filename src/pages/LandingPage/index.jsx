@@ -118,10 +118,12 @@ const LandingPage = () => {
                       <h2>
                         Ready to dive into the <span className="bold-text">world of Python</span>?
                       </h2>
-                      <span className="question-description">
+                      <p className="question-description">
                         Come explore, learn, and connect with others just as passionate as you are.
-                      </span>
-                      <button className="btn btn-primary button-ticket">Get your tickets</button>
+                      </p>
+                      <p className="question-description">Stand by for more information!</p>
+
+                      {/* <button className="btn btn-primary button-ticket">Get your tickets</button> */}
                     </div>
                   </Col>
                   <Col lg={6}>

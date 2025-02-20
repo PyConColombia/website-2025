@@ -2,7 +2,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 // import NavDropdown from 'react-bootstrap/NavDropdown';
-import Button from 'react-bootstrap/Button';
+// import Button from 'react-bootstrap/Button';
 
 const NavbarCustom = () => {
   return (
@@ -37,9 +37,9 @@ const NavbarCustom = () => {
               <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
             </NavDropdown> */}
           </Nav>
-          <div className="d-flex justify-content-end mt-2 mt-lg-0">
+          {/* <div className="d-flex justify-content-end mt-2 mt-lg-0">
             <Button variant="primary">Get your tickets</Button>
-          </div>
+          </div> */}
         </Navbar.Collapse>
       </Container>
     </Navbar>

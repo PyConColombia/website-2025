@@ -34,11 +34,40 @@ const Footer = () => {
                 </ul>
               </Col> */}
               <Col lg={4}>
-                <span className="footer-subtitle">Otros</span>
-                <div className="footer-separator" />
+                {/* <span className="footer-subtitle">Otros</span>
+                <div className="footer-separator" /> */}
+
+                {/* <ul className="footer-list">
+                  <li>
+                    <a href="" target="_blank">
+                      Code of Conduct
+                    </a>
+                  </li>
+                  <li>
+                    <a href="" target="_blank">
+                      Code of Conduct Enforcement
+                    </a>
+                  </li>
+                  <li>
+                    <a href="" target="_blank">
+                      Procedure
+                    </a>
+                  </li>
+                  <li>
+                    <a href="" target="_blank">
+                      Health & Safety Policy
+                    </a>
+                  </li>
+                </ul> */}
 
                 <span className="footer-subtitle">Contacto</span>
                 <div className="footer-separator" />
+
+                <ul className="footer-list">
+                  <li>
+                    <a href="mailto:hello@pycon.co">Hello@pycon.co</a>
+                  </li>
+                </ul>
 
                 <span className="footer-subtitle">Síguenos en:</span>
                 <div className="footer-separator" />
