@@ -25,7 +25,7 @@ const NavbarCustom = () => {
             />
           </NavLink>
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        {/* <Navbar.Toggle aria-controls="basic-navbar-nav" /> */}
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mx-auto">
             {/* <Nav.Link href="#">Keynotes</Nav.Link>

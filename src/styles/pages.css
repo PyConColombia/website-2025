@@ -34,7 +34,7 @@
   transform: rotate(-2deg);
 }
 .topic:nth-child(2) {
-  transform: rotate(5deg) translateY(3px);
+  transform: rotate(3deg) translateY(3px);
 }
 .topic:nth-child(3) {
   transform: translateY(-10px);

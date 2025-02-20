@@ -2,7 +2,6 @@ import { Container, Row, Col, Image } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCircle } from '@fortawesome/free-solid-svg-icons';
 import {
-  faTiktok,
   faFacebookF,
   faXTwitter,
   faInstagram,
@@ -109,12 +108,6 @@ const Footer = () => {
                     <div className="fa-stack">
                       <FontAwesomeIcon className="fa-stack-2x" icon={faCircle} color="white" />
                       <FontAwesomeIcon className="social-icon fa-stack-1x" icon={faGithubAlt} />
-                    </div>
-                  </a>
-                  <a href="https://www.tiktok.com/@pyconcolombia" target="_blank" rel="noreferrer">
-                    <div className="fa-stack">
-                      <FontAwesomeIcon className="fa-stack-2x" icon={faCircle} color="white" />
-                      <FontAwesomeIcon className="social-icon fa-stack-1x" icon={faTiktok} />
                     </div>
                   </a>
                 </div>

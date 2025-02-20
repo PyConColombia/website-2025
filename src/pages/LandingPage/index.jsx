@@ -148,10 +148,10 @@ const LandingPage = () => {
               <div className="topics-container">
                 <div className="topics-scroll">
                   <div className="topic">Mobile</div>
-                  <div className="topic">Development</div>
+                  <div className="topic">Software Development</div>
                   <div className="topic">Testing</div>
                   <div className="topic">Blockchain</div>
-                  <div className="topic">Artifial Intelligence</div>
+                  <div className="topic">Artificial Intelligence</div>
                 </div>
               </div>
             </Col>
