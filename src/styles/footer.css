@@ -40,3 +40,13 @@
 .footer-container .footer-list li a:hover {
   color: var(--green);
 }
+
+.footer-container .footer-social {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-container .footer-social .social-icon {
+  color: var(--black);
+  height: 1.5em;
+}

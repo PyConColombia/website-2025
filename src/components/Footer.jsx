@@ -1,4 +1,14 @@
 import { Container, Row, Col, Image } from 'react-bootstrap';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCircle } from '@fortawesome/free-solid-svg-icons';
+import {
+  faTiktok,
+  faFacebookF,
+  faXTwitter,
+  faInstagram,
+  faYoutube,
+  faGithubAlt
+} from '@fortawesome/free-brands-svg-icons';
 
 const Footer = () => {
   return (
@@ -29,6 +39,56 @@ const Footer = () => {
 
                 <span className="footer-subtitle">Contacto</span>
                 <div className="footer-separator" />
+
+                <span className="footer-subtitle">Síguenos en:</span>
+                <div className="footer-separator" />
+                <div className="footer-social">
+                  <a
+                    href="https://twitter.com/pyconcolombia"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="">
+                    <div className="fa-stack">
+                      <FontAwesomeIcon className="fa-stack-2x" icon={faCircle} color="white" />
+                      <FontAwesomeIcon className="social-icon fa-stack-1x" icon={faXTwitter} />
+                    </div>
+                  </a>
+                  <a href="https://www.facebook.com/pyconcolombia" target="_blank" rel="noreferrer">
+                    <div className="fa-stack">
+                      <FontAwesomeIcon className="fa-stack-2x" icon={faCircle} color="white" />
+                      <FontAwesomeIcon className="social-icon fa-stack-1x" icon={faFacebookF} />
+                    </div>
+                  </a>
+                  <a
+                    href="https://www.instagram.com/pyconcolombia/"
+                    target="_blank"
+                    rel="noreferrer">
+                    <div className="fa-stack">
+                      <FontAwesomeIcon className="fa-stack-2x" icon={faCircle} color="white" />
+                      <FontAwesomeIcon className="social-icon fa-stack-1x" icon={faInstagram} />
+                    </div>
+                  </a>
+                  <a href="https://www.youtube.com/pyconcolombia" target="_blank" rel="noreferrer">
+                    <div className="social-icon">
+                      <div className="fa-stack">
+                        <FontAwesomeIcon className="fa-stack-2x" icon={faCircle} color="white" />
+                        <FontAwesomeIcon className="social-icon fa-stack-1x" icon={faYoutube} />
+                      </div>
+                    </div>
+                  </a>
+                  <a href="https://github.com/pyconcolombia" target="_blank" rel="noreferrer">
+                    <div className="fa-stack">
+                      <FontAwesomeIcon className="fa-stack-2x" icon={faCircle} color="white" />
+                      <FontAwesomeIcon className="social-icon fa-stack-1x" icon={faGithubAlt} />
+                    </div>
+                  </a>
+                  <a href="https://www.tiktok.com/@pyconcolombia" target="_blank" rel="noreferrer">
+                    <div className="fa-stack">
+                      <FontAwesomeIcon className="fa-stack-2x" icon={faCircle} color="white" />
+                      <FontAwesomeIcon className="social-icon fa-stack-1x" icon={faTiktok} />
+                    </div>
+                  </a>
+                </div>
               </Col>
             </Row>
           </Col>

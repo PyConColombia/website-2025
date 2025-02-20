@@ -119,10 +119,19 @@
 }
 
 .content-wrapper .content-form .form-group .form-input {
+  border-color: 2px solid var(--white);
   border-radius: 40px;
   font-size: 15px;
   margin: 15px auto;
   padding: 8px 20px;
+  transition:
+    border-color 0.3s ease-in-out,
+    box-shadow 0.3s ease-in-out;
+}
+
+.content-wrapper .content-form .form-group .form-input:focus {
+  border: 2px solid var(--fucsia);
+  outline: none;
 }
 
 .content-wrapper .content-form .button-submit {
