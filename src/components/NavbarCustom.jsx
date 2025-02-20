@@ -1,3 +1,4 @@
+import { NavLink } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -13,14 +14,16 @@ const NavbarCustom = () => {
       expand="lg"
       className="bg-body-tertiary navbar-custom">
       <Container>
-        <Navbar.Brand href="#">
-          <img
-            src="/images/logo.webp"
-            alt="Logo"
-            width="150px"
-            height="auto"
-            className="d-inline-block align-top"
-          />
+        <Navbar.Brand>
+          <NavLink to="/">
+            <img
+              src="/images/logo.webp"
+              alt="Logo"
+              width="150px"
+              height="auto"
+              className="d-inline-block align-top"
+            />
+          </NavLink>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
