@@ -8,6 +8,7 @@ import Layout from '@/layout';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '@/styles/main.css';
 import Test from './pages/test';
+import CodeOfConduct from './pages/CodeOfConduct';
 
 const TRACKING_ID = 'G-J2DYL7NXX5';
 
@@ -20,6 +21,7 @@ const App = () => {
     <Layout>
       <Routes>
         <Route path="/" element={<LandingPage />} />
+        <Route path="/code-of-conduct" element={<CodeOfConduct />} />
         <Route path="/test" element={<Test />} />
       </Routes>
     </Layout>
