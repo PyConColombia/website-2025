@@ -9,7 +9,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  // base: process.env.BRANCH === 'main' ? '/website-2025/' : '/website-develop/',
+  base: '/',
   build: {
     outDir: 'dist'
   },
