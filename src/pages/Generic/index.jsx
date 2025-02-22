@@ -1,14 +1,20 @@
 import PropTypes from 'prop-types';
+import { Col, Container, Row } from 'react-bootstrap';
 
 const GenericPage = ({ title, content }) => {
   return (
-    <>
-      <h1>{title}</h1>
-      <h1>{title}</h1>
-      <h1>{title}</h1>
-      <h1>{title}</h1>
-      <div>{content}</div>
-    </>
+    <div className="generic-page">
+      <Container>
+        <Row className="justify-content-center">
+          <Col xs={12} md={8}>
+            <h1 className="title">{title}</h1>
+          </Col>
+        </Row>
+        <Row className="justify-content-center">
+          <Col md={8}>{content}</Col>
+        </Row>
+      </Container>
+    </div>
   );
 };
 
