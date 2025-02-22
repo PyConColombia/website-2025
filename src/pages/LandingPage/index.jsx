@@ -27,7 +27,7 @@ const LandingPage = () => {
                     <Row>
                       <Col sm={6} lg={6}>
                         <span className="subtitle">Medellín, Colombia</span>
-                        <span className="subtitle date-text">Jun 20, 21 & 22</span>
+                        <span className="subtitle date-text">July 4, 5 & 6</span>
                       </Col>
                       <Col sm={5} lg={5}>
                         <div className="wrapper-date">
