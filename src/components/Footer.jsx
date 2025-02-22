@@ -33,16 +33,16 @@ const Footer = () => {
                 </ul>
               </Col> */}
               <Col lg={4}>
-                {/* <span className="footer-subtitle">Otros</span>
-                <div className="footer-separator" /> */}
+                <span className="footer-subtitle">Otros</span>
+                <div className="footer-separator" />
 
-                {/* <ul className="footer-list">
+                <ul className="footer-list">
                   <li>
                     <a href="" target="_blank">
                       Code of Conduct
                     </a>
                   </li>
-                  <li>
+                  {/* <li>
                     <a href="" target="_blank">
                       Code of Conduct Enforcement
                     </a>
@@ -56,8 +56,8 @@ const Footer = () => {
                     <a href="" target="_blank">
                       Health & Safety Policy
                     </a>
-                  </li>
-                </ul> */}
+                  </li> */}
+                </ul>
 
                 <span className="footer-subtitle">Contacto</span>
                 <div className="footer-separator" />
