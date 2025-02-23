@@ -6,17 +6,13 @@ import Subscribe from './components/Subscribe';
 
 const Layout = ({
   children,
-  lang,
   // dataTranslate,
-  setLang,
   locales
 }) => {
   return (
     <div>
       <NavbarCustom
         // dataTranslate={dataTranslate}
-        lang={lang}
-        setLang={setLang}
         locales={locales}
       />
       <main>{children}</main>
