@@ -1,17 +1,19 @@
+import { useContext } from 'react';
 import { PropTypes } from 'prop-types';
 import { NavLink } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import LanguageContext from '@/LanguageContext';
 // import Button from 'react-bootstrap/Button';
 
 const NavbarCustom = ({
   // dataTranslate,
-  lang,
-  setLang,
   locales
 }) => {
+  const { language, setLanguage } = useContext(LanguageContext);
+
   return (
     <Navbar
       bg="dark"
@@ -44,9 +46,9 @@ const NavbarCustom = ({
           </div> */}
           <Nav>
             <NavDropdown
-              title={lang}
+              title={language}
               id="lang-nav-dropdown"
-              onSelect={(eventKey) => setLang(eventKey)}>
+              onSelect={(eventKey) => setLanguage(eventKey)}>
               {locales.map((locale) => (
                 <NavDropdown.Item key={locale} eventKey={locale}>
                   {locale}
