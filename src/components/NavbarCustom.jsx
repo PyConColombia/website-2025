@@ -1,11 +1,17 @@
+import { PropTypes } from 'prop-types';
 import { NavLink } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-// import NavDropdown from 'react-bootstrap/NavDropdown';
+import NavDropdown from 'react-bootstrap/NavDropdown';
 // import Button from 'react-bootstrap/Button';
 
-const NavbarCustom = () => {
+const NavbarCustom = ({
+  // dataTranslate,
+  lang,
+  setLang,
+  locales
+}) => {
   return (
     <Navbar
       bg="dark"
@@ -25,28 +31,40 @@ const NavbarCustom = () => {
             />
           </NavLink>
         </Navbar.Brand>
-        {/* <Navbar.Toggle aria-controls="basic-navbar-nav" /> */}
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mx-auto">
             {/* <Nav.Link href="#">Keynotes</Nav.Link>
             <Nav.Link href="#">Speakers</Nav.Link>
             <Nav.Link href="#link">Schedule</Nav.Link>
             <Nav.Link href="#link">Sponsors</Nav.Link> */}
-            {/* <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
-            </NavDropdown> */}
           </Nav>
           {/* <div className="d-flex justify-content-end mt-2 mt-lg-0">
             <Button variant="primary">Get your tickets</Button>
           </div> */}
+          <Nav>
+            <NavDropdown
+              title={lang}
+              id="lang-nav-dropdown"
+              onSelect={(eventKey) => setLang(eventKey)}>
+              {locales.map((locale) => (
+                <NavDropdown.Item key={locale} eventKey={locale}>
+                  {locale}
+                </NavDropdown.Item>
+              ))}
+            </NavDropdown>
+          </Nav>
         </Navbar.Collapse>
       </Container>
     </Navbar>
   );
+};
+
+NavbarCustom.propTypes = {
+  dataTranslate: PropTypes.object,
+  lang: PropTypes.string,
+  setLang: PropTypes.func,
+  locales: PropTypes.array
 };
 
 export default NavbarCustom;
