@@ -1,9 +1,11 @@
+import PropTypes from 'prop-types';
+
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 import Image from 'react-bootstrap/Image';
 import Row from 'react-bootstrap/Row';
 
-const LandingPage = () => {
+const LandingPage = ({ dataTranslate }) => {
   return (
     <>
       <div className="content-wrapper top-section">
@@ -27,7 +29,7 @@ const LandingPage = () => {
                     <Row>
                       <Col sm={6} lg={6}>
                         <span className="subtitle">Medellín, Colombia</span>
-                        <span className="subtitle date-text">July 4, 5 & 6</span>
+                        <span className="subtitle date-text">{dataTranslate?.landing?.date}</span>
                       </Col>
                       <Col sm={5} lg={5}>
                         <div className="wrapper-date">
@@ -85,6 +87,10 @@ const LandingPage = () => {
       </div>
     </>
   );
+};
+
+LandingPage.propTypes = {
+  dataTranslate: PropTypes.object.isRequired
 };
 
 export default LandingPage;

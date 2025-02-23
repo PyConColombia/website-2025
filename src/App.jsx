@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { Routes, Route } from 'react-router-dom';
 import ReactGA from 'react-ga4';
 
@@ -7,22 +7,31 @@ import Layout from '@/layout';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '@/styles/main.css';
-import Test from './pages/test';
+
 import CodeOfConduct from './pages/CodeOfConduct';
+
+import data from './translation';
 
 const TRACKING_ID = 'G-J2DYL7NXX5';
 
 const App = () => {
+  const locales = Object.keys(data);
+  const [lang, setLang] = useState('en');
+  const [allData, setAllData] = useState({});
+
+  useEffect(() => {
+    setAllData(data[lang]);
+  }, [lang, allData]);
+
   useEffect(() => {
     ReactGA.initialize(TRACKING_ID);
   }, []);
 
   return (
-    <Layout>
+    <Layout lang={lang} dataTranslate={allData} setLang={setLang} locales={locales}>
       <Routes>
-        <Route path="/" element={<LandingPage />} />
+        <Route path="/" element={<LandingPage dataTranslate={allData} />} />
         <Route path="/code-of-conduct" element={<CodeOfConduct />} />
-        <Route path="/test" element={<Test />} />
       </Routes>
     </Layout>
   );

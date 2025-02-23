@@ -8,6 +8,7 @@ import {
   faYoutube,
   faGithubAlt
 } from '@fortawesome/free-brands-svg-icons';
+import { NavLink } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -18,7 +19,9 @@ const Footer = () => {
             <Row>
               <Col lg={5}>
                 <div className="footer-logo">
-                  <Image src="/images/logo.webp" alt="Logo" width="100%" height="auto" />
+                  <NavLink to="/">
+                    <Image src="/images/logo.webp" alt="Logo" width="100%" height="auto" />
+                  </NavLink>
                 </div>
               </Col>
               {/* <Col lg={3}>
@@ -38,9 +41,7 @@ const Footer = () => {
 
                 <ul className="footer-list">
                   <li>
-                    <a href="" target="_blank">
-                      Code of Conduct
-                    </a>
+                    <NavLink to="/code-of-conduct">Code of Conduct</NavLink>
                   </li>
                   {/* <li>
                     <a href="" target="_blank">
