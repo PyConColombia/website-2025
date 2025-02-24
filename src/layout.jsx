@@ -20,8 +20,6 @@ const Layout = ({ children, dataTranslate, locales }) => {
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
   dataTranslate: PropTypes.object.isRequired,
-  lang: PropTypes.string.isRequired,
-  setLang: PropTypes.func.isRequired,
   locales: PropTypes.array.isRequired
 };
 

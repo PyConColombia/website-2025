@@ -151,7 +151,54 @@
   padding-top: 100px;
 }
 
+.generic-page .generic-page-wrapper {
+  background-image: url('/images/background-3.svg');
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+
 .generic-page .title {
   margin: 10px auto 50px auto;
   text-align: center;
+}
+
+/* Talks */
+.talks-type {
+  background-color: var(--blue-dark);
+  text-align: center;
+  padding: 40px 0;
+}
+
+.talks-type .background-talks {
+  background-image: url('/images/background-type.svg');
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+
+.talks-type .btn {
+  width: 100%;
+  max-width: 300px;
+  margin-bottom: 20px;
+}
+
+.talks-type .type-wrapper {
+  margin: 40px auto;
+}
+
+.talks-type .type-wrapper .type {
+  background-color: var(--blue-dark);
+  border: 2px solid var(--pink);
+  border-radius: 15px;
+}
+
+.talks-type .type-wrapper .type-col {
+  margin: 10px auto;
+}
+
+.talks-type .type-wrapper .type .type-title {
+  color: var(--fucsia-dark);
+}
+
+.talks-type .type-wrapper .type p {
+  font-size: 18px;
 }
