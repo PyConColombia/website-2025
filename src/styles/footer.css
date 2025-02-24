@@ -51,4 +51,9 @@
 .footer-container .footer-social .social-icon {
   color: var(--black);
   height: 1.5em;
+  transition: color 0.3s ease;
+}
+
+.footer-container .footer-social .social-icon:hover {
+  color: var(--fucsia);
 }

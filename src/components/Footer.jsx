@@ -1,3 +1,4 @@
+import { PropTypes } from 'prop-types';
 import { Container, Row, Col, Image } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCircle } from '@fortawesome/free-solid-svg-icons';
@@ -10,7 +11,7 @@ import {
 } from '@fortawesome/free-brands-svg-icons';
 import { NavLink } from 'react-router-dom';
 
-const Footer = () => {
+const Footer = ({ dataTranslate }) => {
   return (
     <footer className="footer-container">
       <Container>
@@ -41,7 +42,7 @@ const Footer = () => {
 
                 <ul className="footer-list">
                   <li>
-                    <NavLink to="/code-of-conduct">Code of Conduct</NavLink>
+                    <NavLink to="/code-of-conduct">{dataTranslate?.footer?.codeOfConduct}</NavLink>
                   </li>
                   {/* <li>
                     <a href="" target="_blank">
@@ -76,13 +77,17 @@ const Footer = () => {
                     href="https://twitter.com/pyconcolombia"
                     target="_blank"
                     rel="noreferrer"
-                    className="">
+                    className="social-icon">
                     <div className="fa-stack">
                       <FontAwesomeIcon className="fa-stack-2x" icon={faCircle} color="white" />
                       <FontAwesomeIcon className="social-icon fa-stack-1x" icon={faXTwitter} />
                     </div>
                   </a>
-                  <a href="https://www.facebook.com/pyconcolombia" target="_blank" rel="noreferrer">
+                  <a
+                    href="https://www.facebook.com/pyconcolombia"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="social-icon">
                     <div className="fa-stack">
                       <FontAwesomeIcon className="fa-stack-2x" icon={faCircle} color="white" />
                       <FontAwesomeIcon className="social-icon fa-stack-1x" icon={faFacebookF} />
@@ -91,13 +96,18 @@ const Footer = () => {
                   <a
                     href="https://www.instagram.com/pyconcolombia/"
                     target="_blank"
-                    rel="noreferrer">
+                    rel="noreferrer"
+                    className="social-icon">
                     <div className="fa-stack">
                       <FontAwesomeIcon className="fa-stack-2x" icon={faCircle} color="white" />
                       <FontAwesomeIcon className="social-icon fa-stack-1x" icon={faInstagram} />
                     </div>
                   </a>
-                  <a href="https://www.youtube.com/pyconcolombia" target="_blank" rel="noreferrer">
+                  <a
+                    href="https://www.youtube.com/pyconcolombia"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="social-icon">
                     <div className="social-icon">
                       <div className="fa-stack">
                         <FontAwesomeIcon className="fa-stack-2x" icon={faCircle} color="white" />
@@ -105,7 +115,11 @@ const Footer = () => {
                       </div>
                     </div>
                   </a>
-                  <a href="https://github.com/pyconcolombia" target="_blank" rel="noreferrer">
+                  <a
+                    href="https://github.com/pyconcolombia"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="social-icon">
                     <div className="fa-stack">
                       <FontAwesomeIcon className="fa-stack-2x" icon={faCircle} color="white" />
                       <FontAwesomeIcon className="social-icon fa-stack-1x" icon={faGithubAlt} />
@@ -119,6 +133,10 @@ const Footer = () => {
       </Container>
     </footer>
   );
+};
+
+Footer.propTypes = {
+  dataTranslate: PropTypes.object
 };
 
 export default Footer;

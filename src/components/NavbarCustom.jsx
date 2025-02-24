@@ -13,6 +13,7 @@ const NavbarCustom = ({
   locales
 }) => {
   const { language, setLanguage } = useContext(LanguageContext);
+  const years = ['2016', '2017', '2018', '2019', '2020', '2021', '2022', '2023', '2024'];
 
   return (
     <Navbar
@@ -45,6 +46,13 @@ const NavbarCustom = ({
             <Button variant="primary">Get your tickets</Button>
           </div> */}
           <Nav>
+            <NavDropdown title="2025" id="year-nav-dropdown">
+              {years.map((year) => (
+                <NavDropdown.Item key={year} href={`https://${year}.pycon.co`}>
+                  {year}
+                </NavDropdown.Item>
+              ))}
+            </NavDropdown>
             <NavDropdown
               title={language}
               id="lang-nav-dropdown"

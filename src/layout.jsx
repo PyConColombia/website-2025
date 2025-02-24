@@ -4,11 +4,7 @@ import NavbarCustom from '@/components/NavbarCustom';
 import Footer from '@/components/Footer';
 import Subscribe from './components/Subscribe';
 
-const Layout = ({
-  children,
-  // dataTranslate,
-  locales
-}) => {
+const Layout = ({ children, dataTranslate, locales }) => {
   return (
     <div>
       <NavbarCustom
@@ -17,7 +13,7 @@ const Layout = ({
       />
       <main>{children}</main>
       <Subscribe />
-      <Footer />
+      <Footer dataTranslate={dataTranslate} />
     </div>
   );
 };
