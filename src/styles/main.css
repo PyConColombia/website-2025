@@ -21,6 +21,7 @@ h4,
 h5,
 h6 {
   font-family: 'Saira', sans-serif;
+  font-weight: 400;
 }
 
 a {
@@ -33,6 +34,10 @@ a {
 a:hover {
   text-decoration: underline;
   text-underline-offset: 5px;
+}
+
+a.btn:hover {
+  text-decoration: none;
 }
 
 .dropdown-toggle::after {
