@@ -145,13 +145,127 @@
   color: var(--purple);
 }
 
+/* Generic Page */
+
 .generic-page {
   background-color: var(--purple);
-  padding-bottom: 100px;
-  padding-top: 100px;
+  padding-bottom: 30px;
+  padding-top: 150px;
+}
+
+.generic-page .generic-page-wrapper {
+  background-image: url('/images/background-3.svg');
+  background-size: auto;
+  background-repeat: no-repeat;
 }
 
 .generic-page .title {
+  font-size: 40px;
   margin: 10px auto 50px auto;
   text-align: center;
+}
+
+/* Talks */
+.talks-type {
+  background-color: var(--blue-dark);
+  text-align: center;
+  padding: 40px 0;
+}
+
+.talks-type .background-talks {
+  background-image: url('/images/background-type.svg');
+  background-size: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.talks-type .btn {
+  width: 100%;
+  max-width: 300px;
+  margin-bottom: 20px;
+}
+
+.talks-type .type-wrapper {
+  margin: 40px auto;
+}
+
+.talks-type .type-wrapper .type {
+  background-color: var(--blue-dark);
+  border: 2px solid var(--pink);
+  border-radius: 15px;
+}
+
+.talks-type .type-wrapper .type-col {
+  margin: 10px auto;
+}
+
+.talks-type .type-wrapper .type .type-title {
+  color: var(--fucsia-dark);
+}
+
+.talks-type .type-wrapper .type p {
+  font-size: 18px;
+}
+
+/* Questions */
+
+.questions {
+  background-color: var(--fucsia-dark);
+  text-align: center;
+  padding: 40px 0;
+}
+
+.questions .background-questions {
+  background-image: url('/images/background/background-questions.svg');
+  background-size: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.questions .title {
+  font-size: 35px;
+}
+
+.questions-item {
+  border: 2px solid var(--white);
+  background-color: transparent;
+  border-radius: 13px;
+  margin: 20px auto;
+}
+
+.questions-item .question-header button {
+  background-color: var(--fucsia-dark);
+  color: var(--white);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 50px;
+}
+
+.questions-item .question-header button:focus {
+  box-shadow: none;
+}
+
+.questions-item .question-header button::after {
+  display: none;
+}
+
+.questions-item .question-header .question-title {
+  font-family: 'Nunito', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.questions-item .question-header .question-icon img {
+  max-height: 30px;
+}
+
+.questions-item .question-body {
+  font-family: 'Nunito', sans-serif;
+  border-top: 2px solid var(--white);
+  color: var(--white);
+  font-size: 17px;
+  padding: 30px 50px;
+  text-align: left;
 }

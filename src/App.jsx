@@ -12,6 +12,7 @@ import CodeOfConduct from './pages/CodeOfConduct';
 
 import data from './translation';
 import LanguageContext from './LanguageContext';
+import CallForProposals from './pages/CallForProposals';
 
 const TRACKING_ID = 'G-J2DYL7NXX5';
 
@@ -32,6 +33,7 @@ const App = () => {
     <Layout dataTranslate={allData} locales={locales}>
       <Routes>
         <Route path="/" element={<LandingPage dataTranslate={allData} />} />
+        <Route path="/call-for-proposals" element={<CallForProposals dataTranslate={allData} />} />
         <Route path="/code-of-conduct" element={<CodeOfConduct />} />
       </Routes>
     </Layout>
