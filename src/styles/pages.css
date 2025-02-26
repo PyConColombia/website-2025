@@ -147,25 +147,37 @@
 
 /* Generic Page */
 
-.generic-page {
+.generic-page,
+.intro-proposals {
   background-color: var(--purple);
   padding-bottom: 30px;
   padding-top: 150px;
 }
 
-.generic-page .generic-page-wrapper {
+.intro-proposals {
+  padding: 30px 0;
+}
+
+.intro-proposals .subtitle {
+  margin-bottom: 20px;
+}
+
+.generic-page .generic-page-wrapper,
+.intro-proposals {
   background-image: url('/images/background-3.svg');
   background-size: auto;
   background-repeat: no-repeat;
 }
 
-.generic-page .title {
+.generic-page .title,
+.intro-proposals .title {
   font-size: 40px;
   margin: 10px auto 50px auto;
   text-align: center;
 }
 
 /* Talks */
+
 .talks-type {
   background-color: var(--blue-dark);
   text-align: center;

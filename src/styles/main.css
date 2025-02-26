@@ -24,6 +24,11 @@ h6 {
   font-weight: 400;
 }
 
+ul,
+ol {
+  padding-left: 15px;
+}
+
 a {
   text-decoration: none;
   transition:
@@ -42,4 +47,8 @@ a.btn:hover {
 
 .dropdown-toggle::after {
   vertical-align: 0.1em;
+}
+
+.bold {
+  font-weight: bold;
 }

@@ -1,42 +1,12 @@
 import Accordion from 'react-bootstrap/Accordion';
 import { Col, Container, Image, Row } from 'react-bootstrap';
+import Intro from '@/pages/CallForProposals/components/Intro';
 
 const CallForProposals = () => {
   return (
     <div className="generic-page">
       <div className="generic-page-wrapper">
-        <Container>
-          <Row className="justify-content-center">
-            <Col xs={12} md={8}>
-              <h1 className="title">Share Your Voice</h1>
-            </Col>
-          </Row>
-          <Row className="justify-content-center">
-            <Col md={9}>
-              <Row className="align-items-center">
-                <Col lg={6}>
-                  <Image
-                    src="/images/content/call-speakers.webp"
-                    alt="Hero"
-                    width="100%"
-                    height="auto"
-                  />
-                </Col>
-                <Col lg={6}>
-                  <p>
-                    Got a brilliant idea, a project you&apos;re proud of, or insights that could
-                    inspire others?
-                  </p>
-                  <p>
-                    We’re looking for passionate speakers to lead talks on development, security,
-                    Python, and beyond.
-                  </p>
-                </Col>
-              </Row>
-            </Col>
-          </Row>
-        </Container>
-
+        <Intro title={'Share Your Voice'} />
         <div className="talks-type">
           <div className="background-talks">
             <Container>
