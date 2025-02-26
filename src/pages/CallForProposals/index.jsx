@@ -142,7 +142,7 @@ const CallForProposals = () => {
                           We strongly believe that if you have something you are really passionate
                           about and you want to spread the word, you should craft a talk and do it!
                           but, if that&apos;s not enough to convince you, here is the list of perks
-                          you get by becoming a PyCon Colombia 2024 speaker:
+                          you get by becoming a PyCon Colombia 2025 speaker:
                         </p>
 
                         <ul>
