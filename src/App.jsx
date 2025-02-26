@@ -22,7 +22,7 @@ const PageViewTracker = () => {
   const location = useLocation();
 
   useEffect(() => {
-    ReactGA.send('pageview');
+    ReactGA.send({ hitType: 'pageview', page: location.pathname });
   }, [location]);
 
   return <></>;
