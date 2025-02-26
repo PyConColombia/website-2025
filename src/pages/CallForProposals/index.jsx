@@ -86,7 +86,7 @@ const CallForProposals = () => {
                         <p>
                           If you want to know what are we interested in hearing about, you can take
                           a look at the talks & workshops line-up for past years (2017, 2018 , 2019
-                          , 2020 ,2021 , and 2022).
+                          , 2020 ,2021, 2022, 2023 and 2024).
                         </p>
 
                         <p>We like to see any kind of proposal related to the following topics:</p>
@@ -127,7 +127,7 @@ const CallForProposals = () => {
                     <Accordion.Item eventKey="1" className="questions-item">
                       <Accordion.Header className="question-header">
                         <span className="question-title">
-                          Why should you speak at PyCon Colombia 2024?
+                          Why should you speak at PyCon Colombia 2025?
                         </span>
                         <Image
                           src="/images/icons/question-button.svg"
