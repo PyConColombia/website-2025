@@ -85,7 +85,7 @@ const CallForProposals = () => {
                       <Accordion.Body className="question-body">
                         <p>
                           Feel free to check out the talks & workshops from previos editions , from
-                          2017 to 2024. Some of the recordings are available in out youtube channel{' '}
+                          2017 to 2024. Some of the recordings are available in our youtube channel{' '}
                           <a
                             href="https://www.youtube.com/@PyconColombia"
                             target="_blank"
