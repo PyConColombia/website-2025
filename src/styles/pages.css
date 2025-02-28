@@ -227,6 +227,12 @@
   padding: 40px 0;
 }
 
+.questions a {
+  color: var(--purple);
+  font-style: italic;
+  font-weight: bold;
+}
+
 .questions .background-questions {
   background-image: url('/images/background/background-questions.svg');
   background-size: auto;

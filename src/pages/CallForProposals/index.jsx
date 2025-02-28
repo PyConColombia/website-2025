@@ -84,9 +84,14 @@ const CallForProposals = () => {
                       </Accordion.Header>
                       <Accordion.Body className="question-body">
                         <p>
-                          If you want to know what are we interested in hearing about, you can take
-                          a look at the talks & workshops line-up for past years (2017, 2018 , 2019
-                          , 2020 ,2021, 2022, 2023 and 2024).
+                          Feel free to check out the talks & workshops from previos editions , from
+                          2017 to 2024. Some of the recordings are available in out youtube channel{' '}
+                          <a
+                            href="https://www.youtube.com/@PyconColombia"
+                            target="_blank"
+                            rel="noopener noreferrer">
+                            here
+                          </a>
                         </p>
 
                         <p>We like to see any kind of proposal related to the following topics:</p>
