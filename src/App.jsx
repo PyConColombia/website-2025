@@ -15,6 +15,7 @@ import data from './translation';
 import LanguageContext from '@/LanguageContext';
 import CallForProposals from '@/pages/CallForProposals';
 import ScrollToTop from '@/utils/ScrollToTop';
+import Sponsors from './pages/Sponsors';
 
 const TRACKING_ID = 'G-J2DYL7NXX5';
 
@@ -53,6 +54,8 @@ const App = () => {
         <Route path="/" element={<LandingPage dataTranslate={allData} />} />
         <Route path="/call-for-proposals" element={<CallForProposals dataTranslate={allData} />} />
         <Route path="/code-of-conduct" element={<CodeOfConduct />} />
+        <Route path="/sponsors" element={<Sponsors />} />
+        {/* <Route path="*" element={<LandingPage dataTranslate={allData} />} /> */}
       </Routes>
     </Layout>
   );

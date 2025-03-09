@@ -8,10 +8,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import LanguageContext from '@/LanguageContext';
 // import Button from 'react-bootstrap/Button';
 
-const NavbarCustom = ({
-  // dataTranslate,
-  locales
-}) => {
+const NavbarCustom = ({ dataTranslate, locales }) => {
   const { language, setLanguage } = useContext(LanguageContext);
   const years = ['2016', '2017', '2018', '2019', '2020', '2021', '2022', '2023', '2024'];
 
@@ -38,9 +35,15 @@ const NavbarCustom = ({
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mx-auto">
             <Nav.Link as={Link} to="/call-for-proposals">
-              Call for Proposals
+              {dataTranslate?.navbar?.callForProposals}
             </Nav.Link>
-            {/* <Nav.Link href="#">Keynotes</Nav.Link>
+            {/* <NavDropdown title="Schedule" id="schedule-nav-dropdown">
+              <NavDropdown.Item as={NavLink} key={'sponsors'} to={'/sponsors'}>
+                sponsors
+              </NavDropdown.Item>
+            </NavDropdown> */}
+            <Nav.Link href="/sponsors">{dataTranslate?.navbar?.sponsors}</Nav.Link>
+            {/*
             <Nav.Link href="#">Speakers</Nav.Link>
             <Nav.Link href="#link">Schedule</Nav.Link>
             <Nav.Link href="#link">Sponsors</Nav.Link> */}
