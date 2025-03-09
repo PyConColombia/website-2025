@@ -7,10 +7,7 @@ import Subscribe from './components/Subscribe';
 const Layout = ({ children, dataTranslate, locales }) => {
   return (
     <div>
-      <NavbarCustom
-        // dataTranslate={dataTranslate}
-        locales={locales}
-      />
+      <NavbarCustom dataTranslate={dataTranslate} locales={locales} />
       <main>{children}</main>
       <Subscribe />
       <Footer dataTranslate={dataTranslate} />

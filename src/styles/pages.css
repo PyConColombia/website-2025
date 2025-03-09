@@ -155,7 +155,8 @@
 }
 
 .intro-proposals {
-  padding: 30px 0;
+  padding-top: 0;
+  padding-bottom: 30px;
 }
 
 .intro-proposals .subtitle {
@@ -291,4 +292,33 @@
   font-size: 17px;
   padding: 30px 50px;
   text-align: left;
+}
+
+/* sponsors */
+
+.sponsors-page {
+  background-color: var(--blue-dark);
+}
+
+.sponsors-page .sponsors-bg {
+  background-image: url('/images/background/background-sponsors.svg');
+  background-size: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.sponsors-page .title {
+  color: var(--fucsia);
+}
+
+.sponsors-page .description {
+  text-align: center;
+}
+
+.sponsors-page .sponsors-wrapper {
+  padding: 60px 0;
+}
+
+.sponsors-page .sponsors-wrapper .sponsor img {
+  padding: 10px 0;
 }

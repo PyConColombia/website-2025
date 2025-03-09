@@ -155,7 +155,7 @@ const CallForProposals = () => {
                             Free full conference pass: Gives you access to all talks and workshops.
                           </li>
                           <li>
-                            Access to Speaker dinner: Dinner that includes keynotes speakers,
+                            Access to Speaker dinner: Dinner that includes sponsors speakers,
                             sponsors, speakers and organizers, fully paid by the conference.
                           </li>
                           <li>

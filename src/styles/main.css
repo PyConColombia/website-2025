@@ -45,6 +45,20 @@ a.btn:hover {
   text-decoration: none;
 }
 
+.dropdown-menu {
+  background-color: var(--purple);
+  border: 1px solid var(--white);
+}
+
+.dropdown-menu a {
+  font-size: 15px;
+}
+
+.dropdown-menu a:hover {
+  background-color: var(--fucsia);
+  text-decoration: none;
+}
+
 .dropdown-toggle::after {
   vertical-align: 0.1em;
 }
