@@ -1,12 +1,13 @@
 import Accordion from 'react-bootstrap/Accordion';
 import { Col, Container, Image, Row } from 'react-bootstrap';
+import PropTypes from 'prop-types';
 import Intro from '@/pages/CallForProposals/components/Intro';
 
-const CallForProposals = () => {
+const CallForProposals = ({dataTranslate}) => {
   return (
     <div className="generic-page">
       <div className="generic-page-wrapper">
-        <Intro title={'Share Your Voice'} />
+        <Intro title={'Share Your Voice'}/>
         <div className="talks-type">
           <div className="background-talks">
             <Container>
@@ -237,4 +238,7 @@ const CallForProposals = () => {
   );
 };
 
+CallForProposals.propTypes = {
+  dataTranslate: PropTypes.object.isRequired
+};
 export default CallForProposals;

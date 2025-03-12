@@ -44,12 +44,12 @@ const LandingPage = ({ dataTranslate }) => {
                   <Col lg={5}>
                     <div className="question-ticket">
                       <h2>
-                        Ready to dive into the <span className="bold-text">world of Python</span>?
+                        {dataTranslate?.landing?.introduction?.header}<span className="bold-text">{dataTranslate?.landing?.introduction?.boldHeader}</span>?
                       </h2>
                       <p className="question-description">
-                        Come explore, learn, and connect with others just as passionate as you are.
+                        {dataTranslate?.landing?.introduction?.text}
                       </p>
-                      <p className="question-description">Stand by for more information!</p>
+                      <p className="question-description">{dataTranslate?.landing?.introduction?.finalText}</p>
 
                       {/* <button className="btn btn-primary button-ticket">Get your tickets</button> */}
                     </div>
@@ -75,11 +75,11 @@ const LandingPage = ({ dataTranslate }) => {
             <Col lg={12}>
               <div className="topics-container">
                 <div className="topics-scroll">
-                  <div className="topic">Mobile</div>
-                  <div className="topic">Software Development</div>
-                  <div className="topic">Testing</div>
+                  <div className="topic">{dataTranslate?.landing?.topics?.mobile}</div>
+                  <div className="topic">{dataTranslate?.landing?.topics?.softwareDevelopment}</div>
+                  <div className="topic">{dataTranslate?.landing?.topics?.testing}</div>
                   <div className="topic">Blockchain</div>
-                  <div className="topic">Artificial Intelligence</div>
+                  <div className="topic">{dataTranslate?.landing?.topics?.AI}</div>
                 </div>
               </div>
             </Col>
@@ -87,9 +87,12 @@ const LandingPage = ({ dataTranslate }) => {
         </Container>
       </div>
       <Intro
-        subtitle={'Become a Speaker'}
+        subtitle={dataTranslate?.landing?.bodyMessage?.header}
         buttonLink={'/call-for-proposals'}
-        buttonName={'Apply to Speak'}
+        buttonName={dataTranslate?.landing?.applyToSpeakButton}
+        descriptionText={dataTranslate?.landing?.bodyMessage?.text}
+        subDescriptionText={dataTranslate?.landing?.bodyMessage?.finalText}
+        speakerDeadline={dataTranslate?.landing?.speakerDeadline}
       />
     </>
   );

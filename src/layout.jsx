@@ -9,7 +9,7 @@ const Layout = ({ children, dataTranslate, locales }) => {
     <div>
       <NavbarCustom dataTranslate={dataTranslate} locales={locales} />
       <main>{children}</main>
-      <Subscribe />
+      <Subscribe dataTranslate={dataTranslate}/>
       <Footer dataTranslate={dataTranslate} />
     </div>
   );
