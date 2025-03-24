@@ -5,6 +5,7 @@ import Container from 'react-bootstrap/Container';
 import Image from 'react-bootstrap/Image';
 import Row from 'react-bootstrap/Row';
 import Intro from '../CallForProposals/components/Intro';
+import { Button } from 'react-bootstrap';
 
 const LandingPage = ({ dataTranslate }) => {
   return (
@@ -51,7 +52,13 @@ const LandingPage = ({ dataTranslate }) => {
                       </p>
                       <p className="question-description">Stand by for more information!</p>
 
-                      {/* <button className="btn btn-primary button-ticket">Get your tickets</button> */}
+                      <Button
+                        className="btn btn-primary button-ticket"
+                        as="a"
+                        href="https://www.eventbrite.co/e/pycon-colombia-2025-tickets-1271703351959"
+                        target="_blank">
+                        Get your tickets
+                      </Button>
                     </div>
                   </Col>
                   <Col lg={6}>
