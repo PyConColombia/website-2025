@@ -15,7 +15,7 @@ permissions:
   id-token: write
 
 concurrency:
-  group: 'pages'
+  group: 'pages-dev'
   cancel-in-progress: true
 
 jobs:
@@ -45,20 +45,11 @@ jobs:
           cd pycon-website/
           npm run lint-only
 
-  deploy:
-    if: github.event_name == 'push'
-    name: Deploy to Develop
+  build:
+    name: Build
     runs-on: ubuntu-latest
     needs: format
     steps:
-      - name: Generate access token
-        if: always()
-        id: generate_access_token
-        uses: actions/create-github-app-token@v1
-        with:
-          app-id: ${{ secrets.PYCON_CO_APP_ID }}
-          private-key: ${{ secrets.PYCON_CO_PRIVATE_KEY }}
-          owner: ${{ github.repository_owner }}
       - name: Checkout repository
         uses: actions/checkout@v4
       - name: Setup nodeJS
@@ -69,14 +60,41 @@ jobs:
         run: npm install
       - name: Build project
         run: npm run build
-      - name: Clone target repository
+      - name: Upload dist folder as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: dist-artifact
+          path: dist/
+
+  deploy:
+    if: github.event_name == 'push'
+    name: Deploy to Develop
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Generate access token
+        if: always()
+        id: generate_access_token
+        uses: actions/create-github-app-token@v1
+        with:
+          app-id: ${{ secrets.PYCON_CO_APP_ID }}
+          private-key: ${{ secrets.PYCON_CO_PRIVATE_KEY }}
+          owner: ${{ github.repository_owner }}
+      - name: Checkout target repository
+        uses: actions/checkout@v4
+        with:
+          repository: PyConColombia/website-develop
+          token: ${{ steps.generate_access_token.outputs.token }}
+          path: website-develop
+      - name: Download dist artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: dist-artifact
+          path: dist
+      - name: Prepare deployment
         run: |
-          git clone https://git:'${{steps.generate_access_token.outputs.token}}'@github.com/PyConColombia/website-develop website-develop
           find website-develop/ -mindepth 1 ! -name 'CNAME' ! -path "website-develop/.git*" -delete
           mv dist/* website-develop/
-        env:
-          GIT_COMMITTER_NAME: github-actions
-          GIT_COMMITTER_EMAIL: github-actions@github.com
       - name: Commit and push changes
         run: |
           cd website-develop
