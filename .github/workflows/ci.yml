@@ -3,12 +3,12 @@ name: Deploy static content to Pages
 on:
   push:
     branches:
-      - main
-      - develop
+      - production
+      - development
   pull_request:
     branches:
-      - main
-      - develop
+      - production
+      - development
 
   workflow_dispatch:
 
@@ -48,8 +48,9 @@ jobs:
           cd pycon-website/
           npm run lint-only
 
-  deploy:
-    name: Deploy to GitHub Pages
+  deploy-prod:
+    if: github.event_name == 'push' && github.base_ref == 'production'
+    name: Deploy to Production
     needs: format
     environment:
       name: github-pages
@@ -64,9 +65,6 @@ jobs:
         with:
           node-version: 20
 
-      - name: Set branch-specific environment variable
-        run: echo "BRANCH=${GITHUB_REF##*/}" >> $GITHUB_ENV
-
       - name: Install dependencies
         run: npm install
 
@@ -76,11 +74,52 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v4
 
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: './dist'
+      # - name: Upload artifact
+      #   uses: actions/upload-pages-artifact@v3
+      #   with:
+      #     path: './dist'
 
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+  deploy-dev:
+    if: github.event_name == 'push' && github.base_ref == 'development'
+    name: Deploy to Development
+    runs-on: ubuntu-latest
+    needs: format
+    steps:
+      - name: Generate access token
+        if: always()
+        id: generate_access_token
+        uses: actions/create-github-app-token@v1
+        with:
+          app-id: ${{ secrets.PYCON_CO_APP_ID }}
+          private-key: ${{ secrets.PYCON_CO_PRIVATE_KEY }}
+          owner: ${{ github.repository_owner }}
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Install dependencies
+        run: npm install
+      - name: Build project
+        run: npm run build
+      - name: Clone target repository
+        run: |
+          git clone https://git:'${{steps.generate_access_token.outputs.token}}'@github.com/PyConColombia/website-develop website-develop
+          find website-develop/dist/ -mindepth 1 ! -name 'CNAME' -delete
+          mv dist/* website-develop/
+        env:
+          GIT_COMMITTER_NAME: github-actions
+          GIT_COMMITTER_EMAIL: github-actions@github.com
+      - name: Commit and push changes
+        run: |
+          cd website-develop
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add .
+          git commit -m "Deploy: $(date +'%Y-%m-%d %H:%M:%S')"
+          git push origin gh-pages
