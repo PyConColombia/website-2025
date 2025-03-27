@@ -71,7 +71,7 @@ jobs:
       - name: Clone target repository
         run: |
           git clone https://git:'${{steps.generate_access_token.outputs.token}}'@github.com/PyConColombia/website-develop website-develop
-          find website-develop/dist/ -mindepth 1 ! -name 'CNAME' -delete
+          find website-develop/ -mindepth 1 ! -name 'CNAME' -delete
           mv dist/* website-develop/
         env:
           GIT_COMMITTER_NAME: github-actions
