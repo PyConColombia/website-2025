@@ -4,8 +4,10 @@ import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 import Image from 'react-bootstrap/Image';
 import Row from 'react-bootstrap/Row';
-import Intro from '../CallForProposals/components/Intro';
 import { Button } from 'react-bootstrap';
+
+import CallForProposals from '@/pages/CallForProposals/components/Intro';
+import SponsorsList from '@/pages/Sponsors/components/SponsorsList';
 
 const LandingPage = ({ dataTranslate }) => {
   return (
@@ -93,10 +95,17 @@ const LandingPage = ({ dataTranslate }) => {
           </Row>
         </Container>
       </div>
-      <Intro
+
+      <CallForProposals
         subtitle={'Become a Speaker'}
         buttonLink={'/call-for-proposals'}
         buttonName={'Apply to Speak'}
+      />
+
+      <SponsorsList
+        title="Become a Sponsor at PyCon"
+        description="Want to elevate your brand and connect with the Python community? As a sponsor, you’ll get unparalleled visibility among thousands of developers, security experts, and innovators."
+        containerClasses="pt-60 pb-60"
       />
     </>
   );

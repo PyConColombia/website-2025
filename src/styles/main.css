@@ -45,6 +45,14 @@ a.btn:hover {
   text-decoration: none;
 }
 
+.pt-60 {
+  padding-top: 60px;
+}
+
+.pb-60 {
+  padding-bottom: 60px;
+}
+
 .dropdown-menu {
   background-color: var(--purple);
   border: 1px solid var(--white);

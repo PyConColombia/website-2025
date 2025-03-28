@@ -298,6 +298,8 @@
 
 .sponsors-page {
   background-color: var(--blue-dark);
+  padding-top: 150px;
+  padding-bottom: 150px;
 }
 
 .sponsors-page .sponsors-bg {
