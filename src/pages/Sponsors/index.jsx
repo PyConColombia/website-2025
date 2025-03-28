@@ -24,6 +24,12 @@ const sponsors = () => {
     bronze: '6'
   };
 
+  const sponsorLabels = {
+    bronze: 'Bronze',
+    gold: 'Gold',
+    venue: 'Venue'
+  };
+
   return (
     <div className="generic-page sponsors-page">
       <div className="generic-page-wrapper sponsors-bg">
@@ -45,27 +51,37 @@ const sponsors = () => {
                       if (!sponsors.length) return null; // Skip empty categories
 
                       return (
-                        <Row key={sponsorType} className="sponsor-category">
-                          {sponsors.map((sponsor) => (
-                            <Col
-                              key={sponsor.name}
-                              xs={sponsorSizeSmall[sponsorType]}
-                              md={sponsorSize[sponsorType]}>
-                              <NavLink to={sponsor.url || '#'} target="blank_" className="sponsor">
-                                {sponsor.logo ? (
-                                  <Image
-                                    src={`/images/sponsors/${sponsor.logo}`}
-                                    alt={sponsor.name}
-                                    width="100%"
-                                    height="auto"
-                                  />
-                                ) : (
-                                  <div>{sponsor.name}</div>
-                                )}
-                              </NavLink>
-                            </Col>
-                          ))}
-                        </Row>
+                        <div key={sponsorType}>
+                          <Row className="sponsor-title-wrapper">
+                            <h4 className="shantell-sans sponsor-title">
+                              {sponsorLabels[sponsorType]}
+                            </h4>
+                          </Row>
+                          <Row className="sponsor-category justify-content-center">
+                            {sponsors.map((sponsor) => (
+                              <Col
+                                key={sponsor.name}
+                                xs={sponsorSizeSmall[sponsorType]}
+                                md={sponsorSize[sponsorType]}>
+                                <NavLink
+                                  to={sponsor.url || '#'}
+                                  target="blank_"
+                                  className="sponsor">
+                                  {sponsor.logo ? (
+                                    <Image
+                                      src={`/images/sponsors/${sponsor.logo}`}
+                                      alt={sponsor.name}
+                                      width="100%"
+                                      height="auto"
+                                    />
+                                  ) : (
+                                    <div>{sponsor.name}</div>
+                                  )}
+                                </NavLink>
+                              </Col>
+                            ))}
+                          </Row>
+                        </div>
                       );
                     })}
                   </div>

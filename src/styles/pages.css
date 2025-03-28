@@ -322,3 +322,12 @@
 .sponsors-page .sponsors-wrapper .sponsor img {
   padding: 10px 0;
 }
+
+.sponsors-page .sponsors-wrapper .sponsor-title-wrapper {
+  text-align: center;
+  padding-top: 40px;
+}
+
+.sponsors-page .sponsors-wrapper .sponsor-title-wrapper .sponsor-title {
+  color: var(--pink);
+}
