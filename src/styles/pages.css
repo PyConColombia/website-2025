@@ -333,3 +333,7 @@
 .sponsors-page .sponsors-wrapper .sponsor-title-wrapper .sponsor-title {
   color: var(--pink);
 }
+
+.sponsors-page .sponsors-wrapper .sponsor-venue-height {
+  height: 100px;
+}
