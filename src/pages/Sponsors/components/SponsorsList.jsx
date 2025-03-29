@@ -26,6 +26,16 @@ const SponsorsList = ({ title, description, footer, containerClasses }) => {
     bronze: '6'
   };
 
+  const sponsorHeight = {
+    venue: '200px',
+    diamond: '170px',
+    platinum: '150px',
+    gold: '130px',
+    silver_plus: '120px',
+    silver: '100px',
+    bronze: '80px'
+  };
+
   const sponsorLabels = {
     bronze: 'Bronze',
     gold: 'Gold',
@@ -43,6 +53,10 @@ const SponsorsList = ({ title, description, footer, containerClasses }) => {
                   <h1 className="title">{title}</h1>
                   <p className="description">{description}</p>
                 </Col>
+              </Row>
+            </Col>
+            <Col xs={12} md={10}>
+              <Row>
                 <Col lg={12}>
                   <div className="sponsors-wrapper">
                     {Object.keys(sponsorList).map((sponsorType) => {
@@ -71,7 +85,7 @@ const SponsorsList = ({ title, description, footer, containerClasses }) => {
                                       src={`/images/sponsors/${sponsor.logo}`}
                                       alt={sponsor.name}
                                       width="100%"
-                                      height="auto"
+                                      height={sponsorHeight[sponsorType]}
                                     />
                                   ) : (
                                     <div>{sponsor.name}</div>

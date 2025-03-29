@@ -9,14 +9,14 @@
   "platinum": [],
   "gold": [
     {
-      "name": "Elastic",
-      "logo": "elastic.svg",
-      "url": "https://www.elastic.co/"
-    },
-    {
       "name": "Genlogs",
       "logo": "genlogs.svg",
       "url": "https://www.genlogs.io/"
+    },
+    {
+      "name": "Elastic",
+      "logo": "elastic.svg",
+      "url": "https://www.elastic.co/"
     }
   ],
   "silver": [],
