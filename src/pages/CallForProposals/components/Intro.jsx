@@ -3,7 +3,15 @@ import PropTypes from 'prop-types';
 import { Col, Container, Image, Row } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 
-const Intro = ({ title, subtitle, buttonName, buttonLink, descriptionText, subDescriptionText, speakerDeadline}) => {
+const Intro = ({
+  title,
+  subtitle,
+  buttonName,
+  buttonLink,
+  descriptionText,
+  subDescriptionText,
+  speakerDeadline
+}) => {
   return (
     <div className="intro-proposals">
       <Container>
@@ -27,12 +35,8 @@ const Intro = ({ title, subtitle, buttonName, buttonLink, descriptionText, subDe
               </Col>
               <Col lg={6}>
                 {subtitle && <h3 className="subtitle">{subtitle}</h3>}
-                <p>
-                  {descriptionText}
-                </p>
-                <p>
-                  {subDescriptionText}
-                </p>
+                <p>{descriptionText}</p>
+                <p>{subDescriptionText}</p>
                 <p className="bold">{speakerDeadline}</p>
                 {buttonName && buttonLink && (
                   <NavLink to={buttonLink} className="btn btn-primary">
@@ -53,6 +57,9 @@ Intro.propTypes = {
   subtitle: PropTypes.string,
   buttonName: PropTypes.string,
   buttonLink: PropTypes.string,
+  descriptionText: PropTypes.string,
+  subDescriptionText: PropTypes.string,
+  speakerDeadline: PropTypes.string
 };
 
 export default Intro;

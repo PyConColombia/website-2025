@@ -1,12 +1,8 @@
 import PropTypes from 'prop-types';
 
-import { Col, Container, Row, Image } from 'react-bootstrap';
-import { NavLink } from 'react-router-dom';
-
 import SponsorsList from './components/SponsorsList';
-import sponsorList from '@/data/sponsors.json';
 
-const Sponsors =  ({ dataTranslate })  => {
+const Sponsors = ({ dataTranslate }) => {
   return (
     <SponsorsList
       title={`${dataTranslate?.sponsors?.title}:`}
@@ -14,6 +10,16 @@ const Sponsors =  ({ dataTranslate })  => {
       footer={dataTranslate?.sponsors?.thankYouMessage}
     />
   );
+};
+
+Sponsors.propTypes = {
+  dataTranslate: PropTypes.shape({
+    sponsors: PropTypes.shape({
+      title: PropTypes.string,
+      description: PropTypes.string,
+      thankYouMessage: PropTypes.string
+    })
+  })
 };
 
 export default Sponsors;
