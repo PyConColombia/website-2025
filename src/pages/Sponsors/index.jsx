@@ -1,9 +1,11 @@
+import PropTypes from 'prop-types';
+
 import { Col, Container, Row, Image } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 
 import sponsorList from '@/data/sponsors.json';
 
-const sponsors = () => {
+const sponsors =  ({ dataTranslate })  => {
   const sponsorSize = {
     venue: '12',
     diamond: '11',
@@ -32,10 +34,9 @@ const sponsors = () => {
             <Col xs={12} md={8}>
               <Row>
                 <Col lg={12}>
-                  <h1 className="title">Meet Our Sponsors:</h1>
+                  <h1 className="title">{dataTranslate?.sponsors?.title}:</h1>
                   <p className="description">
-                    From cutting-edge tech companies to dedicated community advocates, these
-                    sponsors are leading the way in Python and software development.
+                  {dataTranslate?.sponsors?.description}
                   </p>
                 </Col>
                 <Col lg={12}>
@@ -72,8 +73,7 @@ const sponsors = () => {
                 </Col>
                 <Col lg={12}>
                   <p className="description">
-                    We couldn’t do it without them—thank you for your commitment to advancing the
-                    future of Python!
+                  {dataTranslate?.sponsors?.thankYouMessage}:
                   </p>
                 </Col>
               </Row>
@@ -83,6 +83,11 @@ const sponsors = () => {
       </div>
     </div>
   );
+};
+
+
+sponsors.propTypes = {
+  dataTranslate: PropTypes.object.isRequired
 };
 
 export default sponsors;
