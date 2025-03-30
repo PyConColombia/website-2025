@@ -53,8 +53,8 @@ const App = () => {
       <Routes>
         <Route path="/" element={<LandingPage dataTranslate={allData} />} />
         <Route path="/call-for-proposals" element={<CallForProposals dataTranslate={allData} />} />
-        <Route path="/code-of-conduct" element={<CodeOfConduct />} />
-        <Route path="/sponsors" element={<Sponsors />} />
+        <Route path="/code-of-conduct" element={<CodeOfConduct dataTranslate={allData} />} />
+        <Route path="/sponsors" element={<Sponsors dataTranslate={allData} />} />
         {/* <Route path="*" element={<LandingPage dataTranslate={allData} />} /> */}
       </Routes>
     </Layout>

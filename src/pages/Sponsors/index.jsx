@@ -1,13 +1,25 @@
+import PropTypes from 'prop-types';
+
 import SponsorsList from './components/SponsorsList';
 
-const Sponsors = () => {
+const Sponsors = ({ dataTranslate }) => {
   return (
     <SponsorsList
-      title="Meet Our Sponsors:"
-      description="From cutting-edge tech companies to dedicated community advocates, these sponsors are leading the way in Python and software development."
-      footer="We couldn’t do it without them—thank you for your commitment to advancing the future of Python!"
+      title={`${dataTranslate?.sponsors?.title}:`}
+      description={dataTranslate?.sponsors?.description}
+      footer={dataTranslate?.sponsors?.thankYouMessage}
     />
   );
+};
+
+Sponsors.propTypes = {
+  dataTranslate: PropTypes.shape({
+    sponsors: PropTypes.shape({
+      title: PropTypes.string,
+      description: PropTypes.string,
+      thankYouMessage: PropTypes.string
+    })
+  })
 };
 
 export default Sponsors;
