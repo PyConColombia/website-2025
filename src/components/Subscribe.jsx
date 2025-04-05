@@ -2,7 +2,7 @@ import { useState } from 'react';
 
 import Alert from 'react-bootstrap/Alert';
 import Button from 'react-bootstrap/Button';
-
+import { PropTypes } from 'prop-types';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
@@ -11,7 +11,7 @@ import Row from 'react-bootstrap/Row';
 
 import { validateEmail } from '@/utils/fields';
 
-const Subscribe = () => {
+const Subscribe = ({ dataTranslate }) => {
   const [email, setEmail] = useState('');
   const [firstName, setFirstName] = useState('');
   const [lastName, setLastName] = useState('');
@@ -92,7 +92,7 @@ const Subscribe = () => {
               <Col lg={5} className="ms-auto">
                 <div className="content-form">
                   <h2 className="form-title">
-                    Want to <span className="bold-text">know more</span>?
+                    {dataTranslate?.landing?.subscribe?.header}<span className="bold-text">{dataTranslate?.landing?.subscribe?.headerBold}</span>?
                   </h2>
                   {showAlert && (
                     <Alert variant={alertType}>
@@ -105,7 +105,7 @@ const Subscribe = () => {
                       <Form.Control
                         className="form-input"
                         type="text"
-                        placeholder="First Name"
+                        placeholder={dataTranslate?.landing?.subscribe?.firstName}
                         value={firstName}
                         onChange={(e) => setFirstName(e.target.value)}
                       />
@@ -115,7 +115,7 @@ const Subscribe = () => {
                       <Form.Control
                         className="form-input"
                         type="text"
-                        placeholder="Last Name"
+                        placeholder={dataTranslate?.landing?.subscribe?.lastName}
                         value={lastName}
                         onChange={(e) => setLastName(e.target.value)}
                       />
@@ -126,7 +126,7 @@ const Subscribe = () => {
                         className="form-input"
                         type="email"
                         name="email"
-                        placeholder="Email"
+                        placeholder={dataTranslate?.landing?.subscribe?.email}
                         value={email}
                         onChange={(e) => onRequiredChange(e)}
                         required
@@ -137,7 +137,7 @@ const Subscribe = () => {
                       onClick={onSumitForm}
                       className="button-submit"
                       disabled={blockButton}>
-                      Submit
+                      {dataTranslate?.landing?.subscribe?.submitButton}
                     </Button>
                   </Form>
                 </div>
@@ -148,6 +148,10 @@ const Subscribe = () => {
       </Container>
     </div>
   );
+};
+
+Subscribe.propTypes = {
+  dataTranslate: PropTypes.object
 };
 
 export default Subscribe;

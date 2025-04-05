@@ -37,31 +37,24 @@ const Footer = ({ dataTranslate }) => {
                 </ul>
               </Col> */}
               <Col lg={4}>
-                <span className="footer-subtitle">Otros</span>
+                <span className="footer-subtitle">{dataTranslate?.footer?.others}</span>
                 <div className="footer-separator" />
 
                 <ul className="footer-list">
                   <li>
                     <NavLink to="/code-of-conduct">{dataTranslate?.footer?.codeOfConduct}</NavLink>
                   </li>
-                  {/* <li>
-                    <a href="" target="_blank">
-                      Code of Conduct Enforcement
-                    </a>
+                  <li>
+                    <NavLink to="/code-of-conduct-procedure">
+                      Code of Conduct Enforcement Procedure
+                    </NavLink>
                   </li>
                   <li>
-                    <a href="" target="_blank">
-                      Procedure
-                    </a>
+                    <NavLink to="/health-and-safety-policy">Health & Safety Policy</NavLink>
                   </li>
-                  <li>
-                    <a href="" target="_blank">
-                      Health & Safety Policy
-                    </a>
-                  </li> */}
                 </ul>
 
-                <span className="footer-subtitle">Contacto</span>
+                <span className="footer-subtitle">{dataTranslate?.footer?.contact}</span>
                 <div className="footer-separator" />
 
                 <ul className="footer-list">
@@ -70,7 +63,7 @@ const Footer = ({ dataTranslate }) => {
                   </li>
                 </ul>
 
-                <span className="footer-subtitle">Síguenos en:</span>
+                <span className="footer-subtitle">{dataTranslate?.footer?.followUs}</span>
                 <div className="footer-separator" />
                 <div className="footer-social">
                   <a
