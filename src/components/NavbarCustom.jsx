@@ -18,7 +18,8 @@ const NavbarCustom = ({ dataTranslate, locales }) => {
       data-bs-theme="dark"
       fixed="top"
       expand="lg"
-      className="bg-body-tertiary navbar-custom">
+      className="bg-body-tertiary navbar-custom"
+    >
       <Container>
         <Navbar.Brand>
           <NavLink to="/">
@@ -53,16 +54,19 @@ const NavbarCustom = ({ dataTranslate, locales }) => {
           </div> */}
           <Nav>
             <NavDropdown title="2025" id="year-nav-dropdown">
-              {years.map((year) => (
-                <NavDropdown.Item key={year} href={`https://${year}.pycon.co`}>
-                  {year}
-                </NavDropdown.Item>
-              ))}
+              {[...years]
+                .sort((a, b) => b - a)
+                .map((year) => (
+                  <NavDropdown.Item key={year} href={`https://${year}.pycon.co`}>
+                    {year}
+                  </NavDropdown.Item>
+                ))}
             </NavDropdown>
             <NavDropdown
               title={language}
               id="lang-nav-dropdown"
-              onSelect={(eventKey) => setLanguage(eventKey)}>
+              onSelect={(eventKey) => setLanguage(eventKey)}
+            >
               {locales.map((locale) => (
                 <NavDropdown.Item key={locale} eventKey={locale}>
                   {locale}
