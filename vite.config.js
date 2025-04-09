@@ -11,6 +11,8 @@ export default defineConfig({
   plugins: [react()],
   base: '/',
   server: {
+    host: true, // or use '0.0.0.0'
+    port: 5173, // optional, or whichever you're using
     historyApiFallback: true
   },
   build: {

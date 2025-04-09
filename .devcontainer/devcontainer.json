@@ -1,0 +1,22 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/javascript-node
+{
+  "name": "Node.js",
+  // Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "forwardPorts": [
+    5173
+  ],
+  "postCreateCommand": "rm -f package-lock.json && rm -rf node_modules && yarn install",
+  "postStartCommand": "yarn run dev",
+  "customizations": {
+    "extensions": [
+      "editorconfig.editorconfig"
+    ],
+    "settings": {
+      "editor.formatOnSave": true
+    }
+  }
+}
