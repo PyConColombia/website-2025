@@ -9,15 +9,16 @@ import Layout from '@/layout';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '@/styles/main.css';
 
-import CodeOfConduct from './pages/CodeOfConduct';
+import CodeOfConduct from '@/pages/CodeOfConduct';
 
-import data from './translation';
+import data from '@/translation';
 import LanguageContext from '@/LanguageContext';
 import CallForProposals from '@/pages/CallForProposals';
 import ScrollToTop from '@/utils/ScrollToTop';
-import Sponsors from './pages/Sponsors';
-import CodeOfConductProcedure from './pages/CodeOfConductProcedure';
-import HealthAndSafetyPolicy from './pages/HealthAndSafetyPolicy';
+import Sponsors from '@/pages/Sponsors';
+import CodeOfConductProcedure from '@/pages/CodeOfConductProcedure';
+import HealthAndSafetyPolicy from '@/pages/HealthAndSafetyPolicy';
+import Keynotes from '@/pages/Keynotes';
 
 const TRACKING_ID = 'G-J2DYL7NXX5';
 
@@ -56,6 +57,7 @@ const App = () => {
         <Route path="/" element={<LandingPage dataTranslate={allData} />} />
         <Route path="/call-for-proposals" element={<CallForProposals dataTranslate={allData} />} />
         <Route path="/sponsors" element={<Sponsors dataTranslate={allData} />} />
+        <Route path="/keynotes" element={<Keynotes dataTranslate={allData} />} />
         <Route path="/code-of-conduct" element={<CodeOfConduct dataTranslate={allData} />} />
         <Route
           path="/code-of-conduct-procedure"

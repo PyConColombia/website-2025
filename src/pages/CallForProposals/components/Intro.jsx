@@ -36,7 +36,7 @@ const Intro = ({
               <Col lg={6}>
                 {subtitle && <h3 className="subtitle">{subtitle}</h3>}
                 <p>{descriptionText}</p>
-                <p>{subDescriptionText}</p>
+                <p className='bold'>{subDescriptionText}</p>
                 <p className="bold">{speakerDeadline}</p>
                 {buttonName && buttonLink && (
                   <NavLink to={buttonLink} className="btn btn-primary">
