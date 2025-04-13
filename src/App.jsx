@@ -7,6 +7,7 @@ import LandingPage from '@/pages/LandingPage';
 import Layout from '@/layout';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'flag-icons/css/flag-icons.min.css';
 import '@/styles/main.css';
 
 import CodeOfConduct from '@/pages/CodeOfConduct';

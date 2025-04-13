@@ -1,0 +1,20 @@
+{
+  "keynotes": [
+    {
+      "first_name": "Mike",
+      "last_name": "Droettboom",
+      "photo": "mike-droettboom.webp",
+      "affiliation": "CPython performance leader at Microsoft, impact on matplotlib, Pyodide, astropy, airspeed velocity, astronomy, computer vision, web technologies.",
+      "biography": {
+        "en": "Michael Droettboom is a Principal Software Engineering Manager at Microsoft, leading CPython performance improvements. A veteran open-source contributor, he has worked on matplotlib, astropy, Pyodide, and airspeed velocity. His contributions have supported projects like the Hubble and James Webb Telescopes, Firefox, infrared retinal imaging, and optical sheet music recognition.",
+        "es": ""
+      },
+      "facebook": "",
+      "twitter": "MDroettboom",
+      "linkedin": "mdboom",
+      "github": "mdboom",
+      "website": "",
+      "country": "us"
+    }
+  ]
+}

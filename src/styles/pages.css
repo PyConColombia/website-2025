@@ -337,3 +337,68 @@
 .sponsors-page .sponsors-wrapper .sponsor-venue-height {
   height: 100px;
 }
+
+
+/* keynotes */
+
+.keynotes-page {
+  background-color: var(--fucsia);
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+.keynotes-page .title {
+  color: var(--white);
+}
+
+.keynotes-page .description {
+  text-align: center;
+}
+
+.keynotes-page .keynotes-wrapper {
+  padding: 60px 0;
+}
+
+.keynotes-page .keynotes-bg {
+  background-image: none;
+}
+
+.keynotes-page .keynote-image-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.keynotes-page .keynote-image-wrapper .keynote-image {
+  border: 10px solid var(--purple);
+  border-radius: 30px;
+  padding: 0px;
+  display: inline-block; 
+  width: 100%;
+  display: block;
+}
+
+.bandera {
+  position: absolute;
+  width: 24px; /* ajusta el tamaño según tu necesidad */
+  height: auto;
+}
+
+.bandera-superior {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+  z-index: 2;
+  top: -8px;
+  right: -8px;
+}
+
+.bandera-inferior {
+  bottom: -8px;
+  right: -8px;
+}
