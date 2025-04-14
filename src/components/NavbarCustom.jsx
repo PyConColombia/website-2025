@@ -6,6 +6,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import LanguageContext from '@/LanguageContext';
+import { Button } from 'react-bootstrap';
 // import Button from 'react-bootstrap/Button';
 
 const NavbarCustom = ({ dataTranslate, locales }) => {
@@ -37,20 +38,13 @@ const NavbarCustom = ({ dataTranslate, locales }) => {
             <Nav.Link as={Link} to="/call-for-proposals">
               {dataTranslate?.navbar?.callForProposals}
             </Nav.Link>
-            {/* <NavDropdown title="Schedule" id="schedule-nav-dropdown">
-              <NavDropdown.Item as={NavLink} key={'sponsors'} to={'/sponsors'}>
-                sponsors
+            <NavDropdown title="Schedule" id="schedule-nav-dropdown">
+              <NavDropdown.Item as={NavLink} key={'keynotes'} to={'/keynotes'}>
+                Keynotes
               </NavDropdown.Item>
-            </NavDropdown> */}
+            </NavDropdown>
             <Nav.Link href="/sponsors">{dataTranslate?.navbar?.sponsors}</Nav.Link>
-            {/*
-            <Nav.Link href="#">Speakers</Nav.Link>
-            <Nav.Link href="#link">Schedule</Nav.Link>
-            <Nav.Link href="#link">Sponsors</Nav.Link> */}
           </Nav>
-          {/* <div className="d-flex justify-content-end mt-2 mt-lg-0">
-            <Button variant="primary">Get your tickets</Button>
-          </div> */}
           <Nav>
             <NavDropdown title="2025" id="year-nav-dropdown">
               {years.map((year) => (
@@ -69,6 +63,9 @@ const NavbarCustom = ({ dataTranslate, locales }) => {
                 </NavDropdown.Item>
               ))}
             </NavDropdown>
+            <div className="d-flex justify-content-end mt-2 mt-lg-0">
+              <Button as={'a'} href="https://www.eventbrite.co/e/pycon-colombia-2025-tickets-1271703351959" target='_blank' variant="primary">Get your tickets</Button>
+            </div>
           </Nav>
         </Navbar.Collapse>
       </Container>

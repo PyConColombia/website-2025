@@ -8,6 +8,7 @@ import { Button } from 'react-bootstrap';
 
 import CallForProposals from '@/pages/CallForProposals/components/Intro';
 import SponsorsList from '@/pages/Sponsors/components/SponsorsList';
+import KeynotesList from '../Keynotes/components/KeynotesList';
 
 const LandingPage = ({ dataTranslate }) => {
   return (
@@ -103,6 +104,11 @@ const LandingPage = ({ dataTranslate }) => {
         descriptionText={dataTranslate?.landing?.bodyMessage?.text}
         subDescriptionText={dataTranslate?.landing?.bodyMessage?.finalText}
         speakerDeadline={dataTranslate?.landing?.speakerDeadline}
+      />
+
+      <KeynotesList
+        title="Keynote Speakers"
+        description={"Expect talks that spark curiosity, hands-on insights, and fresh perspectives on development, security, and beyond."}
       />
 
       <SponsorsList

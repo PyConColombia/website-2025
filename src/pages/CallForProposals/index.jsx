@@ -3,11 +3,11 @@ import { Col, Container, Image, Row } from 'react-bootstrap';
 import PropTypes from 'prop-types';
 import Intro from '@/pages/CallForProposals/components/Intro';
 
-const CallForProposals = ({dataTranslate}) => {
+const CallForProposals = ({ dataTranslate }) => {
   return (
     <div className="generic-page">
       <div className="generic-page-wrapper">
-        <Intro title={dataTranslate?.callForProposals?.header}/>
+        <Intro title={dataTranslate?.callForProposals?.header} descriptionText={dataTranslate?.callForProposals?.introText} subDescriptionText={dataTranslate?.callForProposals?.footerText} />
         <div className="talks-type">
           <div className="background-talks">
             <Container>
@@ -32,7 +32,7 @@ const CallForProposals = ({dataTranslate}) => {
                         <div className="type h-100 d-flex flex-column p-3">
                           <h3 className="type-title">{dataTranslate?.callForProposals?.block1Title}</h3>
                           <p>
-                          {dataTranslate?.callForProposals?.block1Text}
+                            {dataTranslate?.callForProposals?.block1Text}
                           </p>
                         </div>
                       </Col>
@@ -40,7 +40,7 @@ const CallForProposals = ({dataTranslate}) => {
                         <div className="type h-100 d-flex flex-column p-3">
                           <h3 className="type-title">{dataTranslate?.callForProposals?.block2Title}</h3>
                           <p>
-                          {dataTranslate?.callForProposals?.block2Text}
+                            {dataTranslate?.callForProposals?.block2Text}
                           </p>
                         </div>
                       </Col>
@@ -73,7 +73,7 @@ const CallForProposals = ({dataTranslate}) => {
                       </Accordion.Header>
                       <Accordion.Body className="question-body">
                         <p>
-                        {dataTranslate?.callForProposals?.frequentQuestion?.topics?.text1}{' '}
+                          {dataTranslate?.callForProposals?.frequentQuestion?.topics?.text1}{' '}
                           <a
                             href="https://www.youtube.com/@PyconColombia"
                             target="_blank"
@@ -86,30 +86,30 @@ const CallForProposals = ({dataTranslate}) => {
                         <p>{dataTranslate?.callForProposals?.frequentQuestion?.topics?.text2}</p>
 
                         <ul>
-                        {dataTranslate?.callForProposals?.frequentQuestion?.topics?.mainTopics.map((topic, index) => (
+                          {dataTranslate?.callForProposals?.frequentQuestion?.topics?.mainTopics.map((topic, index) => (
                             <li key={index}>{topic}</li>
                           ))}
                         </ul>
 
                         <p>
-                        {dataTranslate?.callForProposals?.frequentQuestion?.topics?.text3}
+                          {dataTranslate?.callForProposals?.frequentQuestion?.topics?.text3}
                         </p>
 
                         <ul>
-                        {dataTranslate?.callForProposals?.frequentQuestion?.topics?.alternativeTopics.map((topic, index) => (
+                          {dataTranslate?.callForProposals?.frequentQuestion?.topics?.alternativeTopics.map((topic, index) => (
                             <li key={index}>{topic}</li>
                           ))}
                         </ul>
 
                         <p>
-                        {dataTranslate?.callForProposals?.frequentQuestion?.topics?.text4}
+                          {dataTranslate?.callForProposals?.frequentQuestion?.topics?.text4}
                         </p>
                       </Accordion.Body>
                     </Accordion.Item>
                     <Accordion.Item eventKey="1" className="questions-item">
                       <Accordion.Header className="question-header">
                         <span className="question-title">
-                        {dataTranslate?.callForProposals?.frequentQuestion?.whySpeak?.title}
+                          {dataTranslate?.callForProposals?.frequentQuestion?.whySpeak?.title}
                         </span>
                         <Image
                           src="/images/icons/question-button.svg"
@@ -125,7 +125,7 @@ const CallForProposals = ({dataTranslate}) => {
                         </p>
 
                         <ul>
-                        {dataTranslate?.callForProposals?.frequentQuestion?.whySpeak?.perks.map((topic, index) => (
+                          {dataTranslate?.callForProposals?.frequentQuestion?.whySpeak?.perks.map((topic, index) => (
                             <li key={index}>{topic}</li>
                           ))}
                         </ul>
@@ -144,17 +144,17 @@ const CallForProposals = ({dataTranslate}) => {
                       </Accordion.Header>
                       <Accordion.Body className="question-body">
                         <p>
-                        {dataTranslate?.callForProposals?.frequentQuestion?.selectionProcess?.text1}
+                          {dataTranslate?.callForProposals?.frequentQuestion?.selectionProcess?.text1}
                         </p>
 
                         <ol>
-                        {dataTranslate?.callForProposals?.frequentQuestion?.selectionProcess?.steps.map((topic, index) => (
+                          {dataTranslate?.callForProposals?.frequentQuestion?.selectionProcess?.steps.map((topic, index) => (
                             <li key={index}>{topic}</li>
                           ))}
                         </ol>
 
                         <p>
-                        {dataTranslate?.callForProposals?.frequentQuestion?.selectionProcess?.text2}
+                          {dataTranslate?.callForProposals?.frequentQuestion?.selectionProcess?.text2}
                         </p>
                       </Accordion.Body>
                     </Accordion.Item>

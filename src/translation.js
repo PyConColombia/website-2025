@@ -36,6 +36,8 @@
       },
       callForProposals: {
         header: 'Share Your Voice',
+        introText: "Got a brilliant idea, a project you're proud of, or insights that could inspire others?",
+        footerText: "We’re looking for passionate speakers to lead talks on development, security, Python, and beyond.",
         mainText: "Feel free to submit proposals on a wide array of technical topics that pique your interest. We're excited to explore the diverse ideas and insights you bring to the table.",
         buttonText: "Submit your proposal",
         block1Title:"Talks",
@@ -174,6 +176,8 @@
       },
       callForProposals: {
         header: 'Comparte tu voz',
+        introText: '¿Tienes una gran idea, un proyecto que te enorgullece o experiencias que puedan motivar a otros?',
+        footerText: 'Estamos buscando ponentes apasionados para liderar charlas sobre desarrollo, seguridad, Python y más.',
         mainText: "Siéntete libre de enviar propuestas sobre una amplia variedad de temas técnicos que despierten tu interés. Estamos emocionados por descubrir las distintas ideas y enfoques que puedas compartir.",
         buttonText: "Envía tu propuesta",
         block1Title:"Charlas",
