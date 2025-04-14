@@ -347,6 +347,10 @@
   padding-bottom: 150px;
 }
 
+.keynotes-page .keynote-speakers {
+  margin: 20px auto;
+}
+
 .keynotes-page .title {
   color: var(--white);
 }
@@ -364,26 +368,64 @@
 }
 
 .keynotes-page .keynote-image-wrapper {
+  padding: 10px;
   position: relative;
   display: inline-block;
 }
 
-.keynotes-page .keynote-image-wrapper .keynote-image {
-  border: 10px solid var(--purple);
-  border-radius: 30px;
-  padding: 0px;
-  display: inline-block; 
-  width: 100%;
-  display: block;
+.keynotes-page .keynote-text {
+  font-size: 18px;
+  padding: 30px 10px;
 }
 
-.bandera {
+.keynotes-page .keynote-text.text-right {
+  text-align: right;
+}
+
+.keynotes-page .keynote-text .keynote-link-wrapper {
+  margin-top: 10px;
+}
+
+.keynotes-page .keynote-text .keynote-link-wrapper.text-left {
+  text-align: left;
+}
+
+.keynotes-page .keynote-text .keynote-link-wrapper .keynote-link {
+  color: var(--green);
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
+
+
+.keynotes-page .keynote-image-wrapper .keynote-image {
+  border-radius: 30px;
+  border: 15px solid var(--purple);
+  display: block;
+  display: inline-block; 
+  padding: 0px;
+  width: 100%;
+}
+
+.keynotes-page .social-icons {
+  margin-top: 10px;
+}
+
+.keynotes-page .social-icons .social-icon {
+  color: var(--fucsia);
+  transition: all 0.3s ease;
+}
+
+.keynotes-page .social-icon:hover {
+  color: var(--fucsia-dark);
+}
+
+.keynotes-page .bandera {
   position: absolute;
-  width: 24px; /* ajusta el tamaño según tu necesidad */
+  width: 24px;
   height: auto;
 }
 
-.bandera-superior {
+.keynotes-page .bandera-superior {
   position: absolute;
   width: 50px;
   height: 50px;
@@ -398,7 +440,9 @@
   right: -8px;
 }
 
-.bandera-inferior {
+.keynotes-page .bandera-inferior {
   bottom: -8px;
   right: -8px;
+  width: 100px;
+  height: auto;
 }

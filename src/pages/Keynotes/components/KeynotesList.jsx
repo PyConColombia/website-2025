@@ -3,6 +3,16 @@ import { Button, Col, Container, Image, Row } from 'react-bootstrap'
 
 import data from '@/data/keynotes.json'
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCircle } from '@fortawesome/free-solid-svg-icons';
+import {
+  faFacebookF,
+  faXTwitter,
+  faInstagram,
+  faGithubAlt,
+  faLinkedinIn
+} from '@fortawesome/free-brands-svg-icons';
+
 const KeynotesList = ({
   title, description, button, containerClasses
 }) => {
@@ -38,7 +48,7 @@ const KeynotesList = ({
                 {
                   data?.keynotes?.map((keynote, index) => (
                     <Row key={index} className="keynote-speakers">
-                      <Col xs={12} md={4}>
+                      <Col xs={12} md={4} className={index % 2 === 0 ? "order-md-first" : "order-md-last"}>
                         <div className="keynote-image-wrapper">
                           <Image src={`images/keynotes/${keynote.photo}`} alt={`${keynote.first_name} ${keynote.last_name}`} className="keynote-image" />
                           {keynote.country && (
@@ -49,13 +59,100 @@ const KeynotesList = ({
                               </span>
                             </div>
                           )}
-                          {/* <img src="ruta-bandera-superior.png" class="bandera bandera-superior" alt="Bandera superior" /> */}
-                          <img src="ruta-bandera-inferior.png" className="bandera bandera-inferior" alt="Bandera inferior" />
+                          <img src={`/images/icons/icon-${index + 1 % 3}.svg`} className="bandera bandera-inferior" alt="Bandera inferior" />
                         </div>
                       </Col>
-                      <Col xs={12} md={8}>
-                        <h2 className="keynote-name">{keynote.first_name} {keynote.last_name}</h2>
-                        <p className="keynote-description">{keynote.biography[language]}</p>
+                      <Col xs={12} md={8} className={index % 2 === 0 ? "order-md-last" : "order-md-first"}>
+                        <div className={`keynote-text ${index % 2 === 0 ? "" : "text-right"}`}>
+                          <h2 className="keynote-name shantell-sans">{keynote.first_name} {keynote.last_name}</h2>
+                          <p className="keynote-title bold">{keynote.affiliation[language]}</p>
+                          <p className="keynote-description">{keynote.biography[language]}</p>
+
+                          <Row>
+                            <Col xs={12} md={6}>
+                              <div className="keynote-link-wrapper">
+                                <a href={`/keynotes/${keynote.id}`} rel="noopener noreferrer" className='keynote-link'>
+                                  See more
+                                </a>
+                              </div>
+                            </Col>
+                            <Col xs={12} md={6}>
+                              <div className="social-icons d-flex justify-content-center justify-content-md-end align-items-center gap-3">
+                                {
+                                  keynote?.twitter && (
+                                    <a
+                                      href={`https://twitter.com/${keynote.twitter}`}
+                                      target="_blank"
+                                      rel="noreferrer"
+                                      className="social-icon">
+                                      <div className="fa-stack">
+                                        <FontAwesomeIcon className="fa-stack-2x" icon={faCircle} color="white" />
+                                        <FontAwesomeIcon className="social-icon fa-stack-1x" icon={faXTwitter} />
+                                      </div>
+                                    </a>
+                                  )
+                                }
+                                {
+                                  keynote?.linkedin && (
+                                    <a
+                                      href={`https://www.linkedin.com/in/${keynote.linkedin}`}
+                                      target="_blank"
+                                      rel="noreferrer"
+                                      className="social-icon">
+                                      <div className="fa-stack">
+                                        <FontAwesomeIcon className="fa-stack-2x" icon={faCircle} color="white" />
+                                        <FontAwesomeIcon className="social-icon fa-stack-1x" icon={faLinkedinIn} />
+                                      </div>
+                                    </a>
+                                  )
+                                }
+                                {
+                                  keynote?.facebook && (
+                                    <a
+                                      href={`https://www.facebook.com/${keynote.facebook}`}
+                                      target="_blank"
+                                      rel="noreferrer"
+                                      className="social-icon">
+                                      <div className="fa-stack">
+                                        <FontAwesomeIcon className="fa-stack-2x" icon={faCircle} color="white" />
+                                        <FontAwesomeIcon className="social-icon fa-stack-1x" icon={faFacebookF} />
+                                      </div>
+                                    </a>
+                                  )
+                                }
+                                {
+                                  keynote?.instagram && (
+                                    <a
+                                      href={`https://www.instagram.com/${keynote.instagram}`}
+                                      target="_blank"
+                                      rel="noreferrer"
+                                      className="social-icon">
+                                      <div className="fa-stack">
+                                        <FontAwesomeIcon className="fa-stack-2x" icon={faCircle} color="white" />
+                                        <FontAwesomeIcon className="social-icon fa-stack-1x" icon={faInstagram} />
+                                      </div>
+                                    </a>
+                                  )
+                                }
+                                {
+                                  keynote?.github && (
+                                    <a
+                                      href={`https://github.com/${keynote.github}`}
+                                      target="_blank"
+                                      rel="noreferrer"
+                                      className="social-icon">
+                                      <div className="fa-stack">
+                                        <FontAwesomeIcon className="fa-stack-2x" icon={faCircle} color="white" />
+                                        <FontAwesomeIcon className="social-icon fa-stack-1x" icon={faGithubAlt} />
+                                      </div>
+                                    </a>
+                                  )
+                                }
+                              </div>
+                            </Col>
+                          </Row>
+
+                        </div>
                       </Col>
                     </Row>
                   ))
@@ -65,7 +162,7 @@ const KeynotesList = ({
           </Row>
         </Container>
       </div>
-    </div>
+    </div >
   )
 }
 

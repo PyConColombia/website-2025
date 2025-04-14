@@ -1,10 +1,14 @@
 {
   "keynotes": [
     {
+      "id": "mike-droettboom",
       "first_name": "Mike",
       "last_name": "Droettboom",
       "photo": "mike-droettboom.webp",
-      "affiliation": "CPython performance leader at Microsoft, impact on matplotlib, Pyodide, astropy, airspeed velocity, astronomy, computer vision, web technologies.",
+      "affiliation": {
+        "en": "CPython performance leader at Microsoft, impact on matplotlib, Pyodide, astropy, airspeed velocity, astronomy, computer vision, web technologies.",
+        "es": ""
+      },
       "biography": {
         "en": "Michael Droettboom is a Principal Software Engineering Manager at Microsoft, leading CPython performance improvements. A veteran open-source contributor, he has worked on matplotlib, astropy, Pyodide, and airspeed velocity. His contributions have supported projects like the Hubble and James Webb Telescopes, Firefox, infrared retinal imaging, and optical sheet music recognition.",
         "es": ""
@@ -12,9 +16,31 @@
       "facebook": "",
       "twitter": "MDroettboom",
       "linkedin": "mdboom",
+      "instagram": "",
       "github": "mdboom",
       "website": "",
       "country": "us"
+    },
+    {
+      "id": "",
+      "first_name": "Érico",
+      "last_name": "Andrei",
+      "photo": "erico-andrei.webp",
+      "affiliation": {
+        "en": "Co-founder of Simples Consultoria and Pendect GmbH, PSF Fellow, former Plone Foundation president, Cookiecutter co-maintainer, leader in Python and Plone communities, key in PythonBrasil and PloneGov-BR.",
+        "es": ""
+      },
+      "biography": {
+        "en": "Érico Andrei is the co-founder of Simples Consultoria and Pendect GmbH, a PSF Fellow, and a former president of the Plone Foundation. A core developer of Plone and co-maintainer of Cookiecutter, he has been instrumental in growing the Python and Plone communities. He played a key role in PythonBrasil and PloneGov-BR, supporting open-source adoption in government and business.",
+        "es": ""
+      },
+      "facebook": "",
+      "twitter": "ericof",
+      "linkedin": "ericof",
+      "instagram": "ericof",
+      "github": "ericof",
+      "website": "",
+      "country": "br"
     }
   ]
 }
