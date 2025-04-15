@@ -22,7 +22,49 @@
       "country": "us"
     },
     {
-      "id": "",
+      "id": "julia-silge",
+      "first_name": "Julia",
+      "last_name": "Silge",
+      "photo": "julia-silge.webp",
+      "affiliation": {
+        "en": "Engineering manager at Posit PBC, leading development of open-source software for data science in Python, R. Data scientist, expertise in machine learning, text mining. PhD in astrophysics, author of books on data science.",
+        "es": ""
+      },
+      "biography": {
+        "en": "Julia Silge is an Engineering Manager at Posit PBC, leading the development of open-source software for data science in Python and R. A data scientist with expertise in machine learning and text mining, she holds a PhD in astrophysics and has co-authored books on data science. She is also a tool builder, author, and international keynote speaker.",
+        "es": ""
+      },
+      "facebook": "",
+      "twitter": "",
+      "linkedin": "juliasilge",
+      "instagram": "",
+      "github": "juliasilge",
+      "website": "",
+      "country": "us"
+    },
+    {
+      "id": "angela-oliveira-pisco",
+      "first_name": "Angela",
+      "last_name": "Oliveira Pisco",
+      "photo": "angela-oliveira-pisco.webp",
+      "affiliation": {
+        "en": "Head of Computational Biology at insitro, expert in biomedical data, cancer resistance, cellular differentiation, wound healing, leader in whole organism cell atlas projects, Open Problems in Single Cell founder.",
+        "es": ""
+      },
+      "biography": {
+        "en": "Angela Pisco is the Head of Computational Biology at insitro, specializing in biomedical data analysis, cancer resistance, and cellular differentiation. Her research has advanced understanding of wound healing and led major whole organism cell atlas projects. A founder of Open Problems in Single Cell, she is dedicated to improving multimodal data analysis in biology.",
+        "es": ""
+      },
+      "facebook": "angela.o.pisco",
+      "twitter": "draopisco",
+      "linkedin": "aopisco",
+      "instagram": "aopisco",
+      "github": "aopisco",
+      "website": "",
+      "country": "pt"
+    },
+    {
+      "id": "erico-andrei",
       "first_name": "Érico",
       "last_name": "Andrei",
       "photo": "erico-andrei.webp",
