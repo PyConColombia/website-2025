@@ -109,6 +109,7 @@ const LandingPage = ({ dataTranslate }) => {
       <KeynotesList
         title="Keynote Speakers"
         description={"Expect talks that spark curiosity, hands-on insights, and fresh perspectives on development, security, and beyond."}
+        containerClasses="pt-60 pb-60"
       />
 
       <SponsorsList

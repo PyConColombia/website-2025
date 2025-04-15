@@ -59,7 +59,7 @@ const KeynotesList = ({
                               </span>
                             </div>
                           )}
-                          <img src={`/images/icons/icon-${index + 1 % 3}.svg`} className="bandera bandera-inferior" alt="Bandera inferior" />
+                          <img src={`/images/icons/icon-${index % 3}.svg`} className="bandera bandera-inferior" alt="Bandera inferior" />
                         </div>
                       </Col>
                       <Col xs={12} md={8} className={index % 2 === 0 ? "order-md-last" : "order-md-first"}>
@@ -70,11 +70,11 @@ const KeynotesList = ({
 
                           <Row>
                             <Col xs={12} md={6}>
-                              <div className="keynote-link-wrapper">
+                              {/* <div className="keynote-link-wrapper">
                                 <a href={`/keynotes/${keynote.id}`} rel="noopener noreferrer" className='keynote-link'>
                                   See more
                                 </a>
-                              </div>
+                              </div> */}
                             </Col>
                             <Col xs={12} md={6}>
                               <div className="social-icons d-flex justify-content-center justify-content-md-end align-items-center gap-3">
