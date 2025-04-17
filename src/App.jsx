@@ -6,9 +6,9 @@ import Hotjar from '@hotjar/browser';
 import LandingPage from '@/pages/LandingPage';
 import Layout from '@/layout';
 
-import 'bootstrap/dist/css/bootstrap.min.css';
+// import 'bootstrap/dist/css/bootstrap.min.css';
 import 'flag-icons/css/flag-icons.min.css';
-import '@/styles/main.css';
+import './App.scss';
 
 import CodeOfConduct from '@/pages/CodeOfConduct';
 

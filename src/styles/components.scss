@@ -1,0 +1,25 @@
+@use "./variables" as *;
+
+.btn {
+  border-radius: 60px;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 12px 17px;
+
+  &.big {
+    font-size: 20px;
+    padding: 15px 25px;
+  }
+
+  &.btn-primary {
+    background-color: $green;
+    border: 1px solid $green;
+    color: $purple;
+
+    &:hover {
+      background-color: $purple-dark;
+      border: 1px solid $purple-dark;
+      color: $green;
+    }
+  }
+}
