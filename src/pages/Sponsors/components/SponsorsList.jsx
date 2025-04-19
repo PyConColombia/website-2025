@@ -77,8 +77,7 @@ const SponsorsList = ({ title, description, footer, containerClasses }) => {
                                 xs={sponsorSizeSmall[sponsorType]}
                                 md={sponsorSize[sponsorType]}>
                                 <NavLink
-                                  to={sponsor.url || '#'}
-                                  target="blank_"
+                                  to={`/sponsors/${sponsor.id}`}
                                   className="sponsor">
                                   {sponsor.logo ? (
                                     <Image

@@ -306,46 +306,65 @@
 
 /* sponsors */
 
+.sponsor-page {
+  background-color: $fucsia;
+  padding-top: 150px;
+  padding-bottom: 150px;
+
+  .sponsor-bg {
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .description,
+  .photos {
+    margin-top: 50px;
+  }
+}
+
 .sponsors-page {
   background-color: $blue-dark;
   padding-top: 150px;
   padding-bottom: 150px;
-}
 
-.sponsors-page .sponsors-bg {
-  background-image: url('/images/background/background-sponsors.svg');
-  background-size: auto;
-  background-position: center;
-  background-repeat: no-repeat;
-}
+  .sponsors-bg {
+    background-image: url('/images/background/background-sponsors.svg');
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
 
-.sponsors-page .title {
-  color: $fucsia;
-}
+  .title {
+    color: $fucsia;
+  }
 
-.sponsors-page .description {
-  text-align: center;
-}
+  .description {
+    text-align: center;
+  }
 
-.sponsors-page .sponsors-wrapper {
-  padding: 60px 0;
-}
+  .sponsors-wrapper {
+    padding: 60px 0;
 
-.sponsors-page .sponsors-wrapper .sponsor img {
-  padding: 10px 0;
-}
+    .sponsor {
+      img {
+        padding: 10px 0;
+      }
+    }
 
-.sponsors-page .sponsors-wrapper .sponsor-title-wrapper {
-  text-align: center;
-  padding-top: 40px;
-}
+    .sponsor-title-wrapper {
+      text-align: center;
+      padding-top: 40px;
 
-.sponsors-page .sponsors-wrapper .sponsor-title-wrapper .sponsor-title {
-  color: $pink;
-}
+      .sponsor-title {
+        color: $pink;
+      }
+    }
 
-.sponsors-page .sponsors-wrapper .sponsor-venue-height {
-  height: 100px;
+    .sponsor-venue-height {
+      height: 100px;
+    }
+  }
 }
 
 

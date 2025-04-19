@@ -17,6 +17,7 @@ import LanguageContext from '@/LanguageContext';
 import CallForProposals from '@/pages/CallForProposals';
 import ScrollToTop from '@/utils/ScrollToTop';
 import Sponsors from '@/pages/Sponsors';
+import Sponsor from '@/pages/Sponsor';
 import CodeOfConductProcedure from '@/pages/CodeOfConductProcedure';
 import HealthAndSafetyPolicy from '@/pages/HealthAndSafetyPolicy';
 import Keynotes from '@/pages/Keynotes';
@@ -58,6 +59,7 @@ const App = () => {
         <Route path="/" element={<LandingPage dataTranslate={allData} />} />
         <Route path="/call-for-proposals" element={<CallForProposals dataTranslate={allData} />} />
         <Route path="/sponsors" element={<Sponsors dataTranslate={allData} />} />
+        <Route path="/sponsors/:id" element={<Sponsor />} />
         <Route path="/keynotes" element={<Keynotes dataTranslate={allData} />} />
         <Route path="/code-of-conduct" element={<CodeOfConduct dataTranslate={allData} />} />
         <Route

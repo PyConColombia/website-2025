@@ -1,6 +1,7 @@
 {
   "venue": [
     {
+      "id": "eafit",
       "name": "EAFIT",
       "logo": "eafit.svg",
       "url": "https://www.eafit.edu.co/"
@@ -9,11 +10,22 @@
   "platinum": [],
   "gold": [
     {
+      "id": "genlogs",
       "name": "Genlogs",
       "logo": "genlogs.svg",
-      "url": "https://www.genlogs.io/"
+      "url": "https://www.genlogs.io/",
+      "social": {
+        "linkedin": "company/93806729",
+        "twitter": "GenLogs"
+      },
+      "text": {
+        "en": "​GenLogs is a truck intelligence company that provides real-time data and analytics to optimize logistics operations and combat fraud in the transportation industry. Leveraging a nationwide network of sensors, artificial intelligence, and real-time mobility data, GenLogs offers insights into freight patterns, carrier capacities, and asset tracking. This enables freight brokers, carriers, and shippers to make informed decisions, reduce costs, and enhance operational efficiency.​<br />​<br /> In addition to operational optimization, GenLogs plays a significant role in asset recovery and fraud prevention. The company has assisted in recovering over 1000 stolen or misused and offers investigative services to combat load theft, double brokering, and freight fraud.​<br />​<br />Founded in 2022 and based in Washington, D.C., GenLogs has secured substantial funding to expand its sensor network and technological capabilities. The company has raised $21 million since 2023, including a $14.6 million Series A funding round led by Venrock and HOF Capital.​<br />​<br />Furthermore, GenLogs collaborates with law enforcement agencies to address issues such as human trafficking, fentanyl smuggling, theft, and fraud, demonstrating its commitment to enhancing safety and security within the freight industry.",
+        "es": ""
+      },
+      "photos": ["1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg"]
     },
     {
+      "id": "elastic",
       "name": "Elastic",
       "logo": "elastic.svg",
       "url": "https://www.elastic.co/"
@@ -22,6 +34,7 @@
   "silver": [],
   "bronze": [
     {
+      "id": "provectus",
       "name": "Provectus",
       "logo": "provectus.svg",
       "url": "https://provectus.com/"
