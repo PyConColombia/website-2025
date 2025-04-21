@@ -1,0 +1,29 @@
+@use "./variables" as *;
+
+.navbar-custom {
+  background-color: $purple-dark !important;
+  padding: 10px 0;
+
+  .btn-primary:hover {
+    background-color: $purple;
+    border: 1px solid $purple;
+    color: $green;
+  }
+
+  .navbar-nav {
+    .nav-link {
+      color: $white;
+      border-radius: 5px;
+      font-size: 15px;
+      padding: 10px 15px;
+
+      &:hover {
+        background-color: $green;
+        border-radius: 5px;
+        color: $purple;
+        cursor: pointer;
+        text-decoration: none;
+      }
+    }
+  }
+}
