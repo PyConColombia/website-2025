@@ -29,6 +29,20 @@
       "name": "Elastic",
       "logo": "elastic.svg",
       "url": "https://www.elastic.co/"
+    },
+    {
+      "id": "mercado-libre",
+      "name": "Mercado Libre",
+      "logo": "mercado-libre.svg",
+      "url": "https://www.elastic.co/",
+      "social": {
+        "linkedin": "company/93806729",
+        "twitter": "GenLogs"
+      },
+      "text": {
+        "en": "Mercado Libre is the leading company in e-commerce and financial technology in Latin America, with operations in 18 countries. It offers a complete ecosystem of solutions for individuals and businesses to buy, sell, advertise, obtain credit and insurance, collect, send money, save, and pay for goods and services both online and offline. Mercado Libre looks to facilitate access to commerce and financial services in Latin America, a market that offers great opportunities and high growth potential. It uses world-class technology to create intuitive solutions tailored to the local culture to transform the lives of millions of people in the region.",
+        "es": "Mercado Libre es la compañía líder de comercio electrónico y fintech de América Latina. Presentes en 18 países, estamos transformando la forma de comprar, vender, pagar, financiar y hacer envíos.<br /><br />Desde hace 25 años apostamos por la democratización del comercio y los servicios financieros para transformar la vida de millones de personas en la región."
+      }
     }
   ],
   "silver": [],
