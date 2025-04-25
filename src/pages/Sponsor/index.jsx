@@ -50,17 +50,20 @@ const Sponsor = () => {
                   <Social socialNetworks={social} />
                 </Col>
               </Row>
-              <Row>
-                <Col>
-                  <p className="description" dangerouslySetInnerHTML={{ __html: text[language] || text.en }}></p>
-                </Col>
-              </Row>
-              <Row>
-                <Col>
-                  <div className="photos">
+              {
+                text && <Row>
+                  <Col>
+
+                    <p className="description" dangerouslySetInnerHTML={{ __html: text[language] || text.en }}></p>
+                  </Col>
+                </Row>
+              }
+              {photos && <div className="photos">
+                <Row>
+                  <Col>
                     <Carousel>
                       {
-                        photos && photos.map((photo, index) => (
+                        photos.map((photo, index) => (
                           <Carousel.Item key={index} interval={1000}>
                             <Image
                               src={`/images/sponsors/${id}/${photo}`}
@@ -71,9 +74,10 @@ const Sponsor = () => {
                         ))
                       }
                     </Carousel>
-                  </div>
-                </Col>
-              </Row>
+                  </Col>
+                </Row>
+              </div>
+              }
             </Col>
           </Row>
         </Container>
