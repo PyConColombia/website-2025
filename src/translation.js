@@ -2,7 +2,8 @@ const data = {
   en: {
     navbar: {
       callForProposals: 'Call for proposals',
-      sponsors: 'Sponsors'
+      sponsors: 'Sponsors',
+      scholarships: 'Scholarships'
     },
     landing: {
       date: 'July 4, 5 & 6',
@@ -160,7 +161,8 @@ const data = {
   es: {
     navbar: {
       callForProposals: 'Llamado a ponentes',
-      sponsors: 'Patrocinadores'
+      sponsors: 'Patrocinadores',
+      scholarships: 'Becas'
     },
     landing: {
       date: 'Julio 4, 5 y 6',
