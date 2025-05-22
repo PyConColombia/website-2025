@@ -81,15 +81,14 @@ const Questions = () => {
                   <Accordion.Body className="question-body">
                     <ul>
                       <li>
-                        Application opens April 3. Applications for the PyCon Colombia scholarship must be
+                        Application opens May 21. Applications for the PyCon Colombia scholarship must be
                         submitted starting on this day.
                       </li>
-                      <li>Application deadline: April 17. The form will close on this day.</li>
+                      <li>Application deadline: June 8. The form will close on this day.</li>
                       <li>
-                        Selected applications: April 24. Winners of the scholarship will be notified by
+                        Selected applications: June 15. Winners of the scholarship will be notified by
                         email of their acceptance.
                       </li>
-                      <li>Confirmation: May 5. Scholarship winners must confirm their acceptance.</li>
                     </ul>
                   </Accordion.Body>
                 </Accordion.Item>
@@ -111,8 +110,8 @@ const Questions = () => {
                       <li>You must submit it within the dates and deadlines.</li>
                       <li>You must provide a letter of interest following the suggested format.</li>
                       <li>
-                        You must be available to attend the entire PyCon Colombia Conference (June 7, 8 and
-                        9, 2025).
+                        You must be available to attend the entire PyCon Colombia Conference (July 4, 5 and
+                        6, 2025).
                       </li>
                       <li>
                         You must attach a legalized authorization from your parents if you are a minor.
