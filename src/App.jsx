@@ -21,6 +21,7 @@ import Sponsor from '@/pages/Sponsor';
 import CodeOfConductProcedure from '@/pages/CodeOfConductProcedure';
 import HealthAndSafetyPolicy from '@/pages/HealthAndSafetyPolicy';
 import Keynotes from '@/pages/Keynotes';
+import Scholarships from '@/pages/Scholarships';
 
 const TRACKING_ID = 'G-J2DYL7NXX5';
 
@@ -69,6 +70,10 @@ const App = () => {
         <Route
           path="/health-and-safety-policy"
           element={<HealthAndSafetyPolicy dataTranslate={allData} />}
+        />
+        <Route
+          path="/scholarships"
+          element={<Scholarships dataTranslate={allData} />}
         />
         {/* <Route path="*" element={<LandingPage dataTranslate={allData} />} /> */}
       </Routes>
