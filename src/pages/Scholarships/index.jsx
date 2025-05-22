@@ -26,8 +26,9 @@ const Scholarships = () => {
       <p>
         If you want to apply, please go to this form:{' '}
         <a
-          href="https://docs.google.com/forms/d/e/1FAIpQLSfHTHWoXpwtyyEdZEiU3DQdyvBcuwd42k72OnVcPrOSjljHhQ/viewform"
-          target="blank_">
+          href="https://forms.gle/EnSffxKcuzu4yugdA"
+          target="blank_"
+          className="link-pink">
           Link form
         </a>
       </p>
