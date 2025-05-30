@@ -6,7 +6,7 @@ import Image from 'react-bootstrap/Image';
 import Row from 'react-bootstrap/Row';
 import { Button } from 'react-bootstrap';
 
-import CallForProposals from '@/pages/CallForProposals/components/Intro';
+// import CallForProposals from '@/pages/CallForProposals/components/Intro';
 import SponsorsList from '@/pages/Sponsors/components/SponsorsList';
 import KeynotesList from '../Keynotes/components/KeynotesList';
 
@@ -97,14 +97,14 @@ const LandingPage = ({ dataTranslate }) => {
         </Container>
       </div>
 
-      <CallForProposals
+      {/* <CallForProposals
         subtitle={dataTranslate?.landing?.bodyMessage?.header}
         buttonLink={'/call-for-proposals'}
         buttonName={dataTranslate?.landing?.applyToSpeakButton}
         descriptionText={dataTranslate?.landing?.bodyMessage?.text}
         subDescriptionText={dataTranslate?.landing?.bodyMessage?.finalText}
         speakerDeadline={dataTranslate?.landing?.speakerDeadline}
-      />
+      /> */}
 
       <KeynotesList
         title="Keynote Speakers"

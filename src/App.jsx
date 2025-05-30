@@ -14,7 +14,7 @@ import CodeOfConduct from '@/pages/CodeOfConduct';
 
 import data from '@/translation';
 import LanguageContext from '@/LanguageContext';
-import CallForProposals from '@/pages/CallForProposals';
+// import CallForProposals from '@/pages/CallForProposals';
 import ScrollToTop from '@/utils/ScrollToTop';
 import Sponsors from '@/pages/Sponsors';
 import Sponsor from '@/pages/Sponsor';
@@ -58,7 +58,6 @@ const App = () => {
       <PageViewTracker />
       <Routes>
         <Route path="/" element={<LandingPage dataTranslate={allData} />} />
-        <Route path="/call-for-proposals" element={<CallForProposals dataTranslate={allData} />} />
         <Route path="/sponsors" element={<Sponsors dataTranslate={allData} />} />
         <Route path="/sponsors/:id" element={<Sponsor />} />
         <Route path="/keynotes" element={<Keynotes dataTranslate={allData} />} />
