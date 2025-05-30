@@ -83,6 +83,63 @@
       "github": "ericof",
       "website": "",
       "country": "br"
+    },
+    {
+      "id": "shreya-gupta",
+      "first_name": "Shreya",
+      "last_name": "Gupta",
+      "photo": "shreya-gupta.webp",
+      "affiliation": {
+        "en": "Solutions Architect in Gen-AI at Nvidia, AI model development expert. Master’s in Symbolic Systems from Stanford, research in deep learning and cognitive neuroscience. Advocate for diversity in STEM."
+      },
+      "biography": {
+        "en": "Shreya Gupta is a Solutions Architect in Gen-AI at Nvidia, specializing in AI model development and optimization. She holds a Master’s in Symbolic Systems from Stanford, with research in deep learning and cognitive neuroscience. A passionate advocate for diversity in STEM, she has led Women Who Code Delhi and founded MLNerdie x Delhi to bridge the gap between academia and industry in machine learning."
+      },
+      "facebook": "",
+      "twitter": "shreyagupta08",
+      "linkedin": "shreya-gupta-08",
+      "instagram": "",
+      "github": "ShreyaGupta08",
+      "website": "",
+      "country": "in"
+    },
+    {
+      "id": "peter-wang",
+      "first_name": "Peter",
+      "last_name": "Wang",
+      "photo": "peter-wang.webp",
+      "affiliation": {
+        "en": "Chief AI and Innovation Officer at Anaconda, co-founder, PyData creator, impact on open-source AI, machine learning, edge computing, data privacy, decentralized computing, data science advocacy."
+      },
+      "biography": {
+        "en": "Peter Wang is co-founder, Chief AI and Innovation Officer at Anaconda. He leads Anaconda’s AI Incubator, advancing Python technologies and open-source AI. A creator of the PyData community, he advocates for data science and literacy. His work spans edge computing, data privacy, and decentralized computing."
+      },
+      "facebook": "",
+      "twitter": "pwang",
+      "linkedin": "pzwang",
+      "instagram": "",
+      "github": "pzwang",
+      "website": "",
+      "country": "us"
+    },
+    {
+      "id": "robert-erdmann",
+      "first_name": "Robert",
+      "last_name": "Erdmann",
+      "photo": "robert-erdmann.webp",
+      "affiliation": {
+        "en": "Senior Scientist at Rijksmuseum, professor at the University of Amsterdam and Radboud University, expert in computer vision, machine learning, image processing, and cultural heritage preservation, leader in Bosch Research and Conservation Project."
+      },
+      "biography": {
+        "en": "Robert Erdmann is a Senior Scientist at the Rijksmuseum and a professor at the University of Amsterdam and Radboud University. An expert in computer vision, machine learning, and image processing, he applies technology to preserve and understand cultural heritage. As a leader in the Bosch Research and Conservation Project, he develops advanced imaging and visualization techniques for art conservation."
+      },
+      "facebook": "",
+      "twitter": "erdmann",
+      "linkedin": "",
+      "instagram": "",
+      "github": "erdmann",
+      "website": "",
+      "country": "nl"
     }
   ]
 }
