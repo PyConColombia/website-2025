@@ -33,8 +33,7 @@ const LandingPage = ({ dataTranslate }) => {
                     </Row>
                     <Row>
                       <Col sm={6} lg={6}>
-                        <span className="subtitle">Medellín, Colombia</span>
-                        <span className="subtitle date-text">{dataTranslate?.landing?.date}</span>
+                        <span className="subtitle">{dataTranslate?.landing?.date}</span>
                       </Col>
                       <Col sm={5} lg={5}>
                         <div className="wrapper-date">
