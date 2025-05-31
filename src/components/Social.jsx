@@ -9,9 +9,9 @@ import {
   faLinkedinIn
 } from '@fortawesome/free-brands-svg-icons';
 
-const Social = ({ socialNetworks }) => {
+const Social = ({ socialNetworks, hasLogo }) => {
   return (
-    <div className="social-icons d-flex justify-content-center justify-content-md-end align-items-center gap-3">
+    <div className={`social-icons d-flex justify-content-center ${!hasLogo ? 'justify-content-md-end' : ''} align-items-center gap-3`}>
       {
         socialNetworks?.twitter && (
           <a
@@ -87,6 +87,7 @@ const Social = ({ socialNetworks }) => {
 }
 
 Social.propTypes = {
+  hasLogo: propTypes.bool,
   socialNetworks: propTypes.shape({
     twitter: propTypes.string,
     linkedin: propTypes.string,
