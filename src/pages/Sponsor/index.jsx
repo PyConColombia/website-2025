@@ -1,5 +1,5 @@
 import { Carousel, Col, Container, Image, Row } from 'react-bootstrap';
-import { useParams } from 'react-router-dom';
+import { NavLink, useParams } from 'react-router-dom';
 
 import sponsorList from '@/data/sponsors.json';
 import Social from '@/components/Social';
@@ -23,7 +23,7 @@ const Sponsor = () => {
     return <div>404 Not Found</div>;
   }
 
-  const { name, logo, text, social, photos } = sponsor;
+  const { name, logo, text, social, photos, url } = sponsor;
 
   return (
     <div className='generic-page sponsor-page'>
@@ -34,20 +34,29 @@ const Sponsor = () => {
               <Row>
                 <Col lg={12}>
                   <div className="logo-wrapper">
-                    <Image
-                      src={`/images/sponsors/${logo}`}
-                      alt={name}
-                      width="100%"
-                    />
+                    <NavLink
+                      to={url ? url : '#'}
+                      target="_blank"
+                    >
+                      <Image
+                        src={`/images/sponsors/${logo}`}
+                        alt={name}
+                        width="100%"
+                      />
+                    </NavLink>
                   </div>
                 </Col>
               </Row>
               <Row className="justify-content-center">
+                {
+                  !logo && (
+                    <Col xs={12} className="text-center">
+                      <h1 className='shantell-sans'>{name}</h1>
+                    </Col>
+                  )
+                }
                 <Col md={4}>
-                  <h1 className='shantell-sans'>{name}</h1>
-                </Col>
-                <Col md={4}>
-                  <Social socialNetworks={social} />
+                  <Social socialNetworks={social} hasLogo={logo} />
                 </Col>
               </Row>
               {

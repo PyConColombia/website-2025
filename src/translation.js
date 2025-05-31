@@ -6,7 +6,7 @@ const data = {
       scholarships: 'Scholarships'
     },
     landing: {
-      date: 'July 4, 5 & 6',
+      date: 'Medellín, July 4th, 5th and 6th, 2025',
       introduction: {
         header: 'Ready to dive into the ',
         boldHeader: 'world of Python',
@@ -165,7 +165,7 @@ const data = {
       scholarships: 'Becas'
     },
     landing: {
-      date: 'Julio 4, 5 y 6',
+      date: 'Medellín, Julio 4, 5 y 6, 2025',
       introduction: {
         header: 'Listo para surmergirte en el ',
         boldHeader: 'mundo de Python',
