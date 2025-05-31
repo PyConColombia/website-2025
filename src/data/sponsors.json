@@ -59,6 +59,21 @@
         "es": "SoftServe es un proveedor líder de consultoría en TI y servicios digitales. Ampliamos el horizonte de las nuevas tecnologías para resolver los complejos desafíos empresariales actuales y lograr resultados significativos para nuestros clientes. Nuestra curiosidad ilimitada nos impulsa a explorar y reinventar el arte de lo posible. Los clientes confían plenamente en SoftServe para diseñar y ejecutar capacidades maduras e innovadoras, como ingeniería digital, datos y analítica, nube e inteligencia artificial/aprendizaje automático (IA/ML).<br /><br />Nuestra reputación global se ha forjado a lo largo de más de 30 años de experiencia ofreciendo soluciones digitales superiores con una velocidad excepcional, gracias al talento de ingeniería de primer nivel, para industrias empresariales como alta tecnología, servicios financieros, salud, ciencias de la vida, comercio minorista, energía y manufactura.<br /><br />Colaboramos con los principales actores tecnológicos, como Google Cloud Platform, Amazon Web Services, Microsoft Azure, Salesforce y NVIDIA, para brindar a nuestros clientes una ventaja competitiva en el mercado.<br /><br />Fundada en 1993, en nuestra firma global asesoramos, impulsamos la innovación y desarrollamos el talento de las personas dentro de Estados Unidos, América Latina, Europa y Asia."
       },
       "photos": ["1.jpg", "2.jpg", "3.jpg", "4.jpg"]
+    },
+    {
+      "id": "aimpoint",
+      "name": "Aimpoint",
+      "logo": "aimpoint.svg",
+      "url": "https://www.aimpoint.com/",
+      "social": {
+        "linkedin": "company/aimpoint",
+        "twitter": "AimpointAI"
+      },
+      "text": {
+        "en": "Aimpoint Digital is a market-leading analytics, data engineering, operations research, and Artificial Intelligence advisory and solution engineering firm.",
+        "es": "Aimpoint Digital es una firma líder en el mercado especializada en analítica, ingeniería de datos, investigación de operaciones  e inteligencia artificial, dedicada a la consultoría y al desarrollo de soluciones."
+      },
+      "photos": ["1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg"]
     }
   ],
   "silver": [],
@@ -67,7 +82,12 @@
       "id": "provectus",
       "name": "Provectus",
       "logo": "provectus.svg",
-      "url": "https://provectus.com/"
+      "url": "https://provectus.com/",
+      "text": {
+        "en": "We bring the power of cloud, data and AI to reimagine the way businesses operate, compete, and deliver customer value.",
+        "es": "Impulsamos la transformación empresarial con el poder de la nube, los datos y la inteligencia artificial, reinventando la forma en que las compañías operan, compiten y entregan valor a sus clientes."
+      },
+      "photos": ["1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg", "6.jpg", "7.jpg"]
     },
     {
       "id": "howdy",
