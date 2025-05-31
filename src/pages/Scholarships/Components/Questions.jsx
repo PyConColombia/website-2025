@@ -1,8 +1,9 @@
 import Accordion from 'react-bootstrap/Accordion';
 import { Col, Container, Image, Row } from 'react-bootstrap';
 
+const Questions = ({ dataTranslate }) => {
+  const d = dataTranslate?.questions;
 
-const Questions = () => {
   return (
     <div className="">
       <div className="">
@@ -12,7 +13,7 @@ const Questions = () => {
               <Accordion alwaysOpen>
                 <Accordion.Item eventKey="0" className="questions-item">
                   <Accordion.Header className="question-header">
-                    <span className="question-title">Eligibility</span>
+                    <span className="question-title">{d?.eligibility?.title}</span>
                     <Image
                       src="/images/icons/question-button.svg"
                       alt="question"
@@ -22,31 +23,16 @@ const Questions = () => {
                     />
                   </Accordion.Header>
                   <Accordion.Body className="question-body">
-                    <p>
-                      These scholarships are aimed at individuals facing financial barriers, including
-                      students and individuals from underrepresented groups in the technology community,
-                      such as women, LGBTQIA+ individuals, persons with disabilities, and racial and ethnic
-                      minorities. We encourage all of you to apply for our scholarships.
-                    </p>
-                    <p>
-                      Please read the following instructions and complete the form to apply for the
-                      scholarship.
-                    </p>
-                    <p>
-                      Please note that each application will be individually reviewed by the PyCon Colombia
-                      Organizing Team and classified according to the application form and letter of intent
-                      responses. All personal information collected will be kept confidential.
-                    </p>
-                    <p>
-                      Submitting your application doesn’t guarantee immediate eligibility. Please review the
-                      terms and conditions.
-                    </p>
+                    <p>{d?.eligibility?.paragraph1}</p>
+                    <p>{d?.eligibility?.paragraph2}</p>
+                    <p>{d?.eligibility?.paragraph3}</p>
+                    <p>{d?.eligibility?.paragraph4}</p>
                   </Accordion.Body>
                 </Accordion.Item>
 
                 <Accordion.Item eventKey="1" className="questions-item">
                   <Accordion.Header className="question-header">
-                    <span className="question-title">Acknowledgments</span>
+                    <span className="question-title">{d?.acknowledgments?.title}</span>
                     <Image
                       src="/images/icons/question-button.svg"
                       alt="question"
@@ -56,20 +42,14 @@ const Questions = () => {
                     />
                   </Accordion.Header>
                   <Accordion.Body className="question-body">
-                    <p>
-                      The PyCon Colombia 2025 Diversity Program is made possible thanks to the support of
-                      PyCon Colombia 2025 sponsors.
-                    </p>
-                    <p>
-                      If your organization is interested in participating in the Diversity Program, please
-                      contact: <i>scholarships@pycon.co</i>
-                    </p>
+                    <p>{d?.acknowledgments?.paragraph1}</p>
+                    <p>{d?.acknowledgments?.paragraph2}</p>
                   </Accordion.Body>
                 </Accordion.Item>
 
                 <Accordion.Item eventKey="2" className="questions-item">
                   <Accordion.Header className="question-header">
-                    <span className="question-title">Important Dates</span>
+                    <span className="question-title">{d?.importantDates?.title}</span>
                     <Image
                       src="/images/icons/question-button.svg"
                       alt="question"
@@ -80,22 +60,16 @@ const Questions = () => {
                   </Accordion.Header>
                   <Accordion.Body className="question-body">
                     <ul>
-                      <li>
-                        Application opens May 21. Applications for the PyCon Colombia scholarship must be
-                        submitted starting on this day.
-                      </li>
-                      <li>Application deadline: June 8. The form will close on this day.</li>
-                      <li>
-                        Selected applications: June 15. Winners of the scholarship will be notified by
-                        email of their acceptance.
-                      </li>
+                      {d?.importantDates?.items?.map((item, i) => (
+                        <li key={i}>{item}</li>
+                      ))}
                     </ul>
                   </Accordion.Body>
                 </Accordion.Item>
 
                 <Accordion.Item eventKey="3" className="questions-item">
                   <Accordion.Header className="question-header">
-                    <span className="question-title">Terms and Conditions</span>
+                    <span className="question-title">{d?.termsAndConditions?.title}</span>
                     <Image
                       src="/images/icons/question-button.svg"
                       alt="question"
@@ -105,24 +79,18 @@ const Questions = () => {
                     />
                   </Accordion.Header>
                   <Accordion.Body className="question-body">
-                    <p>For your application to be accepted:</p>
+                    <p>{d?.termsAndConditions?.paragraph}</p>
                     <ul>
-                      <li>You must submit it within the dates and deadlines.</li>
-                      <li>You must provide a letter of interest following the suggested format.</li>
-                      <li>
-                        You must be available to attend the entire PyCon Colombia Conference (July 4, 5 and
-                        6, 2025).
-                      </li>
-                      <li>
-                        You must attach a legalized authorization from your parents if you are a minor.
-                      </li>
+                      {d?.termsAndConditions?.items?.map((item, i) => (
+                        <li key={i}>{item}</li>
+                      ))}
                     </ul>
                   </Accordion.Body>
                 </Accordion.Item>
 
                 <Accordion.Item eventKey="4" className="questions-item">
                   <Accordion.Header className="question-header">
-                    <span className="question-title">You were selected. Do you want to help the conf?</span>
+                    <span className="question-title">{d?.selectedHelp?.title}</span>
                     <Image
                       src="/images/icons/question-button.svg"
                       alt="question"
@@ -132,22 +100,11 @@ const Questions = () => {
                     />
                   </Accordion.Header>
                   <Accordion.Body className="question-body">
-                    <p>
-                      For accepted scholarship recipients attending the conference, we would love for you to
-                      share your experience with the world about how PyCon Colombia 2025 was and encourage
-                      more people to apply for the scholarships next year. Possible ways to help us are:
-                    </p>
+                    <p>{d?.selectedHelp?.paragraph}</p>
                     <ul>
-                      <li>
-                        Posts on Social media your journey and details about the conference. Please add the
-                        tag of @PyConColombia
-                      </li>
-                      <li>Write a blog or record a video sharing your experience at the conference.</li>
-                      <li>** Interview in a blog or video format **</li>
-                      <li>
-                        ** Please note that in either of these formats, you can choose to remain
-                        anonymous.**
-                      </li>
+                      {d?.selectedHelp?.items?.map((item, i) => (
+                        <li key={i}>{item}</li>
+                      ))}
                     </ul>
                   </Accordion.Body>
                 </Accordion.Item>
@@ -157,7 +114,7 @@ const Questions = () => {
         </Container>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Questions
+export default Questions;

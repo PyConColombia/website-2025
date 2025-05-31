@@ -38,7 +38,7 @@ const NavbarCustom = ({ dataTranslate, locales }) => {
             <Nav.Link as={Link} to="/call-for-proposals">
               {dataTranslate?.navbar?.callForProposals}
             </Nav.Link>
-            <NavDropdown title="Schedule" id="schedule-nav-dropdown">
+            <NavDropdown title={dataTranslate?.navbar?.schedule} id="schedule-nav-dropdown">
               <NavDropdown.Item as={NavLink} key={'keynotes'} to={'/keynotes'}>
                 Keynotes
               </NavDropdown.Item>
