@@ -43,6 +43,37 @@
         "en": "Mercado Libre is the leading company in e-commerce and financial technology in Latin America, with operations in 18 countries. It offers a complete ecosystem of solutions for individuals and businesses to buy, sell, advertise, obtain credit and insurance, collect, send money, save, and pay for goods and services both online and offline. Mercado Libre looks to facilitate access to commerce and financial services in Latin America, a market that offers great opportunities and high growth potential. It uses world-class technology to create intuitive solutions tailored to the local culture to transform the lives of millions of people in the region.",
         "es": "Mercado Libre es la compañía líder de comercio electrónico y fintech de América Latina. Presentes en 18 países, estamos transformando la forma de comprar, vender, pagar, financiar y hacer envíos.<br /><br />Desde hace 25 años apostamos por la democratización del comercio y los servicios financieros para transformar la vida de millones de personas en la región."
       }
+    },
+    {
+      "id": "softserve",
+      "name": "SoftServe",
+      "logo": "softserve.svg",
+      "url": "https://www.softserveinc.com/",
+      "social": {
+        "linkedin": "company/softserve",
+        "facebook": "SoftServeColombia",
+        "instagram": "softserve_people"
+      },
+      "text": {
+        "en": "SoftServe is a premier IT consulting and digital services provider. We expand the horizon of new technologies to solve today's complex business challenges and achieve meaningful outcomes for our clients. Our boundless curiosity drives us to explore and reimagine the art of the possible. Clients confidently rely on SoftServe to architect and execute mature and innovative capabilities, such as digital engineering, data and analytics, cloud, and AI/ML.<br /><br />Our global reputation is gained from more than 30 years of experience delivering superior digital solutions at exceptional speed by top-tier engineering talent to enterprise industries, including high tech, financial services, healthcare, life sciences, retail, energy, and manufacturing.<br /><br />We partner with major technology players, such as Google Cloud Platform, Amazon Web Services, Microsoft Azure, Salesforce, and NVIDIA, to give clients a competitive advantage in the market.<br /><br />Founded in 1993, our global firm advises, drives innovation and develops the talent of people in the United States, Latin America, Europe and Asia.",
+        "es": "SoftServe es un proveedor líder de consultoría en TI y servicios digitales. Ampliamos el horizonte de las nuevas tecnologías para resolver los complejos desafíos empresariales actuales y lograr resultados significativos para nuestros clientes. Nuestra curiosidad ilimitada nos impulsa a explorar y reinventar el arte de lo posible. Los clientes confían plenamente en SoftServe para diseñar y ejecutar capacidades maduras e innovadoras, como ingeniería digital, datos y analítica, nube e inteligencia artificial/aprendizaje automático (IA/ML).<br /><br />Nuestra reputación global se ha forjado a lo largo de más de 30 años de experiencia ofreciendo soluciones digitales superiores con una velocidad excepcional, gracias al talento de ingeniería de primer nivel, para industrias empresariales como alta tecnología, servicios financieros, salud, ciencias de la vida, comercio minorista, energía y manufactura.<br /><br />Colaboramos con los principales actores tecnológicos, como Google Cloud Platform, Amazon Web Services, Microsoft Azure, Salesforce y NVIDIA, para brindar a nuestros clientes una ventaja competitiva en el mercado.<br /><br />Fundada en 1993, en nuestra firma global asesoramos, impulsamos la innovación y desarrollamos el talento de las personas dentro de Estados Unidos, América Latina, Europa y Asia."
+      },
+      "photos": ["1.jpg", "2.jpg", "3.jpg", "4.jpg"]
+    },
+    {
+      "id": "aimpoint",
+      "name": "Aimpoint",
+      "logo": "aimpoint.svg",
+      "url": "https://www.aimpoint.com/",
+      "social": {
+        "linkedin": "company/aimpoint",
+        "twitter": "AimpointAI"
+      },
+      "text": {
+        "en": "Aimpoint Digital is a market-leading analytics, data engineering, operations research, and Artificial Intelligence advisory and solution engineering firm.",
+        "es": "Aimpoint Digital es una firma líder en el mercado especializada en analítica, ingeniería de datos, investigación de operaciones  e inteligencia artificial, dedicada a la consultoría y al desarrollo de soluciones."
+      },
+      "photos": ["1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg"]
     }
   ],
   "silver": [],
@@ -51,7 +82,25 @@
       "id": "provectus",
       "name": "Provectus",
       "logo": "provectus.svg",
-      "url": "https://provectus.com/"
+      "url": "https://provectus.com/",
+      "text": {
+        "en": "We bring the power of cloud, data and AI to reimagine the way businesses operate, compete, and deliver customer value.",
+        "es": "Impulsamos la transformación empresarial con el poder de la nube, los datos y la inteligencia artificial, reinventando la forma en que las compañías operan, compiten y entregan valor a sus clientes."
+      },
+      "photos": ["1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg", "6.jpg", "7.jpg"]
+    },
+    {
+      "id": "howdy",
+      "name": "Howdy",
+      "logo": "howdy.svg",
+      "url": "https://www.howdylatam.com",
+      "text": {
+        "es": "<b>Howdy conecta talento de América Latina con las mejores oportunidades en Estados Unidos.</b><br /><br />Con base en Texas, EE.UU., nos especializamos en integrar desarrolladores directamente en equipos de ingeniería en EE. UU., sin intermediarios ni estructuras tradicionales.<br /><br />En Howdy, el talento es el centro de todo. Apostamos por relaciones laborales de largo plazo, en las que el crecimiento profesional y personal se acompaña con un modelo pensado para el bienestar de nuestros colaboradores: salarios competitivos, trabajo remoto, comunidad activa, mentorías personalizadas y un entorno de apoyo constante.<br /><br />Más que una plataforma de contratación, somos lo mejor de los dos mundos: trabajo para Estados Unidos y acceso a una comunidad local en tu país."
+      },
+      "social": {
+        "linkedin": "company/howdy",
+        "twitter": "Howdy"
+      }
     }
   ]
 }
