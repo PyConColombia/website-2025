@@ -42,7 +42,7 @@ const CodeOfConduct = ({dataTranslate})  => {
     </>
   );
 
-  return <GenericPage title={'Code of Conduct'} content={content} />;
+  return <GenericPage title={dataTranslate?.codeOfConduct?.title}content={content} />;
 };
 
 CodeOfConduct.propTypes = {
