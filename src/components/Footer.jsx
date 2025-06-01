@@ -46,11 +46,11 @@ const Footer = ({ dataTranslate }) => {
                   </li>
                   <li>
                     <NavLink to="/code-of-conduct-procedure">
-                      Code of Conduct Enforcement Procedure
+                      {dataTranslate?.footer?.codeOfConductEnforcementProcedure}
                     </NavLink>
                   </li>
                   <li>
-                    <NavLink to="/health-and-safety-policy">Health & Safety Policy</NavLink>
+                    <NavLink to="/health-and-safety-policy">{dataTranslate?.footer?.HealthSafetyPolicy}</NavLink>
                   </li>
                 </ul>
 
