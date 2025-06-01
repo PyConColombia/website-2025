@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types';
+
 import GenericPage from '../Generic';
 
 const CodeOfConductProcedure = ({ dataTranslate }) => {
@@ -100,6 +102,10 @@ const CodeOfConductProcedure = ({ dataTranslate }) => {
   );
 
   return <GenericPage title={d.title} content={content} />;
+};
+
+CodeOfConductProcedure.propTypes = {
+  dataTranslate: PropTypes.object.isRequired,
 };
 
 export default CodeOfConductProcedure;

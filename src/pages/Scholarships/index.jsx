@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import GenericPage from '../Generic';
 import Questions from './Components/Questions';
 
@@ -19,6 +20,10 @@ const Scholarships = ({ dataTranslate }) => {
   );
 
   return <GenericPage title={d?.title} content={content} />;
+};
+
+Scholarships.propTypes = {
+  dataTranslate: PropTypes.object.isRequired,
 };
 
 export default Scholarships;

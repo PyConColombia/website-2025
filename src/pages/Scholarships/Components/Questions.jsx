@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types';
+
 import Accordion from 'react-bootstrap/Accordion';
 import { Col, Container, Image, Row } from 'react-bootstrap';
 
@@ -115,6 +117,10 @@ const Questions = ({ dataTranslate }) => {
       </div>
     </div>
   );
+};
+
+Questions.propTypes = {
+  dataTranslate: PropTypes.object.isRequired,
 };
 
 export default Questions;

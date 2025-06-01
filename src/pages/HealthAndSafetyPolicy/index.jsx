@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types';
+
 import GenericPage from '../Generic';
 
 const HealthAndSafetyPolicy = ({ dataTranslate }) => {
@@ -10,6 +12,10 @@ const HealthAndSafetyPolicy = ({ dataTranslate }) => {
   );
 
   return <GenericPage title={dataTranslate?.healthAndSafetyPolicy?.title} content={content} />;
+};
+
+HealthAndSafetyPolicy.propTypes = {
+  dataTranslate: PropTypes.object.isRequired,
 };
 
 export default HealthAndSafetyPolicy;
