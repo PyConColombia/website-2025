@@ -1,6 +1,6 @@
 import { useContext } from 'react';
 import { PropTypes } from 'prop-types';
-import { NavLink, Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -35,9 +35,9 @@ const NavbarCustom = ({ dataTranslate, locales }) => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mx-auto">
-            <Nav.Link as={Link} to="/call-for-proposals">
+            {/* <Nav.Link as={Link} to="/call-for-proposals">
               {dataTranslate?.navbar?.callForProposals}
-            </Nav.Link>
+            </Nav.Link> */}
             <NavDropdown title={dataTranslate?.navbar?.schedule} id="schedule-nav-dropdown">
               <NavDropdown.Item as={NavLink} key={'keynotes'} to={'/keynotes'}>
                 Keynotes
