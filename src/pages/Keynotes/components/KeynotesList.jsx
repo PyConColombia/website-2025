@@ -56,8 +56,8 @@ const KeynotesList = ({
                       <Col xs={12} md={8} className={index % 2 === 0 ? "order-md-last" : "order-md-first"}>
                         <div className={`keynote-text ${index % 2 === 0 ? "" : "text-right"}`}>
                           <h2 className="keynote-name shantell-sans">{keynote.first_name} {keynote.last_name}</h2>
-                          <p className="keynote-title bold">{keynote.affiliation[language]}</p>
-                          <p className="keynote-description">{keynote.biography[language]}</p>
+                          <p className="keynote-title bold">{keynote.affiliation[language] || keynote.affiliation['en']}</p>
+                          <p className="keynote-description">{keynote.biography[language] || keynote.biography['en']}</p>
 
                           <Row>
                             <Col xs={12} md={6}>
