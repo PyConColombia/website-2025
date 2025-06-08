@@ -87,20 +87,25 @@
         "en": "We bring the power of cloud, data and AI to reimagine the way businesses operate, compete, and deliver customer value.",
         "es": "Impulsamos la transformación empresarial con el poder de la nube, los datos y la inteligencia artificial, reinventando la forma en que las compañías operan, compiten y entregan valor a sus clientes."
       },
-      "photos": ["1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg", "6.jpg", "7.jpg"]
-    },
+      "photos": ["1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg", "6.jpg", "7.jpg"],
+      "video": "Mw7ZZ_JzjrQ"
+    }
+  ],
+  "startup": [
     {
       "id": "howdy",
       "name": "Howdy",
       "logo": "howdy.svg",
-      "url": "https://www.howdylatam.com",
       "text": {
-        "es": "<b>Howdy conecta talento de América Latina con las mejores oportunidades en Estados Unidos.</b><br /><br />Con base en Texas, EE.UU., nos especializamos en integrar desarrolladores directamente en equipos de ingeniería en EE. UU., sin intermediarios ni estructuras tradicionales.<br /><br />En Howdy, el talento es el centro de todo. Apostamos por relaciones laborales de largo plazo, en las que el crecimiento profesional y personal se acompaña con un modelo pensado para el bienestar de nuestros colaboradores: salarios competitivos, trabajo remoto, comunidad activa, mentorías personalizadas y un entorno de apoyo constante.<br /><br />Más que una plataforma de contratación, somos lo mejor de los dos mundos: trabajo para Estados Unidos y acceso a una comunidad local en tu país."
+        "es": "<b>Howdy conecta talento de América Latina con las mejores oportunidades en Estados Unidos.</b><br /><br />Con base en Texas, EE.UU., nos especializamos en integrar desarrolladores directamente en equipos de ingeniería en EE. UU., sin intermediarios ni estructuras tradicionales.<br /><br />En Howdy, el talento es el centro de todo. Apostamos por relaciones laborales de largo plazo, en las que el crecimiento profesional y personal se acompaña con un modelo pensado para el bienestar de nuestros colaboradores: salarios competitivos, trabajo remoto, comunidad activa, mentorías personalizadas y un entorno de apoyo constante.<br /><br />Más que una plataforma de contratación, somos lo mejor de los dos mundos: trabajo para Estados Unidos y acceso a una comunidad local en tu país.",
+        "en": "<b>Howdy connects talent from Latin America with top opportunities in the United States.</b><br /><br />Based in Texas, USA, we specialize in integrating developers directly into U.S. engineering teams—no middlemen, no traditional structures.<br /><br />At Howdy, talent is at the center of everything we do. We focus on long-term work relationships where professional and personal growth go hand in hand with a model designed for our team’s well-being: competitive salaries, remote work, an active community, personalized mentorship, and a constant support system.<br /><br />More than just a hiring platform, we offer our engineers the best of both worlds: job opportunities in the U.S. and access to a local community in their own country."
       },
       "social": {
+        "website": "https://www.howdylatam.com",
         "linkedin": "company/howdy",
         "twitter": "Howdy"
-      }
+      },
+      "photos": ["1.jpg", "2.JPG", "3.JPG", "4.jpg"]
     }
   ]
 }
