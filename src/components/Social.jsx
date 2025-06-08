@@ -8,10 +8,25 @@ import {
   faGithubAlt,
   faLinkedinIn
 } from '@fortawesome/free-brands-svg-icons';
+import { faGlobe } from '@fortawesome/free-solid-svg-icons';
 
 const Social = ({ socialNetworks, hasLogo }) => {
   return (
     <div className={`social-icons d-flex justify-content-center ${!hasLogo ? 'justify-content-md-end' : ''} align-items-center gap-3`}>
+      {
+        socialNetworks?.website && (
+          <a
+            href={socialNetworks.website}
+            target="_blank"
+            rel="noreferrer"
+            className="social-icon">
+            <div className="fa-stack">
+              <FontAwesomeIcon className="fa-stack-2x" icon={faCircle} color="white" />
+              <FontAwesomeIcon className="social-icon fa-stack-1x" icon={faGlobe} />
+            </div>
+          </a>
+        )
+      }
       {
         socialNetworks?.twitter && (
           <a
@@ -89,6 +104,7 @@ const Social = ({ socialNetworks, hasLogo }) => {
 Social.propTypes = {
   hasLogo: propTypes.bool,
   socialNetworks: propTypes.shape({
+    website: propTypes.string,
     twitter: propTypes.string,
     linkedin: propTypes.string,
     facebook: propTypes.string,

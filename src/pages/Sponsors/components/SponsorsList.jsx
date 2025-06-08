@@ -13,7 +13,8 @@ const SponsorsList = ({ title, description, footer, containerClasses }) => {
     gold: '9',
     silver_plus: '8',
     silver: '7',
-    bronze: '6'
+    bronze: '6',
+    startup: '5'
   };
 
   const sponsorSizeSmall = {
@@ -23,7 +24,8 @@ const SponsorsList = ({ title, description, footer, containerClasses }) => {
     gold: '9',
     silver_plus: '8',
     silver: '7',
-    bronze: '6'
+    bronze: '6',
+    startup: '5'
   };
 
   const sponsorHeight = {
@@ -33,13 +35,15 @@ const SponsorsList = ({ title, description, footer, containerClasses }) => {
     gold: '130px',
     silver_plus: '120px',
     silver: '100px',
-    bronze: '80px'
+    bronze: '80px',
+    startup: '75px'
   };
 
   const sponsorLabels = {
     bronze: 'Bronze',
     gold: 'Gold',
-    venue: 'Venue'
+    venue: 'Venue',
+    startup: 'Startup',
   };
 
   return (
