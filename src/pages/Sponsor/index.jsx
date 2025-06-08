@@ -23,7 +23,7 @@ const Sponsor = () => {
     return <div>404 Not Found</div>;
   }
 
-  const { name, logo, text, social, photos, url } = sponsor;
+  const { name, logo, text, social, photos, url, video } = sponsor;
 
   return (
     <div className='generic-page sponsor-page'>
@@ -35,7 +35,7 @@ const Sponsor = () => {
                 <Col lg={12}>
                   <div className="logo-wrapper">
                     <NavLink
-                      to={url ? url : '#'}
+                      to={url || '#'}
                       target="_blank"
                     >
                       <Image
@@ -62,11 +62,20 @@ const Sponsor = () => {
               {
                 text && <Row>
                   <Col>
-
                     <p className="description" dangerouslySetInnerHTML={{ __html: text[language] || text.en }}></p>
                   </Col>
                 </Row>
               }
+              {video && <div className="video-talk">
+                <iframe
+                  src={`https://www.youtube.com/embed/${video}`}
+                  frameBorder="0"
+                  allowFullScreen
+                  className="video"
+                  title={`YouTube video player for ${name}`}
+                >
+                </iframe>
+              </div>}
               {photos && <div className="photos">
                 <Row>
                   <Col>
