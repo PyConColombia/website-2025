@@ -22,6 +22,7 @@ import CodeOfConductProcedure from '@/pages/CodeOfConductProcedure';
 import HealthAndSafetyPolicy from '@/pages/HealthAndSafetyPolicy';
 import Keynotes from '@/pages/Keynotes';
 import Scholarships from '@/pages/Scholarships';
+import Speakers from '@/pages/Speakers';
 
 const TRACKING_ID = 'G-J2DYL7NXX5';
 
@@ -73,6 +74,10 @@ const App = () => {
         <Route
           path="/scholarships"
           element={<Scholarships dataTranslate={allData} />}
+        />
+        <Route
+          path='/speakers'
+          element={<Speakers dataTranslate={allData} />}
         />
         {/* <Route path="*" element={<LandingPage dataTranslate={allData} />} /> */}
       </Routes>
