@@ -1,12 +1,11 @@
-import propTypes from 'prop-types'
-import { Button, Col, Container, Image, Row } from 'react-bootstrap'
+import PropTypes from 'prop-types';
+
+import { Col, Container, Row, Image, Button } from 'react-bootstrap';
 import Social from '@/components/Social';
 
-import data from '@/data/keynotes.json'
+import data from '@/data/speakers.json'
 
-const KeynotesList = ({
-  title, description, button, containerClasses
-}) => {
+const SpeakersList = ({ title, description, button, containerClasses }) => {
   const language = localStorage.getItem('language') || 'en'
 
   return (
@@ -17,7 +16,9 @@ const KeynotesList = ({
             <Col xs={12} md={8}>
               <Row className="justify-content-center">
                 <Col lg={8}>
-                  <h1 className="title">{title}</h1>
+                  <h1 className="title">
+                    <span className='title-wrapper'>{title}</span>
+                  </h1>
                   <p className="description">{description}</p>
                 </Col>
                 <Col lg={12} className='text-center'>
@@ -36,10 +37,15 @@ const KeynotesList = ({
           <Row className="justify-content-center">
             <Col xs={12} md={9}>
               <div className="keynotes-wrapper">
-                {
-                  data?.keynotes?.map((keynote, index) => (
-                    <Row key={index} className="keynote-speakers">
-                      <Col xs={12} md={4} className={index % 2 === 0 ? "order-md-first" : "order-md-last"}>
+                <Row className="keynote-speakers justify-content-center">
+                  {
+                    data?.speakers?.map((keynote, index) => (
+                      <Col
+                        key={keynote.id || `${keynote.first_name}-${keynote.last_name}-${keynote.photo}`}
+                        xs={12}
+                        md={4}
+                        className={index % 2 === 0 ? "order-md-first" : "order-md-last"}
+                      >
                         <div className="keynote-image-wrapper">
                           <Image src={`images/keynotes/${keynote.photo}`} alt={`${keynote.first_name} ${keynote.last_name}`} className="keynote-image" />
                           {keynote.country && (
@@ -52,34 +58,21 @@ const KeynotesList = ({
                           )}
                           <img src={`/images/icons/icon-${index % 3}.svg`} className="bandera bandera-inferior" alt="Bandera inferior" />
                         </div>
-                      </Col>
-                      <Col xs={12} md={8} className={index % 2 === 0 ? "order-md-last" : "order-md-first"}>
-                        <div className={`keynote-text ${index % 2 === 0 ? "" : "text-right"}`}>
+
+                        <div className={`keynote-text`}>
                           <h2 className="keynote-name shantell-sans">{keynote.first_name} {keynote.last_name}</h2>
                           <div className="separator">
                             <Image src="/images/icons/speaker-separator.svg" alt="Separator" />
                           </div>
-                          <p className="keynote-title bold">{keynote.affiliation[language] || keynote.affiliation['en']}</p>
-                          <p className="keynote-description">{keynote.biography[language] || keynote.biography['en']}</p>
+                          <p className="keynote-title">{keynote.affiliation[language] || keynote.affiliation['en']}</p>
 
-                          <Row>
-                            <Col xs={12} md={6}>
-                              {/* <div className="keynote-link-wrapper">
-                                <a href={`/keynotes/${keynote.id}`} rel="noopener noreferrer" className='keynote-link'>
-                                  See more
-                                </a>
-                              </div> */}
-                            </Col>
-                            <Col xs={12} md={6}>
-                              <Social socialNetworks={keynote} />
-                            </Col>
-                          </Row>
-
+                          <Social socialNetworks={keynote} />
                         </div>
+
                       </Col>
-                    </Row>
-                  ))
-                }
+                    ))
+                  }
+                </Row>
               </div>
             </Col>
           </Row>
@@ -89,11 +82,11 @@ const KeynotesList = ({
   )
 }
 
-KeynotesList.propTypes = {
-  title: propTypes.string,
-  description: propTypes.string,
-  button: propTypes.string,
-  containerClasses: propTypes.string
-}
+SpeakersList.propTypes = {
+  title: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired,
+  button: PropTypes.string,
+  containerClasses: PropTypes.string
+};
 
-export default KeynotesList
+export default SpeakersList

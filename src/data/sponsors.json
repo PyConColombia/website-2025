@@ -4,7 +4,16 @@
       "id": "eafit",
       "name": "EAFIT",
       "logo": "eafit.svg",
-      "url": "https://www.eafit.edu.co/"
+      "social": {
+        "website": "https://www.eafit.edu.co/",
+        "instagram": "nodo.eafit",
+        "linkedin": "showcase/nodo-eafit"
+      },
+      "text": {
+        "es": "Nodo es el centro de formación en tecnologías de la Universidad EAFIT, diseñado para ofrecer experiencias de aprendizaje prácticas y colaborativas, porque creemos que la mejor forma de aprender es haciendo.<br /><br />Con este enfoque, buscamos responder a los desafíos del presente y ser parte activa en la construcción de un futuro innovador. A través de nuestra conexión con el sector público y privado, generamos impacto y desarrollamos soluciones que trascienden, adaptándose a las necesidades de un entorno en constante cambio.<br /><br />Para lograrlo, contamos con un modelo modular que permite diseñar rutas de aprendizaje personalizadas, fortaleciendo las capacidades estratégicas de las organizaciones y potenciando el desarrollo profesional de sus equipos. En Nodo EAFIT, la tecnología no es solo una herramienta, sino el motor que impulsa la transformación de comunidades y organizaciones, construyendo un futuro más conectado, inclusivo y sostenible."
+      },
+      "photos": ["1.jpg", "2.jpg", "3.jpg", "4.jpg"],
+      "video": "vExIUBmbe4c"
     }
   ],
   "platinum": [],
@@ -13,8 +22,8 @@
       "id": "genlogs",
       "name": "Genlogs",
       "logo": "genlogs.svg",
-      "url": "https://www.genlogs.io/",
       "social": {
+        "website": "https://www.genlogs.io/",
         "linkedin": "company/93806729",
         "twitter": "GenLogs"
       },

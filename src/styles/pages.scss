@@ -376,8 +376,22 @@
   padding-bottom: 150px;
 }
 
+.speakers-page {
+  background-color: $blue-dark;
+}
+
 .keynotes-page .keynote-speakers {
   margin: 20px auto;
+}
+
+.keynotes-page .separator {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.keynotes-page .separator img {
+  max-width: 90%;
+  width: 200px;
 }
 
 .keynotes-page .title {
@@ -394,6 +408,20 @@
 
 .keynotes-page .keynotes-bg {
   background-image: none;
+}
+
+.keynotes-page .title-wrapper {
+  background-image: url('/images/background/title.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 5px;
+}
+
+.keynotes-page .title-wrapper-2 {
+  background-image: url('/images/background/title-2.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 5px;
 }
 
 .keynotes-page .keynote-image-wrapper {
