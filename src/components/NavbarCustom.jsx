@@ -67,7 +67,7 @@ const NavbarCustom = ({ dataTranslate, locales }) => {
                 </NavDropdown.Item>
               ))}
             </NavDropdown>
-            <div className="d-flex justify-content-end mt-2 mt-lg-0">
+            <div className="d-flex justify-content-end mt-2 mt-lg-0 mx-1">
               <Button as={'a'} href="https://www.eventbrite.co/e/pycon-colombia-2025-tickets-1271703351959" target='_blank' variant="primary">Get your tickets</Button>
             </div>
           </Nav>

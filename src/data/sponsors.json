@@ -37,7 +37,18 @@
       "id": "elastic",
       "name": "Elastic",
       "logo": "elastic.svg",
-      "url": "https://www.elastic.co/"
+      "social": {
+        "website": "https://www.elastic.co/",
+        "linkedin": "company/elastic-co",
+        "facebook": "elastic.co",
+        "twitter": "elastic"
+      },
+      "text": {
+        "en": "Elastic is the leading platform for search-powered solutions, built on the open-source Elasticsearch engine. We help organizations find, observe, and protect their data across a wide range of use cases — from enterprise search and log analytics to application performance monitoring and cybersecurity. Elastic’s solutions are designed to scale seamlessly in the cloud and provide real-time insights that drive smarter decisions and faster actions.",
+        "es": "Elastic es la plataforma líder en soluciones impulsadas por búsqueda, construida sobre el motor de código abierto Elasticsearch. Ayudamos a las organizaciones a encontrar, observar y proteger sus datos en una amplia variedad de casos de uso, desde búsqueda empresarial y análisis de registros hasta monitoreo de rendimiento de aplicaciones y ciberseguridad. Las soluciones de Elastic están diseñadas para escalar sin problemas en la nube y ofrecer información en tiempo real que impulsa decisiones más inteligentes y acciones más rápidas."
+      },
+      "photos": ["1.jpg", "2.png"],
+      "video": "50T18ecNX7Q"
     },
     {
       "id": "mercado-libre",
