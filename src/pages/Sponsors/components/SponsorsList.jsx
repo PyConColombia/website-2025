@@ -39,7 +39,7 @@ const SponsorsList = ({ title, description, footer, containerClasses }) => {
     silver: '100px',
     bronze: '80px',
     startup: '75px',
-    media: '70px'
+    media: '50px'
   };
 
   const sponsorLabels = {

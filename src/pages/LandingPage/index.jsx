@@ -23,7 +23,7 @@ const LandingPage = ({ dataTranslate }) => {
                     <Row>
                       <div className="logo-wrapper">
                         <Image
-                          src="/images/logo.webp"
+                          src="/images/logo.svg"
                           alt="Logo"
                           width="100%"
                           height="auto"
@@ -32,13 +32,8 @@ const LandingPage = ({ dataTranslate }) => {
                       </div>
                     </Row>
                     <Row>
-                      <Col sm={6} lg={6}>
+                      <Col sm={12}>
                         <span className="subtitle">{dataTranslate?.landing?.date}</span>
-                      </Col>
-                      <Col sm={5} lg={5}>
-                        <div className="wrapper-date">
-                          <span className="date">2025</span>
-                        </div>
                       </Col>
                     </Row>
                   </Col>
