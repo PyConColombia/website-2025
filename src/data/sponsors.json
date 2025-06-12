@@ -16,7 +16,19 @@
       "video": "vExIUBmbe4c"
     }
   ],
-  "platinum": [],
+  "platinum": [
+    {
+      "id": "factored",
+      "name": "Factored",
+      "logo": "factored.svg",
+      "social": {
+        "website": "https://www.factored.ai/",
+        "instagram": "factored.ai",
+        "linkedin": "company/factoredai"
+      },
+      "text": {}
+    }
+  ],
   "gold": [
     {
       "id": "genlogs",
