@@ -44,6 +44,7 @@ const SponsorsList = ({ title, description, footer, containerClasses }) => {
 
   const sponsorLabels = {
     bronze: 'Bronze',
+    platinum: 'Platinum',
     gold: 'Gold',
     venue: 'Venue',
     startup: 'Startup',
