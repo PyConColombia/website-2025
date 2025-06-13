@@ -26,7 +26,26 @@
         "instagram": "factored.ai",
         "linkedin": "company/factoredai"
       },
-      "text": {}
+      "text": {
+        "en": "We help U.S. companies accelerate their roadmaps by building and scaling the highest-caliber data science, machine-learning, data engineering, and data analytics teams quickly and efficiently."
+      },
+      "photos": [
+        "1.png",
+        "2.png",
+        "3.png",
+        "4.png",
+        "5.jpg",
+        "6.png",
+        "7.jpg",
+        "8.jpg",
+        "9.jpg",
+        "10.jpg",
+        "11.jpg",
+        "12.png",
+        "13.jpg",
+        "14.png",
+        "15.png"
+      ]
     }
   ],
   "gold": [
@@ -105,7 +124,8 @@
         "en": "SoftServe is a premier IT consulting and digital services provider. We expand the horizon of new technologies to solve today's complex business challenges and achieve meaningful outcomes for our clients. Our boundless curiosity drives us to explore and reimagine the art of the possible. Clients confidently rely on SoftServe to architect and execute mature and innovative capabilities, such as digital engineering, data and analytics, cloud, and AI/ML.<br /><br />Our global reputation is gained from more than 30 years of experience delivering superior digital solutions at exceptional speed by top-tier engineering talent to enterprise industries, including high tech, financial services, healthcare, life sciences, retail, energy, and manufacturing.<br /><br />We partner with major technology players, such as Google Cloud Platform, Amazon Web Services, Microsoft Azure, Salesforce, and NVIDIA, to give clients a competitive advantage in the market.<br /><br />Founded in 1993, our global firm advises, drives innovation and develops the talent of people in the United States, Latin America, Europe and Asia.",
         "es": "SoftServe es un proveedor líder de consultoría en TI y servicios digitales. Ampliamos el horizonte de las nuevas tecnologías para resolver los complejos desafíos empresariales actuales y lograr resultados significativos para nuestros clientes. Nuestra curiosidad ilimitada nos impulsa a explorar y reinventar el arte de lo posible. Los clientes confían plenamente en SoftServe para diseñar y ejecutar capacidades maduras e innovadoras, como ingeniería digital, datos y analítica, nube e inteligencia artificial/aprendizaje automático (IA/ML).<br /><br />Nuestra reputación global se ha forjado a lo largo de más de 30 años de experiencia ofreciendo soluciones digitales superiores con una velocidad excepcional, gracias al talento de ingeniería de primer nivel, para industrias empresariales como alta tecnología, servicios financieros, salud, ciencias de la vida, comercio minorista, energía y manufactura.<br /><br />Colaboramos con los principales actores tecnológicos, como Google Cloud Platform, Amazon Web Services, Microsoft Azure, Salesforce y NVIDIA, para brindar a nuestros clientes una ventaja competitiva en el mercado.<br /><br />Fundada en 1993, en nuestra firma global asesoramos, impulsamos la innovación y desarrollamos el talento de las personas dentro de Estados Unidos, América Latina, Europa y Asia."
       },
-      "photos": ["1.jpg", "2.jpg", "3.jpg", "4.jpg"]
+      "photos": ["1.jpg", "2.jpg", "3.jpg", "4.jpg"],
+      "video": "Eq_bGvYgv50"
     }
   ],
   "silver": [],
