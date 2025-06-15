@@ -39,20 +39,20 @@ const SpeakersList = ({ title, description, button, containerClasses }) => {
               <div className="keynotes-wrapper">
                 <Row className="keynote-speakers justify-content-center">
                   {
-                    data?.speakers?.map((keynote, index) => (
+                    data?.speakers?.map((speaker, index) => (
                       <Col
-                        key={keynote.id || `${keynote.first_name}-${keynote.last_name}-${keynote.photo}`}
+                        key={speaker.id || `${speaker.first_name}-${speaker.last_name}-${speaker.photo}`}
                         xs={12}
                         md={4}
                         className={index % 2 === 0 ? "order-md-first" : "order-md-last"}
                       >
                         <div className="keynote-image-wrapper">
-                          <Image src={`images/keynotes/${keynote.photo}`} alt={`${keynote.first_name} ${keynote.last_name}`} className="keynote-image" />
-                          {keynote.country && (
+                          <Image src={`images/speakers/${speaker.photo}`} alt={`${speaker.first_name} ${speaker.last_name}`} className="keynote-image" />
+                          {speaker.country && (
                             <div className="bandera bandera-superior">
                               <span className="flag">
                                 {' '}
-                                <span className={`fi fi-${keynote.country}`}></span>
+                                <span className={`fi fi-${speaker.country}`}></span>
                               </span>
                             </div>
                           )}
@@ -60,13 +60,13 @@ const SpeakersList = ({ title, description, button, containerClasses }) => {
                         </div>
 
                         <div className={`keynote-text`}>
-                          <h2 className="keynote-name shantell-sans">{keynote.first_name} {keynote.last_name}</h2>
+                          <h4 className="keynote-name shantell-sans">{speaker.first_name} {speaker.last_name}</h4>
                           <div className="separator">
                             <Image src="/images/icons/speaker-separator.svg" alt="Separator" />
                           </div>
-                          <p className="keynote-title">{keynote.affiliation[language] || keynote.affiliation['en']}</p>
+                          <p className="keynote-title">{speaker.affiliation[language] || speaker.affiliation['en']}</p>
 
-                          <Social socialNetworks={keynote} />
+                          <Social socialNetworks={speaker} />
                         </div>
 
                       </Col>
