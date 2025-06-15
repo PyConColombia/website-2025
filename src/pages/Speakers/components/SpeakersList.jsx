@@ -60,7 +60,7 @@ const SpeakersList = ({ title, description, button, containerClasses }) => {
                         </div>
 
                         <div className={`keynote-text`}>
-                          <h2 className="keynote-name shantell-sans">{speaker.first_name} {speaker.last_name}</h2>
+                          <h4 className="keynote-name shantell-sans">{speaker.first_name} {speaker.last_name}</h4>
                           <div className="separator">
                             <Image src="/images/icons/speaker-separator.svg" alt="Separator" />
                           </div>
