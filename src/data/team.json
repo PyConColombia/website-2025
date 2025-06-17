@@ -1,0 +1,290 @@
+{
+  "team": [
+    {
+      "id": "john-roa",
+      "team": "Chief Organizer",
+      "first_name": "John",
+      "last_name": "Roa",
+      "email": "",
+      "photo": "john-roa.webp",
+      "biography": {
+        "en": "",
+        "es": ""
+      },
+      "responsibility": {
+        "en": "Chief Organizer",
+        "es": ""
+      },
+      "affiliation": "",
+      "facebook": "",
+      "twitter": "@johndoe",
+      "linkedin": "johnroa27",
+      "github": "jhonjairoroa87",
+      "website": ""
+    },
+    {
+      "id": "carlos-sierra",
+      "team": "Speakers and schedule",
+      "first_name": "Carlos",
+      "last_name": "Sierra",
+      "email": "",
+      "photo": "carlos-sierra.webp",
+      "biography": {
+        "en": "",
+        "es": ""
+      },
+      "responsibility": {
+        "en": "Speakers and schedule",
+        "es": ""
+      },
+      "affiliation": "",
+      "facebook": "",
+      "twitter": "@casierrav_alife",
+      "linkedin": "casierrav",
+      "github": "",
+      "website": ""
+    },
+    {
+      "id": "alejandro-rendon",
+      "team": "Website",
+      "first_name": "Alejandro",
+      "last_name": "Rendon",
+      "email": "",
+      "photo": "alejandro-rendon.webp",
+      "biography": {
+        "en": "",
+        "es": ""
+      },
+      "responsibility": {
+        "en": "Website",
+        "es": ""
+      },
+      "affiliation": "",
+      "facebook": "",
+      "twitter": "",
+      "linkedin": "arendondiosa",
+      "github": "arendondiosa",
+      "website": "https://rendon.co"
+    },
+    {
+      "id": "carolina-gomez",
+      "team": "Speakers",
+      "first_name": "Carolina",
+      "last_name": "Gómez",
+      "email": "",
+      "photo": "carolina-gomez.webp",
+      "biography": {
+        "en": "",
+        "es": ""
+      },
+      "responsibility": {
+        "en": "Speakers",
+        "es": ""
+      },
+      "affiliation": "",
+      "facebook": "",
+      "twitter": "@caro_gomezt",
+      "linkedin": "carolinagomezt",
+      "github": "",
+      "website": ""
+    },
+    {
+      "id": "karolina-ladino",
+      "team": "Keynote Speakers",
+      "first_name": "Karolina",
+      "last_name": "Ladino",
+      "email": "",
+      "photo": "karolina-ladino.webp",
+      "biography": {
+        "en": "",
+        "es": ""
+      },
+      "responsibility": {
+        "en": "Keynote Speakers",
+        "es": ""
+      },
+      "affiliation": "",
+      "facebook": "",
+      "twitter": "@karobotco",
+      "linkedin": "karobotco",
+      "github": "karobotco",
+      "website": ""
+    },
+    {
+      "id": "esteban-maya",
+      "team": "Keynote Speakers",
+      "first_name": "Esteban",
+      "last_name": "Maya",
+      "email": "",
+      "photo": "esteban-maya.webp",
+      "biography": {
+        "en": "",
+        "es": ""
+      },
+      "responsibility": {
+        "en": "Keynote Speakers",
+        "es": ""
+      },
+      "affiliation": "",
+      "facebook": "",
+      "twitter": "@esteban_x64",
+      "linkedin": "esteban-x64",
+      "github": "estebanx64",
+      "website": ""
+    },
+    {
+      "id": "javier-daza",
+      "team": "Speakers",
+      "first_name": "Javier",
+      "last_name": "Daza",
+      "email": "",
+      "photo": "javier-daza.webp",
+      "biography": {
+        "en": "",
+        "es": ""
+      },
+      "responsibility": {
+        "en": "Speakers",
+        "es": ""
+      },
+      "affiliation": "",
+      "facebook": "",
+      "twitter": "@pyjavo",
+      "linkedin": "javierdazaco",
+      "github": "",
+      "website": ""
+    },
+    {
+      "id": "leonardo-romo",
+      "team": "Social Networks",
+      "first_name": "Leonardo",
+      "last_name": "Romo",
+      "email": "",
+      "photo": "leonardo-romo.webp",
+      "biography": {
+        "en": "",
+        "es": ""
+      },
+      "responsibility": {
+        "en": "Social Networks",
+        "es": ""
+      },
+      "affiliation": "",
+      "facebook": "",
+      "twitter": "@Leoromo97",
+      "linkedin": "leonardo-romo-808616103",
+      "github": "",
+      "website": ""
+    },
+    {
+      "id": "karen-romo",
+      "team": "Sponsors",
+      "first_name": "Karen",
+      "last_name": "Romo",
+      "email": "",
+      "photo": "karen-romo.webp",
+      "biography": {
+        "en": "",
+        "es": ""
+      },
+      "responsibility": {
+        "en": "Sponsors",
+        "es": ""
+      },
+      "affiliation": "",
+      "facebook": "",
+      "twitter": "@karenlis727",
+      "linkedin": "karen-lisette-romo-b1383b270",
+      "github": "",
+      "website": ""
+    },
+    {
+      "id": "ivan-roa",
+      "team": "Design/Venue Logistics",
+      "first_name": "Ivan",
+      "last_name": "Roa",
+      "email": "",
+      "photo": "ivan-roa.webp",
+      "biography": {
+        "en": "",
+        "es": ""
+      },
+      "responsibility": {
+        "en": "Design/Venue Logistics",
+        "es": ""
+      },
+      "affiliation": "",
+      "facebook": "",
+      "twitter": "",
+      "linkedin": "ivan-roa-64b78158",
+      "github": "naviroa92",
+      "website": ""
+    },
+    {
+      "id": "nancy-acuna",
+      "team": "Logistics/Finance",
+      "first_name": "Nancy",
+      "last_name": "Acuña",
+      "email": "",
+      "photo": "nancy-acuna.webp",
+      "biography": {
+        "en": "",
+        "es": ""
+      },
+      "responsibility": {
+        "en": "Logistics/Finance",
+        "es": ""
+      },
+      "affiliation": "",
+      "facebook": "",
+      "twitter": "",
+      "linkedin": "",
+      "github": "",
+      "website": ""
+    },
+    {
+      "id": "maria-franco",
+      "team": "Website",
+      "first_name": "Maria",
+      "last_name": "Franco",
+      "email": "",
+      "photo": "maria-franco.webp",
+      "biography": {
+        "en": "",
+        "es": ""
+      },
+      "responsibility": {
+        "en": "Website",
+        "es": ""
+      },
+      "affiliation": "",
+      "facebook": "",
+      "twitter": "@mariafrancodev",
+      "linkedin": "mariafrancodev",
+      "github": "mariafrancodev",
+      "website": ""
+    },
+    {
+      "id": "wendy-rueda",
+      "team": "Social Networks",
+      "first_name": "Wendy",
+      "last_name": "Rueda",
+      "email": "",
+      "photo": "wendy-rueda.webp",
+      "biography": {
+        "en": "",
+        "es": ""
+      },
+      "responsibility": {
+        "en": "Social Networks",
+        "es": ""
+      },
+      "affiliation": "",
+      "facebook": "",
+      "twitter": "@wen_rueda",
+      "linkedin": "wendy-rueda-cifuentes-84a617215",
+      "github": "",
+      "website": ""
+    }
+  ]
+}
