@@ -6,7 +6,7 @@ const Speakers = () => {
       title="Team"
       description=""
       containerClasses="team-page"
-      button="Get your tickets"
+      button=""
     />
   )
 }
