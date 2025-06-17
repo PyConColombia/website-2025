@@ -34,13 +34,35 @@
         "es": ""
       },
       "responsibility": {
-        "en": "Speakers and schedule",
+        "en": "Speakers, schedule and scholarships",
         "es": ""
       },
       "affiliation": "",
       "facebook": "",
       "twitter": "@casierrav_alife",
       "linkedin": "casierrav",
+      "github": "",
+      "website": ""
+    },
+    {
+      "id": "juan-david-hernandez",
+      "team": "Venue",
+      "first_name": "Juan David Hernandez",
+      "last_name": "Sierra",
+      "email": "",
+      "photo": "juan-david-hernandez.webp",
+      "biography": {
+        "en": "",
+        "es": ""
+      },
+      "responsibility": {
+        "en": "Venue",
+        "es": ""
+      },
+      "affiliation": "",
+      "facebook": "",
+      "twitter": "",
+      "linkedin": "",
       "github": "",
       "website": ""
     },
@@ -100,7 +122,7 @@
         "es": ""
       },
       "responsibility": {
-        "en": "Keynote Speakers",
+        "en": "Speakers, Keynote speakers and scholarships",
         "es": ""
       },
       "affiliation": "",
@@ -108,28 +130,6 @@
       "twitter": "@karobotco",
       "linkedin": "karobotco",
       "github": "karobotco",
-      "website": ""
-    },
-    {
-      "id": "esteban-maya",
-      "team": "Keynote Speakers",
-      "first_name": "Esteban",
-      "last_name": "Maya",
-      "email": "",
-      "photo": "esteban-maya.webp",
-      "biography": {
-        "en": "",
-        "es": ""
-      },
-      "responsibility": {
-        "en": "Keynote Speakers",
-        "es": ""
-      },
-      "affiliation": "",
-      "facebook": "",
-      "twitter": "@esteban_x64",
-      "linkedin": "esteban-x64",
-      "github": "estebanx64",
       "website": ""
     },
     {
@@ -166,7 +166,7 @@
         "es": ""
       },
       "responsibility": {
-        "en": "Social Networks",
+        "en": "Executive assitant",
         "es": ""
       },
       "affiliation": "",
@@ -188,7 +188,7 @@
         "es": ""
       },
       "responsibility": {
-        "en": "Sponsors",
+        "en": "Sponsors, Keynotes, Logistics",
         "es": ""
       },
       "affiliation": "",
@@ -276,7 +276,7 @@
         "es": ""
       },
       "responsibility": {
-        "en": "Social Networks",
+        "en": "Social Networks and sponsors",
         "es": ""
       },
       "affiliation": "",
