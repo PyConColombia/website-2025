@@ -39,7 +39,10 @@ const KeynotesList = ({
                 {
                   data?.keynotes?.map((keynote, index) => (
                     <Row key={index} className="keynote-speakers">
-                      <Col xs={12} md={4} className={index % 2 === 0 ? "order-md-first" : "order-md-last"}>
+                      <Col xs={12}
+                        sm={6}
+                        md={6}
+                        lg={4} className={index % 2 === 0 ? "order-md-first" : "order-md-last"}>
                         <div className="keynote-image-wrapper">
                           <Image src={`images/keynotes/${keynote.photo}`} alt={`${keynote.first_name} ${keynote.last_name}`} className="keynote-image" />
                           {keynote.country && (
@@ -53,7 +56,11 @@ const KeynotesList = ({
                           <img src={`/images/icons/icon-${index % 3}.svg`} className="bandera bandera-inferior" alt="Bandera inferior" />
                         </div>
                       </Col>
-                      <Col xs={12} md={8} className={index % 2 === 0 ? "order-md-last" : "order-md-first"}>
+                      <Col xs={12}
+                        sm={6}
+                        md={6}
+                        lg={8}
+                        className={index % 2 === 0 ? "order-md-last" : "order-md-first"}>
                         <div className={`keynote-text ${index % 2 === 0 ? "" : "text-right"}`}>
                           <h2 className="keynote-name shantell-sans">{keynote.first_name} {keynote.last_name}</h2>
                           <div className="separator">

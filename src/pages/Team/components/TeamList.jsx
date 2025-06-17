@@ -3,18 +3,10 @@ import PropTypes from 'prop-types';
 import { Col, Container, Row, Image, Button } from 'react-bootstrap';
 import Social from '@/components/Social';
 
-import data from '@/data/speakers.json'
+import data from '@/data/team.json'
 
-const SpeakersList = ({ title, description, button, containerClasses }) => {
+const TeamList = ({ title, description, button, containerClasses }) => {
   const language = localStorage.getItem('language') || 'en'
-
-  let speakersData = data?.speakers || [];
-  // order speakers by first name
-  speakersData = speakersData.sort((a, b) => {
-    const nameA = a.first_name.toLowerCase();
-    const nameB = b.first_name.toLowerCase();
-    return nameA.localeCompare(nameB);
-  });
 
   return (
     <div className={`generic-page keynotes-page ${containerClasses}`}>
@@ -47,35 +39,27 @@ const SpeakersList = ({ title, description, button, containerClasses }) => {
               <div className="keynotes-wrapper">
                 <Row className="keynote-speakers justify-content-center">
                   {
-                    speakersData?.map((speaker, index) => (
+                    data?.team?.map((teamMember, index) => (
                       <Col
-                        key={speaker.id || `${speaker.first_name}-${speaker.last_name}-${speaker.photo}`}
+                        key={teamMember.id || `${teamMember.first_name}-${teamMember.last_name}-${teamMember.photo}`}
                         xs={12}
                         sm={6}
                         md={6}
                         lg={4}
                       >
                         <div className="keynote-image-wrapper">
-                          <Image src={`images/speakers/${speaker.photo}`} alt={`${speaker.first_name} ${speaker.last_name}`} className="keynote-image" />
-                          {speaker.country && (
-                            <div className="bandera bandera-superior">
-                              <span className="flag">
-                                {' '}
-                                <span className={`fi fi-${speaker.country}`}></span>
-                              </span>
-                            </div>
-                          )}
+                          <Image src={`images/team/${teamMember.photo}`} alt={`${teamMember.first_name} ${teamMember.last_name}`} className="keynote-image" />
                           <img src={`/images/icons/icon-${index % 3}.svg`} className="bandera bandera-inferior" alt="Bandera inferior" />
                         </div>
 
                         <div className={`keynote-text`}>
-                          <h4 className="keynote-name shantell-sans">{speaker.first_name} {speaker.last_name}</h4>
+                          <h4 className="keynote-name shantell-sans">{teamMember.first_name} {teamMember.last_name}</h4>
                           <div className="separator">
                             <Image src="/images/icons/speaker-separator.svg" alt="Separator" />
                           </div>
-                          <p className="keynote-title">{speaker.affiliation[language] || speaker.affiliation['en']}</p>
+                          <p className="keynote-title">{teamMember.responsibility[language] || teamMember.responsibility['en']}</p>
 
-                          <Social socialNetworks={speaker} />
+                          <Social socialNetworks={teamMember} />
                         </div>
 
                       </Col>
@@ -91,11 +75,11 @@ const SpeakersList = ({ title, description, button, containerClasses }) => {
   )
 }
 
-SpeakersList.propTypes = {
+TeamList.propTypes = {
   title: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
   button: PropTypes.string,
   containerClasses: PropTypes.string
 };
 
-export default SpeakersList
+export default TeamList
