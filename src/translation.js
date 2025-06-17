@@ -4,7 +4,8 @@ const data = {
       callForProposals: 'Call for proposals',
       schedule: 'Schedule',
       sponsors: 'Sponsors',
-      scholarships: 'Scholarships'
+      scholarships: 'Scholarships',
+      team: 'Team'
     },
     landing: {
       date: 'Medellín, July 4th, 5th and 6th, 2025',
@@ -338,7 +339,8 @@ const data = {
       callForProposals: 'Llamado a ponentes',
       schedule: 'Agenda',
       sponsors: 'Patrocinadores',
-      scholarships: 'Becas'
+      scholarships: 'Becas',
+      team: 'Equipo'
     },
     landing: {
       date: 'Medellín, Julio 4, 5 y 6, 2025',
