@@ -46,6 +46,14 @@
         "14.png",
         "15.png"
       ]
+    },
+    {
+      "id": "psf",
+      "name": "Python Software Foundation",
+      "logo": "psf.svg",
+      "social": {
+        "website": "https://www.python.org/psf/"
+      }
     }
   ],
   "gold": [
