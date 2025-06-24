@@ -22,8 +22,9 @@ import CodeOfConductProcedure from '@/pages/CodeOfConductProcedure';
 import HealthAndSafetyPolicy from '@/pages/HealthAndSafetyPolicy';
 import Keynotes from '@/pages/Keynotes';
 import Scholarships from '@/pages/Scholarships';
-import Speakers from './pages/Speakers';
-import Team from './pages/Team';
+import Speakers from '@/pages/Speakers';
+import Team from '@/pages/Team';
+import Talk from '@/pages/Talk';
 
 const TRACKING_ID = 'G-J2DYL7NXX5';
 
@@ -63,6 +64,7 @@ const App = () => {
         <Route path="/sponsors" element={<Sponsors dataTranslate={allData} />} />
         <Route path="/sponsors/:id" element={<Sponsor />} />
         <Route path="/keynotes" element={<Keynotes dataTranslate={allData} />} />
+        <Route path="/talks/:id" element={<Talk />} />
         <Route path="/code-of-conduct" element={<CodeOfConduct dataTranslate={allData} />} />
         <Route
           path="/code-of-conduct-procedure"
