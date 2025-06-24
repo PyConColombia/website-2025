@@ -1,1176 +1,1174 @@
-{
-  "speakers": [
-    {
-      "id": "david-cortez",
-      "first_name": "David",
-      "last_name": "Cortez Alban",
-      "photo": "david-cortez-alban.webp",
-      "affiliation": {
-        "en": "Ecuador In Tech",
-        "es": "Ecuador In Tech"
-      },
-      "biography": {
-        "en": "Experienced Backend Developer with 6+ years in building scalable, high-performance systems. Skilled in leading teams, optimizing workflows, and solving complex technical problems. Passionate about creating efficient APIs, improving system performance, and ensuring security. Strong background in Python, Django, FastAPI, and cloud technologies, with experience in both development and security research. Great at mentoring and collaborating with teams to deliver top-quality software.",
-        "es": "Desarrollador backend con más de 6 años de experiencia en la construcción de sistemas escalables y de alto rendimiento. Hábil en liderar equipos, optimizar flujos de trabajo y resolver problemas técnicos complejos. Apasionado por crear APIs eficientes, mejorar el rendimiento del sistema y garantizar la seguridad. Sólida experiencia en Python, Django, FastAPI y tecnologías en la nube, con trayectoria tanto en desarrollo como en investigación en ciberseguridad. Excelente mentor y colaborador, comprometido con la entrega de software de alta calidad."
-      },
-      "facebook": "",
-      "twitter": "",
-      "linkedin": "davcortez",
-      "instagram": "",
-      "github": "davcortez",
-      "website": "",
-      "country": "ec"
+[
+  {
+    "id": "david-cortez",
+    "first_name": "David",
+    "last_name": "Cortez Alban",
+    "photo": "david-cortez-alban.webp",
+    "affiliation": {
+      "en": "Ecuador In Tech",
+      "es": "Ecuador In Tech"
     },
-    {
-      "id": "sergio-infante",
-      "first_name": "Sergio",
-      "last_name": "Infante",
-      "photo": "sergio-infante.webp",
-      "affiliation": {
-        "en": "Python Peru",
-        "es": "Python Perú"
-      },
-      "biography": {
-        "en": "I am Sergio Infante or better know online as neosergio\n\nMy passion has always been technology and software. I have the opportunity to create applications as a profesional programmer.\n\nI'm a believer in open source. Over the last 18 years I have contributed to several projects in many different languages. I prefer to code in Python.\n\nI often speak at conferences on a variety of topics including software development, user experience, mobile technologies and open source",
-        "es": "Soy Sergio Infante, aunque en línea me conocen mejor como neosergio.\n\nMi pasión siempre ha sido la tecnología y el software. Tengo la oportunidad de crear aplicaciones como programador profesional.\n\nSoy un creyente del software libre. Durante los últimos 18 años he contribuido a varios proyectos en muchos lenguajes diferentes. Mi lenguaje preferido para programar es Python.\n\nCon frecuencia doy charlas en conferencias sobre diversos temas, como desarrollo de software, experiencia de usuario, tecnologías móviles y código abierto."
-      },
-      "facebook": "neosergio",
-      "twitter": "neosergio",
-      "linkedin": "sergioinfante",
-      "instagram": "",
-      "github": "neosergio",
-      "website": "",
-      "country": "pe"
+    "biography": {
+      "en": "Experienced Backend Developer with 6+ years in building scalable, high-performance systems. Skilled in leading teams, optimizing workflows, and solving complex technical problems. Passionate about creating efficient APIs, improving system performance, and ensuring security. Strong background in Python, Django, FastAPI, and cloud technologies, with experience in both development and security research. Great at mentoring and collaborating with teams to deliver top-quality software.",
+      "es": "Desarrollador backend con más de 6 años de experiencia en la construcción de sistemas escalables y de alto rendimiento. Hábil en liderar equipos, optimizar flujos de trabajo y resolver problemas técnicos complejos. Apasionado por crear APIs eficientes, mejorar el rendimiento del sistema y garantizar la seguridad. Sólida experiencia en Python, Django, FastAPI y tecnologías en la nube, con trayectoria tanto en desarrollo como en investigación en ciberseguridad. Excelente mentor y colaborador, comprometido con la entrega de software de alta calidad."
     },
-    {
-      "id": "francisco-alfaro-medina",
-      "first_name": "Francisco",
-      "last_name": "Alfaro Medina",
-      "photo": "francisco-alfaro-medina.webp",
-      "affiliation": {
-        "en": "Grupo Security",
-        "es": "Grupo Security"
-      },
-      "biography": {
-        "en": "🎮 Gaming | 🏀 Basketball | 💡 Learning | 📚 Teaching \n  \nLecturer at Universidad Técnica Federico Santa María. Lead Data Scientist at Grupo Security (Chile). Passionate about data  science, programming, and teaching. I enjoy exploring new topics and   sharing knowledge in mathematics and computing.\n\n🔍 Interests:\n\n  ✅ Artificial intelligence\n  ✅ Machine/Deep Learning\n  ✅ Statistical Modelling\n  ✅ Software Development\n  ✅ Cloud computing\n  ✅ Time Series\n  ✅ Big Data",
-        "es": "🎮 Videojuegos | 🏀 Baloncesto | 💡 Aprendizaje | 📚 Enseñanza\n\nProfesor en la Universidad Técnica Federico Santa María y Científico de Datos Principal en Grupo Security (Chile). Apasionado por la ciencia de datos, la programación y la enseñanza. Disfruto explorar nuevos temas y compartir conocimientos en matemáticas e informática.\n\n🔍 Intereses:\n\n  ✅ Inteligencia artificial\n  ✅ Aprendizaje automático/profundo\n  ✅ Modelado estadístico\n  ✅ Desarrollo de software\n  ✅ Computación en la nube\n  ✅ Series de tiempo\n  ✅ Big Data"
-      },
-      "facebook": "",
-      "twitter": "",
-      "linkedin": "faam",
-      "instagram": "",
-      "github": "fralfaro",
-      "website": "",
-      "country": "cl"
+    "facebook": "",
+    "twitter": "",
+    "linkedin": "davcortez",
+    "instagram": "",
+    "github": "davcortez",
+    "website": "",
+    "country": "ec"
+  },
+  {
+    "id": "sergio-infante",
+    "first_name": "Sergio",
+    "last_name": "Infante",
+    "photo": "sergio-infante.webp",
+    "affiliation": {
+      "en": "Python Peru",
+      "es": "Python Perú"
     },
-    {
-      "id": "jorge-emiro-lópez-amaya",
-      "first_name": "Jorge Emiro",
-      "last_name": "López Amaya",
-      "photo": "jorge-emiro.webp",
-      "affiliation": {
-        "en": "Mercado Libre",
-        "es": "Mercado Libre"
-      },
-      "biography": {
-        "en": "Systems engineer, specialist in Computer Science and Industrial Automation from Universidad Distrital Francisco José de Caldas, with master's degrees in Artificial Intelligence and in Business Administration and Management from Universidad Internacional de La Rioja. He holds certifications as a digital forensic examiner such as AccessData Certified Examiner (ACE) and Summation Certified EndUser (SCE).\n\nHe has advised several public and private companies in Colombia, Ecuador, Peru, and the United States on the design, development, and implementation of all types of information technologies. He advised on the creation of the Digital Forensics Laboratory at the Superintendency of Industry and Commerce. Later, as the director of the Laboratory, he led highly complex tasks for the acquisition and processing of digital evidence, including those aimed at identifying vulnerabilities and/or data breaches in the personal information of citizens of various nationalities, as well as those intended to determine the existence of collusion between competitors across different industries.",
-        "es": "Ingeniero de sistemas, especialista en Informática y Automática Industrial de la Universidad Distrital Francisco José de Caldas, magister en Inteligencia Artificial y magister en Administración y Dirección de Empresas de la Universidad Internacional de la Rioja. Cuenta con certificaciones como examinador forense informático como AccessData Certified Examiner (ACE) y Summation Certified EndUser (SCE). \n\nHe asesorado a varias empresas públicas y privadas de Colombia, Ecuador, Perú y E.E.U.U, en diseño, desarrollo e implementación de todo tipo de tecnologías de la información. Asesore la creación del Laboratorio de Informática Forense de la Superintendencia de Industria y Comercio. Posteriormente, como director del Laboratorio, lidere tareas de alta complejidad para la adquisición y procesamiento de evidencias digitales, entre ellas, las dirigidas a establecer la existencia de vulnerabilidades y/o robos de información en los datos personales de ciudadanos de diferentes nacionalidades, así como las dirigidas a establecer la existencia de acuerdos entre competidores de diferentes industrias."
-      },
-      "facebook": "",
-      "twitter": "",
-      "linkedin": "emiro-lopez",
-      "instagram": "",
-      "github": "nervew",
-      "website": "",
-      "country": "co"
+    "biography": {
+      "en": "I am Sergio Infante or better know online as neosergio\n\nMy passion has always been technology and software. I have the opportunity to create applications as a profesional programmer.\n\nI'm a believer in open source. Over the last 18 years I have contributed to several projects in many different languages. I prefer to code in Python.\n\nI often speak at conferences on a variety of topics including software development, user experience, mobile technologies and open source",
+      "es": "Soy Sergio Infante, aunque en línea me conocen mejor como neosergio.\n\nMi pasión siempre ha sido la tecnología y el software. Tengo la oportunidad de crear aplicaciones como programador profesional.\n\nSoy un creyente del software libre. Durante los últimos 18 años he contribuido a varios proyectos en muchos lenguajes diferentes. Mi lenguaje preferido para programar es Python.\n\nCon frecuencia doy charlas en conferencias sobre diversos temas, como desarrollo de software, experiencia de usuario, tecnologías móviles y código abierto."
     },
-    {
-      "id": "anushka-narula",
-      "first_name": "Anushka",
-      "last_name": "Narula",
-      "photo": "anushka-narula.webp",
-      "affiliation": {
-        "en": "Adobe",
-        "es": "Adobe"
-      },
-      "biography": {
-        "en": "I am an engineer, AI researcher and lifelong learner passionate about building human-centric AI systems that empower creativity, enhance decision-making, and bridge the gap between human cognition and artificial intelligence.\n\nCurrently, I work as a Member of Technical Staff at Adobe, where I contribute to Generative AI-powered tools that help millions of users create engaging content effortlessly. My work focuses on AI-driven automation, experimentation, and building intelligent systems that feel natural and intuitive to users. Beyond the industry, I am pursuing a Master’s in Computer Science (Interactive Intelligence) at Georgia Tech, specialising in cognitive science, AI ethics, and human-AI collaboration. This journey has deepened my understanding of how people think, how machines learn, and how we can design AI systems that work in harmony with human intelligence.\n\nSpeaking at PyCon Colombia 2025 is an opportunity for me to share my experiences, learn from the vibrant Python community, and inspire meaningful discussions about the future of AI. I want to connect with fellow developers, researchers, and innovators who are shaping AI’s role in society—ensuring that it remains not just powerful, but responsible, ethical, and deeply human-centered.\n\nLet’s explore together how we can build AI that truly understands and collaborates with us—because the future of AI isn’t just about smarter machines; it’s about smarter, more meaningful interactions between humans and technology.",
-        "es": "Soy ingeniera, investigadora en inteligencia artificial y aprendiz de por vida, apasionada por construir sistemas de IA centrados en las personas que potencien la creatividad, mejoren la toma de decisiones y cierren la brecha entre la cognición humana y la inteligencia artificial.\n\nActualmente trabajo como integrante del equipo técnico en Adobe, donde contribuyo al desarrollo de herramientas impulsadas por IA generativa que ayudan a millones de usuarios a crear contenido atractivo con facilidad. Mi trabajo se centra en la automatización basada en IA, la experimentación y la construcción de sistemas inteligentes que se sientan naturales e intuitivos para los usuarios. Más allá del ámbito profesional, estoy cursando una maestría en Ciencias de la Computación (Inteligencia Interactiva) en Georgia Tech, con especialización en ciencia cognitiva, ética de la IA y colaboración entre humanos e inteligencia artificial. Este recorrido ha profundizado mi comprensión sobre cómo piensan las personas, cómo aprenden las máquinas y cómo podemos diseñar sistemas de IA que funcionen en armonía con la inteligencia humana.\n\nHablar en PyCon Colombia 2025 es una oportunidad para compartir mis experiencias, aprender de la vibrante comunidad de Python e inspirar conversaciones significativas sobre el futuro de la IA. Quiero conectar con desarrolladores, investigadores e innovadores que están definiendo el papel de la IA en la sociedad, asegurando que no solo sea poderosa, sino también responsable, ética y profundamente centrada en lo humano.\n\nExploramos juntos cómo construir una IA que realmente nos entienda y colabore con nosotros, porque el futuro de la IA no se trata solo de máquinas más inteligentes, sino de interacciones más inteligentes y significativas entre los humanos y la tecnología."
-      },
-      "facebook": "",
-      "twitter": "AnushkaNarula1",
-      "linkedin": "anushka-narula",
-      "instagram": "",
-      "github": "",
-      "website": "",
-      "country": "in"
+    "facebook": "neosergio",
+    "twitter": "neosergio",
+    "linkedin": "sergioinfante",
+    "instagram": "",
+    "github": "neosergio",
+    "website": "",
+    "country": "pe"
+  },
+  {
+    "id": "francisco-alfaro-medina",
+    "first_name": "Francisco",
+    "last_name": "Alfaro Medina",
+    "photo": "francisco-alfaro-medina.webp",
+    "affiliation": {
+      "en": "Grupo Security",
+      "es": "Grupo Security"
     },
-    {
-      "id": "daniel-arango-sohm",
-      "first_name": "Daniel",
-      "last_name": "Arango Sohm",
-      "photo": "daniel-arango-sohm.webp",
-      "affiliation": {
-        "en": "EAFIT / Werevi",
-        "es": "EAFIT / Werevi"
-      },
-      "biography": {
-        "en": "I want people to know me because I am going to become one of the best programmers in Colombia, giving international talks, creating innovative projects and leaving a mark in the world of technology. I aspire to be the Isaac Asimov of programming, not only because of the number of projects I will develop, because of the futuristic and creative vision that defines them.\n\nI do not limit myself to algorithms or industry; I merge academia with creativity to explore new frontiers of knowledge. Although I have Colombian roots, my Russian-German heritage has shaped my way of programming, bringing me closer to the rigor and methodical approach characteristic of engineering in those cultures.",
-        "es": "Quiero que la gente me conozca porque voy a convertirme en uno de los mejores programadores de Colombia, dando charlas internacionales, creando proyectos innovadores y dejando una huella en el mundo de la tecnología. Aspiro a ser el Isaac Asimov de la programación, no solo por la cantidad de proyectos que desarrollaré, sino por la visión futurista y creativa que los define.\n\nNo me limito a los algoritmos ni a la industria; combino la academia con la creatividad para explorar nuevas fronteras del conocimiento. Aunque tengo raíces colombianas, mi herencia ruso-alemana ha moldeado mi forma de programar, acercándome al rigor y enfoque metódico característico de la ingeniería en esas culturas."
-      },
-      "facebook": "",
-      "twitter": "",
-      "linkedin": "daniel-arango-s-352b4822a",
-      "instagram": "",
-      "github": "jero98772",
-      "website": "",
-      "country": "co"
+    "biography": {
+      "en": "🎮 Gaming | 🏀 Basketball | 💡 Learning | 📚 Teaching \n  \nLecturer at Universidad Técnica Federico Santa María. Lead Data Scientist at Grupo Security (Chile). Passionate about data  science, programming, and teaching. I enjoy exploring new topics and   sharing knowledge in mathematics and computing.\n\n🔍 Interests:\n\n  ✅ Artificial intelligence\n  ✅ Machine/Deep Learning\n  ✅ Statistical Modelling\n  ✅ Software Development\n  ✅ Cloud computing\n  ✅ Time Series\n  ✅ Big Data",
+      "es": "🎮 Videojuegos | 🏀 Baloncesto | 💡 Aprendizaje | 📚 Enseñanza\n\nProfesor en la Universidad Técnica Federico Santa María y Científico de Datos Principal en Grupo Security (Chile). Apasionado por la ciencia de datos, la programación y la enseñanza. Disfruto explorar nuevos temas y compartir conocimientos en matemáticas e informática.\n\n🔍 Intereses:\n\n  ✅ Inteligencia artificial\n  ✅ Aprendizaje automático/profundo\n  ✅ Modelado estadístico\n  ✅ Desarrollo de software\n  ✅ Computación en la nube\n  ✅ Series de tiempo\n  ✅ Big Data"
     },
-    {
-      "id": "christian-camilo",
-      "first_name": "Christian Camilo",
-      "last_name": "Urcuqui López",
-      "photo": "christian-camilo.webp",
-      "affiliation": {
-        "en": "Globant",
-        "es": "Globant"
-      },
-      "biography": {
-        "en": "Cybersecurity data scientist with over 10 years in the software industry, having developed several successful projects for public and private institutions. Currently working as a Senior Data Scientist, AI responsibility advisor, researcher, and consultant. My passion is creating solutions to make cyberspace safer using data science. I’m interested in threat detection, adversarial techniques, secure learning, responsible AI, and ethical hacking. I am the author of the books \"Cybersecurity: A Data Science-Based Approach\", \"Cybersecurity: Data Has the Answer\", and “Cybersecurity: Data, the Seeds of Chaos”, published by Editorial ICESI in 2018, 2022, and 2023 respectively, as well as numerous papers on security, data science, and e-health.",
-        "es": "Científico de datos de ciberseguridad con más de 10 años en la industria del software, con varios proyectos exitosos desarrollados para instituciones públicas y privadas. Actualmente me desempeño como Senior Data Scientist, asesor de responsabilidad de inteligencia artificial, investigador y consultor. Mi pasión es crear soluciones para hacer que el ciberespacio sea más seguro utilizando la ciencia de datos. Estoy interesado en la detección de amenazas, las técnicas antagónicas, el aprendizaje seguro, la IA responsable y el ethical hacking. Soy autor de los libros \"Ciberseguridad: un enfoque basado en la ciencia de datos\", \"Ciberseguridad: los datos tienen la respuesta\", “Ciberseguridad: los datos, las semillas del caos” publicados por la Editorial ICESI en 2018, 2022 y 2023, respectivamente, y múltiples trabajos en seguridad, ciencia de datos y e-salud."
-      },
-      "facebook": "",
-      "twitter": "ulcamilo",
-      "linkedin": "christianurcuqui",
-      "instagram": "",
-      "github": "urcuqui",
-      "website": "",
-      "country": "co"
+    "facebook": "",
+    "twitter": "",
+    "linkedin": "faam",
+    "instagram": "",
+    "github": "fralfaro",
+    "website": "",
+    "country": "cl"
+  },
+  {
+    "id": "jorge-emiro-lopez-amaya",
+    "first_name": "Jorge Emiro",
+    "last_name": "López Amaya",
+    "photo": "jorge-emiro.webp",
+    "affiliation": {
+      "en": "Mercado Libre",
+      "es": "Mercado Libre"
     },
-    {
-      "id": "catalina-naranjo",
-      "first_name": "Catalina",
-      "last_name": "Naranjo Romero",
-      "photo": "catalina-naranjo.webp",
-      "affiliation": {
-        "en": "IntouchCX",
-        "es": "IntouchCX"
-      },
-      "biography": {
-        "en": "Catalina Naranjo is a data leader, professor, and advocate for making analytics meaningful in real-world settings. With over a decade of experience across data science, business analytics, and financial markets, she currently leads the Business Insights team at IntouchCX, delivering scalable solutions for North American clients.\n\nShe holds master’s degrees in Business Analytics (IE Business School) and Finance (Universidad Externado), and has built everything from fraud detection models to full data strategies. As a university lecturer in data science and machine learning, Catalina is passionate about helping others grow into confident, business-savvy data thinkers.\n\nAfter speaking at PyCon Colombia 2024 on soft skills for data professionals, she returns in 2025 with a technical talk on storytelling through data visualizations in Python.",
-        "es": "Catalina Naranjo es una líder en datos, profesora y defensora de hacer que la analítica sea significativa en contextos del mundo real. Con más de una década de experiencia en ciencia de datos, analítica de negocios y mercados financieros, actualmente lidera el equipo de Business Insights en IntouchCX, entregando soluciones escalables para clientes en Norteamérica.\n\nTiene maestrías en Analítica de Negocios (IE Business School) y Finanzas (Universidad Externado), y ha desarrollado desde modelos de detección de fraude hasta estrategias de datos completas. Como docente universitaria en ciencia de datos y aprendizaje automático, Catalina siente una gran pasión por ayudar a otros a convertirse en pensadores de datos seguros y con visión de negocio.\n\nDespués de su charla en PyCon Colombia 2024 sobre habilidades blandas para profesionales de datos, regresa en 2025 con una charla técnica sobre narración con visualizaciones de datos en Python."
-      },
-      "facebook": "",
-      "twitter": "",
-      "linkedin": "catalina-naranjo",
-      "instagram": "",
-      "github": "",
-      "website": "",
-      "country": "co"
+    "biography": {
+      "en": "Systems engineer, specialist in Computer Science and Industrial Automation from Universidad Distrital Francisco José de Caldas, with master's degrees in Artificial Intelligence and in Business Administration and Management from Universidad Internacional de La Rioja. He holds certifications as a digital forensic examiner such as AccessData Certified Examiner (ACE) and Summation Certified EndUser (SCE).\n\nHe has advised several public and private companies in Colombia, Ecuador, Peru, and the United States on the design, development, and implementation of all types of information technologies. He advised on the creation of the Digital Forensics Laboratory at the Superintendency of Industry and Commerce. Later, as the director of the Laboratory, he led highly complex tasks for the acquisition and processing of digital evidence, including those aimed at identifying vulnerabilities and/or data breaches in the personal information of citizens of various nationalities, as well as those intended to determine the existence of collusion between competitors across different industries.",
+      "es": "Ingeniero de sistemas, especialista en Informática y Automática Industrial de la Universidad Distrital Francisco José de Caldas, magister en Inteligencia Artificial y magister en Administración y Dirección de Empresas de la Universidad Internacional de la Rioja. Cuenta con certificaciones como examinador forense informático como AccessData Certified Examiner (ACE) y Summation Certified EndUser (SCE). \n\nHe asesorado a varias empresas públicas y privadas de Colombia, Ecuador, Perú y E.E.U.U, en diseño, desarrollo e implementación de todo tipo de tecnologías de la información. Asesore la creación del Laboratorio de Informática Forense de la Superintendencia de Industria y Comercio. Posteriormente, como director del Laboratorio, lidere tareas de alta complejidad para la adquisición y procesamiento de evidencias digitales, entre ellas, las dirigidas a establecer la existencia de vulnerabilidades y/o robos de información en los datos personales de ciudadanos de diferentes nacionalidades, así como las dirigidas a establecer la existencia de acuerdos entre competidores de diferentes industrias."
     },
-    {
-      "id": "catalina-cruz",
-      "first_name": "Briyid Catalina",
-      "last_name": "Cruz Ostos",
-      "photo": "catalina-cruz.webp",
-      "affiliation": {
-        "en": "Telemática S.A.S.",
-        "es": "Telemática S.A.S."
-      },
-      "biography": {
-        "en": "Hi! My name is Briyid Catalina Cruz Ostos, I’m 21 years old and a Systems Engineering student at Universidad Distrital Francisco José de Caldas. I’m passionate about technology, the environment, social causes, and science fiction. Based on these interests, I seek to propose solutions that address social issues and contribute to my community, leveraging technological innovation as a tool for transformation.\n\nAdditionally, I believe it is essential to highlight the role of women in technology and to inspire more women to get involved in this fascinating world. I hope my experience and initiatives serve as motivation for those who want to enter the tech field, showing that everyone can contribute, grow, and help build a more inclusive and sustainable future.",
-        "es": "¡Hola! Mi nombre es Briyid Catalina Cruz Ostos, tengo 21 años y soy estudiante de Ingeniería de Sistemas en la Universidad Distrital Francisco José de Caldas. Me apasiona la tecnología, el medio ambiente, las causas sociales y la ciencia ficción. A partir de mis intereses, busco proponer soluciones que aborden problemáticas sociales y contribuyan a mi comunidad, aprovechando la innovación tecnológica como herramienta de transformación.\n\nAdemás, considero fundamental visibilizar el rol de la mujer en la tecnología e inspirar a más mujeres a involucrarse en este mundo tan apasionante. Deseo que mi experiencia y mis iniciativas sirvan de motivación para quienes quieran adentrarse en el ámbito tecnológico, demostrando que todas las personas podemos aportar, crecer y ayudar a construir un futuro más inclusivo y sostenible."
-      },
-      "facebook": "",
-      "twitter": "",
-      "linkedin": "bccruzo",
-      "instagram": "",
-      "github": "BCCRO",
-      "website": "",
-      "country": "co"
+    "facebook": "",
+    "twitter": "",
+    "linkedin": "emiro-lopez",
+    "instagram": "",
+    "github": "nervew",
+    "website": "",
+    "country": "co"
+  },
+  {
+    "id": "anushka-narula",
+    "first_name": "Anushka",
+    "last_name": "Narula",
+    "photo": "anushka-narula.webp",
+    "affiliation": {
+      "en": "Adobe",
+      "es": "Adobe"
     },
-    {
-      "id": "david-roa",
-      "first_name": "Juan David",
-      "last_name": "Roa Valencia",
-      "photo": "david-roa.webp",
-      "affiliation": {
-        "en": "Soil Net LLC",
-        "es": "Soil Net LLC"
-      },
-      "biography": {
-        "en": "I am a Software Engineer and Data Scientist, passionate about science, technology, and teaching. I am a coach and organizer of free software events and meetups. I firmly believe that education and access to it are key to the progress of any nation.",
-        "es": "Soy Software Engineer y Data Scientist, me apasiona la ciencia, la tecnología y la enseñanza. Soy coach y organizador de eventos y meetups de software libre. Estoy convencido de que la educacíon y el acceso a la misma son la clave para el avance de cualquier nación."
-      },
-      "facebook": "",
-      "twitter": "jroadev",
-      "linkedin": "roadev",
-      "instagram": "",
-      "github": "roadev",
-      "website": "",
-      "country": "co"
+    "biography": {
+      "en": "I am an engineer, AI researcher and lifelong learner passionate about building human-centric AI systems that empower creativity, enhance decision-making, and bridge the gap between human cognition and artificial intelligence.\n\nCurrently, I work as a Member of Technical Staff at Adobe, where I contribute to Generative AI-powered tools that help millions of users create engaging content effortlessly. My work focuses on AI-driven automation, experimentation, and building intelligent systems that feel natural and intuitive to users. Beyond the industry, I am pursuing a Master’s in Computer Science (Interactive Intelligence) at Georgia Tech, specialising in cognitive science, AI ethics, and human-AI collaboration. This journey has deepened my understanding of how people think, how machines learn, and how we can design AI systems that work in harmony with human intelligence.\n\nSpeaking at PyCon Colombia 2025 is an opportunity for me to share my experiences, learn from the vibrant Python community, and inspire meaningful discussions about the future of AI. I want to connect with fellow developers, researchers, and innovators who are shaping AI’s role in society—ensuring that it remains not just powerful, but responsible, ethical, and deeply human-centered.\n\nLet’s explore together how we can build AI that truly understands and collaborates with us—because the future of AI isn’t just about smarter machines; it’s about smarter, more meaningful interactions between humans and technology.",
+      "es": "Soy ingeniera, investigadora en inteligencia artificial y aprendiz de por vida, apasionada por construir sistemas de IA centrados en las personas que potencien la creatividad, mejoren la toma de decisiones y cierren la brecha entre la cognición humana y la inteligencia artificial.\n\nActualmente trabajo como integrante del equipo técnico en Adobe, donde contribuyo al desarrollo de herramientas impulsadas por IA generativa que ayudan a millones de usuarios a crear contenido atractivo con facilidad. Mi trabajo se centra en la automatización basada en IA, la experimentación y la construcción de sistemas inteligentes que se sientan naturales e intuitivos para los usuarios. Más allá del ámbito profesional, estoy cursando una maestría en Ciencias de la Computación (Inteligencia Interactiva) en Georgia Tech, con especialización en ciencia cognitiva, ética de la IA y colaboración entre humanos e inteligencia artificial. Este recorrido ha profundizado mi comprensión sobre cómo piensan las personas, cómo aprenden las máquinas y cómo podemos diseñar sistemas de IA que funcionen en armonía con la inteligencia humana.\n\nHablar en PyCon Colombia 2025 es una oportunidad para compartir mis experiencias, aprender de la vibrante comunidad de Python e inspirar conversaciones significativas sobre el futuro de la IA. Quiero conectar con desarrolladores, investigadores e innovadores que están definiendo el papel de la IA en la sociedad, asegurando que no solo sea poderosa, sino también responsable, ética y profundamente centrada en lo humano.\n\nExploramos juntos cómo construir una IA que realmente nos entienda y colabore con nosotros, porque el futuro de la IA no se trata solo de máquinas más inteligentes, sino de interacciones más inteligentes y significativas entre los humanos y la tecnología."
     },
-    {
-      "id": "luis-martinez",
-      "first_name": "Luis Carlos",
-      "last_name": "Martinez Lopez",
-      "photo": "luis-martinez.webp",
-      "affiliation": {
-        "en": "Acuasoft.com",
-        "es": "Acuasoft.com"
-      },
-      "biography": {
-        "en": "Since 2014, I have been working in software development, with a background as an IT technologist and a specialization in web development with Python. Throughout my career, I have contributed to projects as a Full Stack Software Engineer at Swapps.com and later as a Backend Software Engineer at Platzi.com, working with Python and Django. Later, I worked as a Cloud Engineer, focusing on AWS-based solutions.\n\nIn addition to my experience as a developer, I’ve also been an instructor of six Python courses at Platzi, where I’ve had the opportunity to teach thousands of students and share my passion for programming. I’m driven by continuous learning and always seek to improve my skills and stay up to date with software development best practices.",
-        "es": "Desde 2014 he trabajado en desarrollo de software, con formación como tecnólogo en informática y especialización en desarrollo web con Python. A lo largo de mi carrera he participado en proyectos como Full Stack Software Engineer en Swapps.com y luego como Backend Software Engineer en Platzi.com, trabajando con Python y Django. Más adelante, me desempeñé como Cloud Engineer, enfocándome en soluciones basadas en AWS.\n\nAdemás de mi experiencia como desarrollador, he sido instructor de seis cursos de Python en Platzi, donde he tenido la oportunidad de enseñar a miles de estudiantes y compartir mi pasión por la programación. Me motiva el aprendizaje continuo y siempre busco mejorar mis habilidades y mantenerme actualizado con las mejores prácticas del desarrollo de software."
-      },
-      "facebook": "",
-      "twitter": "",
-      "linkedin": "lcmartinezdev",
-      "instagram": "",
-      "github": "lcmartinezdev",
-      "website": "",
-      "country": "co"
+    "facebook": "",
+    "twitter": "AnushkaNarula1",
+    "linkedin": "anushka-narula",
+    "instagram": "",
+    "github": "",
+    "website": "",
+    "country": "in"
+  },
+  {
+    "id": "daniel-arango-sohm",
+    "first_name": "Daniel",
+    "last_name": "Arango Sohm",
+    "photo": "daniel-arango-sohm.webp",
+    "affiliation": {
+      "en": "EAFIT / Werevi",
+      "es": "EAFIT / Werevi"
     },
-    {
-      "id": "rei-romero",
-      "first_name": "Rei",
-      "last_name": "Romero",
-      "photo": "rei-romero.webp",
-      "affiliation": {
-        "en": "Showy",
-        "es": "Showy"
-      },
-      "biography": {
-        "en": "Rei Romero is a solutions engineer and entrepreneur specializing in AI-powered digital products, data intelligence, human augmentation, and automation systems. With extensive experience implementing enterprise-scale solutions across industries, Rei bridges the gap between technical teams and business stakeholders, supporting organizations from startups to Fortune 500 companies.\n\nHe has designed and deployed AI systems integrating CAG, RAG, and Multi-Context Protocols, focusing on human-centered implementations that enhance rather than replace capabilities. Rei's multidisciplinary background in engineering, business design, and product strategy enables him to create effective AI architectures that deliver measurable business outcomes.",
-        "es": "Rei Romero es ingeniero de soluciones y emprendedor, especializado en productos digitales impulsados por inteligencia artificial, inteligencia de datos, aumento humano y sistemas de automatización. Con una amplia experiencia implementando soluciones a escala empresarial en diversas industrias, Rei actúa como puente entre los equipos técnicos y los responsables de negocio, apoyando tanto a startups como a empresas Fortune 500.\n\nHa diseñado e implementado sistemas de IA que integran CAG, RAG y protocolos de contexto múltiple, con un enfoque centrado en el ser humano que busca potenciar, en lugar de reemplazar, sus capacidades. Su formación multidisciplinaria en ingeniería, diseño de negocios y estrategia de producto le permite crear arquitecturas de IA efectivas que generan resultados de negocio medibles."
-      },
-      "facebook": "",
-      "twitter": "",
-      "linkedin": "reiromero",
-      "instagram": "",
-      "github": "hellorei",
-      "website": "",
-      "country": "ve"
+    "biography": {
+      "en": "I want people to know me because I am going to become one of the best programmers in Colombia, giving international talks, creating innovative projects and leaving a mark in the world of technology. I aspire to be the Isaac Asimov of programming, not only because of the number of projects I will develop, because of the futuristic and creative vision that defines them.\n\nI do not limit myself to algorithms or industry; I merge academia with creativity to explore new frontiers of knowledge. Although I have Colombian roots, my Russian-German heritage has shaped my way of programming, bringing me closer to the rigor and methodical approach characteristic of engineering in those cultures.",
+      "es": "Quiero que la gente me conozca porque voy a convertirme en uno de los mejores programadores de Colombia, dando charlas internacionales, creando proyectos innovadores y dejando una huella en el mundo de la tecnología. Aspiro a ser el Isaac Asimov de la programación, no solo por la cantidad de proyectos que desarrollaré, sino por la visión futurista y creativa que los define.\n\nNo me limito a los algoritmos ni a la industria; combino la academia con la creatividad para explorar nuevas fronteras del conocimiento. Aunque tengo raíces colombianas, mi herencia ruso-alemana ha moldeado mi forma de programar, acercándome al rigor y enfoque metódico característico de la ingeniería en esas culturas."
     },
-    {
-      "id": "nicolas-danies",
-      "first_name": "Nicolas",
-      "last_name": "Danies",
-      "photo": "nicolas-danies.webp",
-      "affiliation": {
-        "en": "Mercado Libre",
-        "es": "Mercado Libre"
-      },
-      "biography": {
-        "en": "I am a Data Scientist and engineer with experience at companies like Mercado Libre and Rappi, where I have worked on pricing models, fraud detection, and large-scale production systems. I have also participated in applied research in federated learning with local differential privacy, exploring how to protect privacy without sacrificing model performance.\n\nI am a self-taught data scientist and software developer, and I am passionate about sharing knowledge. I have mentored people starting out in the field and enjoy teaching modern tools that connect theory with real-world applications. I want more people in Colombia to access cutting-edge Python practices and build high-impact solutions.",
-        "es": "Soy Data Scientist e ingeniero con experiencia en empresas como Mercado Libre y Rappi, donde he trabajado en modelos de pricing, fraude y sistemas en producción a gran escala. Además, he participado en investigación aplicada en federated learning con local differential privacy, explorando cómo proteger la privacidad sin sacrificar el rendimiento de los modelos.\n\nMe formé de manera autodidacta en ciencia de datos y desarrollo de software, y me apasiona compartir conocimiento. He sido mentor de personas que inician en el campo y disfruto enseñar herramientas modernas que conectan la teoría con aplicaciones reales. Quiero que más personas en Colombia accedan a prácticas de punta en Python y puedan construir soluciones de alto impacto."
-      },
-      "facebook": "",
-      "twitter": "",
-      "linkedin": "nicolas-danies",
-      "instagram": "",
-      "github": "",
-      "website": "",
-      "country": "co"
+    "facebook": "",
+    "twitter": "",
+    "linkedin": "daniel-arango-s-352b4822a",
+    "instagram": "",
+    "github": "jero98772",
+    "website": "",
+    "country": "co"
+  },
+  {
+    "id": "christian-camilo",
+    "first_name": "Christian Camilo",
+    "last_name": "Urcuqui López",
+    "photo": "christian-camilo.webp",
+    "affiliation": {
+      "en": "Globant",
+      "es": "Globant"
     },
-    {
-      "id": "esteban-gonzalez",
-      "first_name": "Jonatan Esteban",
-      "last_name": "Gonzalez Balaguera",
-      "photo": "esteban-gonzalez.webp",
-      "affiliation": {
-        "en": "Office of the Inspector General of Colombia",
-        "es": "Procuraduría General de la Nación"
-      },
-      "biography": {
-        "en": "Experience in data management and analysis, using Python to develop advanced models. I have applied machine learning tools, advanced analysis algorithms, and image processing techniques to solve complex problems. Additionally, I have skills in numerical simulations and project management, which allow me to lead technical initiatives and collaborate effectively in multidisciplinary teams.",
-        "es": "Experiencia en el manejo y análisis de datos, utilizando Python para desarrollar modelos avanzados. He aplicado herramientas de Machine Learning, algoritmos de análisis avanzado y técnicas de procesamiento de imágenes para resolver problemas complejos. Además, cuento con habilidades en simulaciones numéricas y gestión de proyectos, lo que me permite liderar iniciativas técnicas y colaborar eficazmente en equipos multidisciplinarios."
-      },
-      "facebook": "",
-      "twitter": "jegonzalezb99",
-      "linkedin": "jonatan-e-gonzalez-balaguera-b36500246/",
-      "instagram": "",
-      "github": "jegonzalezba01",
-      "website": "",
-      "country": "co"
+    "biography": {
+      "en": "Cybersecurity data scientist with over 10 years in the software industry, having developed several successful projects for public and private institutions. Currently working as a Senior Data Scientist, AI responsibility advisor, researcher, and consultant. My passion is creating solutions to make cyberspace safer using data science. I’m interested in threat detection, adversarial techniques, secure learning, responsible AI, and ethical hacking. I am the author of the books \"Cybersecurity: A Data Science-Based Approach\", \"Cybersecurity: Data Has the Answer\", and “Cybersecurity: Data, the Seeds of Chaos”, published by Editorial ICESI in 2018, 2022, and 2023 respectively, as well as numerous papers on security, data science, and e-health.",
+      "es": "Científico de datos de ciberseguridad con más de 10 años en la industria del software, con varios proyectos exitosos desarrollados para instituciones públicas y privadas. Actualmente me desempeño como Senior Data Scientist, asesor de responsabilidad de inteligencia artificial, investigador y consultor. Mi pasión es crear soluciones para hacer que el ciberespacio sea más seguro utilizando la ciencia de datos. Estoy interesado en la detección de amenazas, las técnicas antagónicas, el aprendizaje seguro, la IA responsable y el ethical hacking. Soy autor de los libros \"Ciberseguridad: un enfoque basado en la ciencia de datos\", \"Ciberseguridad: los datos tienen la respuesta\", “Ciberseguridad: los datos, las semillas del caos” publicados por la Editorial ICESI en 2018, 2022 y 2023, respectivamente, y múltiples trabajos en seguridad, ciencia de datos y e-salud."
     },
-    {
-      "id": "nataliya-ershova",
-      "first_name": "Nataliya",
-      "last_name": "Ershova",
-      "photo": "nataliya-ershova.webp",
-      "affiliation": {
-        "en": "Provectus",
-        "es": "Provectus"
-      },
-      "biography": {
-        "en": "17 years of experience in business development and communication strategy. She is an economist with a master's degree in journalism. She has changed careers 4 times in different countries.\n\n- Specializes in helping developers find jobs at well-known tech companies.\n\n- In Colombia, she works as a new markets consultant and operational leader at an artificial intelligence company.",
-        "es": "17 años de experiencia en desarrollo de negocios y estrategia en la comunicación. Ella es economista con maestría en periodismo. Cambió de carrera 4 veces en diferentes países.\n\n- Se especializa en ayudar a desarrolladores a encontrar empleo en empresas de tecnología reconocidas\n\n- En Colombia trabaja como consultora de nuevos mercados y operational leader en empresa de Inteligencia artificial"
-      },
-      "facebook": "",
-      "twitter": "",
-      "linkedin": "nataliya-ershova",
-      "instagram": "",
-      "github": "",
-      "website": "",
-      "country": "ru"
+    "facebook": "",
+    "twitter": "ulcamilo",
+    "linkedin": "christianurcuqui",
+    "instagram": "",
+    "github": "urcuqui",
+    "website": "",
+    "country": "co"
+  },
+  {
+    "id": "catalina-naranjo",
+    "first_name": "Catalina",
+    "last_name": "Naranjo Romero",
+    "photo": "catalina-naranjo.webp",
+    "affiliation": {
+      "en": "IntouchCX",
+      "es": "IntouchCX"
     },
-    {
-      "id": "ana-valencia",
-      "first_name": "Ana Maria",
-      "last_name": "Roman Valencia",
-      "photo": "ana-valencia.webp",
-      "affiliation": {
-        "en": "",
-        "es": ""
-      },
-      "biography": {
-        "en": "I am a DevOps engineer passionate about new technologies, automation, and open source culture. I love exploring tools that improve observability, operational efficiency, and software quality. I firmly believe in the power of knowledge sharing and building community through continuous learning. I want people to know me not only for what I do, but for how I aim to inspire others to solve real problems with practical and accessible solutions.",
-        "es": "Soy una ingeniera DevOps apasionada por las nuevas tecnologías, la automatización y la cultura open source. Me encanta explorar herramientas que mejoran la observabilidad, la eficiencia operativa y la calidad del software. Creo firmemente en el poder de compartir conocimiento y en construir comunidad a través del aprendizaje continuo. Quiero que la gente me conozca no solo por lo que hago, sino por cómo busco inspirar a otros a resolver problemas reales con soluciones prácticas y accesibles."
-      },
-      "facebook": "",
-      "twitter": "",
-      "linkedin": "anamariaromanvalencia",
-      "instagram": "",
-      "github": "anromanv",
-      "website": "",
-      "country": "co"
+    "biography": {
+      "en": "Catalina Naranjo is a data leader, professor, and advocate for making analytics meaningful in real-world settings. With over a decade of experience across data science, business analytics, and financial markets, she currently leads the Business Insights team at IntouchCX, delivering scalable solutions for North American clients.\n\nShe holds master’s degrees in Business Analytics (IE Business School) and Finance (Universidad Externado), and has built everything from fraud detection models to full data strategies. As a university lecturer in data science and machine learning, Catalina is passionate about helping others grow into confident, business-savvy data thinkers.\n\nAfter speaking at PyCon Colombia 2024 on soft skills for data professionals, she returns in 2025 with a technical talk on storytelling through data visualizations in Python.",
+      "es": "Catalina Naranjo es una líder en datos, profesora y defensora de hacer que la analítica sea significativa en contextos del mundo real. Con más de una década de experiencia en ciencia de datos, analítica de negocios y mercados financieros, actualmente lidera el equipo de Business Insights en IntouchCX, entregando soluciones escalables para clientes en Norteamérica.\n\nTiene maestrías en Analítica de Negocios (IE Business School) y Finanzas (Universidad Externado), y ha desarrollado desde modelos de detección de fraude hasta estrategias de datos completas. Como docente universitaria en ciencia de datos y aprendizaje automático, Catalina siente una gran pasión por ayudar a otros a convertirse en pensadores de datos seguros y con visión de negocio.\n\nDespués de su charla en PyCon Colombia 2024 sobre habilidades blandas para profesionales de datos, regresa en 2025 con una charla técnica sobre narración con visualizaciones de datos en Python."
     },
-    {
-      "id": "jorge-gomez",
-      "first_name": "Jorge",
-      "last_name": "Martinez Gomez",
-      "photo": "jorge-gomez.webp",
-      "affiliation": {
-        "en": "United Nations World Food Programme",
-        "es": "Programa Mundial de Alimentos de las Naciones Unidas"
-      },
-      "biography": {
-        "en": "Hello! I’m Jorge Martinez, currently working as a geospatial software engineer at the World Food Programme. My focus of work is mostly on geo-data collection and analysis to handle emergencies at a global level. My background is in electronic engineering, with a master in computer science. I did research in computer vision and machine learning and then jumped into GIS focusing on development of different open source tools, ranging from spatial database infrastructure, to OpenStreetMap-derived tools. On my free time, I like to mix music, visit historical museums and try exotic food.",
-        "es": "¡Hola! Soy Jorge Martinez, actualmente trabajo como ingeniero de software geoespacial en el Programa Mundial de Alimentos. Mi trabajo se centra principalmente en la recolección y análisis de datos geoespaciales para atender emergencias a nivel global. Soy ingeniero electrónico con una maestría en ciencias de la computación. Hice investigación en visión por computador y aprendizaje automático, y luego me enfoqué en los SIG (Sistemas de Información Geográfica), desarrollando diferentes herramientas de código abierto, desde infraestructura de bases de datos espaciales hasta herramientas basadas en OpenStreetMap. En mi tiempo libre, me gusta mezclar música, visitar museos históricos y probar comida exótica."
-      },
-      "facebook": "",
-      "twitter": "jorgemrtnzg",
-      "linkedin": "jorgemartinez-0327/",
-      "instagram": "jorgemartinezg27",
-      "github": "jorgemrtnzg",
-      "website": "",
-      "country": "co"
+    "facebook": "",
+    "twitter": "",
+    "linkedin": "catalina-naranjo",
+    "instagram": "",
+    "github": "",
+    "website": "",
+    "country": "co"
+  },
+  {
+    "id": "catalina-cruz",
+    "first_name": "Briyid Catalina",
+    "last_name": "Cruz Ostos",
+    "photo": "catalina-cruz.webp",
+    "affiliation": {
+      "en": "Telemática S.A.S.",
+      "es": "Telemática S.A.S."
     },
-    {
-      "id": "juan-vanegas",
-      "first_name": "Juan Pablo",
-      "last_name": "Vanegas",
-      "photo": "juan-vanegas.webp",
-      "affiliation": {
-        "en": "Loka",
-        "es": "Loka"
-      },
-      "biography": {
-        "en": "Started my programming journey in my undergrad Physics program, where I fell in love with solving problems with computers and maths. After I graduated, I've been working in Backend while learning more about programming, computers, and life.",
-        "es": "Comencé mi camino en la programación durante mi carrera de pregrado en Física, donde me enamoré de resolver problemas usando computadoras y matemáticas. Después de graduarme, he estado trabajando en desarrollo Backend mientras continúo aprendiendo más sobre programación, computadoras y la vida."
-      },
-      "facebook": "",
-      "twitter": "",
-      "linkedin": "jpvanegasc",
-      "instagram": "",
-      "github": "jpvanegasc",
-      "website": "",
-      "country": "co"
+    "biography": {
+      "en": "Hi! My name is Briyid Catalina Cruz Ostos, I’m 21 years old and a Systems Engineering student at Universidad Distrital Francisco José de Caldas. I’m passionate about technology, the environment, social causes, and science fiction. Based on these interests, I seek to propose solutions that address social issues and contribute to my community, leveraging technological innovation as a tool for transformation.\n\nAdditionally, I believe it is essential to highlight the role of women in technology and to inspire more women to get involved in this fascinating world. I hope my experience and initiatives serve as motivation for those who want to enter the tech field, showing that everyone can contribute, grow, and help build a more inclusive and sustainable future.",
+      "es": "¡Hola! Mi nombre es Briyid Catalina Cruz Ostos, tengo 21 años y soy estudiante de Ingeniería de Sistemas en la Universidad Distrital Francisco José de Caldas. Me apasiona la tecnología, el medio ambiente, las causas sociales y la ciencia ficción. A partir de mis intereses, busco proponer soluciones que aborden problemáticas sociales y contribuyan a mi comunidad, aprovechando la innovación tecnológica como herramienta de transformación.\n\nAdemás, considero fundamental visibilizar el rol de la mujer en la tecnología e inspirar a más mujeres a involucrarse en este mundo tan apasionante. Deseo que mi experiencia y mis iniciativas sirvan de motivación para quienes quieran adentrarse en el ámbito tecnológico, demostrando que todas las personas podemos aportar, crecer y ayudar a construir un futuro más inclusivo y sostenible."
     },
-    {
-      "id": "carlos-ramirez",
-      "first_name": "Carlos Mario",
-      "last_name": "Ramirez Gil",
-      "photo": "carlos-ramirez.webp",
-      "affiliation": {
-        "en": "Various universities",
-        "es": "Varias universidades"
-      },
-      "biography": {
-        "en": "Carlos Mario Ramírez Gil is a professional with a solid track record of more than 28 years, blending the financial and administrative world with the power of technology. His career spans strategic financial management, consulting, and, crucially, high-level university teaching for the past 15 years at prestigious Colombian institutions.\n\nWhat sets Carlos Mario apart is his proactive journey into programming and data science. Unsatisfied with traditional tools, he embraced Python as a core pillar, actively integrating it into his postgraduate finance courses. His practical use of Python extends to developing algorithms to solve complex financial problems—from predicting Bitcoin prices and optimizing cryptocurrency portfolios to regression models for real estate prices and time series forecasting applied to urban data, showcasing impressive versatility.\n\nHis passion for sharing knowledge doesn't stop in the classroom. He is a published author with three Spanish-language books focused on the technologies he is passionate about: Python, Blockchain, and Artificial Intelligence. These publications testify to his dedication to making complex topics accessible to a broader audience.\n\nWhy should you meet Carlos Mario? Because he embodies the transition many professionals aspire to: moving from reliance on classic tools (like spreadsheets he mastered for years) to the power and flexibility of programming and AI. His proposed talk comes directly from this lived experience, offering a unique and valuable perspective, backed by decades in the financial field and a proven ability to teach and apply Python effectively. He comes to PyCon Colombia not just to share his technical knowledge but to inspire others with his story of reinvention and technological adaptation in a traditional sector.",
-        "es": "Carlos Mario Ramírez Gil es un profesional con una sólida trayectoria de más de 28 años fusionando el mundo financiero y administrativo con el poder de la tecnología. Su carrera abarca desde la gestión financiera estratégica hasta la consultoría y, crucialmente, la docencia universitaria de alto nivel durante los últimos 15 años en prestigiosas instituciones colombianas.\n\nLo que distingue a Carlos Mario es su viaje proactivo hacia la programación y la ciencia de datos. No contento con las herramientas tradicionales, adoptó Python como un pilar fundamental, integrándolo activamente en sus cursos de posgrado en finanzas. Su aplicación práctica de Python se extiende al desarrollo de algoritmos para resolver problemas financieros complejos: desde la predicción del precio de Bitcoin y la optimización de portafolios de criptomonedas, hasta modelos de regresión para precios inmobiliarios y pronósticos de series de tiempo aplicados a datos urbanos, demostrando una versatilidad impresionante.\n\nSu pasión por compartir conocimiento no se detiene en el aula. Es un autor consumado con tres libros publicados en español, enfocados precisamente en las tecnologías que le apasionan: Python, Blockchain e Inteligencia Artificial. Estas publicaciones son un testimonio de su dedicación para hacer accesibles temas complejos a una audiencia más amplia.\n\n¿Por qué quieres conocer a Carlos Mario? Porque él personifica la transición que muchos profesionales anhelan: pasar de la dependencia de las herramientas clásicas (como las hojas de cálculo que dominó durante años) a la potencia y flexibilidad de la programación y la IA. Su charla propuesta nace directamente de esta experiencia vital, ofreciendo una perspectiva única y valiosa, respaldada por décadas en el campo financiero y una probada capacidad para enseñar y aplicar Python de manera efectiva. Viene a PyCon Colombia no solo a compartir su conocimiento técnico, sino a inspirar a otros con su historia de reinvención y adaptación tecnológica en un sector tradicional."
-      },
-      "facebook": "",
-      "twitter": "",
-      "linkedin": "carlos-mario-ram%C3%ADrez-gil-050403a",
-      "instagram": "",
-      "github": "CarlosRamirezWeb",
-      "website": "",
-      "country": "co"
+    "facebook": "",
+    "twitter": "",
+    "linkedin": "bccruzo",
+    "instagram": "",
+    "github": "BCCRO",
+    "website": "",
+    "country": "co"
+  },
+  {
+    "id": "david-roa",
+    "first_name": "Juan David",
+    "last_name": "Roa Valencia",
+    "photo": "david-roa.webp",
+    "affiliation": {
+      "en": "Soil Net LLC",
+      "es": "Soil Net LLC"
     },
-    {
-      "id": "jose-coronado",
-      "first_name": "Jose Felipe",
-      "last_name": "Duarte Coronado",
-      "photo": "jose-coronado.webp",
-      "affiliation": {
-        "en": "Laboratory for Research in Complex Systems",
-        "es": "Laboratorio de Investigación en Sistemas Complejos"
-      },
-      "biography": {
-        "en": "AI engineer focused on LLMs and autonomous agents, with a strong interest in their application to accelerate scientific discovery, particularly in drug development. GitHub Campus Expert and passionate about tech communities, open source, science, and mathematics. I believe in the power of collective intelligence, continuous learning, and collaboration to build solutions that generate real impact.",
-        "es": "Ingeniero en IA enfocado en LLMs y agentes autónomos, con especial interés en su aplicación para acelerar el descubrimiento científico, especialmente en el desarrollo de fármacos. GitHub Campus Expert y apasionado por las comunidades tecnológicas, el open source, la ciencia y las matemáticas. Creo en el poder de la inteligencia colectiva, el aprendizaje continuo y la colaboración para construir soluciones que generen impacto real."
-      },
-      "facebook": "",
-      "twitter": "",
-      "linkedin": "josefeldc",
-      "instagram": "",
-      "github": "josefdc",
-      "website": "",
-      "country": "co"
+    "biography": {
+      "en": "I am a Software Engineer and Data Scientist, passionate about science, technology, and teaching. I am a coach and organizer of free software events and meetups. I firmly believe that education and access to it are key to the progress of any nation.",
+      "es": "Soy Software Engineer y Data Scientist, me apasiona la ciencia, la tecnología y la enseñanza. Soy coach y organizador de eventos y meetups de software libre. Estoy convencido de que la educacíon y el acceso a la misma son la clave para el avance de cualquier nación."
     },
-    {
-      "id": "diego-ayala",
-      "first_name": "Diego Fernando",
-      "last_name": "Martínez Ayala",
-      "photo": "diego-ayala.webp",
-      "affiliation": {
-        "en": "Provectus",
-        "es": "Provectus"
-      },
-      "biography": {
-        "en": "Highly motivated and results-oriented Machine Learning Solutions Architect with over ten years of experience designing, implementing, and deploying innovative AI and ML solutions. Proven track record of leading cross-functional teams in delivering impactful projects that optimize operations, generate valuable insights, and drive business growth. Passionate about mentoring and fostering a collaborative work environment.",
-        "es": "Arquitecto de Soluciones en Aprendizaje Automático altamente motivado y orientado a resultados, con más de diez años de experiencia diseñando, implementando y desplegando soluciones innovadoras de IA y aprendizaje automático. Historial comprobado liderando equipos multidisciplinarios en la entrega de proyectos de alto impacto que optimizan operaciones, generan información valiosa y fomentan el crecimiento empresarial. Apasionado por la mentoría y por promover un entorno de trabajo colaborativo."
-      },
-      "facebook": "",
-      "twitter": "",
-      "linkedin": "diegofma",
-      "instagram": "",
-      "github": "",
-      "website": "",
-      "country": "co"
+    "facebook": "",
+    "twitter": "jroadev",
+    "linkedin": "roadev",
+    "instagram": "",
+    "github": "roadev",
+    "website": "",
+    "country": "co"
+  },
+  {
+    "id": "luis-martinez",
+    "first_name": "Luis Carlos",
+    "last_name": "Martinez Lopez",
+    "photo": "luis-martinez.webp",
+    "affiliation": {
+      "en": "Acuasoft.com",
+      "es": "Acuasoft.com"
     },
-    {
-      "id": "andres-vasquez",
-      "first_name": "Andrés",
-      "last_name": "Vasquez Restrepo",
-      "photo": "andres-vasquez.webp",
-      "affiliation": {
-        "en": "Provectus",
-        "es": "Provectus"
-      },
-      "biography": {
-        "en": "I’m a Machine Learning Engineer with over five years of experience working on NLP, Document AI, speech analytics, and unstructured data analysis. I have hands-on experience building and deploying machine learning models, working with tools like TensorFlow, PyTorch, Scikit-learn, and LangChain. I also focus on MLOps, making sure models run smoothly in production.\n\nI’ve worked on projects that involve analyzing large amounts of text, processing speech, and building AI-powered systems to extract insights from unstructured data. I enjoy working with teams to solve problems and make AI useful in real-world applications.\n\nI also like explaining complex ideas in simple terms, whether it’s to engineers, business teams, or clients. I believe good communication is just as important as good code.\n\nAlways learning, always building and more important, always sharing knowledge.",
-        "es": "Soy ingeniero de Machine Learning con más de cinco años de experiencia trabajando en PLN, inteligencia artificial aplicada a documentos, análisis de voz y análisis de datos no estructurados. Tengo experiencia práctica construyendo y desplegando modelos de aprendizaje automático, utilizando herramientas como TensorFlow, PyTorch, Scikit-learn y LangChain. También me enfoco en MLOps, asegurando que los modelos funcionen correctamente en producción.\n\nHe trabajado en proyectos que implican analizar grandes volúmenes de texto, procesar audio y construir sistemas impulsados por IA para extraer información valiosa de datos no estructurados. Disfruto trabajar en equipo para resolver problemas y hacer que la inteligencia artificial sea útil en aplicaciones del mundo real.\n\nTambién me gusta explicar ideas complejas en términos simples, ya sea a equipos técnicos, áreas de negocio o clientes. Creo que una buena comunicación es tan importante como un buen código.\n\nSiempre aprendiendo, siempre construyendo y, más importante aún, siempre compartiendo conocimiento."
-      },
-      "facebook": "",
-      "twitter": "",
-      "linkedin": "anvasquezre",
-      "instagram": "",
-      "github": "",
-      "website": "",
-      "country": "co"
+    "biography": {
+      "en": "Since 2014, I have been working in software development, with a background as an IT technologist and a specialization in web development with Python. Throughout my career, I have contributed to projects as a Full Stack Software Engineer at Swapps.com and later as a Backend Software Engineer at Platzi.com, working with Python and Django. Later, I worked as a Cloud Engineer, focusing on AWS-based solutions.\n\nIn addition to my experience as a developer, I’ve also been an instructor of six Python courses at Platzi, where I’ve had the opportunity to teach thousands of students and share my passion for programming. I’m driven by continuous learning and always seek to improve my skills and stay up to date with software development best practices.",
+      "es": "Desde 2014 he trabajado en desarrollo de software, con formación como tecnólogo en informática y especialización en desarrollo web con Python. A lo largo de mi carrera he participado en proyectos como Full Stack Software Engineer en Swapps.com y luego como Backend Software Engineer en Platzi.com, trabajando con Python y Django. Más adelante, me desempeñé como Cloud Engineer, enfocándome en soluciones basadas en AWS.\n\nAdemás de mi experiencia como desarrollador, he sido instructor de seis cursos de Python en Platzi, donde he tenido la oportunidad de enseñar a miles de estudiantes y compartir mi pasión por la programación. Me motiva el aprendizaje continuo y siempre busco mejorar mis habilidades y mantenerme actualizado con las mejores prácticas del desarrollo de software."
     },
-    {
-      "id": "ana-rua",
-      "first_name": "Ana Isabel",
-      "last_name": "Rua Graciano",
-      "photo": "ana-rua.webp",
-      "affiliation": {
-        "en": "Provectus",
-        "es": "Provectus"
-      },
-      "biography": {
-        "en": "I’m Ana Isabel Rua, a Machine Learning Solution Architect with over 7 years of experience transforming complex data challenges into real-world, high-impact solutions using Python. I specialize in building end-to-end AI systems — from large-scale document pipelines to cutting-edge applications of large language models (LLMs), generative AI, and computer vision.\n\nMy work currently focuses on the healthcare industry, where I’ve led the development of a Retrieval-Augmented Generation (RAG) system that processes millions of unstructured clinical records monthly. This system enables patient mapping and clinical trial cohort selection at scale — unlocking visibility and accelerating impact for medical teams.\n\nI hold a Master’s in Information and Communication Technologies and proudly won the DatatónBC 2018, a national data science competition hosted by Grupo Bancolombia. Throughout my career, I’ve developed and deployed object detection models (300+ food classes), audio analytics solutions and automated content pipelines for enterprise clients — always with a strong commitment to innovation, quality, and collaboration.\n\nBeyond the code, I’m passionate about sharing knowledge, elevating others, and creating space for more women and Latinas in tech. I want people to know about me because I represent what’s possible when technical excellence meets purpose-driven work. At PyCon Colombia, I’m here to share, learn, and connect with others who believe in the power of Python to solve problems that matter.",
-        "es": "Soy Ana Isabel Rua, Arquitecta de Soluciones en Machine Learning con más de 7 años de experiencia transformando retos complejos de datos en soluciones reales y de alto impacto utilizando Python. Me especializo en construir sistemas de inteligencia artificial de extremo a extremo: desde pipelines de documentos a gran escala hasta aplicaciones de vanguardia con modelos de lenguaje de gran tamaño (LLMs), IA generativa y visión por computador.\n\nActualmente, mi trabajo se enfoca en la industria de la salud, donde he liderado el desarrollo de un sistema de Generación Aumentada por Recuperación (RAG) que procesa millones de registros clínicos no estructurados cada mes. Este sistema permite el mapeo de pacientes y la selección de cohortes para ensayos clínicos a gran escala, brindando visibilidad y acelerando el impacto para los equipos médicos.\n\nSoy magíster en Tecnologías de la Información y las Comunicaciones y ganadora de la DatatónBC 2018, una competencia nacional de ciencia de datos organizada por Grupo Bancolombia. A lo largo de mi carrera, he desarrollado y desplegado modelos de detección de objetos (más de 300 clases de alimentos), soluciones de análisis de audio y pipelines de contenido automatizados para clientes empresariales, siempre con un fuerte compromiso con la innovación, la calidad y la colaboración.\n\nMás allá del código, me apasiona compartir conocimiento, elevar a otros y crear espacios para que más mujeres y latinas ingresen al mundo de la tecnología. Quiero que la gente me conozca porque represento lo que es posible cuando la excelencia técnica se une con un propósito. En PyCon Colombia, vengo a compartir, aprender y conectar con quienes creen en el poder de Python para resolver problemas que realmente importan."
-      },
-      "facebook": "",
-      "twitter": "",
-      "linkedin": "ana-isabel-rua-datascience",
-      "instagram": "",
-      "github": "",
-      "website": "",
-      "country": "co"
+    "facebook": "",
+    "twitter": "",
+    "linkedin": "lcmartinezdev",
+    "instagram": "",
+    "github": "lcmartinezdev",
+    "website": "",
+    "country": "co"
+  },
+  {
+    "id": "rei-romero",
+    "first_name": "Rei",
+    "last_name": "Romero",
+    "photo": "rei-romero.webp",
+    "affiliation": {
+      "en": "Showy",
+      "es": "Showy"
     },
-    {
-      "id": "juan-rua",
-      "first_name": "Juan Andres",
-      "last_name": "Rua",
-      "photo": "juan-rua.webp",
-      "affiliation": {
-        "en": "Provectus",
-        "es": "Provectus"
-      },
-      "biography": {
-        "en": "I'm a Software Architect and Machine Learning Engineer specializing in leveraging Graph databases and Intelligent Document Processing (IdP) technologies, including advanced data extraction within the healthcare industry. Over the past years, I've implemented industry best practices integrating Large Language Models (LLM) and Generative AI (GenAI) to create robust, secure, and scalable applications, enabling advanced data insights, and enhanced patient outcomes.\n\nTwo years ago, I had the pleasure of sharing my experiences at PyCon Colombia, focusing on practical applications of Python in AI-driven solutions. Since then, I've deepened my expertise by building production-ready systems on cloud platforms.\n\nI believe in open knowledge sharing, continuous learning, and building tech that genuinely impacts society. I'm excited to return to PyCon Colombia to reconnect with the vibrant Python community, share insights from recent challenges and successes, and inspire others to explore the immense possibilities Python unlocks in real-world scenarios.",
-        "es": "Soy arquitecto de software e ingeniero de machine learning, especializado en el uso de bases de datos gráficas y tecnologías de procesamiento inteligente de documentos (IdP), incluyendo extracción avanzada de datos en el sector salud. En los últimos años, he aplicado las mejores prácticas de la industria integrando modelos de lenguaje de gran escala (LLM) e inteligencia artificial generativa (GenAI) para crear aplicaciones robustas, seguras y escalables, permitiendo obtener insights avanzados y mejorar los resultados para los pacientes.\n\nHace dos años tuve el placer de compartir mis experiencias en PyCon Colombia, enfocándome en aplicaciones prácticas de Python en soluciones impulsadas por IA. Desde entonces, he profundizado mi experiencia construyendo sistemas listos para producción en plataformas en la nube.\n\nCreo en el conocimiento abierto, el aprendizaje continuo y en construir tecnología que genere un impacto real en la sociedad. Me emociona volver a PyCon Colombia para reconectarme con la vibrante comunidad de Python, compartir aprendizajes recientes y motivar a otros a explorar todo lo que Python permite en escenarios reales."
-      },
-      "facebook": "",
-      "twitter": "",
-      "linkedin": "japasosr",
-      "instagram": "",
-      "github": "",
-      "website": "",
-      "country": "co"
+    "biography": {
+      "en": "Rei Romero is a solutions engineer and entrepreneur specializing in AI-powered digital products, data intelligence, human augmentation, and automation systems. With extensive experience implementing enterprise-scale solutions across industries, Rei bridges the gap between technical teams and business stakeholders, supporting organizations from startups to Fortune 500 companies.\n\nHe has designed and deployed AI systems integrating CAG, RAG, and Multi-Context Protocols, focusing on human-centered implementations that enhance rather than replace capabilities. Rei's multidisciplinary background in engineering, business design, and product strategy enables him to create effective AI architectures that deliver measurable business outcomes.",
+      "es": "Rei Romero es ingeniero de soluciones y emprendedor, especializado en productos digitales impulsados por inteligencia artificial, inteligencia de datos, aumento humano y sistemas de automatización. Con una amplia experiencia implementando soluciones a escala empresarial en diversas industrias, Rei actúa como puente entre los equipos técnicos y los responsables de negocio, apoyando tanto a startups como a empresas Fortune 500.\n\nHa diseñado e implementado sistemas de IA que integran CAG, RAG y protocolos de contexto múltiple, con un enfoque centrado en el ser humano que busca potenciar, en lugar de reemplazar, sus capacidades. Su formación multidisciplinaria en ingeniería, diseño de negocios y estrategia de producto le permite crear arquitecturas de IA efectivas que generan resultados de negocio medibles."
     },
-    {
-      "id": "andres-gonzales",
-      "first_name": "Jaison Andres",
-      "last_name": "Gonzales De La Torre",
-      "photo": "andres-gonzales.webp",
-      "affiliation": {
-        "en": "Mercado Libre",
-        "es": "Mercado Libre"
-      },
-      "biography": {
-        "en": "Tech Lead in Machine Learning and MLOps with over 11 years of experience. Passionate about AI, finance, and product development. Currently exploring the intersection between intelligent agents and financial freedom for LATAM.",
-        "es": "Tech Lead en Machine Learning y MLOps con más de 11 años de experiencia. Apasionado por la inteligencia artificial, las finanzas y la creación de productos. Actualmente explora el cruce entre agentes inteligentes y la libertad financiera para América Latina."
-      },
-      "facebook": "",
-      "twitter": "",
-      "linkedin": "json724",
-      "instagram": "",
-      "github": "json724",
-      "website": "",
-      "country": "co"
+    "facebook": "",
+    "twitter": "",
+    "linkedin": "reiromero",
+    "instagram": "",
+    "github": "hellorei",
+    "website": "",
+    "country": "ve"
+  },
+  {
+    "id": "nicolas-danies",
+    "first_name": "Nicolas",
+    "last_name": "Danies",
+    "photo": "nicolas-danies.webp",
+    "affiliation": {
+      "en": "Mercado Libre",
+      "es": "Mercado Libre"
     },
-    {
-      "id": "jony-jimenez",
-      "first_name": "Jonny Andres",
-      "last_name": "Jiménez Arbelaez",
-      "photo": "jony-jimenez.webp",
-      "affiliation": {
-        "en": "Mercado Libre",
-        "es": "Mercado Libre"
-      },
-      "biography": {
-        "es": "Soy Data Scientist en Mercado Libre, con 7 años de experiencia convirtiendo datos complejos en soluciones de alto impacto para el negocio. Me especializo en procesamiento de lenguaje natural (NLP) y lidero proyectos que clasifican más de 300 millones de transacciones financieras al mes. Trabajo en la intersección entre machine learning y estrategia, siempre con foco en la automatización, la escalabilidad y la claridad.\n\nMás allá del código, me apasiona democratizar el conocimiento. Por eso creé El Man de los Datos, una cuenta de redes sociales educativa donde explico conceptos de estadística, Excel y ciencia de datos de forma práctica y entretenida para profesionales de habla hispana.\n\nQuiero que me conozcan no solo por lo que construyo, sino por cómo lo comparto: con curiosidad, empatía y un compromiso profundo con el crecimiento colectivo. Ser speaker en PyCon representa para mí una oportunidad de aportar a la comunidad que impulsó mi desarrollo y de conectar con quienes también están construyendo el futuro con Python.",
-        "en": "I'm a Data Scientist at Mercado Libre with 7 years of experience turning complex data into high-impact business solutions. I specialize in Natural Language Processing (NLP) and lead projects that classify over 300 million financial transactions per month. I work at the intersection of machine learning and strategy, always focused on automation, scalability, and clarity.\n\nBeyond the code, I'm passionate about democratizing knowledge. That’s why I created 'El Man de los Datos,' an educational social media account where I explain statistics, Excel, and data science concepts in a practical and entertaining way for Spanish-speaking professionals.\n\nI want people to know me not just for what I build, but for how I share it — with curiosity, empathy, and a deep commitment to collective growth. Being a PyCon speaker is a chance for me to give back to the community that fueled my development and to connect with others who are also building the future with Python."
-      },
-      "facebook": "AndresJimenezAr",
-      "twitter": "",
-      "linkedin": "jonny-andrés-jimenez-arbelaez-a893971a3",
-      "instagram": "",
-      "github": "jonjimenez99",
-      "website": "",
-      "country": "co"
+    "biography": {
+      "en": "I am a Data Scientist and engineer with experience at companies like Mercado Libre and Rappi, where I have worked on pricing models, fraud detection, and large-scale production systems. I have also participated in applied research in federated learning with local differential privacy, exploring how to protect privacy without sacrificing model performance.\n\nI am a self-taught data scientist and software developer, and I am passionate about sharing knowledge. I have mentored people starting out in the field and enjoy teaching modern tools that connect theory with real-world applications. I want more people in Colombia to access cutting-edge Python practices and build high-impact solutions.",
+      "es": "Soy Data Scientist e ingeniero con experiencia en empresas como Mercado Libre y Rappi, donde he trabajado en modelos de pricing, fraude y sistemas en producción a gran escala. Además, he participado en investigación aplicada en federated learning con local differential privacy, explorando cómo proteger la privacidad sin sacrificar el rendimiento de los modelos.\n\nMe formé de manera autodidacta en ciencia de datos y desarrollo de software, y me apasiona compartir conocimiento. He sido mentor de personas que inician en el campo y disfruto enseñar herramientas modernas que conectan la teoría con aplicaciones reales. Quiero que más personas en Colombia accedan a prácticas de punta en Python y puedan construir soluciones de alto impacto."
     },
-    {
-      "id": "diego-ramirez",
-      "first_name": "Diego Camilo",
-      "last_name": "Peña Ramírez",
-      "photo": "diego-ramirez.webp",
-      "affiliation": {
-        "en": "Servicio Nacional de Aprendizaje SENA. Centro de Electricidad, Electrónica y Telecomunicaciones CEET",
-        "es": "Servicio Nacional de Aprendizaje SENA. Centro de Electricidad, Electrónica y Telecomunicaciones CEET"
-      },
-      "biography": {
-        "en": "I am a Mechatronic Engineer from the Universidad Militar Nueva Granada and hold a Master's degree in Industrial Automation from the Universidad Nacional de Colombia. I have expertise in CAD design (CATIA/DELMIA, among other software packages), programming (Ladder, Grafcet, Java, Python, C++, C#, and JavaScript mainly), and development for various hardware platforms (PLC, PAC, Arduino, Raspberry Pi, Particle, ESP, PSoC, PIC, among others). I am very interested on Internet of Things and robotics research.",
-        "es": "Soy Ingeniero Mecatrónico de la Universidad Militar Nueva Granada y tengo una Maestría en Automatización Industrial de la Universidad Nacional de Colombia. Tengo experiencia en diseño CAD (CATIA/DELMIA, entre otros paquetes de software), programación (principalmente Ladder, Grafcet, Java, Python, C++, C# y JavaScript), y desarrollo para diversas plataformas de hardware (PLC, PAC, Arduino, Raspberry Pi, Particle, ESP, PSoC, PIC, entre otras). Estoy muy interesado en la investigación sobre el Internet de las Cosas y la robótica."
-      },
-      "facebook": "",
-      "twitter": "",
-      "linkedin": "",
-      "instagram": "",
-      "github": "NervenCid",
-      "website": "",
-      "country": "co"
+    "facebook": "",
+    "twitter": "",
+    "linkedin": "nicolas-danies",
+    "instagram": "",
+    "github": "",
+    "website": "",
+    "country": "co"
+  },
+  {
+    "id": "esteban-gonzalez",
+    "first_name": "Jonatan Esteban",
+    "last_name": "Gonzalez Balaguera",
+    "photo": "esteban-gonzalez.webp",
+    "affiliation": {
+      "en": "Office of the Inspector General of Colombia",
+      "es": "Procuraduría General de la Nación"
     },
-    {
-      "id": "vivian-castro",
-      "first_name": "Vivian Gabriela",
-      "last_name": "Amorocho Castro",
-      "photo": "vivian-castro.webp",
-      "affiliation": {
-        "en": "Servicio Nacional de Aprendizaje SENA. Centro de Electricidad, Electronica y Telecomunicaciones CEET",
-        "es": "Servicio Nacional de Aprendizaje SENA. Centro de Electricidad, Electrónica y Telecomunicaciones CEET"
-      },
-      "biography": {
-        "en": "Professional in Ecology from Pontificia Universidad Javeriana and Master in Rural Development, with training and experience in socio-environmental projects in rural settings related to urban agriculture, climate change adaptation, agroecology, rural extension, and environmental education processes.",
-        "es": "Profesional en Ecología de la Pontificia Universidad Javeriana y Magíster en Desarrollo Rural, con formación y experiencia en proyectos socioambientales en contextos rurales relacionados con agricultura urbana, adaptación al cambio climático, agroecología, extensión rural y procesos de educación ambiental."
-      },
-      "facebook": "",
-      "twitter": "",
-      "linkedin": "",
-      "instagram": "",
-      "github": "",
-      "website": "",
-      "country": "co"
+    "biography": {
+      "en": "Experience in data management and analysis, using Python to develop advanced models. I have applied machine learning tools, advanced analysis algorithms, and image processing techniques to solve complex problems. Additionally, I have skills in numerical simulations and project management, which allow me to lead technical initiatives and collaborate effectively in multidisciplinary teams.",
+      "es": "Experiencia en el manejo y análisis de datos, utilizando Python para desarrollar modelos avanzados. He aplicado herramientas de Machine Learning, algoritmos de análisis avanzado y técnicas de procesamiento de imágenes para resolver problemas complejos. Además, cuento con habilidades en simulaciones numéricas y gestión de proyectos, lo que me permite liderar iniciativas técnicas y colaborar eficazmente en equipos multidisciplinarios."
     },
-    {
-      "id": "andrew-pikul",
-      "first_name": "Andrew",
-      "last_name": "Pikul",
-      "photo": "andrew-pikul.webp",
-      "affiliation": {
-        "en": "Grupo Pikul/GeoPozo",
-        "es": "Grupo Pikul/GeoPozo"
-      },
-      "biography": {
-        "en": "Engineer with 15 years of experience spanning a wide variety of technologies, from driver and operating system design on M series ARM processors to authoring high-level projects like github.com/plotly/choreographer and github.com/plotly/kaleido. Now runs a small office in Medellín working on devops and geological analysis tools.",
-        "es": "Ingeniero con 15 años de experiencia en una amplia variedad de tecnologías, desde el diseño de controladores y sistemas operativos en procesadores ARM serie M hasta la creación de proyectos de alto nivel como github.com/plotly/choreographer y github.com/plotly/kaleido. Actualmente dirige una pequeña oficina en Medellín dedicada al trabajo en DevOps y herramientas de análisis geológico."
-      },
-      "facebook": "",
-      "twitter": "",
-      "linkedin": "ajpikul/?locale=en_US",
-      "instagram": "",
-      "github": "ayjayt",
-      "website": "",
-      "country": "us"
+    "facebook": "",
+    "twitter": "jegonzalezb99",
+    "linkedin": "jonatan-e-gonzalez-balaguera-b36500246/",
+    "instagram": "",
+    "github": "jegonzalezba01",
+    "website": "",
+    "country": "co"
+  },
+  {
+    "id": "nataliya-ershova",
+    "first_name": "Nataliya",
+    "last_name": "Ershova",
+    "photo": "nataliya-ershova.webp",
+    "affiliation": {
+      "en": "Provectus",
+      "es": "Provectus"
     },
-    {
-      "id": "david-ruiz",
-      "first_name": "David Hernando",
-      "last_name": " Angarita Ruiz",
-      "photo": "david-ruiz.webp",
-      "affiliation": {
-        "en": "Grupo Pikul/GeoPozo",
-        "es": "Grupo Pikul/GeoPozo"
-      },
-      "biography": {
-        "en": "I’m a web developer passionate about turning ideas into digital experiences. I enjoy writing clean code, building intuitive interfaces, and learning something new every day. I believe technology is a bridge that connects people with solutions.",
-        "es": "Soy desarrollador web y me apasiona convertir ideas en experiencias digitales. Disfruto crear código limpio, interfaces intuitivas y aprender algo nuevo cada día. Creo en la tecnología como puente para conectar personas y soluciones."
-      },
-      "facebook": "",
-      "twitter": "",
-      "linkedin": "davidangaritaruiz",
-      "instagram": "",
-      "github": "davidangarita1",
-      "website": "",
-      "country": "co"
+    "biography": {
+      "en": "17 years of experience in business development and communication strategy. She is an economist with a master's degree in journalism. She has changed careers 4 times in different countries.\n\n- Specializes in helping developers find jobs at well-known tech companies.\n\n- In Colombia, she works as a new markets consultant and operational leader at an artificial intelligence company.",
+      "es": "17 años de experiencia en desarrollo de negocios y estrategia en la comunicación. Ella es economista con maestría en periodismo. Cambió de carrera 4 veces en diferentes países.\n\n- Se especializa en ayudar a desarrolladores a encontrar empleo en empresas de tecnología reconocidas\n\n- En Colombia trabaja como consultora de nuevos mercados y operational leader en empresa de Inteligencia artificial"
     },
-    {
-      "id": "karol-sandoval",
-      "first_name": "Karol Michelle",
-      "last_name": "Sandoval",
-      "photo": "karol-sandoval.webp",
-      "affiliation": {
-        "en": "Brain Food, an Artefact Company",
-        "es": "Brain Food, an Artefact Company"
-      },
-      "biography": {
-        "en": "I’m Karol Sandoval, a statistician graduated from Universidad del Valle, with over 3 years of experience as a Data Scientist. I’ve worked in sectors such as retail, consulting, and technology, using tools like Python, SQL, Spark, and GCP to solve problems and create effective solutions.\n\nI want people to know me because I believe knowledge and experience are more valuable when shared. I’m convinced that to be part of change, you don’t need to make noise — you just need to act with intention, step by step, always with purpose and seeking real impact.",
-        "es": "Soy Karol Sandoval, estadística graduada de la Universidad del Valle, con más de 3 años de experiencia como Científica de Datos. He trabajado en sectores como retail, consultoría y tecnología, utilizando herramientas como Python, SQL, Spark y GCP para resolver problemas y crear soluciones efectivas.\n\nQuiero que me conozcan porque creo que el conocimiento y la experiencia tienen más valor cuando se comparten. Estoy convencida de que para ser parte del cambio no hace falta hacer ruido, sino actuar con intención, paso a paso, siempre con propósito y en busca de un impacto real."
-      },
-      "facebook": "",
-      "twitter": "",
-      "linkedin": "karol-michelle-sandoval",
-      "instagram": "",
-      "github": "",
-      "website": "",
-      "country": "co"
+    "facebook": "",
+    "twitter": "",
+    "linkedin": "nataliya-ershova",
+    "instagram": "",
+    "github": "",
+    "website": "",
+    "country": "ru"
+  },
+  {
+    "id": "ana-valencia",
+    "first_name": "Ana Maria",
+    "last_name": "Roman Valencia",
+    "photo": "ana-valencia.webp",
+    "affiliation": {
+      "en": "",
+      "es": ""
     },
-    {
-      "id": "daniel-salazar",
-      "first_name": "Daniel",
-      "last_name": "Salazar",
-      "photo": "daniel-salazar.webp",
-      "affiliation": {
-        "en": "Brain Food, an Artefact Company",
-        "es": "Brain Food, an Artefact Company"
-      },
-      "biography": {
-        "en": "I’m a data engineer by conviction, with a background in Physics and Chemistry Engineering from the National University of Colombia. For over four years —the last two and a half in consulting— I’ve designed and operated data architectures in sectors such as telecommunications, energy, retail, and startups. I combine Python, SQL, Apache Airflow, and platforms like Azure, GCP, and Databricks to turn complex workflows into clean and reproducible solutions. My drive comes from scientific curiosity: I enjoy applying the rigor of natural sciences and research to data analysis, aiming for each project to turn information into decisions that improve processes and spark new questions.",
-        "es": "Soy ingeniero de datos por convicción, con formación en Ingeniería Física y Química de la Universidad Nacional de Colombia. A lo largo de más de cuatro años —los últimos dos y medio en consultoría— he diseñado y operado arquitecturas de datos en telecomunicaciones, energía, retail y startups, combinando Python, SQL, Apache Airflow y plataformas como Azure, GCP y Databricks para convertir flujos complejos en soluciones limpias y reproducibles. Mi impulso nace de la curiosidad científica: disfruto aplicar el rigor de las ciencias naturales y la investigación al análisis de datos, buscando que cada proyecto traduzca información en decisiones que mejoren procesos y abran nuevas preguntas."
-      },
-      "facebook": "",
-      "twitter": "",
-      "linkedin": "daniel-salazar-lopez-35786226b",
-      "instagram": "",
-      "github": "",
-      "website": "",
-      "country": "co"
+    "biography": {
+      "en": "I am a DevOps engineer passionate about new technologies, automation, and open source culture. I love exploring tools that improve observability, operational efficiency, and software quality. I firmly believe in the power of knowledge sharing and building community through continuous learning. I want people to know me not only for what I do, but for how I aim to inspire others to solve real problems with practical and accessible solutions.",
+      "es": "Soy una ingeniera DevOps apasionada por las nuevas tecnologías, la automatización y la cultura open source. Me encanta explorar herramientas que mejoran la observabilidad, la eficiencia operativa y la calidad del software. Creo firmemente en el poder de compartir conocimiento y en construir comunidad a través del aprendizaje continuo. Quiero que la gente me conozca no solo por lo que hago, sino por cómo busco inspirar a otros a resolver problemas reales con soluciones prácticas y accesibles."
     },
-    {
-      "id": "nieng-yordan",
-      "first_name": "Nieng Yordan",
-      "last_name": "Lee Gaitan",
-      "photo": "nieng-yordan.webp",
-      "affiliation": {
-        "en": "coursera",
-        "es": "coursera"
-      },
-      "biography": {
-        "es": "Soy ingeniero químico con una trayectoria que abarca la docencia, el análisis de datos y el desarrollo backend. Mi misión es fusionar la ingeniería con la tecnología, utilizando Python como eje central para impulsar soluciones innovadoras en inteligencia artificial y desarrollo web aplicado a la ingeniería química.\n\nMi enfoque está en optimizar procesos industriales, reduciendo tiempos de simulación y mejorando la eficiencia en operaciones matemáticas e ingenieriles. A través de la inteligencia artificial, busco proporcionar herramientas avanzadas que faciliten la toma de decisiones críticas en el desarrollo de procesos químicos. Además, mi trabajo se orienta a la creación de plataformas que presenten datos operativos y el comportamiento de variables en tiempo real de manera clara y accesible.\n\nEste campo está en constante evolución y quiero ser un agente de cambio, contribuyendo con soluciones tecnológicas que no solo impulsen la industria, sino que también generen un impacto positivo en la calidad de vida y el avance de la humanidad."
-      },
-      "facebook": "niengyordan.leegaitan",
-      "twitter": "",
-      "linkedin": "ncyl91",
-      "instagram": "",
-      "github": "NiengLee",
-      "website": "",
-      "country": "co"
+    "facebook": "",
+    "twitter": "",
+    "linkedin": "anamariaromanvalencia",
+    "instagram": "",
+    "github": "anromanv",
+    "website": "",
+    "country": "co"
+  },
+  {
+    "id": "jorge-martinez",
+    "first_name": "Jorge",
+    "last_name": "Martinez Gomez",
+    "photo": "jorge-gomez.webp",
+    "affiliation": {
+      "en": "United Nations World Food Programme",
+      "es": "Programa Mundial de Alimentos de las Naciones Unidas"
     },
-    {
-      "id": "cristian-valdez-romero",
-      "first_name": "Cristian Antonio",
-      "last_name": "Valdez Romero",
-      "photo": "cristian-valdez-romero.webp",
-      "affiliation": {
-        "en": "CVR ELECTRÓNICA",
-        "es": "CVR ELECTRÓNICA"
-      },
-      "biography": {
-        "es": "Soy ingeniero electrónico de profesión, cuento con experiencia en diseño y ensamble de hardware para sistemas análogos y digitales enfocados a procesos de automatización, control y el internet de las cosas (IoT). Tengo aproximadamente 15 años de experiencia en el mundo de los sistemas embebidos trabajando así con lenguajes como ASSEMBLER, C, C++, LUA y PYTHON para embebidos. CEO de CVRELECTRONICA.COM proyecto que día a día sigo construyendo con el fin de crear un ecosistema completo que sirva de apoyo para Ingenieros, Aficionados, Estudiantes y Makers creando herramientas que los asistan en sus procesos creativos y/o educativos."
-      },
-      "facebook": "christian.v.romero",
-      "twitter": "CristianV0223",
-      "linkedin": "cristian-valdez-romero-a83837210",
-      "instagram": "",
-      "github": "cristianvr",
-      "website": "",
-      "country": "co"
+    "biography": {
+      "en": "Hello! I’m Jorge Martinez, currently working as a geospatial software engineer at the World Food Programme. My focus of work is mostly on geo-data collection and analysis to handle emergencies at a global level. My background is in electronic engineering, with a master in computer science. I did research in computer vision and machine learning and then jumped into GIS focusing on development of different open source tools, ranging from spatial database infrastructure, to OpenStreetMap-derived tools. On my free time, I like to mix music, visit historical museums and try exotic food.",
+      "es": "¡Hola! Soy Jorge Martinez, actualmente trabajo como ingeniero de software geoespacial en el Programa Mundial de Alimentos. Mi trabajo se centra principalmente en la recolección y análisis de datos geoespaciales para atender emergencias a nivel global. Soy ingeniero electrónico con una maestría en ciencias de la computación. Hice investigación en visión por computador y aprendizaje automático, y luego me enfoqué en los SIG (Sistemas de Información Geográfica), desarrollando diferentes herramientas de código abierto, desde infraestructura de bases de datos espaciales hasta herramientas basadas en OpenStreetMap. En mi tiempo libre, me gusta mezclar música, visitar museos históricos y probar comida exótica."
     },
-    {
-      "id": "erick-pineda-amezquita",
-      "first_name": "Erick J.",
-      "last_name": "Pineda Amézquita",
-      "photo": "erick-pineda-amezquita.webp",
-      "affiliation": {
-        "en": "Conduent",
-        "es": "Conduent"
-      },
-      "biography": {
-        "es": "Ingeniero en Ciencias y Sistemas. Líder de la comunidad Python Guatemala. Posee un postgrado en Análisis y Predicción de Datos y una maestría en Inteligencia de Negocios y Analítica de datos, también diferentes certificaciones, entre ellas, extendidas Massachusetts Institute of Technology en temas de Machine Learning con Python, Estádistica y Probabilidad. Ha sido catedrático en las universidades más reconocidas de Guatemala y ha compartido su experiencia sobre electrónica, programación mediante conferencias en diferentes congresos, tanto nacionales como internacionales. Docente ad honorem del curso de Python para ciencia de Datos, en la Universidad de San Carlos de Guatemala. Ha desarrollado proyectos en Python como lector de huellas digitales, sensor de ritmo cardiáco, reconocimiento facial con OpenCV, análisis de datos y pruebas con PyTest. Apasionado por la tecnología y por divulgar el conocimiento a todas las personas."
-      },
-      "facebook": "erick.pineda.37",
-      "twitter": "",
-      "linkedin": "epinedaamezquita",
-      "instagram": "",
-      "github": "epinedaWorks",
-      "website": "",
-      "country": "gt"
+    "facebook": "",
+    "twitter": "jorgemrtnzg",
+    "linkedin": "jorgemartinez-0327/",
+    "instagram": "jorgemartinezg27",
+    "github": "jorgemrtnzg",
+    "website": "",
+    "country": "co"
+  },
+  {
+    "id": "juan-vanegas",
+    "first_name": "Juan Pablo",
+    "last_name": "Vanegas",
+    "photo": "juan-vanegas.webp",
+    "affiliation": {
+      "en": "Loka",
+      "es": "Loka"
     },
-    {
-      "id": "gilbert-alejandro-gomez-briceno",
-      "first_name": "Gilbert Alejandro",
-      "last_name": "Gómez Briceño",
-      "photo": "gilbert-alejandro-gomez-briceno.webp",
-      "affiliation": {
-        "en": "Cloudshine",
-        "es": "Cloudshine"
-      },
-      "biography": {
-        "es": "Soy un entusiasta de la tecnología, especialmente enamorado de la ingeniería de datos y la inteligencia artificial. Mi trayectoria de 9 años en el mundo tecnológico me ha permitido explorar el desarrollo web, la inteligencia de negocios y la ingeniería de datos, sumergiéndome en emocionantes proyectos en Retail Tech, HR Tech y Proptech. En el presente, me desempeño como Data Engineer en Cloudshine.\n\nMi interés por el trabajo en equipo se alinea con mi gusto por compartir conocimientos. Creo firmemente que al compartir, no solo enseñamos, sino que también ampliamos nuestra comprensión de manera más profunda. Disfruto explorando las últimas tecnologías de código abierto y dedicando tiempo a investigar y experimentar con ellas.\n\nComo prueba de mi compromiso con el intercambio de conocimientos, he tenido el honor de impartir charlas internamente en mis experiencias profesionales como en eventos públicos, como la KCD Colombia 2023 en Medellín y con ustedes, en la PyCon Colombia del 2024."
-      },
-      "facebook": "",
-      "twitter": "",
-      "linkedin": "gilbert-alejandro-gomez-briceño",
-      "instagram": "",
-      "github": "GilbertGomez94",
-      "website": "",
-      "country": "ve"
+    "biography": {
+      "en": "Started my programming journey in my undergrad Physics program, where I fell in love with solving problems with computers and maths. After I graduated, I've been working in Backend while learning more about programming, computers, and life.",
+      "es": "Comencé mi camino en la programación durante mi carrera de pregrado en Física, donde me enamoré de resolver problemas usando computadoras y matemáticas. Después de graduarme, he estado trabajando en desarrollo Backend mientras continúo aprendiendo más sobre programación, computadoras y la vida."
     },
-    {
-      "id": "christian-abrajan-fortis",
-      "first_name": "Christian Jesus",
-      "last_name": "Abrajan Fortis",
-      "photo": "christian-abrajan-fortis.webp",
-      "affiliation": {
-        "en": "Softtek",
-        "es": "Softtek"
-      },
-      "biography": {
-        "es": "Soy Ingeniero en Electrónica con Maestría en TI, apasionado por la enseñanza técnica y el desarrollo de software. Con una trayectoria de más de 13 años que integra la docencia universitaria y el desarrollo de software. Durante 7 años combiné la docencia universitaria con proyectos de programación, y desde hace 6 años trabajo de tiempo completo desarrollando software en Softtek liderando iniciativas en áreas como ciberseguridad y desarrollo front-end. En los últimos 4 años, he participado en un proyecto destacado en la industria de los videojuegos, empleando Python y sus múltiples frameworks para crear soluciones innovadoras.\n\nMi experiencia en entornos educativos y en la industria me ha enseñado a explicar conceptos complejos de forma clara y práctica. En este workshop, compartiré todo lo que he aprendido sobre arquitecturas serverless en AWS, un tema que aplico hoy en el desarrollo de backend para APIs escalables. Certificado como AWS Cloud Practitioner y apasionado por diseñar soluciones serverless  que optimizan procesos reales, aprovechando beneficios como la escalabilidad automática y la reducción de costos .\n\nSoy cofundador de PyTalavera en Puebla, México, donde organizamos meetups mensuales para compartir conocimiento y crecer la comunidad. Cuando no estoy programando o enseñando, me desconecto rodando en bicicleta."
-      },
-      "facebook": "",
-      "twitter": "",
-      "linkedin": "chrisfx",
-      "instagram": "",
-      "github": "",
-      "website": "",
-      "country": "mx"
+    "facebook": "",
+    "twitter": "",
+    "linkedin": "jpvanegasc",
+    "instagram": "",
+    "github": "jpvanegasc",
+    "website": "",
+    "country": "co"
+  },
+  {
+    "id": "carlos-ramirez",
+    "first_name": "Carlos Mario",
+    "last_name": "Ramirez Gil",
+    "photo": "carlos-ramirez.webp",
+    "affiliation": {
+      "en": "Various universities",
+      "es": "Varias universidades"
     },
-    {
-      "id": "felipe-angelim-vieira",
-      "first_name": "Felipe",
-      "last_name": "Angelim Vieira",
-      "photo": "felipe-angelim-vieira.webp",
-      "affiliation": {
-        "en": "Mercado Libre",
-        "es": "Mercado Libre"
-      },
-      "biography": {
-        "en": "Felipe Angelim is a Tech Lead at Mercado Libre, the largest e-commerce platform in Latin America. He is a core developer of sktime, one of the leading Python libraries for time series analysis, with over 1 million downloads per month, and the creator of Prophetverse, a Bayesian forecasting library with applications in Marketing Mix Modeling.\n\nWith over five years of experience in forecasting for finance and retail, Felipe brings deep expertise in applying advanced techniques to real-world problems. By combining strong mathematical foundations with practical programming skills, he builds simple, effective solutions to complex challenges."
-      },
-      "facebook": "",
-      "twitter": "",
-      "linkedin": "felipe-angelim",
-      "instagram": "",
-      "github": "felipeangelimvieira",
-      "website": "",
-      "country": "br"
+    "biography": {
+      "en": "Carlos Mario Ramírez Gil is a professional with a solid track record of more than 28 years, blending the financial and administrative world with the power of technology. His career spans strategic financial management, consulting, and, crucially, high-level university teaching for the past 15 years at prestigious Colombian institutions.\n\nWhat sets Carlos Mario apart is his proactive journey into programming and data science. Unsatisfied with traditional tools, he embraced Python as a core pillar, actively integrating it into his postgraduate finance courses. His practical use of Python extends to developing algorithms to solve complex financial problems—from predicting Bitcoin prices and optimizing cryptocurrency portfolios to regression models for real estate prices and time series forecasting applied to urban data, showcasing impressive versatility.\n\nHis passion for sharing knowledge doesn't stop in the classroom. He is a published author with three Spanish-language books focused on the technologies he is passionate about: Python, Blockchain, and Artificial Intelligence. These publications testify to his dedication to making complex topics accessible to a broader audience.\n\nWhy should you meet Carlos Mario? Because he embodies the transition many professionals aspire to: moving from reliance on classic tools (like spreadsheets he mastered for years) to the power and flexibility of programming and AI. His proposed talk comes directly from this lived experience, offering a unique and valuable perspective, backed by decades in the financial field and a proven ability to teach and apply Python effectively. He comes to PyCon Colombia not just to share his technical knowledge but to inspire others with his story of reinvention and technological adaptation in a traditional sector.",
+      "es": "Carlos Mario Ramírez Gil es un profesional con una sólida trayectoria de más de 28 años fusionando el mundo financiero y administrativo con el poder de la tecnología. Su carrera abarca desde la gestión financiera estratégica hasta la consultoría y, crucialmente, la docencia universitaria de alto nivel durante los últimos 15 años en prestigiosas instituciones colombianas.\n\nLo que distingue a Carlos Mario es su viaje proactivo hacia la programación y la ciencia de datos. No contento con las herramientas tradicionales, adoptó Python como un pilar fundamental, integrándolo activamente en sus cursos de posgrado en finanzas. Su aplicación práctica de Python se extiende al desarrollo de algoritmos para resolver problemas financieros complejos: desde la predicción del precio de Bitcoin y la optimización de portafolios de criptomonedas, hasta modelos de regresión para precios inmobiliarios y pronósticos de series de tiempo aplicados a datos urbanos, demostrando una versatilidad impresionante.\n\nSu pasión por compartir conocimiento no se detiene en el aula. Es un autor consumado con tres libros publicados en español, enfocados precisamente en las tecnologías que le apasionan: Python, Blockchain e Inteligencia Artificial. Estas publicaciones son un testimonio de su dedicación para hacer accesibles temas complejos a una audiencia más amplia.\n\n¿Por qué quieres conocer a Carlos Mario? Porque él personifica la transición que muchos profesionales anhelan: pasar de la dependencia de las herramientas clásicas (como las hojas de cálculo que dominó durante años) a la potencia y flexibilidad de la programación y la IA. Su charla propuesta nace directamente de esta experiencia vital, ofreciendo una perspectiva única y valiosa, respaldada por décadas en el campo financiero y una probada capacidad para enseñar y aplicar Python de manera efectiva. Viene a PyCon Colombia no solo a compartir su conocimiento técnico, sino a inspirar a otros con su historia de reinvención y adaptación tecnológica en un sector tradicional."
     },
-    {
-      "id": "maris-botero",
-      "first_name": "Maris",
-      "last_name": "Botero",
-      "photo": "maris-botero.webp",
-      "affiliation": {
-        "en": "Mercado Libre",
-        "es": "Mercado Libre"
-      },
-      "biography": {
-        "es": "Soy Maris Botero, científica de datos y entusiasta de la inteligencia artificial. Disfruto trabajar con Python, construir proyectos que conectan tecnología con curiosidad y explorar formas creativas de aplicar la ciencia de datos. He participado en comunidades como PyLadies y me apasiona hacer que la tecnología sea más humana, accesible y divertida."
-      },
-      "facebook": "",
-      "twitter": "marisbotero",
-      "linkedin": "marisbotero",
-      "instagram": "",
-      "github": "marisbotero",
-      "website": "",
-      "country": "co"
+    "facebook": "",
+    "twitter": "",
+    "linkedin": "carlos-mario-ram%C3%ADrez-gil-050403a",
+    "instagram": "",
+    "github": "CarlosRamirezWeb",
+    "website": "",
+    "country": "co"
+  },
+  {
+    "id": "jose-coronado",
+    "first_name": "Jose Felipe",
+    "last_name": "Duarte Coronado",
+    "photo": "jose-coronado.webp",
+    "affiliation": {
+      "en": "Laboratory for Research in Complex Systems",
+      "es": "Laboratorio de Investigación en Sistemas Complejos"
     },
-    {
-      "id": "rodrigo-silva-ferreira",
-      "first_name": "Rodrigo",
-      "last_name": "Silva Ferreira",
-      "photo": "rodrigo-silva-ferreira.webp",
-      "affiliation": {
-        "en": "Posit PBC",
-        "es": "Posit PBC"
-      },
-      "biography": {
-        "en": "Rodrigo Silva Ferreira is a QA Engineer at Posit, where he ensures the quality and usability of open-source tools used by data scientists in R and Python. With academic training in chemistry and applied mathematics, Rodrigo brings analytical thinking and cross-disciplinary insight to software testing, focusing on test automation, performance, and usability testing. He is passionate about building robust tools that help users make sense of complex data. Originally from Brazil, Rodrigo looks forward to contributing to PyCon Colombia by sharing hands-on strategies for automated performance testing drawn from real-world QA challenges. In his free time, he enjoys hiking, dancing salsa and bachata, and exploring new cultures through travel."
-      },
-      "facebook": "",
-      "twitter": "",
-      "linkedin": "rsf309",
-      "instagram": "",
-      "github": "rodrigosf672",
-      "website": "",
-      "country": "us"
+    "biography": {
+      "en": "AI engineer focused on LLMs and autonomous agents, with a strong interest in their application to accelerate scientific discovery, particularly in drug development. GitHub Campus Expert and passionate about tech communities, open source, science, and mathematics. I believe in the power of collective intelligence, continuous learning, and collaboration to build solutions that generate real impact.",
+      "es": "Ingeniero en IA enfocado en LLMs y agentes autónomos, con especial interés en su aplicación para acelerar el descubrimiento científico, especialmente en el desarrollo de fármacos. GitHub Campus Expert y apasionado por las comunidades tecnológicas, el open source, la ciencia y las matemáticas. Creo en el poder de la inteligencia colectiva, el aprendizaje continuo y la colaboración para construir soluciones que generen impacto real."
     },
-    {
-      "id": "sebastian-gaviria-giraldo",
-      "first_name": "Sebastian",
-      "last_name": "Gaviria Giraldo",
-      "photo": "sebastian-gaviria-giraldo.webp",
-      "affiliation": {
-        "en": "TikiStats",
-        "es": "TikiStats"
-      },
-      "biography": {
-        "es": "Estudiante de física apasionado por el aprendizaje autodidacta y actualmente enfocado en el aprendizaje y aplicación de los conocimientos de análisis y ciencia de datos, machine learning y métodos de IA."
-      },
-      "facebook": "sebasgg99",
-      "twitter": "",
-      "linkedin": "sebastian-gaviria-giraldo-12ab22345",
-      "instagram": "",
-      "github": "SebastGg99",
-      "website": "",
-      "country": "co"
+    "facebook": "",
+    "twitter": "",
+    "linkedin": "josefeldc",
+    "instagram": "",
+    "github": "josefdc",
+    "website": "",
+    "country": "co"
+  },
+  {
+    "id": "diego-ayala",
+    "first_name": "Diego Fernando",
+    "last_name": "Martínez Ayala",
+    "photo": "diego-ayala.webp",
+    "affiliation": {
+      "en": "Provectus",
+      "es": "Provectus"
     },
-    {
-      "id": "jhoan-moscoso",
-      "first_name": "Jhoan",
-      "last_name": "Moscoso",
-      "photo": "jhoan-moscoso.webp",
-      "affiliation": {
-        "en": "TikiStats",
-        "es": "TikiStats"
-      },
-      "biography": {
-        "es": "Soy programador full stack y estudiante de física, apasionado por la arquitectura de software, los negocios, las startups y de la implementación de idea novedosas que aporten al progreso de la sociedad y la tecnología. Tengo experiencia con servidores Apache y Nginx, bases de datos SQL, lenguages como PhP, JS (Node), python, React (Native/JS) y Java."
-      },
-      "facebook": "profile.php?id=100010170361461",
-      "twitter": "",
-      "linkedin": "jhoan-sebastián-moscoso-velásquez-12a32b354",
-      "instagram": "",
-      "github": "JhoanMoscoso",
-      "website": "",
-      "country": "co"
+    "biography": {
+      "en": "Highly motivated and results-oriented Machine Learning Solutions Architect with over ten years of experience designing, implementing, and deploying innovative AI and ML solutions. Proven track record of leading cross-functional teams in delivering impactful projects that optimize operations, generate valuable insights, and drive business growth. Passionate about mentoring and fostering a collaborative work environment.",
+      "es": "Arquitecto de Soluciones en Aprendizaje Automático altamente motivado y orientado a resultados, con más de diez años de experiencia diseñando, implementando y desplegando soluciones innovadoras de IA y aprendizaje automático. Historial comprobado liderando equipos multidisciplinarios en la entrega de proyectos de alto impacto que optimizan operaciones, generan información valiosa y fomentan el crecimiento empresarial. Apasionado por la mentoría y por promover un entorno de trabajo colaborativo."
     },
-    {
-      "id": "nicolas-roldan-fajardo",
-      "first_name": "Nicolas",
-      "last_name": "Roldan Fajardo",
-      "photo": "nicolas-roldan-fajardo.webp",
-      "affiliation": {
-        "en": "Loka, INC",
-        "es": "Loka, INC"
-      },
-      "biography": {
-        "en": "I’m a ML Engineer with a background in Biomedical Engineering. Back in my later years of college, I started focusing on Biomedical Signal and Image Processing and its different applications. This, in turn, led me to develop a strong interest in machine learning, whose roots have been entangled with my dear Signal Processing from the beginning. Nowadays I spend my days shipping  (or at least trying) ML models to production for diverse use cases, going from Computer Vision applications in traffic analysis, Drug Discovery using Deep learning based protein embeddings, and transcription and LLM models for extracting information from encounters between Doctors and patients"
-      },
-      "facebook": "",
-      "twitter": "",
-      "linkedin": "nicolas-roldan-fajardo",
-      "instagram": "",
-      "github": "nroldanf",
-      "website": "",
-      "country": "co"
+    "facebook": "",
+    "twitter": "",
+    "linkedin": "diegofma",
+    "instagram": "",
+    "github": "",
+    "website": "",
+    "country": "co"
+  },
+  {
+    "id": "andres-vasquez",
+    "first_name": "Andrés",
+    "last_name": "Vasquez Restrepo",
+    "photo": "andres-vasquez.webp",
+    "affiliation": {
+      "en": "Provectus",
+      "es": "Provectus"
     },
-    {
-      "id": "maria-fernanda-rojas",
-      "first_name": "Maria Fernanda",
-      "last_name": "Rojas",
-      "photo": "maria-fernanda-rojas.webp",
-      "affiliation": {
-        "en": "Loka, INC",
-        "es": "Loka, INC"
-      },
-      "biography": {
-        "en": "I'm a Data & ML Engineer with a background in Biomedical Engineering. I work in tech consulting, where I design and build data workflows and experiment with applying machine learning and GenAI in practical ways. I’m especially interested in LLMs, knowledge graphs, and making complex ideas easier to understand, sometimes with the help of pop culture.\n\nOutside of work, I love dancing, reading fiction, watching movies, and obsessing over Formula 1. I like finding creative ways to learn and teach, and I bring that spirit into every project or talk I’m part of."
-      },
-      "facebook": "",
-      "twitter": "",
-      "linkedin": "mfernandarojasca",
-      "instagram": "",
-      "github": "mariarojasc",
-      "website": "",
-      "country": "co"
+    "biography": {
+      "en": "I’m a Machine Learning Engineer with over five years of experience working on NLP, Document AI, speech analytics, and unstructured data analysis. I have hands-on experience building and deploying machine learning models, working with tools like TensorFlow, PyTorch, Scikit-learn, and LangChain. I also focus on MLOps, making sure models run smoothly in production.\n\nI’ve worked on projects that involve analyzing large amounts of text, processing speech, and building AI-powered systems to extract insights from unstructured data. I enjoy working with teams to solve problems and make AI useful in real-world applications.\n\nI also like explaining complex ideas in simple terms, whether it’s to engineers, business teams, or clients. I believe good communication is just as important as good code.\n\nAlways learning, always building and more important, always sharing knowledge.",
+      "es": "Soy ingeniero de Machine Learning con más de cinco años de experiencia trabajando en PLN, inteligencia artificial aplicada a documentos, análisis de voz y análisis de datos no estructurados. Tengo experiencia práctica construyendo y desplegando modelos de aprendizaje automático, utilizando herramientas como TensorFlow, PyTorch, Scikit-learn y LangChain. También me enfoco en MLOps, asegurando que los modelos funcionen correctamente en producción.\n\nHe trabajado en proyectos que implican analizar grandes volúmenes de texto, procesar audio y construir sistemas impulsados por IA para extraer información valiosa de datos no estructurados. Disfruto trabajar en equipo para resolver problemas y hacer que la inteligencia artificial sea útil en aplicaciones del mundo real.\n\nTambién me gusta explicar ideas complejas en términos simples, ya sea a equipos técnicos, áreas de negocio o clientes. Creo que una buena comunicación es tan importante como un buen código.\n\nSiempre aprendiendo, siempre construyendo y, más importante aún, siempre compartiendo conocimiento."
     },
-    {
-      "id": "yeison-mauricio-munoz",
-      "first_name": "Yeison Mauricio",
-      "last_name": "Muñoz",
-      "photo": "yeison-mauricio-munoz.webp",
-      "affiliation": {
-        "en": "SoftServe",
-        "es": "SoftServe"
-      },
-      "biography": {
-        "es": "Yeison Mauricio Muñoz es Machine Learning Engineer en SoftServe, con experiencia en ciencia de datos, inteligencia artificial y soluciones analíticas aplicadas a sectores como educación, salud y banca. Cuenta con certificaciones en NVIDIA Certified Associate: Generative AI LLMs y Generative AI Multimodal, lo que respalda su enfoque en tecnologías emergentes y aprendizaje continuo. Su capacidad para traducir conceptos técnicos en ideas accesibles lo convierte en un facilitador ideal para espacios de formación."
-      },
-      "facebook": "",
-      "twitter": "",
-      "linkedin": "yeison-mauricio-muñoz-cardona-b0941780",
-      "instagram": "",
-      "github": "yemauricio",
-      "website": "",
-      "country": "co"
+    "facebook": "",
+    "twitter": "",
+    "linkedin": "anvasquezre",
+    "instagram": "",
+    "github": "",
+    "website": "",
+    "country": "co"
+  },
+  {
+    "id": "ana-rua",
+    "first_name": "Ana Isabel",
+    "last_name": "Rua Graciano",
+    "photo": "ana-rua.webp",
+    "affiliation": {
+      "en": "Provectus",
+      "es": "Provectus"
     },
-    {
-      "id": "diego-vivas-piza",
-      "first_name": "Diego Rolando",
-      "last_name": "Vivas Piza",
-      "photo": "diego-vivas-piza.webp",
-      "affiliation": {
-        "en": "Genlogs",
-        "es": "Genlogs"
-      },
-      "biography": {
-        "en": "Experienced Full Stack Engineer with a demonstrated history of working in the computer software industry. Skilled in Python, Javascript, User Experience , SQL, Unix based operative systems. Strong engineering professional with a Software engineer focused in backend development and data mining."
-      },
-      "facebook": "",
-      "twitter": "",
-      "linkedin": "diego-vivas",
-      "instagram": "",
-      "github": "diegovivas",
-      "website": "",
-      "country": "co"
+    "biography": {
+      "en": "I’m Ana Isabel Rua, a Machine Learning Solution Architect with over 7 years of experience transforming complex data challenges into real-world, high-impact solutions using Python. I specialize in building end-to-end AI systems — from large-scale document pipelines to cutting-edge applications of large language models (LLMs), generative AI, and computer vision.\n\nMy work currently focuses on the healthcare industry, where I’ve led the development of a Retrieval-Augmented Generation (RAG) system that processes millions of unstructured clinical records monthly. This system enables patient mapping and clinical trial cohort selection at scale — unlocking visibility and accelerating impact for medical teams.\n\nI hold a Master’s in Information and Communication Technologies and proudly won the DatatónBC 2018, a national data science competition hosted by Grupo Bancolombia. Throughout my career, I’ve developed and deployed object detection models (300+ food classes), audio analytics solutions and automated content pipelines for enterprise clients — always with a strong commitment to innovation, quality, and collaboration.\n\nBeyond the code, I’m passionate about sharing knowledge, elevating others, and creating space for more women and Latinas in tech. I want people to know about me because I represent what’s possible when technical excellence meets purpose-driven work. At PyCon Colombia, I’m here to share, learn, and connect with others who believe in the power of Python to solve problems that matter.",
+      "es": "Soy Ana Isabel Rua, Arquitecta de Soluciones en Machine Learning con más de 7 años de experiencia transformando retos complejos de datos en soluciones reales y de alto impacto utilizando Python. Me especializo en construir sistemas de inteligencia artificial de extremo a extremo: desde pipelines de documentos a gran escala hasta aplicaciones de vanguardia con modelos de lenguaje de gran tamaño (LLMs), IA generativa y visión por computador.\n\nActualmente, mi trabajo se enfoca en la industria de la salud, donde he liderado el desarrollo de un sistema de Generación Aumentada por Recuperación (RAG) que procesa millones de registros clínicos no estructurados cada mes. Este sistema permite el mapeo de pacientes y la selección de cohortes para ensayos clínicos a gran escala, brindando visibilidad y acelerando el impacto para los equipos médicos.\n\nSoy magíster en Tecnologías de la Información y las Comunicaciones y ganadora de la DatatónBC 2018, una competencia nacional de ciencia de datos organizada por Grupo Bancolombia. A lo largo de mi carrera, he desarrollado y desplegado modelos de detección de objetos (más de 300 clases de alimentos), soluciones de análisis de audio y pipelines de contenido automatizados para clientes empresariales, siempre con un fuerte compromiso con la innovación, la calidad y la colaboración.\n\nMás allá del código, me apasiona compartir conocimiento, elevar a otros y crear espacios para que más mujeres y latinas ingresen al mundo de la tecnología. Quiero que la gente me conozca porque represento lo que es posible cuando la excelencia técnica se une con un propósito. En PyCon Colombia, vengo a compartir, aprender y conectar con quienes creen en el poder de Python para resolver problemas que realmente importan."
     },
-    {
-      "id": "robin-hafid-quintero-lopez",
-      "first_name": "Robin Hafid",
-      "last_name": "Quintero Lopez",
-      "photo": "robin-hafid-quintero-lopez.webp",
-      "affiliation": {
-        "en": "GenLogs",
-        "es": "GenLogs"
-      },
-      "biography": {
-        "en": "Rust & Python developer from Colombia 🇨🇴. I build tools to improve code quality, performance, and the developer experience. I’m into static analysis, language tooling, and open source — with contributions to projects like rust-lang/rust"
-      },
-      "facebook": "",
-      "twitter": "",
-      "linkedin": "robin-hafid",
-      "instagram": "",
-      "github": "rohaquinlop",
-      "website": "",
-      "country": "co"
+    "facebook": "",
+    "twitter": "",
+    "linkedin": "ana-isabel-rua-datascience",
+    "instagram": "",
+    "github": "",
+    "website": "",
+    "country": "co"
+  },
+  {
+    "id": "juan-rua",
+    "first_name": "Juan Andres",
+    "last_name": "Rua",
+    "photo": "juan-rua.webp",
+    "affiliation": {
+      "en": "Provectus",
+      "es": "Provectus"
     },
-    {
-      "id": "sebastian-rodriguez-colina",
-      "first_name": "Sebastián",
-      "last_name": "Rodríguez Colina",
-      "photo": "sebastian-rodriguez-colina.webp",
-      "affiliation": {
-        "en": "Factored AI",
-        "es": "Factored AI"
-      },
-      "biography": {
-        "en": "I am a Software Engineer and a Machine Learning Engineer with more than eight years of experience in the field. I am passionate about AI but hate the hype around it. I am also passionate about learning from a variety of areas and helping others learn what I have learnt."
-      },
-      "facebook": "",
-      "twitter": "",
-      "linkedin": "srcolinas",
-      "instagram": "",
-      "github": "srcolinas",
-      "website": "",
-      "country": "co"
+    "biography": {
+      "en": "I'm a Software Architect and Machine Learning Engineer specializing in leveraging Graph databases and Intelligent Document Processing (IdP) technologies, including advanced data extraction within the healthcare industry. Over the past years, I've implemented industry best practices integrating Large Language Models (LLM) and Generative AI (GenAI) to create robust, secure, and scalable applications, enabling advanced data insights, and enhanced patient outcomes.\n\nTwo years ago, I had the pleasure of sharing my experiences at PyCon Colombia, focusing on practical applications of Python in AI-driven solutions. Since then, I've deepened my expertise by building production-ready systems on cloud platforms.\n\nI believe in open knowledge sharing, continuous learning, and building tech that genuinely impacts society. I'm excited to return to PyCon Colombia to reconnect with the vibrant Python community, share insights from recent challenges and successes, and inspire others to explore the immense possibilities Python unlocks in real-world scenarios.",
+      "es": "Soy arquitecto de software e ingeniero de machine learning, especializado en el uso de bases de datos gráficas y tecnologías de procesamiento inteligente de documentos (IdP), incluyendo extracción avanzada de datos en el sector salud. En los últimos años, he aplicado las mejores prácticas de la industria integrando modelos de lenguaje de gran escala (LLM) e inteligencia artificial generativa (GenAI) para crear aplicaciones robustas, seguras y escalables, permitiendo obtener insights avanzados y mejorar los resultados para los pacientes.\n\nHace dos años tuve el placer de compartir mis experiencias en PyCon Colombia, enfocándome en aplicaciones prácticas de Python en soluciones impulsadas por IA. Desde entonces, he profundizado mi experiencia construyendo sistemas listos para producción en plataformas en la nube.\n\nCreo en el conocimiento abierto, el aprendizaje continuo y en construir tecnología que genere un impacto real en la sociedad. Me emociona volver a PyCon Colombia para reconectarme con la vibrante comunidad de Python, compartir aprendizajes recientes y motivar a otros a explorar todo lo que Python permite en escenarios reales."
     },
-    {
-      "id": "santiago-suarez-sampayo",
-      "first_name": "Santiago",
-      "last_name": "Suarez Sampayo",
-      "photo": "santiago-suarez-sampayo.webp",
-      "affiliation": {
-        "en": "Factored AI",
-        "es": "Factored AI"
-      },
-      "biography": {
-        "en": "I’m a husband, father, and AI Engineer with a passion for building new things. For me, programming and automation feel like a game full of challenges, new levels, and the satisfaction that comes with solving real life problems and creating something that works and benefits people. \n\nI started my journey building Python APIs to extract text from images using OCR (before LLMs were around), and later moved into building Machine Learning inference APIs in Go, handling millions of predictions at a time. \nToday, I focus on building AI-powered solutions and AI agents, including agents for data analysis with LangGraph, RAGs for customer service, and Web Scraping Agents with MCP.\n\nOn a personal note, I’m married to my wonderful wife, and a proud father to my 14-month-old daughter, Elizabeth. I also love traveling and exploring new experiences."
-      },
-      "facebook": "",
-      "twitter": "",
-      "linkedin": "santiago-suarez-sampayo-2b93b2168",
-      "instagram": "",
-      "github": "santiagossz",
-      "website": "",
-      "country": "co"
+    "facebook": "",
+    "twitter": "",
+    "linkedin": "japasosr",
+    "instagram": "",
+    "github": "",
+    "website": "",
+    "country": "co"
+  },
+  {
+    "id": "andres-gonzales",
+    "first_name": "Jaison Andres",
+    "last_name": "Gonzales De La Torre",
+    "photo": "andres-gonzales.webp",
+    "affiliation": {
+      "en": "Mercado Libre",
+      "es": "Mercado Libre"
     },
-    {
-      "id": "nestor-ivan-arbelaez-lopez",
-      "first_name": "Nestor Ivan",
-      "last_name": "Arbelaez Lopez",
-      "photo": "nestor-ivan-arbelaez-lopez.webp",
-      "affiliation": {
-        "en": "MercadoLibre",
-        "es": "MercadoLibre"
-      },
-      "biography": {
-        "es": "Néstor Iván Arbeláez López es Ingeniero Electrónico y Científico de Datos con más de 8 años de experiencia en el desarrollo de soluciones de Machine Learning aplicadas a desafíos reales de negocio. Actualmente se desempeña como Senior Data Scientist en Mercado Libre, donde trabaja en proyectos de ciencia de datos enfocados en sistemas de recomendación, forecasting y optimización de procesos.\n\nHa participado en todas las etapas del ciclo de vida de los modelos: desde la adquisición y transformación de datos, pasando por el modelado y la puesta en producción, hasta el monitoreo de métricas técnicas y de negocio. Su trabajo se destaca por un pensamiento estructurado, una fuerte orientación a resultados y la capacidad de traducir retos técnicos complejos en soluciones escalables y alineadas con la estrategia organizacional.\n\nApasionado por el desarrollo de sistemas de recomendación, combina enfoques clásicos y modernos para construir soluciones robustas, colaborando estrechamente con equipos multidisciplinarios y generando impacto medible en el negocio."
-      },
-      "facebook": "",
-      "twitter": "",
-      "linkedin": "nestor-arbelaez",
-      "instagram": "",
-      "github": "",
-      "website": "",
-      "country": "co"
+    "biography": {
+      "en": "Tech Lead in Machine Learning and MLOps with over 11 years of experience. Passionate about AI, finance, and product development. Currently exploring the intersection between intelligent agents and financial freedom for LATAM.",
+      "es": "Tech Lead en Machine Learning y MLOps con más de 11 años de experiencia. Apasionado por la inteligencia artificial, las finanzas y la creación de productos. Actualmente explora el cruce entre agentes inteligentes y la libertad financiera para América Latina."
     },
-    {
-      "id": "mateo-cano-solis",
-      "first_name": "Mateo",
-      "last_name": "Cano Solis",
-      "photo": "mateo-cano-solis.webp",
-      "affiliation": {
-        "en": "Mercadolibre",
-        "es": "Mercadolibre"
-      },
-      "biography": {
-        "es": "Mateo Cano es Ingeniero y Magister en Analítica, con 4 años de experiencia en el desarrollo de soluciones de Machine Learning e Inteligencia Artificial aplicadas a contextos de negocio. Actualmente se desempeña como Data Scientist en Mercado Libre, donde forma parte del equipo de Sistemas de Recomendación, trabajando en modelos de ranking que mejoran la relevancia de productos en el entorno de e-commerce.\n\nAnteriormente trabajó en la división de Mercado Pago, desarrollando modelos enfocados en marketing analytics y estrategias centradas en el cliente, con el objetivo de optimizar la adquisición de sellers y mejorar la toma de decisiones comerciales mediante enfoques predictivos.\n\nCombina conocimientos técnicos con una visión analítica aplicada, participando en proyectos de principio a fin: desde la exploración de datos hasta la implementación y seguimiento de modelos en producción. Interesado especialmente en sistemas de recomendación, y marketing analytics."
-      },
-      "facebook": "",
-      "twitter": "",
-      "linkedin": "mateo-cano-solis",
-      "instagram": "",
-      "github": "",
-      "website": "",
-      "country": "co"
+    "facebook": "",
+    "twitter": "",
+    "linkedin": "json724",
+    "instagram": "",
+    "github": "json724",
+    "website": "",
+    "country": "co"
+  },
+  {
+    "id": "jonny-jimenez",
+    "first_name": "Jonny Andres",
+    "last_name": "Jiménez Arbelaez",
+    "photo": "jony-jimenez.webp",
+    "affiliation": {
+      "en": "Mercado Libre",
+      "es": "Mercado Libre"
     },
-    {
-      "id": "manuel-casado",
-      "first_name": "Manuel",
-      "last_name": "Casado",
-      "photo": "manuel-casado.webp",
-      "affiliation": {
-        "en": "Aimpoint Digital",
-        "es": "Aimpoint Digital"
-      },
-      "biography": {
-        "en": "I am a versatile Data Engineer and Data Scientist with a strong background in building scalable data pipelines and deploying machine learning solutions. Skilled in Python, SQL, AWS, and GCP, I specialize in designing end-to-end data architectures that support analytics and AI-driven projects.\n\nWith experience across industries, I have developed automated workflows, implemented machine learning models, and optimized data systems for impactful business outcomes. My foundation in Industrial Engineering drives me to create efficient solutions that bridge the gap between data engineering and data science."
-      },
-      "facebook": "",
-      "twitter": "",
-      "linkedin": "manuel-casado-320176150",
-      "instagram": "",
-      "github": "",
-      "website": "",
-      "country": "co"
+    "biography": {
+      "es": "Soy Data Scientist en Mercado Libre, con 7 años de experiencia convirtiendo datos complejos en soluciones de alto impacto para el negocio. Me especializo en procesamiento de lenguaje natural (NLP) y lidero proyectos que clasifican más de 300 millones de transacciones financieras al mes. Trabajo en la intersección entre machine learning y estrategia, siempre con foco en la automatización, la escalabilidad y la claridad.\n\nMás allá del código, me apasiona democratizar el conocimiento. Por eso creé El Man de los Datos, una cuenta de redes sociales educativa donde explico conceptos de estadística, Excel y ciencia de datos de forma práctica y entretenida para profesionales de habla hispana.\n\nQuiero que me conozcan no solo por lo que construyo, sino por cómo lo comparto: con curiosidad, empatía y un compromiso profundo con el crecimiento colectivo. Ser speaker en PyCon representa para mí una oportunidad de aportar a la comunidad que impulsó mi desarrollo y de conectar con quienes también están construyendo el futuro con Python.",
+      "en": "I'm a Data Scientist at Mercado Libre with 7 years of experience turning complex data into high-impact business solutions. I specialize in Natural Language Processing (NLP) and lead projects that classify over 300 million financial transactions per month. I work at the intersection of machine learning and strategy, always focused on automation, scalability, and clarity.\n\nBeyond the code, I'm passionate about democratizing knowledge. That’s why I created 'El Man de los Datos,' an educational social media account where I explain statistics, Excel, and data science concepts in a practical and entertaining way for Spanish-speaking professionals.\n\nI want people to know me not just for what I build, but for how I share it — with curiosity, empathy, and a deep commitment to collective growth. Being a PyCon speaker is a chance for me to give back to the community that fueled my development and to connect with others who are also building the future with Python."
     },
-    {
-      "id": "daniel-galvis",
-      "first_name": "Daniel",
-      "last_name": "Galvis",
-      "photo": "daniel-galvis.webp",
-      "affiliation": {
-        "en": "Aimpoint Digital",
-        "es": "Aimpoint Digital"
-      },
-      "biography": {
-        "en": "Daniel brings over five years of experience in consulting, optimization, data visualization, and data pipelines. He is passionate about all data fields, and his experience allows him to understand needs across Data Science, Data Engineering, and Data Analysis. ​"
-      },
-      "facebook": "",
-      "twitter": "",
-      "linkedin": "dangalvis1011",
-      "instagram": "",
-      "github": "",
-      "website": "",
-      "country": "co"
+    "facebook": "AndresJimenezAr",
+    "twitter": "",
+    "linkedin": "jonny-andrés-jimenez-arbelaez-a893971a3",
+    "instagram": "",
+    "github": "jonjimenez99",
+    "website": "",
+    "country": "co"
+  },
+  {
+    "id": "diego-ramirez",
+    "first_name": "Diego Camilo",
+    "last_name": "Peña Ramírez",
+    "photo": "diego-ramirez.webp",
+    "affiliation": {
+      "en": "Servicio Nacional de Aprendizaje SENA. Centro de Electricidad, Electrónica y Telecomunicaciones CEET",
+      "es": "Servicio Nacional de Aprendizaje SENA. Centro de Electricidad, Electrónica y Telecomunicaciones CEET"
     },
-    {
-      "id": "roberto-bedoya-garcia",
-      "first_name": "Roberto",
-      "last_name": "Bedoya García",
-      "photo": "roberto-bedoya-garcia.webp",
-      "affiliation": {
-        "en": "NowBit",
-        "es": "NowBit"
-      },
-      "biography": {
-        "es": "Me defino como un apasionado de la tecnología, además creo firmemente que el verdadero motor del avance tecnológico es el intercambio de conocimiento. Mi experiencia se centra en programación, automatización e inteligencia artificial, donde no solo he logrado transformar procesos de trabajo en sistemas más eficientes y efectivos, sino que también me gusta  compartir estos aprendizajes con la comunidad TI.\n\nConsidero que la IA puede integrarse en flujos de trabajo para ofrecer soluciones innovadoras y escalables, y así abrir nuevas oportunidades de crecimiento. Convencido de que la colaboración y el intercambio de experiencias son fundamentales para impulsar la innovación. "
-      },
-      "facebook": "",
-      "twitter": "",
-      "linkedin": "robertobedoyag",
-      "instagram": "",
-      "github": "",
-      "website": "",
-      "country": "co"
+    "biography": {
+      "en": "I am a Mechatronic Engineer from the Universidad Militar Nueva Granada and hold a Master's degree in Industrial Automation from the Universidad Nacional de Colombia. I have expertise in CAD design (CATIA/DELMIA, among other software packages), programming (Ladder, Grafcet, Java, Python, C++, C#, and JavaScript mainly), and development for various hardware platforms (PLC, PAC, Arduino, Raspberry Pi, Particle, ESP, PSoC, PIC, among others). I am very interested on Internet of Things and robotics research.",
+      "es": "Soy Ingeniero Mecatrónico de la Universidad Militar Nueva Granada y tengo una Maestría en Automatización Industrial de la Universidad Nacional de Colombia. Tengo experiencia en diseño CAD (CATIA/DELMIA, entre otros paquetes de software), programación (principalmente Ladder, Grafcet, Java, Python, C++, C# y JavaScript), y desarrollo para diversas plataformas de hardware (PLC, PAC, Arduino, Raspberry Pi, Particle, ESP, PSoC, PIC, entre otras). Estoy muy interesado en la investigación sobre el Internet de las Cosas y la robótica."
     },
-    {
-      "id": "santiago-poveda-garcia",
-      "first_name": "Santiago",
-      "last_name": "Poveda García",
-      "photo": "santiago-poveda-garcia.webp",
-      "affiliation": {
-        "en": "NowBit",
-        "es": "NowBit"
-      },
-      "biography": {
-        "es": "Santiago Poveda García es Engineer Consultant en NowBit, donde lidera soluciones de ciberseguridad, observabilidad e inteligencia artificial basadas en tecnologías como Elastic. Certificado por Oracle y Elastic, ha desarrollado arquitecturas de defensa y analítica avanzada para entornos empresariales, combinando automatización, detección de amenazas y cloud-native security. Ha sido speaker en eventos como PyCon Colombia y DevOpsDays, y su trabajo se centra en aplicar IA para resolver desafíos reales con impacto técnico y social."
-      },
-      "facebook": "",
-      "twitter": "",
-      "linkedin": "santiago-poveda-garcia",
-      "instagram": "",
-      "github": "",
-      "website": "",
-      "country": "co"
+    "facebook": "",
+    "twitter": "",
+    "linkedin": "",
+    "instagram": "",
+    "github": "NervenCid",
+    "website": "",
+    "country": "co"
+  },
+  {
+    "id": "vivian-castro",
+    "first_name": "Vivian Gabriela",
+    "last_name": "Amorocho Castro",
+    "photo": "vivian-castro.webp",
+    "affiliation": {
+      "en": "Servicio Nacional de Aprendizaje SENA. Centro de Electricidad, Electronica y Telecomunicaciones CEET",
+      "es": "Servicio Nacional de Aprendizaje SENA. Centro de Electricidad, Electrónica y Telecomunicaciones CEET"
     },
-    {
-      "id": "stiven-arteaga-bedoya",
-      "first_name": "Stiven Alexander",
-      "last_name": "Arteaga Bedoya",
-      "photo": "stiven-arteaga-bedoya.webp",
-      "affiliation": {
-        "en": "Nodo EAFIT",
-        "es": "Nodo EAFIT"
-      },
-      "biography": {
-        "es": "Soy un formador apasionado por llevar la inteligencia artificial y las herramientas low-code a contextos donde normalmente no llegan. Desde el laboratorio de innovación NODO y en alianza con organizaciones como Manos Visibles, Microsoft AI Lab y Koulutus, he liderado procesos de formación tecnológica en Guapi, Tumaco, Timbiquí y otras regiones del Pacífico colombiano, empoderando a jóvenes para que la tecnología sea una alternativa frente a la exclusión, la minería ilegal y la violencia.\n\nMi propósito es claro: democratizar el acceso a la IA y construir puentes entre la técnica y la transformación social. Para ello, combino formación en automatización (n8n, Zapier, Python), modelos de lenguaje generativo (ChatGPT, Gemini), y procesos pedagógicos basados en pensamiento crítico y Freire.\n\nHe guiado a más de 100 jóvenes en la creación de agentes conversacionales, flujos automatizados y proyectos reales con impacto territorial. Creo en una tecnología con sentido, en lenguajes que sanan y en el poder de imaginar futuros más justos desde el código y la palabra."
-      },
-      "facebook": "stiven.arteaga.9887",
-      "twitter": "",
-      "linkedin": "stiven-arteaga-ba1303149",
-      "instagram": "",
-      "github": "",
-      "website": "",
-      "country": "co"
+    "biography": {
+      "en": "Professional in Ecology from Pontificia Universidad Javeriana and Master in Rural Development, with training and experience in socio-environmental projects in rural settings related to urban agriculture, climate change adaptation, agroecology, rural extension, and environmental education processes.",
+      "es": "Profesional en Ecología de la Pontificia Universidad Javeriana y Magíster en Desarrollo Rural, con formación y experiencia en proyectos socioambientales en contextos rurales relacionados con agricultura urbana, adaptación al cambio climático, agroecología, extensión rural y procesos de educación ambiental."
     },
-    {
-      "id": "socrates-martinez-berrio",
-      "first_name": "Sócrates",
-      "last_name": "Martínez Berrio",
-      "photo": "socrates-martinez-berrio.webp",
-      "affiliation": {
-        "en": "AILAB NODO EAFIT",
-        "es": "AILAB NODO EAFIT"
-      },
-      "biography": {
-        "es": "Especialista en Desarrollo de Software | Investigador y Formador en Inteligencia Artificial | Emprendedor Tecnológico\n\nUn profesional que combina visión técnica, dominio en inteligencia artificial y espíritu emprendedor. He impulsado proyectos de desarrollo y soluciones digitales adaptadas a diversas problemáticas, aportando desde la conceptualización hasta el despliegue. Me interesa no solo crear software, sino hacerlo con propósito — especialmente cuando la IA permite ampliar lo posible.\n\nTengo experiencia aplicada en modelos de lenguaje, aprendizaje automático y desarrollo de agentes inteligentes. Mi enfoque está en aprovechar la IA no como moda, sino como herramienta concreta para resolver problemas reales en educación, salud, productividad y gestión de datos. He acompañado procesos formativos y productivos que combinan lo mejor del software tradicional con las nuevas capacidades que ofrece la inteligencia artificial.\n\n¿Por qué quiero que la gente me conozca?\nPorque mi trayectoria demuestra que la tecnología, cuando se orienta con criterio, puede ser un motor de cambio real. Quiero inspirar a otros —estudiantes, colegas, organizaciones— a ver en el desarrollo de software y en la inteligencia artificial no solo una carrera, sino una posibilidad de transformación. A través de mis redes, publicaciones y colaboraciones, comparto aprendizajes e insomnio productivo: el tipo que te lleva a resolver algo importante una madrugada.\n\nEsta es mi oportunidad\n\nEstudiantes: para mostrarles que hay más allá del código: mentoría, IA, emprendimiento, impacto.\n\nEmpresas y colegas: para demostrar un enfoque práctico, estratégico y creativo, desde una idea hasta un producto basado en datos y automatización.\n\nComunidad tecnológica: para aportar al ecosistema de Medellín y el país, siendo ejemplo de formación continua, transferencia de conocimiento y liderazgo en tecnologías emergentes."
-      },
-      "facebook": "",
-      "twitter": "",
-      "linkedin": "socrates-martinez-berrio-9a5a59232",
-      "instagram": "",
-      "github": "",
-      "website": "",
-      "country": "co"
-    }
-  ]
-}
+    "facebook": "",
+    "twitter": "",
+    "linkedin": "",
+    "instagram": "",
+    "github": "",
+    "website": "",
+    "country": "co"
+  },
+  {
+    "id": "andrew-pikul",
+    "first_name": "Andrew",
+    "last_name": "Pikul",
+    "photo": "andrew-pikul.webp",
+    "affiliation": {
+      "en": "Grupo Pikul/GeoPozo",
+      "es": "Grupo Pikul/GeoPozo"
+    },
+    "biography": {
+      "en": "Engineer with 15 years of experience spanning a wide variety of technologies, from driver and operating system design on M series ARM processors to authoring high-level projects like github.com/plotly/choreographer and github.com/plotly/kaleido. Now runs a small office in Medellín working on devops and geological analysis tools.",
+      "es": "Ingeniero con 15 años de experiencia en una amplia variedad de tecnologías, desde el diseño de controladores y sistemas operativos en procesadores ARM serie M hasta la creación de proyectos de alto nivel como github.com/plotly/choreographer y github.com/plotly/kaleido. Actualmente dirige una pequeña oficina en Medellín dedicada al trabajo en DevOps y herramientas de análisis geológico."
+    },
+    "facebook": "",
+    "twitter": "",
+    "linkedin": "ajpikul/?locale=en_US",
+    "instagram": "",
+    "github": "ayjayt",
+    "website": "",
+    "country": "us"
+  },
+  {
+    "id": "david-ruiz",
+    "first_name": "David Hernando",
+    "last_name": " Angarita Ruiz",
+    "photo": "david-ruiz.webp",
+    "affiliation": {
+      "en": "Grupo Pikul/GeoPozo",
+      "es": "Grupo Pikul/GeoPozo"
+    },
+    "biography": {
+      "en": "I’m a web developer passionate about turning ideas into digital experiences. I enjoy writing clean code, building intuitive interfaces, and learning something new every day. I believe technology is a bridge that connects people with solutions.",
+      "es": "Soy desarrollador web y me apasiona convertir ideas en experiencias digitales. Disfruto crear código limpio, interfaces intuitivas y aprender algo nuevo cada día. Creo en la tecnología como puente para conectar personas y soluciones."
+    },
+    "facebook": "",
+    "twitter": "",
+    "linkedin": "davidangaritaruiz",
+    "instagram": "",
+    "github": "davidangarita1",
+    "website": "",
+    "country": "co"
+  },
+  {
+    "id": "karol-sandoval",
+    "first_name": "Karol Michelle",
+    "last_name": "Sandoval",
+    "photo": "karol-sandoval.webp",
+    "affiliation": {
+      "en": "Brain Food, an Artefact Company",
+      "es": "Brain Food, an Artefact Company"
+    },
+    "biography": {
+      "en": "I’m Karol Sandoval, a statistician graduated from Universidad del Valle, with over 3 years of experience as a Data Scientist. I’ve worked in sectors such as retail, consulting, and technology, using tools like Python, SQL, Spark, and GCP to solve problems and create effective solutions.\n\nI want people to know me because I believe knowledge and experience are more valuable when shared. I’m convinced that to be part of change, you don’t need to make noise — you just need to act with intention, step by step, always with purpose and seeking real impact.",
+      "es": "Soy Karol Sandoval, estadística graduada de la Universidad del Valle, con más de 3 años de experiencia como Científica de Datos. He trabajado en sectores como retail, consultoría y tecnología, utilizando herramientas como Python, SQL, Spark y GCP para resolver problemas y crear soluciones efectivas.\n\nQuiero que me conozcan porque creo que el conocimiento y la experiencia tienen más valor cuando se comparten. Estoy convencida de que para ser parte del cambio no hace falta hacer ruido, sino actuar con intención, paso a paso, siempre con propósito y en busca de un impacto real."
+    },
+    "facebook": "",
+    "twitter": "",
+    "linkedin": "karol-michelle-sandoval",
+    "instagram": "",
+    "github": "",
+    "website": "",
+    "country": "co"
+  },
+  {
+    "id": "daniel-salazar",
+    "first_name": "Daniel",
+    "last_name": "Salazar",
+    "photo": "daniel-salazar.webp",
+    "affiliation": {
+      "en": "Brain Food, an Artefact Company",
+      "es": "Brain Food, an Artefact Company"
+    },
+    "biography": {
+      "en": "I’m a data engineer by conviction, with a background in Physics and Chemistry Engineering from the National University of Colombia. For over four years —the last two and a half in consulting— I’ve designed and operated data architectures in sectors such as telecommunications, energy, retail, and startups. I combine Python, SQL, Apache Airflow, and platforms like Azure, GCP, and Databricks to turn complex workflows into clean and reproducible solutions. My drive comes from scientific curiosity: I enjoy applying the rigor of natural sciences and research to data analysis, aiming for each project to turn information into decisions that improve processes and spark new questions.",
+      "es": "Soy ingeniero de datos por convicción, con formación en Ingeniería Física y Química de la Universidad Nacional de Colombia. A lo largo de más de cuatro años —los últimos dos y medio en consultoría— he diseñado y operado arquitecturas de datos en telecomunicaciones, energía, retail y startups, combinando Python, SQL, Apache Airflow y plataformas como Azure, GCP y Databricks para convertir flujos complejos en soluciones limpias y reproducibles. Mi impulso nace de la curiosidad científica: disfruto aplicar el rigor de las ciencias naturales y la investigación al análisis de datos, buscando que cada proyecto traduzca información en decisiones que mejoren procesos y abran nuevas preguntas."
+    },
+    "facebook": "",
+    "twitter": "",
+    "linkedin": "daniel-salazar-lopez-35786226b",
+    "instagram": "",
+    "github": "",
+    "website": "",
+    "country": "co"
+  },
+  {
+    "id": "nieng-yordan",
+    "first_name": "Nieng Yordan",
+    "last_name": "Lee Gaitan",
+    "photo": "nieng-yordan.webp",
+    "affiliation": {
+      "en": "coursera",
+      "es": "coursera"
+    },
+    "biography": {
+      "es": "Soy ingeniero químico con una trayectoria que abarca la docencia, el análisis de datos y el desarrollo backend. Mi misión es fusionar la ingeniería con la tecnología, utilizando Python como eje central para impulsar soluciones innovadoras en inteligencia artificial y desarrollo web aplicado a la ingeniería química.\n\nMi enfoque está en optimizar procesos industriales, reduciendo tiempos de simulación y mejorando la eficiencia en operaciones matemáticas e ingenieriles. A través de la inteligencia artificial, busco proporcionar herramientas avanzadas que faciliten la toma de decisiones críticas en el desarrollo de procesos químicos. Además, mi trabajo se orienta a la creación de plataformas que presenten datos operativos y el comportamiento de variables en tiempo real de manera clara y accesible.\n\nEste campo está en constante evolución y quiero ser un agente de cambio, contribuyendo con soluciones tecnológicas que no solo impulsen la industria, sino que también generen un impacto positivo en la calidad de vida y el avance de la humanidad."
+    },
+    "facebook": "niengyordan.leegaitan",
+    "twitter": "",
+    "linkedin": "ncyl91",
+    "instagram": "",
+    "github": "NiengLee",
+    "website": "",
+    "country": "co"
+  },
+  {
+    "id": "cristian-valdez-romero",
+    "first_name": "Cristian Antonio",
+    "last_name": "Valdez Romero",
+    "photo": "cristian-valdez-romero.webp",
+    "affiliation": {
+      "en": "CVR ELECTRÓNICA",
+      "es": "CVR ELECTRÓNICA"
+    },
+    "biography": {
+      "es": "Soy ingeniero electrónico de profesión, cuento con experiencia en diseño y ensamble de hardware para sistemas análogos y digitales enfocados a procesos de automatización, control y el internet de las cosas (IoT). Tengo aproximadamente 15 años de experiencia en el mundo de los sistemas embebidos trabajando así con lenguajes como ASSEMBLER, C, C++, LUA y PYTHON para embebidos. CEO de CVRELECTRONICA.COM proyecto que día a día sigo construyendo con el fin de crear un ecosistema completo que sirva de apoyo para Ingenieros, Aficionados, Estudiantes y Makers creando herramientas que los asistan en sus procesos creativos y/o educativos."
+    },
+    "facebook": "christian.v.romero",
+    "twitter": "CristianV0223",
+    "linkedin": "cristian-valdez-romero-a83837210",
+    "instagram": "",
+    "github": "cristianvr",
+    "website": "",
+    "country": "co"
+  },
+  {
+    "id": "erick-pineda-amezquita",
+    "first_name": "Erick J.",
+    "last_name": "Pineda Amézquita",
+    "photo": "erick-pineda-amezquita.webp",
+    "affiliation": {
+      "en": "Conduent",
+      "es": "Conduent"
+    },
+    "biography": {
+      "es": "Ingeniero en Ciencias y Sistemas. Líder de la comunidad Python Guatemala. Posee un postgrado en Análisis y Predicción de Datos y una maestría en Inteligencia de Negocios y Analítica de datos, también diferentes certificaciones, entre ellas, extendidas Massachusetts Institute of Technology en temas de Machine Learning con Python, Estádistica y Probabilidad. Ha sido catedrático en las universidades más reconocidas de Guatemala y ha compartido su experiencia sobre electrónica, programación mediante conferencias en diferentes congresos, tanto nacionales como internacionales. Docente ad honorem del curso de Python para ciencia de Datos, en la Universidad de San Carlos de Guatemala. Ha desarrollado proyectos en Python como lector de huellas digitales, sensor de ritmo cardiáco, reconocimiento facial con OpenCV, análisis de datos y pruebas con PyTest. Apasionado por la tecnología y por divulgar el conocimiento a todas las personas."
+    },
+    "facebook": "erick.pineda.37",
+    "twitter": "",
+    "linkedin": "epinedaamezquita",
+    "instagram": "",
+    "github": "epinedaWorks",
+    "website": "",
+    "country": "gt"
+  },
+  {
+    "id": "gilbert-alejandro-gomez-briceno",
+    "first_name": "Gilbert Alejandro",
+    "last_name": "Gómez Briceño",
+    "photo": "gilbert-alejandro-gomez-briceno.webp",
+    "affiliation": {
+      "en": "Cloudshine",
+      "es": "Cloudshine"
+    },
+    "biography": {
+      "es": "Soy un entusiasta de la tecnología, especialmente enamorado de la ingeniería de datos y la inteligencia artificial. Mi trayectoria de 9 años en el mundo tecnológico me ha permitido explorar el desarrollo web, la inteligencia de negocios y la ingeniería de datos, sumergiéndome en emocionantes proyectos en Retail Tech, HR Tech y Proptech. En el presente, me desempeño como Data Engineer en Cloudshine.\n\nMi interés por el trabajo en equipo se alinea con mi gusto por compartir conocimientos. Creo firmemente que al compartir, no solo enseñamos, sino que también ampliamos nuestra comprensión de manera más profunda. Disfruto explorando las últimas tecnologías de código abierto y dedicando tiempo a investigar y experimentar con ellas.\n\nComo prueba de mi compromiso con el intercambio de conocimientos, he tenido el honor de impartir charlas internamente en mis experiencias profesionales como en eventos públicos, como la KCD Colombia 2023 en Medellín y con ustedes, en la PyCon Colombia del 2024."
+    },
+    "facebook": "",
+    "twitter": "",
+    "linkedin": "gilbert-alejandro-gomez-briceño",
+    "instagram": "",
+    "github": "GilbertGomez94",
+    "website": "",
+    "country": "ve"
+  },
+  {
+    "id": "christian-abrajan-fortis",
+    "first_name": "Christian Jesus",
+    "last_name": "Abrajan Fortis",
+    "photo": "christian-abrajan-fortis.webp",
+    "affiliation": {
+      "en": "Softtek",
+      "es": "Softtek"
+    },
+    "biography": {
+      "es": "Soy Ingeniero en Electrónica con Maestría en TI, apasionado por la enseñanza técnica y el desarrollo de software. Con una trayectoria de más de 13 años que integra la docencia universitaria y el desarrollo de software. Durante 7 años combiné la docencia universitaria con proyectos de programación, y desde hace 6 años trabajo de tiempo completo desarrollando software en Softtek liderando iniciativas en áreas como ciberseguridad y desarrollo front-end. En los últimos 4 años, he participado en un proyecto destacado en la industria de los videojuegos, empleando Python y sus múltiples frameworks para crear soluciones innovadoras.\n\nMi experiencia en entornos educativos y en la industria me ha enseñado a explicar conceptos complejos de forma clara y práctica. En este workshop, compartiré todo lo que he aprendido sobre arquitecturas serverless en AWS, un tema que aplico hoy en el desarrollo de backend para APIs escalables. Certificado como AWS Cloud Practitioner y apasionado por diseñar soluciones serverless  que optimizan procesos reales, aprovechando beneficios como la escalabilidad automática y la reducción de costos .\n\nSoy cofundador de PyTalavera en Puebla, México, donde organizamos meetups mensuales para compartir conocimiento y crecer la comunidad. Cuando no estoy programando o enseñando, me desconecto rodando en bicicleta."
+    },
+    "facebook": "",
+    "twitter": "",
+    "linkedin": "chrisfx",
+    "instagram": "",
+    "github": "",
+    "website": "",
+    "country": "mx"
+  },
+  {
+    "id": "felipe-angelim-vieira",
+    "first_name": "Felipe",
+    "last_name": "Angelim Vieira",
+    "photo": "felipe-angelim-vieira.webp",
+    "affiliation": {
+      "en": "Mercado Libre",
+      "es": "Mercado Libre"
+    },
+    "biography": {
+      "en": "Felipe Angelim is a Tech Lead at Mercado Libre, the largest e-commerce platform in Latin America. He is a core developer of sktime, one of the leading Python libraries for time series analysis, with over 1 million downloads per month, and the creator of Prophetverse, a Bayesian forecasting library with applications in Marketing Mix Modeling.\n\nWith over five years of experience in forecasting for finance and retail, Felipe brings deep expertise in applying advanced techniques to real-world problems. By combining strong mathematical foundations with practical programming skills, he builds simple, effective solutions to complex challenges."
+    },
+    "facebook": "",
+    "twitter": "",
+    "linkedin": "felipe-angelim",
+    "instagram": "",
+    "github": "felipeangelimvieira",
+    "website": "",
+    "country": "br"
+  },
+  {
+    "id": "maris-botero",
+    "first_name": "Maris",
+    "last_name": "Botero",
+    "photo": "maris-botero.webp",
+    "affiliation": {
+      "en": "Mercado Libre",
+      "es": "Mercado Libre"
+    },
+    "biography": {
+      "es": "Soy Maris Botero, científica de datos y entusiasta de la inteligencia artificial. Disfruto trabajar con Python, construir proyectos que conectan tecnología con curiosidad y explorar formas creativas de aplicar la ciencia de datos. He participado en comunidades como PyLadies y me apasiona hacer que la tecnología sea más humana, accesible y divertida."
+    },
+    "facebook": "",
+    "twitter": "marisbotero",
+    "linkedin": "marisbotero",
+    "instagram": "",
+    "github": "marisbotero",
+    "website": "",
+    "country": "co"
+  },
+  {
+    "id": "rodrigo-silva-ferreira",
+    "first_name": "Rodrigo",
+    "last_name": "Silva Ferreira",
+    "photo": "rodrigo-silva-ferreira.webp",
+    "affiliation": {
+      "en": "Posit PBC",
+      "es": "Posit PBC"
+    },
+    "biography": {
+      "en": "Rodrigo Silva Ferreira is a QA Engineer at Posit, where he ensures the quality and usability of open-source tools used by data scientists in R and Python. With academic training in chemistry and applied mathematics, Rodrigo brings analytical thinking and cross-disciplinary insight to software testing, focusing on test automation, performance, and usability testing. He is passionate about building robust tools that help users make sense of complex data. Originally from Brazil, Rodrigo looks forward to contributing to PyCon Colombia by sharing hands-on strategies for automated performance testing drawn from real-world QA challenges. In his free time, he enjoys hiking, dancing salsa and bachata, and exploring new cultures through travel."
+    },
+    "facebook": "",
+    "twitter": "",
+    "linkedin": "rsf309",
+    "instagram": "",
+    "github": "rodrigosf672",
+    "website": "",
+    "country": "us"
+  },
+  {
+    "id": "sebastian-gaviria-giraldo",
+    "first_name": "Sebastian",
+    "last_name": "Gaviria Giraldo",
+    "photo": "sebastian-gaviria-giraldo.webp",
+    "affiliation": {
+      "en": "TikiStats",
+      "es": "TikiStats"
+    },
+    "biography": {
+      "es": "Estudiante de física apasionado por el aprendizaje autodidacta y actualmente enfocado en el aprendizaje y aplicación de los conocimientos de análisis y ciencia de datos, machine learning y métodos de IA."
+    },
+    "facebook": "sebasgg99",
+    "twitter": "",
+    "linkedin": "sebastian-gaviria-giraldo-12ab22345",
+    "instagram": "",
+    "github": "SebastGg99",
+    "website": "",
+    "country": "co"
+  },
+  {
+    "id": "jhoan-moscoso",
+    "first_name": "Jhoan",
+    "last_name": "Moscoso",
+    "photo": "jhoan-moscoso.webp",
+    "affiliation": {
+      "en": "TikiStats",
+      "es": "TikiStats"
+    },
+    "biography": {
+      "es": "Soy programador full stack y estudiante de física, apasionado por la arquitectura de software, los negocios, las startups y de la implementación de idea novedosas que aporten al progreso de la sociedad y la tecnología. Tengo experiencia con servidores Apache y Nginx, bases de datos SQL, lenguages como PhP, JS (Node), python, React (Native/JS) y Java."
+    },
+    "facebook": "profile.php?id=100010170361461",
+    "twitter": "",
+    "linkedin": "jhoan-sebastián-moscoso-velásquez-12a32b354",
+    "instagram": "",
+    "github": "JhoanMoscoso",
+    "website": "",
+    "country": "co"
+  },
+  {
+    "id": "nicolas-roldan-fajardo",
+    "first_name": "Nicolas",
+    "last_name": "Roldan Fajardo",
+    "photo": "nicolas-roldan-fajardo.webp",
+    "affiliation": {
+      "en": "Loka, INC",
+      "es": "Loka, INC"
+    },
+    "biography": {
+      "en": "I’m a ML Engineer with a background in Biomedical Engineering. Back in my later years of college, I started focusing on Biomedical Signal and Image Processing and its different applications. This, in turn, led me to develop a strong interest in machine learning, whose roots have been entangled with my dear Signal Processing from the beginning. Nowadays I spend my days shipping  (or at least trying) ML models to production for diverse use cases, going from Computer Vision applications in traffic analysis, Drug Discovery using Deep learning based protein embeddings, and transcription and LLM models for extracting information from encounters between Doctors and patients"
+    },
+    "facebook": "",
+    "twitter": "",
+    "linkedin": "nicolas-roldan-fajardo",
+    "instagram": "",
+    "github": "nroldanf",
+    "website": "",
+    "country": "co"
+  },
+  {
+    "id": "maria-fernanda-rojas",
+    "first_name": "Maria Fernanda",
+    "last_name": "Rojas",
+    "photo": "maria-fernanda-rojas.webp",
+    "affiliation": {
+      "en": "Loka, INC",
+      "es": "Loka, INC"
+    },
+    "biography": {
+      "en": "I'm a Data & ML Engineer with a background in Biomedical Engineering. I work in tech consulting, where I design and build data workflows and experiment with applying machine learning and GenAI in practical ways. I’m especially interested in LLMs, knowledge graphs, and making complex ideas easier to understand, sometimes with the help of pop culture.\n\nOutside of work, I love dancing, reading fiction, watching movies, and obsessing over Formula 1. I like finding creative ways to learn and teach, and I bring that spirit into every project or talk I’m part of."
+    },
+    "facebook": "",
+    "twitter": "",
+    "linkedin": "mfernandarojasca",
+    "instagram": "",
+    "github": "mariarojasc",
+    "website": "",
+    "country": "co"
+  },
+  {
+    "id": "yeison-mauricio-munoz",
+    "first_name": "Yeison Mauricio",
+    "last_name": "Muñoz",
+    "photo": "yeison-mauricio-munoz.webp",
+    "affiliation": {
+      "en": "SoftServe",
+      "es": "SoftServe"
+    },
+    "biography": {
+      "es": "Yeison Mauricio Muñoz es Machine Learning Engineer en SoftServe, con experiencia en ciencia de datos, inteligencia artificial y soluciones analíticas aplicadas a sectores como educación, salud y banca. Cuenta con certificaciones en NVIDIA Certified Associate: Generative AI LLMs y Generative AI Multimodal, lo que respalda su enfoque en tecnologías emergentes y aprendizaje continuo. Su capacidad para traducir conceptos técnicos en ideas accesibles lo convierte en un facilitador ideal para espacios de formación."
+    },
+    "facebook": "",
+    "twitter": "",
+    "linkedin": "yeison-mauricio-muñoz-cardona-b0941780",
+    "instagram": "",
+    "github": "yemauricio",
+    "website": "",
+    "country": "co"
+  },
+  {
+    "id": "diego-vivas-piza",
+    "first_name": "Diego Rolando",
+    "last_name": "Vivas Piza",
+    "photo": "diego-vivas-piza.webp",
+    "affiliation": {
+      "en": "Genlogs",
+      "es": "Genlogs"
+    },
+    "biography": {
+      "en": "Experienced Full Stack Engineer with a demonstrated history of working in the computer software industry. Skilled in Python, Javascript, User Experience , SQL, Unix based operative systems. Strong engineering professional with a Software engineer focused in backend development and data mining."
+    },
+    "facebook": "",
+    "twitter": "",
+    "linkedin": "diego-vivas",
+    "instagram": "",
+    "github": "diegovivas",
+    "website": "",
+    "country": "co"
+  },
+  {
+    "id": "robin-hafid-quintero-lopez",
+    "first_name": "Robin Hafid",
+    "last_name": "Quintero Lopez",
+    "photo": "robin-hafid-quintero-lopez.webp",
+    "affiliation": {
+      "en": "GenLogs",
+      "es": "GenLogs"
+    },
+    "biography": {
+      "en": "Rust & Python developer from Colombia 🇨🇴. I build tools to improve code quality, performance, and the developer experience. I’m into static analysis, language tooling, and open source — with contributions to projects like rust-lang/rust"
+    },
+    "facebook": "",
+    "twitter": "",
+    "linkedin": "robin-hafid",
+    "instagram": "",
+    "github": "rohaquinlop",
+    "website": "",
+    "country": "co"
+  },
+  {
+    "id": "sebastian-rodriguez-colina",
+    "first_name": "Sebastián",
+    "last_name": "Rodríguez Colina",
+    "photo": "sebastian-rodriguez-colina.webp",
+    "affiliation": {
+      "en": "Factored AI",
+      "es": "Factored AI"
+    },
+    "biography": {
+      "en": "I am a Software Engineer and a Machine Learning Engineer with more than eight years of experience in the field. I am passionate about AI but hate the hype around it. I am also passionate about learning from a variety of areas and helping others learn what I have learnt."
+    },
+    "facebook": "",
+    "twitter": "",
+    "linkedin": "srcolinas",
+    "instagram": "",
+    "github": "srcolinas",
+    "website": "",
+    "country": "co"
+  },
+  {
+    "id": "santiago-suarez-sampayo",
+    "first_name": "Santiago",
+    "last_name": "Suarez Sampayo",
+    "photo": "santiago-suarez-sampayo.webp",
+    "affiliation": {
+      "en": "Factored AI",
+      "es": "Factored AI"
+    },
+    "biography": {
+      "en": "I’m a husband, father, and AI Engineer with a passion for building new things. For me, programming and automation feel like a game full of challenges, new levels, and the satisfaction that comes with solving real life problems and creating something that works and benefits people. \n\nI started my journey building Python APIs to extract text from images using OCR (before LLMs were around), and later moved into building Machine Learning inference APIs in Go, handling millions of predictions at a time. \nToday, I focus on building AI-powered solutions and AI agents, including agents for data analysis with LangGraph, RAGs for customer service, and Web Scraping Agents with MCP.\n\nOn a personal note, I’m married to my wonderful wife, and a proud father to my 14-month-old daughter, Elizabeth. I also love traveling and exploring new experiences."
+    },
+    "facebook": "",
+    "twitter": "",
+    "linkedin": "santiago-suarez-sampayo-2b93b2168",
+    "instagram": "",
+    "github": "santiagossz",
+    "website": "",
+    "country": "co"
+  },
+  {
+    "id": "nestor-ivan-arbelaez-lopez",
+    "first_name": "Nestor Ivan",
+    "last_name": "Arbelaez Lopez",
+    "photo": "nestor-ivan-arbelaez-lopez.webp",
+    "affiliation": {
+      "en": "MercadoLibre",
+      "es": "MercadoLibre"
+    },
+    "biography": {
+      "es": "Néstor Iván Arbeláez López es Ingeniero Electrónico y Científico de Datos con más de 8 años de experiencia en el desarrollo de soluciones de Machine Learning aplicadas a desafíos reales de negocio. Actualmente se desempeña como Senior Data Scientist en Mercado Libre, donde trabaja en proyectos de ciencia de datos enfocados en sistemas de recomendación, forecasting y optimización de procesos.\n\nHa participado en todas las etapas del ciclo de vida de los modelos: desde la adquisición y transformación de datos, pasando por el modelado y la puesta en producción, hasta el monitoreo de métricas técnicas y de negocio. Su trabajo se destaca por un pensamiento estructurado, una fuerte orientación a resultados y la capacidad de traducir retos técnicos complejos en soluciones escalables y alineadas con la estrategia organizacional.\n\nApasionado por el desarrollo de sistemas de recomendación, combina enfoques clásicos y modernos para construir soluciones robustas, colaborando estrechamente con equipos multidisciplinarios y generando impacto medible en el negocio."
+    },
+    "facebook": "",
+    "twitter": "",
+    "linkedin": "nestor-arbelaez",
+    "instagram": "",
+    "github": "",
+    "website": "",
+    "country": "co"
+  },
+  {
+    "id": "mateo-cano-solis",
+    "first_name": "Mateo",
+    "last_name": "Cano Solis",
+    "photo": "mateo-cano-solis.webp",
+    "affiliation": {
+      "en": "Mercadolibre",
+      "es": "Mercadolibre"
+    },
+    "biography": {
+      "es": "Mateo Cano es Ingeniero y Magister en Analítica, con 4 años de experiencia en el desarrollo de soluciones de Machine Learning e Inteligencia Artificial aplicadas a contextos de negocio. Actualmente se desempeña como Data Scientist en Mercado Libre, donde forma parte del equipo de Sistemas de Recomendación, trabajando en modelos de ranking que mejoran la relevancia de productos en el entorno de e-commerce.\n\nAnteriormente trabajó en la división de Mercado Pago, desarrollando modelos enfocados en marketing analytics y estrategias centradas en el cliente, con el objetivo de optimizar la adquisición de sellers y mejorar la toma de decisiones comerciales mediante enfoques predictivos.\n\nCombina conocimientos técnicos con una visión analítica aplicada, participando en proyectos de principio a fin: desde la exploración de datos hasta la implementación y seguimiento de modelos en producción. Interesado especialmente en sistemas de recomendación, y marketing analytics."
+    },
+    "facebook": "",
+    "twitter": "",
+    "linkedin": "mateo-cano-solis",
+    "instagram": "",
+    "github": "",
+    "website": "",
+    "country": "co"
+  },
+  {
+    "id": "manuel-casado",
+    "first_name": "Manuel",
+    "last_name": "Casado",
+    "photo": "manuel-casado.webp",
+    "affiliation": {
+      "en": "Aimpoint Digital",
+      "es": "Aimpoint Digital"
+    },
+    "biography": {
+      "en": "I am a versatile Data Engineer and Data Scientist with a strong background in building scalable data pipelines and deploying machine learning solutions. Skilled in Python, SQL, AWS, and GCP, I specialize in designing end-to-end data architectures that support analytics and AI-driven projects.\n\nWith experience across industries, I have developed automated workflows, implemented machine learning models, and optimized data systems for impactful business outcomes. My foundation in Industrial Engineering drives me to create efficient solutions that bridge the gap between data engineering and data science."
+    },
+    "facebook": "",
+    "twitter": "",
+    "linkedin": "manuel-casado-320176150",
+    "instagram": "",
+    "github": "",
+    "website": "",
+    "country": "co"
+  },
+  {
+    "id": "daniel-galvis",
+    "first_name": "Daniel",
+    "last_name": "Galvis",
+    "photo": "daniel-galvis.webp",
+    "affiliation": {
+      "en": "Aimpoint Digital",
+      "es": "Aimpoint Digital"
+    },
+    "biography": {
+      "en": "Daniel brings over five years of experience in consulting, optimization, data visualization, and data pipelines. He is passionate about all data fields, and his experience allows him to understand needs across Data Science, Data Engineering, and Data Analysis. ​"
+    },
+    "facebook": "",
+    "twitter": "",
+    "linkedin": "dangalvis1011",
+    "instagram": "",
+    "github": "",
+    "website": "",
+    "country": "co"
+  },
+  {
+    "id": "roberto-bedoya-garcia",
+    "first_name": "Roberto",
+    "last_name": "Bedoya García",
+    "photo": "roberto-bedoya-garcia.webp",
+    "affiliation": {
+      "en": "NowBit",
+      "es": "NowBit"
+    },
+    "biography": {
+      "es": "Me defino como un apasionado de la tecnología, además creo firmemente que el verdadero motor del avance tecnológico es el intercambio de conocimiento. Mi experiencia se centra en programación, automatización e inteligencia artificial, donde no solo he logrado transformar procesos de trabajo en sistemas más eficientes y efectivos, sino que también me gusta  compartir estos aprendizajes con la comunidad TI.\n\nConsidero que la IA puede integrarse en flujos de trabajo para ofrecer soluciones innovadoras y escalables, y así abrir nuevas oportunidades de crecimiento. Convencido de que la colaboración y el intercambio de experiencias son fundamentales para impulsar la innovación. "
+    },
+    "facebook": "",
+    "twitter": "",
+    "linkedin": "robertobedoyag",
+    "instagram": "",
+    "github": "",
+    "website": "",
+    "country": "co"
+  },
+  {
+    "id": "santiago-poveda-garcia",
+    "first_name": "Santiago",
+    "last_name": "Poveda García",
+    "photo": "santiago-poveda-garcia.webp",
+    "affiliation": {
+      "en": "NowBit",
+      "es": "NowBit"
+    },
+    "biography": {
+      "es": "Santiago Poveda García es Engineer Consultant en NowBit, donde lidera soluciones de ciberseguridad, observabilidad e inteligencia artificial basadas en tecnologías como Elastic. Certificado por Oracle y Elastic, ha desarrollado arquitecturas de defensa y analítica avanzada para entornos empresariales, combinando automatización, detección de amenazas y cloud-native security. Ha sido speaker en eventos como PyCon Colombia y DevOpsDays, y su trabajo se centra en aplicar IA para resolver desafíos reales con impacto técnico y social."
+    },
+    "facebook": "",
+    "twitter": "",
+    "linkedin": "santiago-poveda-garcia",
+    "instagram": "",
+    "github": "",
+    "website": "",
+    "country": "co"
+  },
+  {
+    "id": "stiven-arteaga-bedoya",
+    "first_name": "Stiven Alexander",
+    "last_name": "Arteaga Bedoya",
+    "photo": "stiven-arteaga-bedoya.webp",
+    "affiliation": {
+      "en": "Nodo EAFIT",
+      "es": "Nodo EAFIT"
+    },
+    "biography": {
+      "es": "Soy un formador apasionado por llevar la inteligencia artificial y las herramientas low-code a contextos donde normalmente no llegan. Desde el laboratorio de innovación NODO y en alianza con organizaciones como Manos Visibles, Microsoft AI Lab y Koulutus, he liderado procesos de formación tecnológica en Guapi, Tumaco, Timbiquí y otras regiones del Pacífico colombiano, empoderando a jóvenes para que la tecnología sea una alternativa frente a la exclusión, la minería ilegal y la violencia.\n\nMi propósito es claro: democratizar el acceso a la IA y construir puentes entre la técnica y la transformación social. Para ello, combino formación en automatización (n8n, Zapier, Python), modelos de lenguaje generativo (ChatGPT, Gemini), y procesos pedagógicos basados en pensamiento crítico y Freire.\n\nHe guiado a más de 100 jóvenes en la creación de agentes conversacionales, flujos automatizados y proyectos reales con impacto territorial. Creo en una tecnología con sentido, en lenguajes que sanan y en el poder de imaginar futuros más justos desde el código y la palabra."
+    },
+    "facebook": "stiven.arteaga.9887",
+    "twitter": "",
+    "linkedin": "stiven-arteaga-ba1303149",
+    "instagram": "",
+    "github": "",
+    "website": "",
+    "country": "co"
+  },
+  {
+    "id": "socrates-martinez-berrio",
+    "first_name": "Sócrates",
+    "last_name": "Martínez Berrio",
+    "photo": "socrates-martinez-berrio.webp",
+    "affiliation": {
+      "en": "AILAB NODO EAFIT",
+      "es": "AILAB NODO EAFIT"
+    },
+    "biography": {
+      "es": "Especialista en Desarrollo de Software | Investigador y Formador en Inteligencia Artificial | Emprendedor Tecnológico\n\nUn profesional que combina visión técnica, dominio en inteligencia artificial y espíritu emprendedor. He impulsado proyectos de desarrollo y soluciones digitales adaptadas a diversas problemáticas, aportando desde la conceptualización hasta el despliegue. Me interesa no solo crear software, sino hacerlo con propósito — especialmente cuando la IA permite ampliar lo posible.\n\nTengo experiencia aplicada en modelos de lenguaje, aprendizaje automático y desarrollo de agentes inteligentes. Mi enfoque está en aprovechar la IA no como moda, sino como herramienta concreta para resolver problemas reales en educación, salud, productividad y gestión de datos. He acompañado procesos formativos y productivos que combinan lo mejor del software tradicional con las nuevas capacidades que ofrece la inteligencia artificial.\n\n¿Por qué quiero que la gente me conozca?\nPorque mi trayectoria demuestra que la tecnología, cuando se orienta con criterio, puede ser un motor de cambio real. Quiero inspirar a otros —estudiantes, colegas, organizaciones— a ver en el desarrollo de software y en la inteligencia artificial no solo una carrera, sino una posibilidad de transformación. A través de mis redes, publicaciones y colaboraciones, comparto aprendizajes e insomnio productivo: el tipo que te lleva a resolver algo importante una madrugada.\n\nEsta es mi oportunidad\n\nEstudiantes: para mostrarles que hay más allá del código: mentoría, IA, emprendimiento, impacto.\n\nEmpresas y colegas: para demostrar un enfoque práctico, estratégico y creativo, desde una idea hasta un producto basado en datos y automatización.\n\nComunidad tecnológica: para aportar al ecosistema de Medellín y el país, siendo ejemplo de formación continua, transferencia de conocimiento y liderazgo en tecnologías emergentes."
+    },
+    "facebook": "",
+    "twitter": "",
+    "linkedin": "socrates-martinez-berrio-9a5a59232",
+    "instagram": "",
+    "github": "",
+    "website": "",
+    "country": "co"
+  }
+]
