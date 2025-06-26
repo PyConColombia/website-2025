@@ -84,27 +84,6 @@
     "country": "co"
   },
   {
-    "id": "anushka-narula",
-    "first_name": "Anushka",
-    "last_name": "Narula",
-    "photo": "anushka-narula.webp",
-    "affiliation": {
-      "en": "Adobe",
-      "es": "Adobe"
-    },
-    "biography": {
-      "en": "I am an engineer, AI researcher and lifelong learner passionate about building human-centric AI systems that empower creativity, enhance decision-making, and bridge the gap between human cognition and artificial intelligence.\n\nCurrently, I work as a Member of Technical Staff at Adobe, where I contribute to Generative AI-powered tools that help millions of users create engaging content effortlessly. My work focuses on AI-driven automation, experimentation, and building intelligent systems that feel natural and intuitive to users. Beyond the industry, I am pursuing a Master’s in Computer Science (Interactive Intelligence) at Georgia Tech, specialising in cognitive science, AI ethics, and human-AI collaboration. This journey has deepened my understanding of how people think, how machines learn, and how we can design AI systems that work in harmony with human intelligence.\n\nSpeaking at PyCon Colombia 2025 is an opportunity for me to share my experiences, learn from the vibrant Python community, and inspire meaningful discussions about the future of AI. I want to connect with fellow developers, researchers, and innovators who are shaping AI’s role in society—ensuring that it remains not just powerful, but responsible, ethical, and deeply human-centered.\n\nLet’s explore together how we can build AI that truly understands and collaborates with us—because the future of AI isn’t just about smarter machines; it’s about smarter, more meaningful interactions between humans and technology.",
-      "es": "Soy ingeniera, investigadora en inteligencia artificial y aprendiz de por vida, apasionada por construir sistemas de IA centrados en las personas que potencien la creatividad, mejoren la toma de decisiones y cierren la brecha entre la cognición humana y la inteligencia artificial.\n\nActualmente trabajo como integrante del equipo técnico en Adobe, donde contribuyo al desarrollo de herramientas impulsadas por IA generativa que ayudan a millones de usuarios a crear contenido atractivo con facilidad. Mi trabajo se centra en la automatización basada en IA, la experimentación y la construcción de sistemas inteligentes que se sientan naturales e intuitivos para los usuarios. Más allá del ámbito profesional, estoy cursando una maestría en Ciencias de la Computación (Inteligencia Interactiva) en Georgia Tech, con especialización en ciencia cognitiva, ética de la IA y colaboración entre humanos e inteligencia artificial. Este recorrido ha profundizado mi comprensión sobre cómo piensan las personas, cómo aprenden las máquinas y cómo podemos diseñar sistemas de IA que funcionen en armonía con la inteligencia humana.\n\nHablar en PyCon Colombia 2025 es una oportunidad para compartir mis experiencias, aprender de la vibrante comunidad de Python e inspirar conversaciones significativas sobre el futuro de la IA. Quiero conectar con desarrolladores, investigadores e innovadores que están definiendo el papel de la IA en la sociedad, asegurando que no solo sea poderosa, sino también responsable, ética y profundamente centrada en lo humano.\n\nExploramos juntos cómo construir una IA que realmente nos entienda y colabore con nosotros, porque el futuro de la IA no se trata solo de máquinas más inteligentes, sino de interacciones más inteligentes y significativas entre los humanos y la tecnología."
-    },
-    "facebook": "",
-    "twitter": "AnushkaNarula1",
-    "linkedin": "anushka-narula",
-    "instagram": "",
-    "github": "",
-    "website": "",
-    "country": "in"
-  },
-  {
     "id": "daniel-arango-sohm",
     "first_name": "Daniel",
     "last_name": "Arango Sohm",
