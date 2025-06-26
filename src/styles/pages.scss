@@ -464,7 +464,11 @@
 }
 
 .keynotes-page .social-icons {
-  margin-top: 10px;
+  margin: 10px 0;
+}
+
+.keynotes-page .keynote-title {
+  margin-bottom: 10px;
 }
 
 .keynotes-page .social-icons .social-icon {
@@ -502,6 +506,16 @@
   right: -8px;
   width: 100px;
   height: auto;
+}
+
+.keynotes-page {
+  .speaker-talks {
+    text-align: center;
+    a {
+      color: $fucsia;
+      font-weight: 500;
+    }
+  }
 }
 
 .video-talk {

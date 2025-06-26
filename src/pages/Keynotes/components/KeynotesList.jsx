@@ -37,7 +37,7 @@ const KeynotesList = ({
             <Col xs={12} md={9}>
               <div className="keynotes-wrapper">
                 {
-                  data?.keynotes?.map((keynote, index) => (
+                  data.map((keynote, index) => (
                     <Row key={index} className="keynote-speakers">
                       <Col xs={12}
                         sm={6}

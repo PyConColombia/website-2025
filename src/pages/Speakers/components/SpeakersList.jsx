@@ -3,12 +3,13 @@ import PropTypes from 'prop-types';
 import { Col, Container, Row, Image, Button } from 'react-bootstrap';
 import Social from '@/components/Social';
 
-import data from '@/data/speakers.json'
+import speakers from '@/data/speakers.json'
+import talks from '@/data/talks.json';
 
 const SpeakersList = ({ title, description, button, containerClasses }) => {
   const language = localStorage.getItem('language') || 'en'
 
-  let speakersData = data?.speakers || [];
+  let speakersData = speakers || [];
   // order speakers by first name
   speakersData = speakersData.sort((a, b) => {
     const nameA = a.first_name.toLowerCase();
@@ -76,7 +77,30 @@ const SpeakersList = ({ title, description, button, containerClasses }) => {
                           <p className="keynote-title">{speaker.affiliation[language] || speaker.affiliation['en']}</p>
 
                           <Social socialNetworks={speaker} />
+
+                          {/* Enlaces a charlas asociadas */}
+                          {(() => {
+                            const speakerTalks = (talks || []).filter(talk =>
+                              Array.isArray(talk.speakers) && talk.speakers.includes(speaker.id)
+                            );
+                            if (speakerTalks.length === 0) return null;
+                            return (
+                              <div className="speaker-talks">
+                                  {speakerTalks.map(talk => (
+                                    <a
+                                      key={talk.id}
+                                      href={talk.url || `/talks/${talk.id}`}
+                                      rel="noopener noreferrer"
+                                    >
+                                      {talk.title?.[language] || talk.title?.en || 'Talk'}
+                                    </a>
+                                  ))}
+                              </div>
+                            );
+                          })()}
                         </div>
+
+
 
                       </Col>
                     ))
