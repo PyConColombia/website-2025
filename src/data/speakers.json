@@ -1149,5 +1149,89 @@
     "github": "",
     "website": "",
     "country": "co"
+  },
+  {
+    "id": "david-espejo",
+    "first_name": "David",
+    "last_name": "Espejo",
+    "photo": "david-espejo.jpeg",
+    "affiliation": {
+      "en": "union.ai",
+      "es": "union.ai"
+    },
+    "biography": {
+      "en": "With more than 18 years of experience in software infrastructure, David has held a variety of roles, from field engineer to developer advocate.\n\nDavid was part of the Kubernetes 1.25 release team and was named a Continuous Delivery Foundation Ambassador in 2022. He supports the Flyte open-source community, collaborating with machine-learning and platform engineers to build reliable AI systems for use cases such as autonomous vehicles, financial forecasting, and geospatial analysis.",
+      "es": "Con más de 18 años de experiencia en infraestructura de software, David ha desempeñado diversos roles, desde ingeniero de campo hasta developer advocate.\n\nDavid formó parte del equipo de release de Kubernetes 1.25 y fue nombrado Embajador de la Fundación de Continuous Delivery en 2022. Apoya a la comunidad de código abierto de Flyte, trabajando junto con ingenieros de machine learning y de plataforma para desarrollar sistemas de IA confiables para casos de uso como vehículos de conducción autónoma, estimación financiera y análisis geoespacial."
+    },
+    "facebook": "",
+    "twitter": "DavidMirror",
+    "linkedin": "davidmirror",
+    "instagram": "",
+    "github": "davidmirror-ops",
+    "website": "",
+    "country": "co"
+  },
+  {
+    "id": "juan-gomez",
+    "first_name": "Juan Sebastian",
+    "last_name": "Gomez Ramirez",
+    "photo": "juan-gomez.jpeg",
+    "affiliation": {
+      "en": "Mercadolibre - Goldsmiths, University of London",
+      "es": "Mercadolibre - Goldsmiths, University of London"
+    },
+    "biography": {
+      "en": "Senior Software Engineer passionate about clean architecture, resilient systems, and all things Python. When not coding, I’m chasing sunrises on my bike or capturing the world through my lens. Blending creativity and code—one frame and function at a time.",
+      "es": "Ingeniero de software senior apasionado por la arquitectura limpia, los sistemas resilientes y todo lo relacionado con Python. Cuando no estoy programando, persigo amaneceres en mi bicicleta o capturo el mundo a través de mi lente. Fusionando creatividad y código, cuadro a cuadro y función a función."
+    },
+    "facebook": "",
+    "twitter": "",
+    "linkedin": "hire-jusegoram",
+    "instagram": "",
+    "github": "jusegoram",
+    "website": "",
+    "country": "us"
+  },
+  {
+    "id": "juan-duque",
+    "first_name": "Juan Felipe",
+    "last_name": "Duque García",
+    "photo": "juan-duque.jpg",
+    "affiliation": {
+      "en": "No soy estudiante",
+      "es": "No soy estudiante"
+    },
+    "biography": {
+      "es": "Soy un empresario ingeniero antioqueño apasionado por el desarrollo de Python y la aplicación directa de modelos de lenguaje.",
+      "en": "I am an entrepreneur and engineer from Antioquia, passionate about Python development and the direct application of language models."
+    },
+    "facebook": "",
+    "twitter": "",
+    "linkedin": "",
+    "instagram": "",
+    "github": "jfduque",
+    "website": "",
+    "country": "co"
+  },
+    {
+    "id": "jennifer-velez",
+    "first_name": "Jennifer",
+    "last_name": "Vélez Segura",
+    "photo": "jennifer-velez.jpeg",
+    "affiliation": {
+      "en": "No soy estudiante",
+      "es": "No soy estudiante"
+    },
+    "biography": {
+      "es": "Licenciada en Biología con conocimientos en citogenética clásica (cariotipos en médula ósea, líquido amniótico y muestras de sangre) y máster en Bioinformática. Posee habilidades de programación en Python, R y Shell para el análisis de datos biológicos y el uso de técnicas de minería de datos. Tiene experiencia en el análisis de exomas y genomas completos como apoyo al diagnóstico. Está interesada en aplicar técnicas de aprendizaje automático a datos biológicos.",
+      "en": "Biology graduate with knowledge in classical cytogenetics (karyotyping of bone marrow, amniotic fluid, and blood samples) and a master's degree in Bioinformatics. Skilled in programming with Python, R, and Shell for biological data analysis and data mining techniques. Experienced in whole exome and genome analysis for diagnostic support. Interested in applying machine learning techniques to biological data."
+    },
+    "facebook": "jevelezse",
+    "twitter": "jevelezse",
+    "linkedin": "jennifer-vélez-segura-34502958",
+    "instagram": "",
+    "github": "jevelezse",
+    "website": "",
+    "country": "co"
   }
 ]

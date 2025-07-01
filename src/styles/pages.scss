@@ -542,3 +542,102 @@
 .team-page .title {
   color: $blue-dark;
 }
+
+.schedule-page {
+  background-color: $purple;
+  padding-bottom: 0;
+
+  .schedule-wrapper {
+    padding: 100px 0;
+
+    .schedule-date-title {
+      padding-left: 20px;
+      text-align: left;
+
+      h2 {
+        color: $pink;
+        font-size: 25px;
+        font-family: 'Nunito', sans-serif;
+        font-weight: 500;
+        text-transform: uppercase;
+      }
+    }
+
+    .schedule-buttons {
+      padding-right: 20px;
+      text-align: right;
+
+      .btn-schedule {
+        font-size: 15px;
+        font-weight: 500;
+        padding: 5px 15px;
+        margin: 0 5px;
+      }
+    }
+    .schedule-block {
+      padding: 10px;
+
+      .schedule-hour {
+        font-size: 18px;
+        font-family: 'Saira', sans-serif;
+        font-weight: 500;
+      }
+
+      .schedule-card {
+        border: 3px solid $pink;
+        border-radius: 10px;
+        font-size: 16px;
+        padding: 15px;
+        margin: 10px auto;
+
+        .schedule-title {
+          a, span {
+            color: $fucsia;
+            font-weight: 500;
+            font-size: 20px;
+          }
+        }
+
+        .schedule-speakers {
+          a, span {
+            color: $white;
+            font-weight: 400;
+          }
+        }
+
+        .schedule-tag {
+          margin: 10px auto;
+
+          .schedule-tag-item {
+            background-color: $pink;
+            color: $purple;
+            font-family: 'Saira', sans-serif;
+            font-size: 12px;
+            font-weight: 500;
+            padding: 5px 15px;
+            border-radius: 25px;
+            margin: 5px;
+            white-space: nowrap;
+            display: inline-block;
+          }
+
+          .schedule-tag-language {
+            border: 2px solid $fucsia-dark;
+            color: $fucsia-dark;
+            font-family: 'Saira', sans-serif;
+            font-size: 12px;
+            font-weight: 600;
+            padding: 3px 10px;
+            border-radius: 25px;
+          }
+        }
+
+        .schedule-location {
+          text-align: right;
+        }
+      }
+    }
+
+  }
+}
+
