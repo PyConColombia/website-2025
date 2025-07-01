@@ -3,7 +3,7 @@
     "id": 1,
     "title": {
       "en": "Unpacking the Threat: Malicious Packages in Pypi",
-      "es": "Unpacking the Threat: Malicious Packages in Pypi"
+      "es": "Desempaquetando la Amenaza: Paquetes Maliciosos en PyPI"
     },
     "speakers": ["david-cortez"],
     "spoken_language": "english",
@@ -49,7 +49,7 @@
       "es": "Los datos por sí solos no generan impacto; necesitan una historia para ser comprendidos. El Data Storytelling transforma datos complejos en narrativas visuales y accesibles, combinando análisis, visualización y narrativa para comunicar insights de manera efectiva. En esta charla, exploraremos cómo la inteligencia artificial (IA) revoluciona el Data Storytelling, automatizando la generación de contenido, personalizando visualizaciones y optimizando la comunicación de datos a distintas audiencias. Aplicaremos los cuatro pilares de visualización de Noah Iliinsky—propósito, contenido, estructura y formato—para garantizar que cada visualización no solo informe, sino que también conecte con la audiencia de forma efectiva. ¿Qué aprenderás? Cómo la IA mejora la narrativa basada en datos y facilita su interpretación. Aplicaciones prácticas con Streamlit, Quarto, ChatGPT y Napkin AI. Creación de visualizaciones efectivas alineadas con su propósito. Desarrollo de narrativas interactivas que capten la atención y generen impacto. Esta charla está diseñada para todo público, desde científicos de datos y analistas hasta comunicadores, docentes y entusiastas, que deseen transformar datos en historias claras, atractivas y accesibles."
     },
     "summary": {"en": "", "es": ""},
-    "tags": ["Aritificial intelligence, Data Sciece, Community, Machine Learning, Scientific Computing, Data Storytelling"],
+    "tags": ["Aritificial intelligence", "Data Sciece", "Community", "Machine Learning", "Scientific Computing", "Data Storytelling"],
     "level": "all",
     "video_url": ""
   },
@@ -345,7 +345,7 @@
     "id": 20,
     "title": {
       "en": "Developing Enbloc: Building an AI-Driven Legislative Data Platform",
-      "es": "Developing Enbloc: Building an AI-Driven Legislative Data Platform"
+      "es": "Desarrollando Enbloc: Construyendo una Plataforma de Datos Legislativos Impulsada por IA"
     },
     "speakers": ["diego-ayala", "andres-vasquez"],
     "spoken_language": "spanish",
@@ -491,7 +491,7 @@
       "en": "How to Create Agents with PydanticAI: Simple, Fast, Typed",
       "es": "Cómo crear agentes con PydanticAI: Simple, rápido, tipado"
     },
-    "speakers": ["juan-felipe-duque-garcia"],
+    "speakers": ["juan-duque"],
     "spoken_language": "spanish",
     "submission": "talk",
     "description": {
@@ -509,7 +509,7 @@
       "en": "Python: The New Language of Biological Sciences",
       "es": "Python el nuevo lenguaje de las ciencias biológicas"
     },
-    "speakers": ["jennifer-velez-segura"],
+    "speakers": ["jennifer-velez"],
     "spoken_language": "spanish",
     "submission": "talk",
     "description": {

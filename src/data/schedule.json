@@ -209,11 +209,181 @@
     "previous_date": "2025/07/04",
     "order": [
       {
-        "hour": "08:30",
+        "time": "08:00",
         "type": "activity",
         "events": [
           {
-            "title": "Attenders Arrival - Kits Delivery next"
+            "title": "Attenders Arrival",
+            "room": "main"
+          }
+        ]
+      },
+      {
+        "time": "08:45",
+        "type": "activity",
+        "events": [
+          {
+            "title": "Opening (Organizers)",
+            "room": "main"
+          }
+        ]
+      },
+      {
+        "time": "09:00",
+        "type": "keynote",
+        "events": [
+          {
+            "room": "main",
+            "title": "Angela Oliveira Pisco - Keynote",
+            "id": "angela-oliveira-pisco"
+          }
+        ]
+      },
+      {
+        "time": "10:00",
+        "type": "free",
+        "events": [
+          {
+            "title": "Morning Snacks"
+          }
+        ]
+      },
+      {
+        "time": "10:30",
+        "type": "talk",
+        "events": [
+          {
+            "room": "main",
+            "event_id": 5
+          },
+          {
+            "room": "aux_1",
+            "event_id": 18
+          },
+          {
+            "room": "aux_2",
+            "event_id": 4
+          }
+        ]
+      },
+      {
+        "time": "11:20",
+        "type": "talk",
+        "events": [
+          {
+            "room": "main",
+            "event_id": 28
+          },
+          {
+            "room": "aux_1",
+            "event_id": 14
+          },
+          {
+            "room": "aux_2",
+            "event_id": 22
+          }
+        ]
+      },
+      {
+        "time": "12:00",
+        "type": "free",
+        "events": [
+          {
+            "title": "Lunch Time"
+          }
+        ]
+      },
+      {
+        "time": "13:30",
+        "type": "talk",
+        "events": [
+          {
+            "room": "main",
+            "event_id": 26
+          },
+          {
+            "room": "aux_1",
+            "event_id": 1
+          },
+          {
+            "room": "aux_2",
+            "event_id": 20
+          }
+        ]
+      },
+      {
+        "time": "14:20",
+        "type": "talk",
+        "events": [
+          {
+            "room": "main",
+            "event_id": 29
+          },
+          {
+            "room": "aux_1",
+            "event_id": 6
+          },
+          {
+            "room": "aux_2",
+            "event_id": 19
+          }
+        ]
+      },
+      {
+        "time": "15:00",
+        "type": "free",
+        "events": [
+          {
+            "title": "Coffee Break & Snacks"
+          }
+        ]
+      },
+      {
+        "time": "15:15",
+        "type": "talk",
+        "events": [
+          {
+            "room": "main",
+            "title": "Pyladies Activity"
+          },
+          {
+            "room": "aux_1",
+            "event_id": 3
+          },
+          {
+            "room": "aux_2",
+            "event_id": 2
+          }
+        ]
+      },
+      {
+        "time": "16:15",
+        "type": "sponsor",
+        "events": [
+          {
+            "room": "main",
+            "title": "EAFIT (Sponsor Space)"
+          }
+        ]
+      },
+      {
+        "time": "17:00",
+        "type": "keynote",
+        "events": [
+          {
+            "room": "main",
+            "title": "Mike Droettboom - Keynote",
+            "id": "mike-droettboom"
+          }
+        ]
+      },
+      {
+        "time": "18:10",
+        "type": "free",
+        "events": [
+          {
+            "title": "Closing",
+            "room": "main"
           }
         ]
       }
