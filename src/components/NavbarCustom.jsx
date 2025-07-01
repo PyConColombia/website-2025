@@ -39,11 +39,17 @@ const NavbarCustom = ({ dataTranslate, locales }) => {
               {dataTranslate?.navbar?.callForProposals}
             </Nav.Link> */}
             <NavDropdown title={dataTranslate?.navbar?.schedule} id="schedule-nav-dropdown">
+              <NavDropdown.Item as={NavLink} key={'schedule'} to={'/schedule'}>
+                Schedule
+              </NavDropdown.Item>
               <NavDropdown.Item as={NavLink} key={'keynotes'} to={'/keynotes'}>
                 Keynotes
               </NavDropdown.Item>
               <NavDropdown.Item as={NavLink} key={'speakers'} to={'/speakers'}>
                 Speakers
+              </NavDropdown.Item>
+              <NavDropdown.Item as={NavLink} key={'talks'} to={'/talks'}>
+                Talks
               </NavDropdown.Item>
             </NavDropdown>
             <Nav.Link href="/sponsors">{dataTranslate?.navbar?.sponsors}</Nav.Link>

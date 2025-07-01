@@ -399,7 +399,7 @@
     "id": 23,
     "title": {
       "en": "Research and implementation of a digital twin for urban agriculture using Python and microservices",
-      "es": "Research and implementation of a digital twin for urban agriculutre using Python and microservices"
+      "es": "Investigación e implementación de un gemelo digital para la agricultura urbana usando Python y microservicios"
     },
     "speakers": ["diego-ramirez", "vivian-castro"],
     "spoken_language": "spanish",
@@ -473,7 +473,7 @@
       "en": "Scalability Without Complexity: Clean Architectures with Python",
       "es": "Escalabilidad sin complejidad: Arquitecturas limpias con Python"
     },
-    "speakers": ["juan-sebastian-gomez-ramirez"],
+    "speakers": ["juan-gomez"],
     "spoken_language": "spanish",
     "submission": "talk",
     "description": {

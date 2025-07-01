@@ -1,0 +1,223 @@
+[
+  {
+    "date": "2025/07/04",
+    "next_date": "2025/07/05",
+    "order": [
+      {
+        "time": "07:30",
+        "type": "activity",
+        "events": [
+          {
+            "title": "Attenders Arrival - Kits Delivery",
+            "room": "main"
+          }
+        ]
+      },
+      {
+        "time": "08:30",
+        "type": "activity",
+        "events": [
+          {
+            "title": "Opening (Organizers)",
+            "room": "main"
+          }
+        ]
+      },
+      {
+        "time": "08:45",
+        "type": "sponsor",
+        "events": [
+          {
+            "room": "main",
+            "title": "Decano Ricardo Taborda - EAFIT Opening"
+          }
+        ]
+      },
+      {
+        "time": "09:00",
+        "type": "keynote",
+        "events": [
+          {
+            "room": "main",
+            "title": "Érico Andrei - Keynote",
+            "id": "erico-andrei"
+          }
+        ]
+      },
+      {
+        "time": "10:00",
+        "type": "free",
+        "events": [
+          {
+            "title": "Morning Snacks"
+          }
+        ]
+      },
+      {
+        "time": "10:30",
+        "type": "talk",
+        "events": [
+          {
+            "room": "main",
+            "event_id": 16
+          },
+          {
+            "room": "aux_1",
+            "event_id": 21
+          },
+          {
+            "room": "aux_2",
+            "event_id": 9
+          }
+        ]
+      },
+      {
+        "time": "11:20",
+        "type": "talk",
+        "events": [
+          {
+            "room": "main",
+            "event_id": 7
+          },
+          {
+            "room": "aux_1",
+            "event_id": 8
+          },
+          {
+            "room": "aux_2",
+            "event_id": 23
+          }
+        ]
+      },
+      {
+        "time": "12:00",
+        "type": "free",
+        "events": [
+          {
+            "title": "Lunch"
+          }
+        ]
+      },
+      {
+        "time": "13:30",
+        "type": "talk",
+        "events": [
+          {
+            "room": "main",
+            "event_id": 11
+          },
+          {
+            "room": "aux_1",
+            "event_id": 15
+          },
+          {
+            "room": "aux_2",
+            "event_id": 12
+          }
+        ]
+      },
+      {
+        "time": "14:20",
+        "type": "talk",
+        "events": [
+          {
+            "room": "main",
+            "event_id": 27
+          },
+          {
+            "room": "aux_1",
+            "event_id": 24
+          },
+          {
+            "room": "aux_2",
+            "event_id": 13
+          }
+        ]
+      },
+      {
+        "time": "15:00",
+        "type": "free",
+        "events": [
+          {
+            "title": "Coffee Break"
+          }
+        ]
+      },
+      {
+        "time": "15:15",
+        "type": "talk",
+        "events": [
+          {
+            "room": "main",
+            "event_id": 17
+          },
+          {
+            "room": "aux_1",
+            "event_id": 25
+          },
+          {
+            "room": "aux_2",
+            "event_id": 10
+          }
+        ]
+      },
+      {
+        "time": "15:55",
+        "type": "free",
+        "events": [
+          {
+            "title": "Coffee Break & Snacks"
+          }
+        ]
+      },
+      {
+        "time": "16:15",
+        "type": "sponsor",
+        "events": [
+          {
+            "room": "main",
+            "title": "Factored (Sponsor Space)"
+          }
+        ]
+      },
+      {
+        "time": "17:00",
+        "type": "keynote",
+        "events": [
+          {
+            "room": "main",
+            "title": "Julia Silge - Keynote",
+            "id": "julia-silge"
+          }
+        ]
+      },
+      {
+        "time": "18:10",
+        "type": "free",
+        "events": [
+          {
+            "title": "Closing",
+            "room": "main"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2025/07/05",
+    "next_date": "2025/07/06",
+    "previous_date": "2025/07/04",
+    "order": [
+      {
+        "hour": "08:30",
+        "type": "activity",
+        "events": [
+          {
+            "title": "Attenders Arrival - Kits Delivery next"
+          }
+        ]
+      }
+    ]
+  }
+
+]
