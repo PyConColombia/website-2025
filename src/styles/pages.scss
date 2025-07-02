@@ -306,7 +306,7 @@
 
 /* sponsors */
 
-.sponsor-page {
+.sponsor-page, .speaker-page {
   background-color: $fucsia;
   padding-top: 150px;
   padding-bottom: 150px;
@@ -320,6 +320,18 @@
   .description,
   .photos {
     margin-top: 50px;
+  }
+}
+
+.speaker-page {
+
+  .talk-link {
+    color: $white;
+  }
+
+  .talk-name {
+    color: $white;
+    font-weight: 500;
   }
 }
 

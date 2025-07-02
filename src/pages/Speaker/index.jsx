@@ -13,14 +13,14 @@ const findSpeakerById = (speakerId) => {
   return Speakers.find(speaker => speaker.id === speakerId);
 }
 
-/* const formatLang = (language) => {
+const formatLang = (language) => {
   const langMap = {
     spanish: "ES",
     english: "EN"
   }
 
   return langMap[language]
-} */
+}
 
 const Speaker = () => {
   const { id } = useParams();
@@ -36,7 +36,7 @@ const Speaker = () => {
   const talks = findTalksBySpeakerId(id);
 
   return (
-    <div className='generic-page sponsor-page'>
+    <div className='generic-page speaker-page'>
       <div className="generic-page-wrapper sponsor-bg">
         <Container>
           <Row className="justify-content-center">
@@ -92,18 +92,17 @@ const Speaker = () => {
                   <Row>
                     <Col>
                       { talks && (
-                        <>
-                          <ul>
-                            {talks.map((talk) => (
-                              <li key={talk.id}>
-                                <NavLink to={`/talks/${talk.id}`}>
-                                  <span>{talk.submission}</span>
-                                  <span className="keynote-name shantell-sans">{talk.title[language] || talk.title.en}</span>
-                                </NavLink>
-                              </li>
-                            ))}
-                          </ul>
-                        </>
+                        <ul>
+                          {talks.map((talk) => (
+                            <li key={talk.id} className='tag'>
+                              <NavLink to={`/talks/${talk.id}`} className="talk-link">
+                                <span className="tag-language light-color medium-size">{talk.submission}</span>
+                                <span className="tag-language light-color medium-size">{formatLang(talk.spoken_language)}</span>
+                                <span className="talk-name shantell-sans">{talk.title[language] || talk.title.en}</span>
+                              </NavLink>
+                            </li>
+                          ))}
+                        </ul>
                       )}
                     </Col>
                   </Row>
