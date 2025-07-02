@@ -6,6 +6,7 @@ import schedule from '@/data/schedule.json';
 import talks from '@/data/talks.json';
 import speakers from '@/data/speakers.json';
 import rooms from '@/data/rooms.json';
+import { normalizeTag } from '@/utils/fields';
 
 const getTalk = (event_id) => {
   const talk = talks.find(t => t.id === event_id);
@@ -19,10 +20,6 @@ const getRoomName = (room) => {
 
 const getSpeakers = (speakersIds) => {
   return speakersIds.map(id => speakers.find(s => s.id === id));
-};
-
-const normalizeTag = (tag) => {
-  return tag.toLowerCase().replace(/ /g, '-').replace(/[^a-z0-9-]/g, '');
 };
 
 const formatDate = (dateString) => {

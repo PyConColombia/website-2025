@@ -630,6 +630,10 @@
     white-space: nowrap;
     display: inline-block;
 
+    &.medium-size {
+      font-size: 14px;
+    }
+
     &.data-science {
       background-color: #1E88E5;
       color: $white;
@@ -717,8 +721,18 @@
     font-family: 'Saira', sans-serif;
     font-size: 12px;
     font-weight: 600;
-    padding: 3px 10px;
+    padding: 3px 15px;
     border-radius: 25px;
+    margin: 5px;
+
+    &.medium-size {
+      font-size: 14px;
+    }
+
+    &.light-color {
+      border: 2px solid $white;
+      color: $white;
+    }
   }
 }
 
