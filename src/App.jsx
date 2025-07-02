@@ -26,6 +26,7 @@ import Speakers from '@/pages/Speakers';
 import Team from '@/pages/Team';
 import Talk from '@/pages/Talk';
 import Schedule from './pages/Schedule';
+import Speaker from './pages/Speaker';
 
 const TRACKING_ID = 'G-J2DYL7NXX5';
 
@@ -78,6 +79,10 @@ const App = () => {
         <Route
           path="/scholarships"
           element={<Scholarships dataTranslate={allData} />}
+        />
+        <Route
+          path='/speakers/:id'
+          element={<Speaker dataTranslate={allData} />}
         />
         <Route
           path='/speakers'

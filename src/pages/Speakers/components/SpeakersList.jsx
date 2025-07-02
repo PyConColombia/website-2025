@@ -5,6 +5,7 @@ import Social from '@/components/Social';
 
 import speakers from '@/data/speakers.json'
 import talks from '@/data/talks.json';
+import { NavLink } from 'react-router-dom';
 
 const SpeakersList = ({ title, description, button, containerClasses }) => {
   const language = localStorage.getItem('language') || 'en'
@@ -56,21 +57,25 @@ const SpeakersList = ({ title, description, button, containerClasses }) => {
                         md={6}
                         lg={4}
                       >
-                        <div className="keynote-image-wrapper">
-                          <Image src={`images/speakers/${speaker.photo}`} alt={`${speaker.first_name} ${speaker.last_name}`} className="keynote-image" />
-                          {speaker.country && (
-                            <div className="bandera bandera-superior">
-                              <span className="flag">
-                                {' '}
-                                <span className={`fi fi-${speaker.country}`}></span>
-                              </span>
-                            </div>
-                          )}
-                          <img src={`/images/icons/icon-${index % 3}.svg`} className="bandera bandera-inferior" alt="Bandera inferior" />
-                        </div>
+                        <NavLink to={`/speakers/${speaker.id}`}>
+                          <div className="keynote-image-wrapper">
+                            <Image src={`images/speakers/${speaker.photo}`} alt={`${speaker.first_name} ${speaker.last_name}`} className="keynote-image" />
+                            {speaker.country && (
+                              <div className="bandera bandera-superior">
+                                <span className="flag">
+                                  {' '}
+                                  <span className={`fi fi-${speaker.country}`}></span>
+                                </span>
+                              </div>
+                            )}
+                            <img src={`/images/icons/icon-${index % 3}.svg`} className="bandera bandera-inferior" alt="Bandera inferior" />
+                          </div>
+                        </NavLink>
 
                         <div className={`keynote-text`}>
-                          <h4 className="keynote-name shantell-sans">{speaker.first_name} {speaker.last_name}</h4>
+                          <NavLink to={`/speakers/${speaker.id}`}>
+                            <h4 className="keynote-name shantell-sans">{speaker.first_name} {speaker.last_name}</h4>
+                          </NavLink>
                           <div className="separator">
                             <Image src="/images/icons/speaker-separator.svg" alt="Separator" />
                           </div>

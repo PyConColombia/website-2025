@@ -1,5 +1,5 @@
-import { Col, Container, Row } from 'react-bootstrap';
-import { useParams } from 'react-router-dom';
+import { Col, Container, Image, Row } from 'react-bootstrap';
+import { NavLink, useParams } from 'react-router-dom';
 
 import Speakers from '@/data/speakers.json'
 import TalkList from '@/data/talks.json';
@@ -38,11 +38,11 @@ const Talk = () => {
       <div className="generic-page-wrapper sponsor-bg">
         <Container>
           <Row className="justify-content-center">
-            <Col xs={12} md={8}>
+            <Col xs={12} md={9}>
               {
                 title && <Row>
                   <Col>
-                    <h1 className="description" dangerouslySetInnerHTML={{ __html: `[${formatLang(spoken_language)}] ${title[language] || title.en}` }}></h1>
+                    <h1 className="description shantell-sans text-center" dangerouslySetInnerHTML={{ __html: `[${formatLang(spoken_language)}] ${title[language] || title.en}` }}></h1>
                     {submission && (
                       <span className="badge bg-primary me-2 text-uppercase">{submission}</span>
                     )}
@@ -57,20 +57,23 @@ const Talk = () => {
                 </Row>
               }
 
-              <h2>Authors</h2>
               <Row className="mb-4">
                 {speakerList.map(speaker => (
                   speaker && (
                     <Col xs={6} md={4} lg={3} key={speaker.id} className="text-center mb-3">
-                      <a href={`/speakers/${speaker.id}`}>
-                        <img
-                          src={`/images/speakers/${speaker.photo || speaker.id + '.webp'}`}
-                          alt={speaker.name}
-                          className="img-fluid rounded-circle mb-2"
-                          style={{ maxWidth: '120px', maxHeight: '120px', objectFit: 'cover' }}
-                        />
-                        <div>{speaker.name}</div>
-                      </a>
+                      <NavLink to={`/speakers/${speaker.id}`}>
+                        <div className="keynote-image-wrapper">
+                          <Image src={`images/speakers/${speaker.photo}`} alt={`${speaker.first_name} ${speaker.last_name}`} className="keynote-image" />
+                          {speaker.country && (
+                            <div className="bandera bandera-superior">
+                              <span className="flag">
+                                {' '}
+                                <span className={`fi fi-${speaker.country}`}></span>
+                              </span>
+                            </div>
+                          )}
+                        </div>
+                      </NavLink>
                     </Col>
                   )
                 ))}
