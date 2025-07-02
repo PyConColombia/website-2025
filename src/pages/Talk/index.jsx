@@ -60,7 +60,7 @@ const Talk = () => {
               <Row className="mb-4">
                 {speakerList.map(speaker => (
                   speaker && (
-                    <Col xs={6} md={4} lg={4} key={speaker.id} className="text-center mb-3">
+                    <Col xs={6} md={4} lg={3} key={speaker.id} className="text-center mb-3">
                       <NavLink to={`/speakers/${speaker.id}`}>
                         <div className="keynote-image-wrapper">
                           <Image src={`images/speakers/${speaker.photo}`} alt={`${speaker.first_name} ${speaker.last_name}`} className="keynote-image" />

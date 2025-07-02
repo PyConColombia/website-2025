@@ -1,13 +1,13 @@
 import { Col, Container, Image, Row } from 'react-bootstrap';
-import { useParams } from 'react-router-dom';
+import { NavLink, useParams } from 'react-router-dom';
 
 import Speakers from '@/data/speakers.json'
-//import TalkList from '@/data/talks.json';
+import TalkList from '@/data/talks.json';
 import Social from '@/components/Social';
 
-/* const findTalkById = (data, idToFind) => {
-  return data.find(talk => String(talk.id) === String(idToFind));
-} */
+const findTalksBySpeakerId = (speakerId) => {
+  return TalkList.filter(talk => talk.speakers.includes(speakerId));
+}
 
 const findSpeakerById = (speakerId) => {
   return Speakers.find(speaker => speaker.id === speakerId);
@@ -33,7 +33,7 @@ const Speaker = () => {
 
   const { first_name, last_name, photo, biography, country } = speaker;
   const name = `${first_name} ${last_name}`;
-  //const talk = findTalkById(TalkList, id);
+  const talks = findTalksBySpeakerId(id);
 
   return (
     <div className='generic-page sponsor-page'>
@@ -78,12 +78,35 @@ const Speaker = () => {
               </Row>
               <Row className="justify-content-center">
                 <Col xs={12}>
-                  <Row className="mb-4">
+                  <Row>
                     <Col>
                       <p className="description" dangerouslySetInnerHTML={{ __html: `${biography[language] || biography.en}` }}></p>
                     </Col>
                   </Row>
-
+                  <Row>
+                    <Col>
+                      <div className="separator">
+                        <Image src="/images/icons/speaker-separator.svg" alt="Separator" />
+                      </div>                    </Col>
+                  </Row>
+                  <Row>
+                    <Col>
+                      { talks && (
+                        <>
+                          <ul>
+                            {talks.map((talk) => (
+                              <li key={talk.id}>
+                                <NavLink to={`/talks/${talk.id}`}>
+                                  <span>{talk.submission}</span>
+                                  <span className="keynote-name shantell-sans">{talk.title[language] || talk.title.en}</span>
+                                </NavLink>
+                              </li>
+                            ))}
+                          </ul>
+                        </>
+                      )}
+                    </Col>
+                  </Row>
                 </Col>
               </Row>
             </Col>
