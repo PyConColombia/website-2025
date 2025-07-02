@@ -12,7 +12,7 @@
       "en": "This presentation covers various aspects of malicious packages in PyPI, including the techniques used by attackers to inject harmful code into legitimate packages, the potential consequences of using these packages in real-world applications, and the challenges that the community faces in identifying and mitigating such threats. Finally, it explores a real-world case study in which a malicious package infiltrated PyPI.",
       "es": "Esta presentación cubre varios aspectos de los paquetes maliciosos en PyPI, incluidas las técnicas utilizadas por los atacantes para inyectar código dañino en paquetes legítimos, las posibles consecuencias de usar estos paquetes en aplicaciones reales y los desafíos que enfrenta la comunidad para identificar y mitigar tales amenazas. Finalmente, explora un caso de estudio real en el que un paquete malicioso se infiltró en PyPI."
     },
-    "summary": {"en": "", "es": ""},
+    "summary": { "en": "", "es": "" },
     "tags": ["Security"],
     "level": "intermediate",
     "video_url": ""
@@ -30,7 +30,7 @@
       "en": "This talk analyzes how to apply Clean Architecture principles in FastAPI projects to improve maintainability, scalability, and code quality. It covers separation of concerns, business logic organization, best practices for integrating with external services and databases, and strategies for testing and refactoring, leveraging FastAPI's native capabilities for data validation and dependency injection.",
       "es": "En esta charla se analizará cómo aplicar los principios de la Arquitectura Limpia en proyectos construidos con FastAPI, con el objetivo de mejorar la mantenibilidad, escalabilidad y calidad del código. Se abordará la separación de responsabilidades en capas, la organización de la lógica de negocio y las buenas prácticas de integración con servicios externos y bases de datos. Además, se discutirán estrategias de testing y refactorización, aprovechando las capacidades nativas de FastAPI para la validación de datos y la inyección de dependencias."
     },
-    "summary": {"en": "", "es": ""},
+    "summary": { "en": "", "es": "" },
     "tags": ["Web", "Software Architecture"],
     "level": "intermediate",
     "video_url": ""
@@ -48,8 +48,15 @@
       "en": "Data alone does not generate impact; it needs a story to be understood. Data Storytelling transforms complex data into accessible narratives, combining analysis, visualization, and narrative to communicate insights effectively. This talk explores how AI revolutionizes Data Storytelling, automating content generation, personalizing visualizations, and optimizing communication for different audiences. Practical applications with Streamlit, Quarto, ChatGPT, and Napkin AI. Learn to create effective visualizations and interactive narratives for all audiences.",
       "es": "Los datos por sí solos no generan impacto; necesitan una historia para ser comprendidos. El Data Storytelling transforma datos complejos en narrativas visuales y accesibles, combinando análisis, visualización y narrativa para comunicar insights de manera efectiva. En esta charla, exploraremos cómo la inteligencia artificial (IA) revoluciona el Data Storytelling, automatizando la generación de contenido, personalizando visualizaciones y optimizando la comunicación de datos a distintas audiencias. Aplicaremos los cuatro pilares de visualización de Noah Iliinsky—propósito, contenido, estructura y formato—para garantizar que cada visualización no solo informe, sino que también conecte con la audiencia de forma efectiva. ¿Qué aprenderás? Cómo la IA mejora la narrativa basada en datos y facilita su interpretación. Aplicaciones prácticas con Streamlit, Quarto, ChatGPT y Napkin AI. Creación de visualizaciones efectivas alineadas con su propósito. Desarrollo de narrativas interactivas que capten la atención y generen impacto. Esta charla está diseñada para todo público, desde científicos de datos y analistas hasta comunicadores, docentes y entusiastas, que deseen transformar datos en historias claras, atractivas y accesibles."
     },
-    "summary": {"en": "", "es": ""},
-    "tags": ["Aritificial intelligence", "Data Sciece", "Community", "Machine Learning", "Scientific Computing", "Data Storytelling"],
+    "summary": { "en": "", "es": "" },
+    "tags": [
+      "Artificial intelligence",
+      "Data Science",
+      "Community",
+      "Machine Learning",
+      "Scientific Computing",
+      "Data Storytelling"
+    ],
     "level": "all",
     "video_url": ""
   },
@@ -66,8 +73,8 @@
       "en": "Imagine building ML models without worrying about choosing the best algorithm or manually tuning hyperparameters! This talk explores the world of AutoML, a set of tools designed to automate model development, letting you focus on making your data speak. We'll compare libraries like TPOT, FLAML, PyCaret, Auto-Sklearn, and more, discussing their strengths, weaknesses, and practical considerations.",
       "es": "¿Te imaginas construir modelos de Machine Learning sin preocuparte por elegir el mejor algoritmo o ajustar hiperparámetros manualmente? ¡Es posible y más fácil de lo que crees! En esta charla, exploraremos el fascinante mundo de AutoML, una colección de herramientas diseñadas para automatizar el desarrollo de modelos de aprendizaje automático, permitiendo que te concentres en lo que realmente importa: ¡hacer que tus datos hablen! A través de una comparación práctica, veremos cómo diferentes librerías como TPOT, FLAML, PyCaret, Auto-Sklearn y muchas más pueden facilitar nuestra vida como desarrolladores. También hablaremos de sus fortalezas, debilidades y qué considerar antes de integrarlas en proyectos reales. Si eres un apasionado del Machine Learning, un entusiasta de Python o simplemente quieres descubrir nuevas formas de potenciar tu flujo de trabajo, esta charla es para ti. ¡Prepárate para desafiar la forma en la que construimos modelos y descubrir cómo la automatización puede llevar tu código al siguiente nivel! "
     },
-    "summary": {"en": "", "es": ""},
-    "tags": ["Aritificial intelligence", "Data Sciece", "Machine Learning"],
+    "summary": { "en": "", "es": "" },
+    "tags": ["Artificial intelligence", "Data Science", "Machine Learning"],
     "level": "beginner",
     "video_url": ""
   },
@@ -84,8 +91,19 @@
       "en": "Python is more than just a scripting language—it’s the ultimate glue that binds high-performance languages like C, C++, Java, Rust, and JavaScript together. In this talk, we’ll explore real-world, practical integrations where Python plays a central role in orchestrating complex applications across multiple languages. We'll dive into projects such as: Network Sniffers leveraging C for speed and Python for analysis. 3D File Systems using Python for API development and JavaScript for visualization. Bioinformatics Libraries in Rust and Python, combining safety with expressiveness. Algorithm Libraries where Python and Rust enhance performance. Process Monitors using C++ for efficiency and Python for accessibility. Custom Assembler Simulations with Java for low-level logic and Python for scripting. Animations & Interactive Code with JavaScript for UI enhancements. This talk will provide insights into why and how to bridge Python with other languages, highlighting practical tools like PyO3, pybind11, Jpype, ctypes, and more.",
       "es": "Python es más que un lenguaje de scripting: es el pegamento definitivo que une lenguajes de alto rendimiento como C, C++, Java, Rust y JavaScript. En esta charla, exploraremos integraciones prácticas y reales donde Python juega un papel central en la orquestación de aplicaciones complejas entre múltiples lenguajes. Veremos proyectos como: Network Sniffers usando C para velocidad y Python para análisis. Sistemas de archivos 3D con Python para APIs y JavaScript para visualización. Librerías de bioinformática en Rust y Python, combinando seguridad y expresividad. Librerías de algoritmos donde Python y Rust mejoran el rendimiento. Monitores de procesos usando C++ para eficiencia y Python para accesibilidad. Simuladores de ensamblador personalizados con Java para lógica de bajo nivel y Python para scripting. Animaciones y código interactivo con JavaScript para UI. Esta charla te dará herramientas prácticas para integrar Python con otros lenguajes, destacando PyO3, pybind11, Jpype, ctypes y más."
     },
-    "summary": {"en": "", "es": ""},
-    "tags": ["Core Python", "Scientific Computing", "Web", "Operating systems", "rust", "networks","java","c++","low leve","c"],
+    "summary": { "en": "", "es": "" },
+    "tags": [
+      "Core Python",
+      "Scientific Computing",
+      "Web",
+      "Operating systems",
+      "rust",
+      "networks",
+      "java",
+      "c++",
+      "low leve",
+      "c"
+    ],
     "level": "advanced",
     "video_url": ""
   },
@@ -102,8 +120,8 @@
       "en": "Artificial intelligence (AI) has gained great relevance in various businesses and daily operations, bringing new opportunities and challenges in cybersecurity. This talk introduces the current context of cybersecurity in AI, tools, and practices to reduce risks in information systems, with a focus on offensive security using Python for exploitation, evasion, poisoning, extraction, and inference techniques.",
       "es": "La inteligencia artificial (IA) ha ganado una gran relevancia en distintos tipos de negocio (desde salud, banca, entretenimiento, etc.) y en nuestros operaciones del día a día. Lo anterior ha vislumbrado nuevas oportunidades en ciberseguridad y del mismo modo un conjunto de retos que aún hoy por hoy son desconocidos. La seguridad ha cambiado debido a las incorporaciones de la IA en nuestras operaciones, implicando una transformación tanto en los roles y los procesos tradicionales; lo anterior dado a los nuevos riesgos que podrían ser incidentes cibernéticos, eventos que pueden efectuar daños e implicaciones éticas aun en exploración tanto por la academia y la industria. En los últimos años se ha evidenciado una necesidad de personas con conocimientos en ciberseguridad, ahora será importante no solo lo anterior sino que también conozcan sobre IA, lo anterior da a conocer la relevancia de empezar a construir elementos que le permitan a las personas conocer el contexto actual de ciberseguridad en inteligencia artificial, las herramientas actuales y las practicas necesarias para reducir los riesgos que se puedan presentar en los sistemas informáticos. Desde las experiencias adquiridas en el campo de la ética de inteligencia artificial y de once años de investigación en ciberseguridad e inteligencia artificial, presentamos un contenido que introduce a cualquier persona interesada en el campo ofensivo de ciberseguridad para inteligencia artificial; la charla incluye un contexto sobre ciberseguridad en inteligencia artificial, haciendo un énfasis en al aspecto ofensivo bajo el marco de referencia de Atlas MITRE ATT&CK, la presentación aborda el uso de python para la explotación de los riesgos presentados por OWASP top 10 tanto en modelos tradicionales y generativos. Dentro de la charla se presentarán algunos ejemplos de técnicas de evasión, envenenamiento, extracción e inferencia abordados a través de los frameworks de Python -Giskard y ART-. Posteriormente, también se presentarán los resultados que hemos conseguido en distintos proyectos de investigación a nivel ofensivo, por ejemplo el desarrollo de una IA con comportamiento de ransomware y otra para perfilamiento tanto de personas y organizaciones. Como parte de los once años de investigación en el campo, también estaré otorgando algunos libros impresos a los asistentes con el fin que conozcan un poco más sobre los desarrollos que se han logrado en Latinoamérica tanto en la perspectiva defensiva como en la ofensiva de ciberseguridad e IA; de los anteriores cabe citar: nuestro primer libro “Ciberseguridad: un enfoque desde la ciencia de datos” publicado en 2018, el “Ciberseguridad: los datos tienen la respuesta” en 2022, y finalmente “Ciberseguridad: los datos, las semillas del caos” en 2023."
     },
-    "summary": {"en": "", "es": ""},
-    "tags": ["Aritificial intelligence", "Data Sciece", "Machine Learning", "Cybersecurity"],
+    "summary": { "en": "", "es": "" },
+    "tags": ["Artificial intelligence", "Data Science", "Machine Learning", "Cybersecurity"],
     "level": "intermediate",
     "video_url": ""
   },
@@ -120,8 +138,8 @@
       "en": "Have you ever created a technically correct chart that no one seemed to understand—or care about? Or built a dashboard that ended up ignored? It’s not just about visualizing data; it’s about communicating meaning. In this talk, we’ll explore how to move from displaying data to telling compelling stories with it, using Python libraries like Plotly, Altair, and Streamlit.",
       "es": "¿Alguna vez creaste un gráfico técnicamente correcto que nadie pareció entender o al que nadie le prestó atención? ¿O construiste un dashboard que terminó siendo ignorado? No se trata solo de visualizar datos, sino de comunicar significado. En esta charla, exploraremos cómo pasar de mostrar datos a contar historias convincentes con ellos, usando librerías de Python como Plotly, Altair y Streamlit."
     },
-    "summary": {"en": "", "es": ""},
-    "tags": ["Data Sciece", "Data Viz", "Insights Generation", "Storytelling"],
+    "summary": { "en": "", "es": "" },
+    "tags": ["Data Science", "Data Viz", "Insights Generation", "Storytelling"],
     "level": "intermediate",
     "video_url": ""
   },
@@ -138,8 +156,14 @@
       "en": "Imagine a team of cognitive agents collaborating to answer questions, summarize documents, and automate complex processes. This talk covers how to orchestrate multiple language models and specialized tools using Python and LangChain, with real-world use cases and live code demos.",
       "es": "¿Te imaginas un equipo de agentes cognitivos colaborando para responder preguntas, resumir documentos y automatizar procesos complejos? En esta charla aprenderemos cómo unir varios modelos de lenguaje y herramientas especializadas para resolver tareas en conjunto, aprovechando la flexibilidad de Python y la potencia de LangChain. Hablaremos sobre: Fundamentos de Agentes Cognitivos, Arquitectura con LangChain, Manejo de Flujos y Errores, Casos de Uso Reales y Demostraciones Prácticas. Al finalizar, tendrás la hoja de ruta para construir ecosistemas de IA compuestos por múltiples agentes que colaboran como si fueran un solo cerebro."
     },
-    "summary": {"en": "", "es": ""},
-    "tags": ["Aritificial intelligence", "Data Sciece", "Community", "Machine Learning", "Scientific Computing"],
+    "summary": { "en": "", "es": "" },
+    "tags": [
+      "Artificial intelligence",
+      "Data Science",
+      "Community",
+      "Machine Learning",
+      "Scientific Computing"
+    ],
     "level": "all",
     "video_url": ""
   },
@@ -156,8 +180,8 @@
       "en": "This talk presents an advanced approach to using Python and Machine Learning to estimate critical nutrients in plant tissues, leveraging correlations between elements measured by analytical techniques. Real cases in crops like corn, soy, and alfalfa in the US Midwest, and sugarcane in Colombia, are discussed, along with technical and economic challenges.",
       "es": "La agricultura siempre ha estado rezagada en la tecnología. Las aplicaciones más comunes siguen siendo pocas y principalmente en el área de computer vision, IOT. Quisimos trabajar este proyecto desde la mirada de la química analítica y de cómo podemos aprovechar los datos de mediciones de espectrometría de masas para proponer soluciones reales en agricultura. Medir con precisión nutrientes en tejidos vegetales es crucial, pero extremadamente costoso, complejo y lento, sobre todo cuando las concentraciones están en partes por millón (ppm). Esta charla presenta un enfoque avanzado sobre cómo usamos Python y Machine Learning para estimar con precisión estos nutrientes críticos, aprovechando correlaciones entre un total de 11 elementos de la tabla periódica medidos por técnicas analíticas como ICP-MS y XRF portátil. Usando casos reales en cultivos como Maíz, Soya y Alfalfa del Midwest estadounidense, y ahora en Caña de azúcar del Valle del Cauca en Colombia, explicaré detalladamente cómo preprocesamos muestras vegetales, desde el secado y molienda hasta su análisis instrumental, resaltando los retos técnicos y económicos que esto implica. Luego mostraré cómo, a través de técnicas avanzadas de imputación (usando modelos de ML como: KNN, SVD, Random Forest, entre muchos otros) y análisis multivariantes, generamos modelos predictivos robustos (Random Forest, SVR, Gradient Boosting, entre otros) para todos los nutrientes evaluados. Finalmente, compartiré cómo estas predicciones se traducen en recomendaciones prácticas para una fertilización precisa y sustentable, identificando excesos, deficiencias y condiciones óptimas en tiempo real, potenciando así una agricultura más eficiente y responsable ambientalmente."
     },
-    "summary": {"en": "", "es": ""},
-    "tags": ["Data Sciece", "Machine Learning", "Scientific Computing"],
+    "summary": { "en": "", "es": "" },
+    "tags": ["Data Science", "Machine Learning", "Scientific Computing"],
     "level": "intermediate",
     "video_url": ""
   },
@@ -174,7 +198,7 @@
       "en": "This talk shows how to leverage Python's type annotation system to write safer, more maintainable, and editor-friendly code. From basics to modern tools like mypy, typeguard, and pydantic, with practical examples and real-world improvements.",
       "es": "¿Alguna vez te encontraste con un error absurdo en producción que podría haberse evitado con una simple validación de tipos? ¿Tu editor no te sugiere nada útil y terminas revisando la documentación más de lo que quisieras? En esta charla te mostraré cómo aprovechar el sistema de anotaciones de tipo de Python para escribir código más seguro, mantenible y autocompletado-friendly. Exploraremos desde lo más básico (¿qué tipos existen en Python?) hasta herramientas modernas como mypy, typeguard y pydantic. Verás ejemplos prácticos, comparaciones reales y mejoras inmediatas al trabajar en tu editor favorito (sí, hay demos visuales con VSCode). Esta charla está pensada tanto para personas que recién están empezando con Python como para desarrolladores con experiencia que quieren mejorar la calidad de su código sin perder la flexibilidad del lenguaje. Si alguna vez pensaste que el tipado estático no era para ti, esta charla podría hacerte cambiar de opinión."
     },
-    "summary": {"en": "", "es": ""},
+    "summary": { "en": "", "es": "" },
     "tags": ["Core Python"],
     "level": "beginner",
     "video_url": ""
@@ -192,8 +216,15 @@
       "en": "This talk explores advanced architectural approaches for enterprise AI implementation with real-world insights, that go beyond basic chatbots and single-model solutions. You'll learn how Context-Aware Generation (CAG), Retrieval-Augmented Generation (RAG), and Multi-Context Protocols (MCP) can be combined into hybrid architectures for production enterprise systems, leveraging automation & human augmentation to drive sustainable impact. We'll examine: Technical decision frameworks for selecting optimal AI approaches, implementation patterns for human-centered automation systems, orchestrating multi-agent systems and data-sources in production, lessons learned from real-world case studies, sharing successes and failures on enterprise deployments, and common pitfalls and how to avoid them. You'll walk away with practical knowledge about designing effective AI systems that balance automation with human augmentation, applicable to both technical implementations and strategic planning.",
       "es": "Esta charla explora enfoques arquitectónicos avanzados para la implementación de IA empresarial con ideas del mundo real, que van más allá de los chatbots básicos y las soluciones de un solo modelo. Aprenderás cómo la Generación Consciente del Contexto (CAG), la Generación Aumentada por Recuperación (RAG) y los Protocolos de Contexto Múltiple (MCP) pueden combinarse en arquitecturas híbridas para sistemas empresariales de producción, aprovechando la automatización y la mejora humana para impulsar un impacto sostenible. Examinaremos: marcos de decisión técnica para seleccionar enfoques óptimos de IA, patrones de implementación para sistemas de automatización centrados en el ser humano, orquestación de sistemas multiagente y fuentes de datos en producción, lecciones aprendidas de estudios de caso del mundo real, compartiendo éxitos y fracasos en implementaciones empresariales, y errores comunes y cómo evitarlos. Te irás con conocimientos prácticos sobre cómo diseñar sistemas de IA efectivos que equilibren la automatización con la mejora humana, aplicables tanto a implementaciones técnicas como a la planificación estratégica."
     },
-    "summary": {"en": "", "es": ""},
-    "tags": ["Aritificial intelligence", "Community", "Systems Architecture", "Enterprise", "Use Cases", "Startups"],
+    "summary": { "en": "", "es": "" },
+    "tags": [
+      "Artificial intelligence",
+      "Community",
+      "Systems Architecture",
+      "Enterprise",
+      "Use Cases",
+      "Startups"
+    ],
     "level": "all",
     "video_url": ""
   },
@@ -210,8 +241,8 @@
       "en": "What if we could train models without seeing the data? This talk explores Federated Learning, a technique that allows training machine learning models without centralizing information. Through practical examples and accessible explanations, you'll learn how to build solutions that respect user privacy without sacrificing performance. Includes a step-by-step implementation using Flower and real-world use cases in health, finance, and mobile devices.",
       "es": "¿Y si pudiéramos entrenar modelos sin ver los datos? En esta charla exploraremos Federated Learning, una técnica que permite entrenar modelos de machine learning sin necesidad de centralizar la información. A través de ejemplos prácticos y explicaciones accesibles, mostraré cómo construir soluciones que respetan la privacidad de los usuarios sin sacrificar rendimiento. Presentaré una implementación paso a paso usando Flower, uno de los frameworks más utilizados hoy en día para sistemas federados, y discutiremos cómo adaptar esta tecnología a distintos escenarios. Además, compartiré casos de uso reales donde el aprendizaje federado ya está siendo aplicado en sectores como salud, finanzas y dispositivos móviles, y cómo me imagino que se puede empezar a utilizar en Colombia. También hablaremos sobre cómo mejorar aún más la privacidad en estos sistemas mediante estrategias complementarias, sin perder de vista la viabilidad técnica y operativa. Esta charla está pensada para cualquier persona interesada en machine learning, privacidad o arquitectura de sistemas distribuidos. Si alguna vez te has preguntado cómo entrenar modelos responsables, escalables y preparados para un futuro más ético, esta charla es para ti."
     },
-    "summary": {"en": "", "es": ""},
-    "tags": ["Aritificial intelligence", "Data Sciece", "Machine Learning", "MLOps"],
+    "summary": { "en": "", "es": "" },
+    "tags": ["Artificial intelligence", "Data Science", "Machine Learning", "MLOps"],
     "level": "intermediate",
     "video_url": ""
   },
@@ -228,8 +259,8 @@
       "en": "In this talk I will present ARGUS, a geospatial monitoring tool developed in Python that combines remote sensors, data analysis, and graph structures to detect and analyze patterns of illegal cattle ranching linked to deforestation in Colombia. We will explore how this solution, designed from the public sector, uses clustering algorithms, interactive visualization, and network detection to reveal hidden dynamics in the territory, optimizing environmental decision-making. If you are interested in open data, applied science with real impact, and the potential of Python to solve complex social problems, this talk is for you.",
       "es": "En esta charla presentaré ARGUS, una herramienta de monitoreo geoespacial desarrollada en Python que combina sensores remotos, análisis de datos y estructuras de grafos para detectar y analizar patrones de ganadería ilegal vinculados a la deforestación en Colombia. Exploraremos cómo esta solución, pensada desde el sector público, utiliza algoritmos de agrupamiento, visualización interactiva y detección de redes para revelar dinámicas ocultas en el territorio, optimizando la toma de decisiones ambientales. Si te interesan los datos abiertos, la ciencia aplicada con impacto real y el potencial de Python para resolver problemáticas sociales complejas, esta charla es para ti."
     },
-    "summary": {"en": "", "es": ""},
-    "tags": ["Aritificial intelligence", "Data Sciece", "Computer Vision", "Machine Learning"],
+    "summary": { "en": "", "es": "" },
+    "tags": ["Artificial intelligence", "Data Science", "Computer Vision", "Machine Learning"],
     "level": "advanced",
     "video_url": ""
   },
@@ -246,8 +277,8 @@
       "en": "Have you ever felt that your English level held you back in an interview, even though you had all the technical skills? Have you frozen when asked 'Tell me about yourself'? You're not alone. Worried about your accent, technical vocabulary, or just not understanding the questions? This talk is designed especially for you: Latin American professionals who dream of joining global teams and want to overcome their fears of English in technical interviews. I'll share lessons from my experience as an AI team leader with Latin American talent, former English teacher, and career coach. The session will focus on the most common challenges Spanish-speaking candidates face: fear of making mistakes, lack of technical vocabulary, nerves, and doubts about how to structure effective answers in English. The agenda includes: strategies for preparing for technical and behavioral interviews in English; practical tools to communicate ideas clearly, even with intermediate English; reflections on how to address fear through practice and confidence, not perfection; real cases of candidate preparation in Colombia and Latin America. The talk offers a practical and realistic guide, combining linguistic preparation with an emotional perspective, aimed at those who want to improve their interview performance without having to master native-level English.",
       "es": "Alguna vez sentiste que tu nivel de inglés te frenó en una entrevista, aunque tenías todas las habilidades técnicas necesarias? Te has paralizado cuando te preguntan “Tell me about yourself”? No estás solo. Te preocupa tu acento, tu vocabulario técnico o simplemente no entender las preguntas? Esta charla está diseñada especialmente para ti: profesionales latinoamericanos que sueñan con dar el salto a equipos globales y quieren superar sus miedos al inglés en entrevistas técnicas. Compartiré aprendizajes desde mi experiencia como líder de un equipo de inteligencia artificial con talento latinoamericano, exprofesora de inglés y coach de carrera en un bootcamp. La sesión se centrará en los desafíos más comunes que enfrentan los candidatos hispanohablantes: miedo a equivocarse, falta de vocabulario técnico, nerviosismo y dudas sobre cómo estructurar respuestas efectivas en inglés. La agenda incluirá: Estrategias para prepararse para entrevistas técnicas y de comportamiento en inglés; Herramientas prácticas para comunicar ideas con claridad, incluso con un nivel de inglés intermedio; Reflexiones sobre cómo abordar el miedo desde la práctica y la confianza, no desde la perfección; Casos reales de preparación de candidatos en Colombia y América Latina. La charla busca ofrecer una guía práctica y realista, que combina preparación lingüística con perspectiva emocional, orientada a quienes desean mejorar su desempeño en entrevistas sin tener que dominar el inglés a nivel nativo."
     },
-    "summary": {"en": "", "es": ""},
-    "tags": ["Aritificial intelligence", "Community", "Soft skills", "English"],
+    "summary": { "en": "", "es": "" },
+    "tags": ["Artificial intelligence", "Community", "Soft skills", "English"],
     "level": "all",
     "video_url": ""
   },
@@ -264,7 +295,7 @@
       "en": "In this talk, we'll learn how to use Python to build your own monitoring platform without relying on commercial solutions. Using open source tools like psutil, prometheus_client, FastAPI, and Grafana, we'll explore how to collect, expose, and visualize system metrics in real time. Step by step, we'll create a Python 'exporter' that reports CPU, memory, disk, network, and other indicators, and see how to easily integrate it with Prometheus and Grafana for useful dashboards and configurable alerts. This is a practical talk, focused on showing how a lightweight and flexible solution can give you real observability of your services—ideal for backend developers, DevOps, or anyone who wants to better understand their infrastructure.",
       "es": "En esta charla aprenderemos cómo usar Python para construir tu propia plataforma de monitoreo sin depender de soluciones comerciales. A través de herramientas de código abierto como psutil, prometheus_client, FastAPI y Grafana, exploraremos cómo recolectar, exponer y visualizar métricas del sistema en tiempo real. Veremos paso a paso cómo crear un 'exportador' en Python que reporte el uso de CPU, memoria, disco, red y otros indicadores, y cómo integrarlo fácilmente con Prometheus y Grafana para tener dashboards útiles y alertas configurables. Esta es una charla práctica, enfocada en mostrar cómo una solución ligera y flexible puede darte observabilidad real de tus servicios, ideal para quienes trabajan en desarrollo backend, DevOps o simplemente quieren entender mejor el estado de su infraestructura."
     },
-    "summary": {"en": "", "es": ""},
+    "summary": { "en": "", "es": "" },
     "tags": ["Devops", "Observability and monitoring", "Python"],
     "level": "all",
     "video_url": ""
@@ -282,8 +313,8 @@
       "en": "Geospatial data can be defined as information regarding objects or events that include location as additional attributes. This means that you can map features that represent real-world phenomena into latitude and longitude coordinates from earth’s surface. With this, you can perform analysis, generate insights and create a clear picture of a given situation. For example, in an emergency context, humanitarian organizations apply geospatial analysis to find health facilities nearby an earthquake epicenter, improving operations while reducing response times. We can leverage the understanding of different circumstances by applying location information in a given context. However, it becomes necessary to have well-defined concepts and terminology. Working with geospatial data requires a minimum basis that can facilitate the daily work of many developers and analysts. In this talk, I will provide an introduction of performing taks and working with geospatial data using duckdb. We will take advantage of this modern tool, that provides it users the ease of getting started, working with it and also integrate with different programming languages, such as Python. At the end of this talk, attendees will have a clear view about what is geospatial data, how to collect it and run geospatial operations. I will select common and open data sources used in emergency context. However, the knowledge can be re-used in any real world scenario. The schedule of this talk is the following: Installation of duckdb (10 seconds). Basics of GIS (10 minutes). Loading geospatial data in duckdb (5 minutes) using custom functions. Operations with vector data (intersection of polygons, aggregation of points, etc.) (10 minutes). Data export using geospatial standards (3 minutes). Common issues found (2 minutes).",
       "es": "Geospatial data can be defined as information regarding objects or events that include location as additional attributes. This means that you can map features that represent real-world phenomena into latitude and longitude coordinates from earth’s surface. With this, you can perform analysis, generate insights and create a clear picture of a given situation. For example, in an emergency context, humanitarian organizations apply geospatial analysis to find health facilities nearby an earthquake epicenter, improving operations while reducing response times. We can leverage the understanding of different circumstances by applying location information in a given context. However, it becomes necessary to have well-defined concepts and terminology. Working with geospatial data requires a minimum basis that can facilitate the daily work of many developers and analysts. In this talk, I will provide an introduction of performing taks and working with geospatial data using duckdb. We will take advantage of this modern tool, that provides it users the ease of getting started, working with it and also integrate with different programming languages, such as Python. At the end of this talk, attendees will have a clear view about what is geospatial data, how to collect it and run geospatial operations. I will select common and open data sources used in emergency context. However, the knowledge can be re-used in any real world scenario. The schedule of this talk is the following: Installation of duckdb (10 seconds). Basics of GIS (10 minutes). Loading geospatial data in duckdb (5 minutes) using custom functions. Operations with vector data (intersection of polygons, aggregation of points, etc.) (10 minutes). Data export using geospatial standards (3 minutes). Common issues found (2 minutes)."
     },
-    "summary": {"en": "", "es": ""},
-    "tags": ["Data Sciece", "Scientific Computing"],
+    "summary": { "en": "", "es": "" },
+    "tags": ["Data Science", "Scientific Computing"],
     "level": "intermediate",
     "video_url": ""
   },
@@ -300,7 +331,7 @@
       "en": "Async Python has been around for a while, and while many developers use async/await, few truly write asynchronous code. This talk demystifies async programming by exploring the differences between sync, async, and parallel execution, explaining how the event loop works, and identifying common pitfalls like excessive awaits blocking the event loop. Attendees will learn to fix bad async patterns using tools like asyncio.gather(), create_task(), TaskGroup, and semaphores to manage concurrency effectively. Through real-world examples, we’ll refactor inefficient async code into structured, performant solutions. By the end, developers will not only understand when and how to use async but also write actual async Python—beyond just syntax.",
       "es": "Async Python has been around for a while, and while many developers use async/await, few truly write asynchronous code. This talk demystifies async programming by exploring the differences between sync, async, and parallel execution, explaining how the event loop works, and identifying common pitfalls like excessive awaits blocking the event loop. Attendees will learn to fix bad async patterns using tools like asyncio.gather(), create_task(), TaskGroup, and semaphores to manage concurrency effectively. Through real-world examples, we’ll refactor inefficient async code into structured, performant solutions. By the end, developers will not only understand when and how to use async but also write actual async Python—beyond just syntax."
     },
-    "summary": {"en": "", "es": ""},
+    "summary": { "en": "", "es": "" },
     "tags": ["aCore Python"],
     "level": "all",
     "video_url": ""
@@ -318,8 +349,8 @@
       "en": "Can you imagine transforming decades of financial experience, dominated by omnipresent Excel, into an engine of innovation powered by Python and Artificial Intelligence? That's the story Carlos Mario Ramírez Gil, with over 25 years in finance and author of 'Python para finanzas, Curso Práctico', comes to share. Many professionals live the reality of spreadsheets: powerful, yes, but often limiting in the face of modern data complexity and volume. Carlos Mario was there. But six years ago, he decided to break that mold. In this talk, he'll take you on a fascinating and practical journey: The Excel Wall: We'll revisit the concrete limitations found in traditional financial analysis that cry out for a more robust solution. (You'll surely relate!) The Discovery of Python: You'll witness how Python burst in to automate the tedious, analyze the complex, and unlock insights previously hidden in the numbers. We'll see practical examples (without drowning in code!) of how financial tasks were revolutionized. Mastering Finance with Python: We'll explore how tools like Pandas, NumPy, and others became indispensable allies for modeling, simulation, and advanced quantitative analysis, far surpassing previous capabilities. The Quantum Leap to AI: Discover how curiosity and necessity led Carlos Mario to apply Machine Learning algorithms (Regression, Time Series, Optimization!) to tackle even greater financial challenges: from predicting cryptocurrency trends to optimizing portfolios and analyzing complex patterns in urban data. Your Own Transformation: Beyond the story, you'll get lessons learned, practical tips, and inspiration to start or accelerate your own path integrating Python and AI into your professional domain, whether finance or another field. Why can't you miss this talk? Real Experience, No Smoke: It's not abstract theory, it's the experience of a professional who made the transition. Practical Applications: You'll see how Python and AI solve real problems in the financial sector. Pure Inspiration: It shows that technological reinvention is possible at any age and from any field. Bridge Between Worlds: Ideal whether you come from finance and want to learn Python, or you're a developer looking for impactful applications. Join Carlos Mario to discover how to turn data into smart decisions and how your own career can evolve from spreadsheet cells to the unlimited power of algorithms. A talk that will equip you with perspective, knowledge, and motivation!",
       "es": "¿Imaginas transformar décadas de experiencia financiera, dominadas por el omnipresente Excel, en un motor de innovación impulsado por Python y la Inteligencia Artificial? Esa es la historia que Carlos Mario Ramírez Gil, con más de 25 años en el campo financiero y autor de 'Python para finanzas, Curso Práctico', viene a compartir contigo. Muchos profesionales viven la realidad de las hojas de cálculo: poderosas, sí, pero a menudo limitantes frente a la complejidad y el volumen de los datos modernos. Carlos Mario estaba allí. Pero hace seis años, decidió romper ese molde. En esta charla, te llevará en un viaje fascinante y práctico: El Muro de Excel: Reviviremos las limitaciones concretas encontradas en el análisis financiero tradicional que gritan por una solución más robusta. (¡Seguro te identificarás!) El Descubrimiento de Python: Serás testigo de cómo Python irrumpió para automatizar lo tedioso, analizar lo complejo y desbloquear insights antes ocultos en los números. Veremos ejemplos prácticos (¡sin ahogarnos en código!) de cómo tareas financieras se revolucionaron. Dominando las Finanzas con Python: Exploraremos cómo herramientas como Pandas, NumPy y otras se convirtieron en aliadas indispensables para modelado, simulación y análisis cuantitativo avanzado, superando ampliamente las capacidades previas. El Salto Cuántico a la IA: Descubre cómo la curiosidad y la necesidad llevaron a Carlos Mario a aplicar algoritmos de Machine Learning (¡Regresión, Series de Tiempo, Optimización!) para abordar desafíos financieros aún mayores: desde predecir tendencias en criptomonedas hasta optimizar portafolios y analizar patrones complejos en datos urbanos. Tu Propia Transformación: Más allá de la historia, obtendrás lecciones aprendidas, consejos prácticos y la inspiración para iniciar o acelerar tu propio camino integrando Python y IA en tu dominio profesional, sea finanzas u otro. ¿Por qué no te puedes perder esta charla? Experiencia Real, Cero Humo: No es teoría abstracta, es la vivencia de un profesional que hizo la transición. Aplicaciones Prácticas: Verás cómo Python y la IA resuelven problemas reales del sector financiero. Inspiración Pura: Demuestra que la reinvención tecnológica es posible a cualquier edad y desde cualquier campo. Puente entre Mundos: Ideal tanto si vienes de finanzas y quieres aprender Python, como si eres developer y buscas aplicaciones de impacto. Únete a Carlos Mario para descubrir cómo convertir los datos en decisiones inteligentes y cómo tu propia carrera puede evolucionar de las celdas de una hoja de cálculo a la potencia ilimitada de los algoritmos. ¡Una charla que te equipará con perspectiva, conocimiento y motivación!"
     },
-    "summary": {"en": "", "es": ""},
-    "tags": ["Aritificial intelligence", "Data Sciece", "Community", "Machine Learning"],
+    "summary": { "en": "", "es": "" },
+    "tags": ["Artificial intelligence", "Data Science", "Community", "Machine Learning"],
     "level": "all",
     "video_url": ""
   },
@@ -336,8 +367,8 @@
       "en": "Imagine connecting your AI agents to databases, APIs, file systems, and web services as easily as plugging in a USB cable. Welcome to the Model Context Protocol (MCP), the revolutionary standard transforming how Large Language Models (LLMs) interact with the real world. In this talk, we'll explore MCP, an open protocol designed to simplify and standardize the integration of AI models with diverse tools and data sources. We'll cover: What MCP is and why it's considered 'the USB-C of AI.' How MCP solves common integration problems—goodbye to fragile, custom APIs! Practical cases and the flourishing open-source ecosystem already leveraging MCP. Whether you're a developer optimizing AI integrations, a data scientist seeking smarter workflows, or simply an enthusiast curious about the future of AI tools, this talk is for you. Discover how MCP makes AI agents more powerful, modular, and truly connected to reality.",
       "es": "Imagina conectar tus agentes de inteligencia artificial con bases de datos, APIs, sistemas de archivos y servicios web con la facilidad de enchufar un cable USB. Bienvenidos al Model Context Protocol (MCP), el revolucionario estándar que está transformando la manera en que los Modelos de Lenguaje Extensos (LLMs) interactúan con el mundo real. En esta charla exploraremos MCP, un protocolo abierto diseñado para simplificar y estandarizar la integración de modelos de IA con diversas herramientas y fuentes de datos. Cubriremos: Qué es MCP y por qué se considera 'el USB-C de la IA.' Cómo MCP resuelve los problemas frecuentes en la integración de IA—¡adiós a las APIs personalizadas y frágiles! Casos prácticos y el floreciente ecosistema de código abierto que ya está aprovechando MCP. Ya seas desarrollador interesado en optimizar integraciones de IA, científico de datos buscando flujos de trabajo más inteligentes, o simplemente un entusiasta deseoso de conocer el futuro de las herramientas de inteligencia artificial, esta charla es para ti. Ven a descubrir cómo MCP hace que los agentes de IA sean más potentes, modulares y verdaderamente conectados a la realidad."
     },
-    "summary": {"en": "", "es": ""},
-    "tags": ["Aritificial intelligence"],
+    "summary": { "en": "", "es": "" },
+    "tags": ["Artificial intelligence"],
     "level": "all",
     "video_url": ""
   },
@@ -354,8 +385,8 @@
       "en": "In this talk, we will share our journey of developing Enbloc, an AI-powered platform designed to navigate the intricate web of political relationships in Washington, D.C. Enbloc integrates diverse data sources—including congressional records, lobbying reports, and campaign finance data—to provide users with comprehensive insights into Capitol Hill's key players and their connections. Key takeaways: Architectural Insights: Understand the design decisions behind Enbloc's scalable architecture, which is built to handle vast datasets efficiently. AI Integration: Learn how we incorporated machine learning models to analyze and visualize complex political relationships. Real-World Challenges: Discover the hurdles we faced in data integration, user experience design, and system performance, along with the solutions we implemented. By attending, you'll gain practical knowledge on leveraging Python and AI to build applications that process and analyze large-scale, real-time data, offering valuable insights into developing sophisticated data-driven platforms.",
       "es": "En esta charla compartiremos nuestro recorrido desarrollando Enbloc, una plataforma impulsada por IA diseñada para navegar la compleja red de relaciones políticas en Washington, D.C. Enbloc integra diversas fuentes de datos—registros del Congreso, reportes de lobby y datos de financiamiento de campañas—para brindar a los usuarios una visión integral de los actores clave y sus conexiones en Capitol Hill. Puntos clave: Perspectivas arquitectónicas: Entiende las decisiones de diseño detrás de la arquitectura escalable de Enbloc, construida para manejar grandes volúmenes de datos de manera eficiente. Integración de IA: Aprende cómo incorporamos modelos de machine learning para analizar y visualizar relaciones políticas complejas. Retos reales: Descubre los desafíos que enfrentamos en integración de datos, experiencia de usuario y rendimiento del sistema, junto con las soluciones implementadas. Al asistir, obtendrás conocimientos prácticos sobre cómo aprovechar Python y la IA para construir aplicaciones que procesan y analizan datos a gran escala y en tiempo real, ofreciendo valiosos aprendizajes para desarrollar plataformas sofisticadas basadas en datos."
     },
-    "summary": {"en": "", "es": ""},
-    "tags": ["Aritificial intelligence", "Computer Vision", "Machine Learning"],
+    "summary": { "en": "", "es": "" },
+    "tags": ["Artificial intelligence", "Computer Vision", "Machine Learning"],
     "level": "all",
     "video_url": ""
   },
@@ -372,8 +403,15 @@
       "en": "In this talk, we’ll share how we built and deployed a production-grade Retrieval-Augmented Generation (RAG) system using Python to extract clinical data from unstructured medical documents — enabling healthcare teams to map patients, gain real-time insights, and accelerate clinical trial recruitment. We’ll walk through the end-to-end architecture of the system, which processes over 4 million documents per month and combines document parsing, text classification, chunking, embeddings, vector search, and LLM-powered data extraction. You’ll see how Python ties everything together across a modular AWS-based pipeline using services like Lambda, Step Functions, and S3 — all designed for scalability, traceability, and efficiency. This talk will highlight: How we orchestrated a high-throughput document processing workflow in Python. The challenges of deploying LLMs in clinical environments (e.g., hallucinations, evaluation, and prompt design). Lessons learned building a custom RAG system with healthcare-specific use cases. How the solution enables dynamic cohort selection and clinical trial readiness. Whether you're curious about using LLMs in production, building scalable NLP systems, or applying AI to healthcare, this session will offer practical insights, architecture tips, and real-world lessons from a solution that’s already delivering impact.",
       "es": "En esta charla compartiremos cómo construimos y desplegamos un sistema de RAG (Retrieval-Augmented Generation) de nivel productivo usando Python para extraer datos clínicos de documentos médicos no estructurados, permitiendo a los equipos de salud mapear pacientes, obtener insights en tiempo real y acelerar el reclutamiento para ensayos clínicos. Recorreremos la arquitectura de punta a punta del sistema, que procesa más de 4 millones de documentos al mes y combina parsing, clasificación de texto, chunking, embeddings, búsqueda vectorial y extracción de datos con LLMs. Verás cómo Python integra todo en un pipeline modular sobre AWS (Lambda, Step Functions, S3), diseñado para escalabilidad, trazabilidad y eficiencia. La charla destacará: Cómo orquestamos un flujo de procesamiento de documentos de alto rendimiento en Python. Los retos de desplegar LLMs en entornos clínicos (alucinaciones, evaluación, diseño de prompts). Lecciones aprendidas construyendo un RAG personalizado para casos de salud. Cómo la solución permite selección dinámica de cohortes y preparación para ensayos clínicos. Si tienes curiosidad por usar LLMs en producción, construir sistemas NLP escalables o aplicar IA a la salud, esta sesión te dará insights prácticos, tips de arquitectura y lecciones reales de una solución que ya está generando impacto."
     },
-    "summary": {"en": "", "es": ""},
-    "tags": ["Aritificial intelligence", "Data Sciece", "Computer Vision", "Core Python", "Devops", "Machine Learning"],
+    "summary": { "en": "", "es": "" },
+    "tags": [
+      "Artificial intelligence",
+      "Data Science",
+      "Computer Vision",
+      "Core Python",
+      "Devops",
+      "Machine Learning"
+    ],
     "level": "all",
     "video_url": ""
   },
@@ -390,8 +428,8 @@
       "en": "In the era of Generative AI (GenAI), language models have revolutionized how we process text. However, in enterprise environments like fintechs and regulated sectors, data generation can compromise model governance, quality, and privacy. In this talk, we'll explore how to use GenAI for labeled data generation and how fine-tuning Transformers allows us to maintain control over model quality and accuracy. Based on a real use case in financial transaction categorization for Mercado Pago in Argentina, we'll see how to train models tailored to specific needs without losing interpretability or reliability. Attendees will learn: How to generate training data with GenAI in a structured way. Strategies for fine-tuning Transformers in Spanish. Metrics and techniques to evaluate accuracy without compromising governance. This talk is ideal for data scientists, ML engineers, and NLP enthusiasts who want to apply language models without losing control over the data.",
       "es": "En la era de la Inteligencia Artificial Generativa (GenAI), los modelos de lenguaje han revolucionado la forma en que procesamos texto. Sin embargo, en entornos empresariales como fintechs y sectores regulados, la generación de datos puede comprometer la gobernabilidad, calidad y privacidad de los modelos. En esta charla, exploraremos cómo usar GenAI para la generación de datos etiquetados y cómo el fine-tuning de Transformers nos permite mantener control sobre la calidad y precisión del modelo. A partir de un caso de uso real en la categorización de transacciones financieras de Mercado Pago en Argentina, veremos cómo entrenar modelos ajustados a necesidades específicas sin perder interpretabilidad ni confiabilidad. Los asistentes aprenderán: ✅ Cómo generar datos de entrenamiento con GenAI de manera estructurada. ✅ Estrategias para el fine-tuning de Transformers en español. ✅ Métricas y técnicas para evaluar la precisión sin comprometer la gobernabilidad. Esta charla es ideal para científicos de datos, ingenieros de ML y entusiastas de NLP que buscan aplicar modelos de lenguaje sin perder control sobre los datos."
     },
-    "summary": {"en": "", "es": ""},
-    "tags": ["Aritificial intelligence", "Data Sciece", "Machine Learning"],
+    "summary": { "en": "", "es": "" },
+    "tags": ["Artificial intelligence", "Data Science", "Machine Learning"],
     "level": "intermediate",
     "video_url": ""
   },
@@ -408,8 +446,16 @@
       "en": "The Center for Electricity, Electronics, and Telecommunications of the National Learning Service (SENA), aligned with the National Development Plan and aware of its social commitment and the great potential that Industry 4.0 offers in various technological fields, seeks to contribute its installed capacity—represented by equipment and human talent—to mitigating issues related to the Colombian agricultural sector. It has identified an opportunity to enhance harvest decision-making and improve agricultural yields through the adoption of Industry 4.0 technologies. Globally, agriculture faces a series of uncertainties and challenges. According to the FAO, agriculture must become more productive to feed an ever-growing global population while addressing the formidable environmental challenges ahead (FAO, 2023). Climate change is one of the greatest barriers to agricultural development, both rural and urban. The three key pillars to combat it are adaptation, resilience, and mitigation, alongside the adoption of new technological knowledge. For this reason, the efforts of the academic community must focus on making agriculture increasingly efficient, productive, and sustainable. This must be accompanied by the implementation of public policies aimed at strengthening the sector. In Colombia, agriculture has not fully benefited from the technological advancements offered by Industry 4.0. Technologies such as digital twins, virtual reality systems, augmented reality, and data science powered by artificial intelligence can help understand the patterns and dynamics of nature. This deeper understanding aids in better decision-making, ultimately leading to increased agricultural productivity.",
       "es": "El Centro de Electricidad, Electrónica y Telecomunicaciones del SENA, alineado con el Plan Nacional de Desarrollo y consciente de su compromiso social y del gran potencial que la Industria 4.0 ofrece en diversos campos tecnológicos, busca aportar su capacidad instalada—representada en equipos y talento humano—a mitigar problemáticas del sector agrícola colombiano. Ha identificado una oportunidad para mejorar la toma de decisiones de cosecha y aumentar los rendimientos agrícolas mediante la adopción de tecnologías de la Industria 4.0. A nivel global, la agricultura enfrenta una serie de incertidumbres y desafíos. Según la FAO, la agricultura debe volverse más productiva para alimentar a una población mundial en constante crecimiento, enfrentando a la vez los formidables retos ambientales que se avecinan (FAO, 2023). El cambio climático es una de las mayores barreras para el desarrollo agrícola, tanto rural como urbano. Los tres pilares clave para combatirlo son la adaptación, la resiliencia y la mitigación, junto con la adopción de nuevo conocimiento tecnológico. Por ello, los esfuerzos de la academia deben enfocarse en hacer la agricultura cada vez más eficiente, productiva y sostenible, acompañados de la implementación de políticas públicas que fortalezcan el sector. En Colombia, la agricultura no ha aprovechado plenamente los avances tecnológicos que ofrece la Industria 4.0. Tecnologías como los gemelos digitales, los sistemas de realidad virtual, la realidad aumentada y la ciencia de datos impulsada por inteligencia artificial pueden ayudar a comprender los patrones y dinámicas de la naturaleza. Este entendimiento más profundo contribuye a una mejor toma de decisiones, lo que finalmente se traduce en una mayor productividad agrícola."
     },
-    "summary": {"en": "", "es": ""},
-    "tags": ["Aritificial intelligence", "Data Sciece", "Core Python", "Devops", "IoT", "Machine Learning", "Video games"],
+    "summary": { "en": "", "es": "" },
+    "tags": [
+      "Artificial intelligence",
+      "Data Science",
+      "Core Python",
+      "Devops",
+      "IoT",
+      "Machine Learning",
+      "Video games"
+    ],
     "level": "beginner",
     "video_url": ""
   },
@@ -426,8 +472,14 @@
       "en": "Note: The whole presentation will be bilingual\n\nOutline\n-------\n\n## Provided Materials\n- Slides\n- Live coding\n- Printable cheatsheet (PDF and physical copies)\n\n### Outline\n- Essential packages: aiohttp, aiofile\n- Types of coroutines and awaitables: native asyncio vs. trio\n- Architectures beyond the web: parallel processing (Python 3.10, 3.11, 3.12)\n- New types of errors and error groups: try/await (3.10, 3.11, 3.12)\n- The GIL: why threads don't matter...\n- Blocking calls: why threads do matter\n- PEP 703: The death of the GIL, long live the GIL! Why threads will matter even more",
       "es": "Nota: Toda la presentación será bilingüe\n\nEsquema\n-------\n\n## Recursos adicionales\n- Diapositivas\n- Programación en vivo\n- Ficha de atajos (PDF y copias físicas)\n\n### Esquema\n- Paquetes esenciales: aiohttp, aiofile\n- Tipos de corrutinas y objetos esperables: asyncio nativo vs. trio\n- Arquitecturas más allá de la web: procesamiento en paralelo (Python 3.10, 3.11, 3.12)\n- Nuevos tipos de errores y grupos de errores: try/await (3.10, 3.11, 3.12)\n- El GIL: por qué los hilos no importan...\n- Llamadas bloqueantes: por qué los hilos sí importan\n- PEP 703: ¡Muere el GIL, larga vida al GIL!: por qué los hilos importarán aún más"
     },
-    "summary": {"en": "", "es": ""},
-    "tags": ["Core Python", "Concurrency", "GIL", "High-Performance Computing", "Paralell Computing"],
+    "summary": { "en": "", "es": "" },
+    "tags": [
+      "Core Python",
+      "Concurrency",
+      "GIL",
+      "High-Performance Computing",
+      "Parallel Computing"
+    ],
     "level": "intermediate",
     "video_url": ""
   },
@@ -444,8 +496,8 @@
       "en": "In this talk, we present how, with the Python ecosystem, we designed an end-to-end flow to automate the evaluation of the Parent Management Training–Oregon (PMTO) program. We aimed to test whether language models could rigorously and consistently grade sessions currently analyzed by people, freeing them for strategic tasks that enhance the program. We worked closely with facilitators: gathering hours of audio and their official rubrics to create a solid reference base. After evaluating several AI alternatives, we adopted GPT-4o in Azure and integrated it into a compact pipeline: we transcribed audios with Azure Cognitive Services Speech (including diarization and timestamps); cleaned and exported results with pandas; split them with a TextSplitter on LangChain; and sent each chunk to GPT-4o via AzureChatOpenAI, validating the output with a Pydantic schema that returns only grad_score and summary. All this is exposed in a Streamlit interface that, in seconds, shows the score by thematic axis and the step-by-step justification. The pilot test achieved over 90% agreement with human evaluation, demonstrating the feasibility of reducing review hours and variability among evaluators. During the session, we will break down the architecture, design decisions, and quality metrics, and share lessons the Python community can apply to bring AI to other training environments where objectivity and efficiency are critical.",
       "es": "En esta charla presentaremos cómo, con el ecosistema Python, diseñamos un flujo end‑to‑end para automatizar la evaluación del programa Parent Management Training – Oregon (PMTO). Buscamos probar si los modelos de lenguaje podían calificar—con rigor y consistencia—las sesiones que hoy analizan personas, liberándolas para tareas estratégicas que potencien el programa. Trabajamos codo a codo con los facilitadores: reunimos horas de audio y sus rúbricas oficiales para crear una base de referencia sólida. Tras evaluar varias alternativas de IA, adoptamos GPT‑4o en Azure y lo integramos en un pipeline compacto: transcribimos los audios con Azure Cognitive Services Speech (diarización y marcas de tiempo incluidas); limpiamos y exportamos resultados con pandas; los fragmentamos con un TextSplitter sobre LangChain; y enviamos cada trozo a GPT‑4o vía AzureChatOpenAI, validando la salida con un esquema Pydantic que devuelve únicamente grad_score y resumen. Todo esto se expone en una interfaz Streamlit que, en segundos, muestra la nota por eje temático y la justificación paso a paso. La prueba piloto alcanzó más de 90% de concordancia con la evaluación humana, demostrando la viabilidad de reducir horas de revisión y la variabilidad entre evaluadores. Durante la sesión desglosaremos la arquitectura, las decisiones de diseño y las métricas de calidad, y compartiremos lecciones que la comunidad Python puede aplicar para llevar la IA a otros entornos de capacitación donde objetividad y eficiencia resultan críticas."
     },
-    "summary": {"en": "", "es": ""},
-    "tags": ["Aritificial intelligence", "Data Sciece", "Machine Learning"],
+    "summary": { "en": "", "es": "" },
+    "tags": ["Artificial intelligence", "Data Science", "Machine Learning"],
     "level": "all",
     "video_url": ""
   },
@@ -462,7 +514,7 @@
       "en": "In this session, we will learn how to use the Python SDK of Flyte, the open-source ML orchestrator, to develop an ML pipeline from a Notebook, and easily determine the inputs used to produce a specific result or return to a particular version of the model, enabling rapid iterations and a scalable step between experimentation and a production ML application.",
       "es": "En esta sesión aprenderemos como usar el SDK Python de Flyte, el orquestador ML de código abierto, para desarrollar un pipeline de ML desde un Notebook, y poder fácilmente determinar las entradas que se usaron para producir un resultado especifico o retornar a una versión particular del modelo, habilitando iteraciones rápidas y un paso escalable entre la experimentación y una aplicación de ML en producción."
     },
-    "summary": {"en": "", "es": ""},
+    "summary": { "en": "", "es": "" },
     "tags": ["ml", "cloud", "flyte", "python"],
     "level": "intermediate",
     "video_url": ""
@@ -480,7 +532,7 @@
       "en": "In this talk, we will explore how to apply clean architecture principles in Python projects to achieve scalable, maintainable, and easy-to-test systems. Using real examples from the Colombian tech environment, we will show how to separate concerns, avoid unnecessary dependencies, and prepare your software to grow without becoming unmanageable.",
       "es": "En esta charla exploraremos cómo aplicar principios de arquitectura limpia en proyectos Python para lograr sistemas escalables, mantenibles y fáciles de probar. Usando ejemplos reales del entorno tecnológico en Colombia, mostraremos cómo separar preocupaciones, evitar dependencias innecesarias y preparar tu software para crecer sin volverse inmanejable."
     },
-    "summary": {"en": "", "es": ""},
+    "summary": { "en": "", "es": "" },
     "tags": ["architecture", "scalability", "python", "clean architecture"],
     "level": "intermediate",
     "video_url": ""
@@ -498,7 +550,7 @@
       "en": "The goal of this talk is to encourage attendees to use pydanticai to implement their AI agents. Just as FastAPI has been successful by relying on Pydantic, I see a great opportunity for PydanticAI, which addresses a pressing need: to provide a simple framework that offers a great developer experience. PydanticAI has it all: open source, reputable developers, compatibility with a wide variety of LLMs, and best of all: it's typed!",
       "es": "El objetivo de la charla es incentivar a los asistentes a usar pydanticai para implementar sus agentes de inteligencia artificial. Así como Fastapi ha sido exitoso por apoyarse en Pydantic, vislumbro una gran oportunidad para PydanticAI, el cual atiende una necesidad apremiante que es plantear un framework de trabajo simple y que ofrezca una gran experiencia para el desarrollador. PydanticAI lo tiene todo: open source, sus desarrolladores gozan de gran reputación, compatibilidad con una amplia variedad de LLMs, y lo mejor: es tipado!"
     },
-    "summary": {"en": "", "es": ""},
+    "summary": { "en": "", "es": "" },
     "tags": ["pydanticai", "agents", "python", "llm"],
     "level": "beginner",
     "video_url": ""
@@ -516,7 +568,7 @@
       "en": "Currently, DNA and RNA sequencing technologies have enabled the development of biological sciences and the emergence of new disciplines such as omics sciences, which are responsible for identifying, describing, and quantifying biomolecules and their relationships within organisms. Given this situation, contemporary biology faces a real challenge in analyzing and processing the enormous amounts of data obtained. This has led to the need for high computational capacity and the use of programming languages that allow handling and analyzing such information, also including artificial intelligence like Alphafold2 (Nobel Prize in Chemistry) for protein structure prediction and EVO2 to analyze millions of DNA sequences and even generate complete genomes, which is vital for the development of synthetic biology. Both AIs are publicly available and written in Python. This allows for highly accurate simulations before conducting an experiment (enabling the development of more precise and accurate drugs and vaccines, saving time and money in their development) or predicting the function of an altered protein and its effect on disease.",
       "es": "Actualmente las tecnologías de secuenciación de ADN y ARN han permitido el desarrollo de las ciencias biológicas y abriendo nuevas disciplinas como las ciencias ómicas encargada de estudiar de identificar, describir y cuantificar las biomoléculas y su relación dentro de los organismos. Dada esta situación la biología contemporánea encuentra un verdadero reto para analizar y procesar las enormes cantidades de datos obtenidos. Esto ha llevado a que se requieran de altas capacidades de computación y la necesidad de utilizar lenguajes de programación que permitan manejar y análizar dicha información, también incluyendo inteligencia artificial como Alphahold2 (Premio novel de química) para la la predicción de la estructura de las proteínas y EVO2 para analizar millones de secuencias de ADN y generar incluso genomas completos que es vital para el desarrollo de la biología sintetica. Ambos inteligencias artificiales están dispononibles al publico en general y están escritas en Python. Lo que permite generar simulaciones muy acertadas antes de llevar a cabo un experimento (esto permite el desarrollo de medicamentos y vacunas más exactas y precisas ahorrando tiempo y dinero para el desarrollo de las mismas) o predecir la función de una proteína alterada y su efecto en la enfermedad. "
     },
-    "summary": {"en": "", "es": ""},
+    "summary": { "en": "", "es": "" },
     "tags": ["biology", "omics", "python", "ai"],
     "level": "intermediate",
     "video_url": ""
