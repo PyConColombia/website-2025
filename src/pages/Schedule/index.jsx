@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
 
 import { Col, Container, Row, Button } from 'react-bootstrap';
@@ -74,6 +74,7 @@ const Schedule = () => {
     const currentIndex = schedule.findIndex(d => d.date === currentDate.date);
     if (currentIndex < schedule.length - 1) {
       setCurrentDate(schedule[currentIndex + 1]);
+      localStorage.setItem('currentDatePyCon', schedule[currentIndex + 1].date);
     }
   };
 
@@ -81,8 +82,17 @@ const Schedule = () => {
     const currentIndex = schedule.findIndex(d => d.date === currentDate.date);
     if (currentIndex > 0) {
       setCurrentDate(schedule[currentIndex - 1]);
+      localStorage.setItem('currentDatePyCon', schedule[currentIndex - 1].date);
     }
   };
+
+  useEffect(() => {
+    const currentDatePyCon = localStorage.getItem('currentDatePyCon');
+
+    if (currentDatePyCon) {
+      setCurrentDate(schedule.find(d => d.date === currentDatePyCon));
+    }
+  }, []);
 
   return (
     <div className={`generic-page keynotes-page schedule-page`}>
