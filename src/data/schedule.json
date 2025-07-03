@@ -416,7 +416,8 @@
             "event_id": 30
           },
           {
-            "room": "workshop_3"
+            "room": "workshop_3",
+            "event_id": 51
           },
           {
             "room": "workshop_4",

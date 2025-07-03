@@ -22,6 +22,16 @@ const formatLang = (language) => {
   return langMap[language]
 }
 
+const formatSubmission = (submission) => {
+  const submissionMap = {
+    workshop: "WORKSHOP",
+    talk: "TALK",
+    keynote: "KEYNOTE"
+  }
+
+  return submissionMap[submission]
+}
+
 const Talk = () => {
   const { id } = useParams();
   const language = localStorage.getItem('language') || 'en'
@@ -41,12 +51,12 @@ const Talk = () => {
           <Row className="justify-content-center">
             <Col xs={12} md={9}>
               {
-                title && <Row>
-                  <Col>
+                title && <Row className="justify-content-center">
+                  <Col className="text-center">
                     <h1 className="description shantell-sans text-center" dangerouslySetInnerHTML={{ __html: `${title[language] || title.en}` }}></h1>
                     <div className="tag">
                       {submission && (
-                        <span className="tag-language light-color medium-size">{submission}</span>
+                        <span className="tag-language light-color medium-size">{formatSubmission(submission)}</span>
                       )}
 
                       {language && (
