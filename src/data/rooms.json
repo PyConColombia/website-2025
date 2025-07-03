@@ -7,5 +7,38 @@
   },
   "aux_2": {
     "name": "Auxiliar Room (110 - Bloque 38)"
+  },
+  "workshop_1": {
+    "name": "Room 1 (Building 35, room 403, Floor 4)"
+  },
+  "workshop_2": {
+    "name": "Room 2 (Building 35, room 503, Floor 5)"
+  },
+  "workshop_3": {
+    "name": "Room 3 (Building 35, room 402, Floor 4)"
+  },
+  "workshop_4": {
+    "name": "Room 4 (Building 35, room 202, Floor 2)"
+  },
+  "workshop_5": {
+    "name": "Room 5 (Building 35, room 201, Floor 2)"
+  },
+  "workshop_6": {
+    "name": "Room 6 (Building 35, room 502, Floor 5)"
+  },
+  "workshop_7": {
+    "name": "Room 7 (Building 35, room 203, Floor 3)"
+  },
+  "workshop_8": {
+    "name": "Room 8 (Building 35, room 303, Floor 3)"
+  },
+  "workshop_9": {
+    "name": "Room 9 (Building 35, room 101, Floor 1)"
+  },
+  "workshop_10": {
+    "name": "Room 10 (Building 35, room 401, Floor 4)"
+  },
+  "workshop_11": {
+    "name": "Room 11 (Building 35, room 501, Floor 5)"
   }
 }
