@@ -96,9 +96,9 @@ const Speaker = () => {
                         <ul>
                           {talks.map((talk) => (
                             <li key={talk.id} className='tag'>
+                              <span className="tag-language light-color medium-size">{talk.submission}</span>
+                              <span className="tag-language light-color medium-size">{formatLang(talk.spoken_language)}</span>
                               <NavLink to={`/talks/${talk.id}`} className="talk-link">
-                                <span className="tag-language light-color medium-size">{talk.submission}</span>
-                                <span className="tag-language light-color medium-size">{formatLang(talk.spoken_language)}</span>
                                 <span className="talk-name shantell-sans">{talk.title[language] || talk.title.en}</span>
                               </NavLink>
                             </li>
