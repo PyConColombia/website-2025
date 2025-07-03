@@ -972,8 +972,8 @@
   {
     "id": 51,
     "title": {
-      "en": "Intelligent Agents and Low-Code Automation with Python: Generative AI to solve real problems",
-      "es": "Agentes Inteligentes y Automatización Low-Code con Python: IA generativa para resolver problemas reales"
+      "en": "Creating Intelligent Agents with MCP and Low-Code: Generative AI to Solve Real Problems",
+      "es": "Creación de Agentes Inteligentes con MCP y Low-Code: IA Generativa para resolver problemas reales."
     },
     "speakers": ["stiven-arteaga-bedoya", "socrates-martinez-berrio"],
     "spoken_language": "spanish",

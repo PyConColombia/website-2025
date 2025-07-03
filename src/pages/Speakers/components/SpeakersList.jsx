@@ -92,13 +92,13 @@ const SpeakersList = ({ title, description, button, containerClasses }) => {
                             return (
                               <div className="speaker-talks">
                                   {speakerTalks.map(talk => (
-                                    <a
-                                      key={talk.id}
-                                      href={talk.url || `/talks/${talk.id}`}
-                                      rel="noopener noreferrer"
-                                    >
-                                      {talk.title?.[language] || talk.title?.en || 'Talk'}
-                                    </a>
+                                    <div key={talk.id}>
+                                      <NavLink
+                                        to={`/talks/${talk.id}`}
+                                      >
+                                        {talk.title?.[language] || talk.title?.en || 'Talk'}
+                                      </NavLink>
+                                    </div>
                                   ))}
                               </div>
                             );
