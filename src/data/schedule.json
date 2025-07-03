@@ -388,6 +388,93 @@
         ]
       }
     ]
+  },
+  {
+    "date": "2025/07/06",
+    "previous_date": "2025/07/05",
+    "order": [
+      {
+        "time": "07:30",
+        "type": "activity",
+        "events": [
+          {
+            "title": "Attenders Arrival",
+            "room": "main"
+          }
+        ]
+      },
+      {
+        "time": "08:30",
+        "type": "talk",
+        "events": [
+          {
+            "room": "workshop_1",
+            "event_id": 48
+          },
+          {
+            "room": "workshop_2",
+            "event_id": 30
+          },
+          {
+            "room": "workshop_3"
+          },
+          {
+            "room": "workshop_4",
+            "event_id": 23
+          },
+          {
+            "room": "workshop_5",
+            "event_id": 35
+          },
+          {
+            "room": "workshop_6",
+            "event_id": 49
+          },
+          {
+            "room": "workshop_7",
+            "event_id": 36
+          },
+          {
+            "room": "workshop_8",
+            "event_id": 33
+          },
+          {
+            "room": "workshop_9",
+            "event_id": 42
+          },
+          {
+            "room": "workshop_10",
+            "event_id": 44
+          },
+          {
+            "room": "workshop_11",
+            "event_id": 46
+          }
+        ]
+      },
+      {
+        "time": "10:00",
+        "type": "free",
+        "events": [
+          {
+            "title": "Morning Snacks"
+          }
+        ]
+      },
+      {
+        "time": "10:30",
+        "type": "talk",
+        "events": [
+          {
+            "room": "workshop_1",
+            "event_id": 43
+          },
+          {
+            "room": "workshop_2",
+            "event_id": 31
+          }
+        ]
+      }
+    ]
   }
-
 ]

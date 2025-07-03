@@ -87,7 +87,8 @@ const Speaker = () => {
                     <Col>
                       <div className="separator">
                         <Image src="/images/icons/speaker-separator.svg" alt="Separator" />
-                      </div>                    </Col>
+                      </div>
+                    </Col>
                   </Row>
                   <Row>
                     <Col>
