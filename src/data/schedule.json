@@ -472,6 +472,113 @@
           {
             "room": "workshop_2",
             "event_id": 31
+          },
+          {
+            "room": "workshop_3",
+            "event_id": 34
+          },
+          {
+            "room": "workshop_4",
+            "event_id": 32
+          },
+          {
+            "room": "workshop_5",
+            "event_id": 41
+          },
+          {
+            "room": "workshop_6",
+            "event_id": 39
+          },
+          {
+            "room": "workshop_7",
+            "event_id": 38
+          },
+          {
+            "room": "workshop_8",
+            "event_id": 37
+          },
+          {
+            "room": "workshop_9",
+            "event_id": 50
+          },
+          {
+            "room": "workshop_10",
+            "event_id": 45
+          },
+          {
+            "room": "workshop_11",
+            "event_id": 47
+          }
+        ]
+      },
+      {
+        "time": "12:30",
+        "type": "free",
+        "events": [
+          {
+            "title": "Lunch"
+          }
+        ]
+      },
+      {
+        "time": "14:00",
+        "type": "keynote",
+        "events": [
+          {
+            "room": "main",
+            "title": "Roberto Erdmann - Keynote",
+            "id": "roberto-erdmann"
+          }
+        ]
+      },
+      {
+        "time": "15:00",
+        "type": "keynote",
+        "events": [
+          {
+            "room": "main",
+            "title": "Shreya Gupta - Keynote",
+            "id": "shreya-gupta"
+          }
+        ]
+      },
+      {
+        "time": "16:00",
+        "type": "free",
+        "events": [
+          {
+            "title": "Coffee Break"
+          }
+        ]
+      },
+      {
+        "time": "16:30",
+        "type": "sponsor",
+        "events": [
+          {
+            "room": "main",
+            "title": "Sponsor Space"
+          }
+        ]
+      },
+      {
+        "time": "17:00",
+        "type": "keynote",
+        "events": [
+          {
+            "room": "main",
+            "title": "Peter Wang - Keynote",
+            "id": "peter-wang"
+          }
+        ]
+      },
+      {
+        "time": "18:10",
+        "type": "free",
+        "events": [
+          {
+            "title": "Closing",
+            "room": "main"
           }
         ]
       }
