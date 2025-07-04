@@ -171,7 +171,7 @@
         ]
       },
       {
-        "time": "16:15",
+        "time": "16:25",
         "type": "sponsor",
         "events": [
           {
@@ -339,7 +339,7 @@
         ]
       },
       {
-        "time": "15:15",
+        "time": "15:30",
         "type": "talk",
         "events": [
           {
@@ -358,11 +358,20 @@
       },
       {
         "time": "16:15",
+        "type": "free",
+        "events": [
+          {
+            "title": "Coffee Break"
+          }
+        ]
+      },
+      {
+        "time": "16:30",
         "type": "sponsor",
         "events": [
           {
             "room": "main",
-            "title": "EAFIT (Sponsor Space)"
+            "title": "EAFIT: Vide Coding sin mitos: De cero a producto en tiempo record."
           }
         ]
       },
@@ -404,7 +413,7 @@
         ]
       },
       {
-        "time": "08:30",
+        "time": "08:00",
         "type": "talk",
         "events": [
           {
@@ -554,11 +563,11 @@
       },
       {
         "time": "16:30",
-        "type": "sponsor",
+        "type": "talk",
         "events": [
           {
             "room": "main",
-            "title": "Sponsor Space"
+            "title": "Lightning talks"
           }
         ]
       },
