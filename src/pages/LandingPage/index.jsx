@@ -60,7 +60,7 @@ const LandingPage = ({ dataTranslate }) => {
                   </Col>
                   <Col lg={6}>
                     <Image
-                      src="https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&w=800"
+                      src="/images/content/description.webp"
                       alt="Hero"
                       width="100%"
                       height="auto"
