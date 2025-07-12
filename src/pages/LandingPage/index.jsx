@@ -111,6 +111,58 @@ const LandingPage = ({ dataTranslate }) => {
         description="Want to elevate your brand and connect with the Python community? As a sponsor, you’ll get unparalleled visibility among thousands of developers, security experts, and innovators."
         containerClasses="pt-60 pb-60"
       />
+
+      <div className="testimonials-section">
+        <Container>
+          <Row className="justify-content-center">
+            <Col lg={8}>
+              <h2 className="testimonials-title">Testimonials</h2>
+              <p className="testimonials-description">
+                Hear what our community members have to say about their PyCon Colombia experience
+              </p>
+            </Col>
+          </Row>
+          <Row className="justify-content-center">
+            <Col lg={10}>
+              <Row>
+                <Col md={4} className="mb-4">
+                  <div className="testimonial-card">
+                    <p className="testimonial-text">
+                      "PyCon Colombia has been an incredible experience. The quality of talks and the networking opportunities are outstanding."
+                    </p>
+                    <div className="testimonial-author">
+                      <strong>María González</strong>
+                      <span>Software Developer</span>
+                    </div>
+                  </div>
+                </Col>
+                <Col md={4} className="mb-4">
+                  <div className="testimonial-card">
+                    <p className="testimonial-text">
+                      "The community spirit at PyCon Colombia is amazing. I've learned so much and made lasting connections."
+                    </p>
+                    <div className="testimonial-author">
+                      <strong>Carlos Rodríguez</strong>
+                      <span>Data Scientist</span>
+                    </div>
+                  </div>
+                </Col>
+                <Col md={4} className="mb-4">
+                  <div className="testimonial-card">
+                    <p className="testimonial-text">
+                      "As a first-time attendee, I was impressed by how welcoming and inclusive the event was. Highly recommended!"
+                    </p>
+                    <div className="testimonial-author">
+                      <strong>Ana Martínez</strong>
+                      <span>Python Enthusiast</span>
+                    </div>
+                  </div>
+                </Col>
+              </Row>
+            </Col>
+          </Row>
+        </Container>
+      </div>
     </>
   );
 };
