@@ -21,9 +21,11 @@ import Sponsor from '@/pages/Sponsor';
 import CodeOfConductProcedure from '@/pages/CodeOfConductProcedure';
 import HealthAndSafetyPolicy from '@/pages/HealthAndSafetyPolicy';
 import Keynotes from '@/pages/Keynotes';
+import Keynote from '@/pages/Keynote';
 import Scholarships from '@/pages/Scholarships';
 import Speakers from '@/pages/Speakers';
 import Team from '@/pages/Team';
+import Media from '@/pages/Media';
 import Talk from '@/pages/Talk';
 import Schedule from './pages/Schedule';
 import Speaker from './pages/Speaker';
@@ -66,6 +68,7 @@ const App = () => {
         <Route path="/sponsors" element={<Sponsors dataTranslate={allData} />} />
         <Route path="/sponsors/:id" element={<Sponsor />} />
         <Route path="/keynotes" element={<Keynotes dataTranslate={allData} />} />
+        <Route path="/keynotes/:id" element={<Keynote />} />
         <Route path="/talks/:id" element={<Talk />} />
         <Route path="/code-of-conduct" element={<CodeOfConduct dataTranslate={allData} />} />
         <Route
@@ -95,6 +98,10 @@ const App = () => {
         <Route
           path='/team'
           element={<Team dataTranslate={allData} />}
+        />
+        <Route
+          path='/media'
+          element={<Media dataTranslate={allData} />}
         />
         {/* <Route path="*" element={<LandingPage dataTranslate={allData} />} /> */}
       </Routes>

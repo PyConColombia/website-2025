@@ -53,6 +53,7 @@ const NavbarCustom = ({ dataTranslate, locales }) => {
               </NavDropdown.Item> */}
             </NavDropdown>
             <Nav.Link href="/sponsors">{dataTranslate?.navbar?.sponsors}</Nav.Link>
+            <Nav.Link href="/media">{dataTranslate?.navbar?.media}</Nav.Link>
             <Nav.Link href="/scholarships">{dataTranslate?.navbar?.scholarships}</Nav.Link>
             <Nav.Link href="/team">{dataTranslate?.navbar?.team}</Nav.Link>
           </Nav>

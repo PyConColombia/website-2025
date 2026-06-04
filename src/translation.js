@@ -5,7 +5,13 @@ const data = {
       schedule: 'Schedule',
       sponsors: 'Sponsors',
       scholarships: 'Scholarships',
-      team: 'Team'
+      team: 'Team',
+      media: 'Media'
+    },
+    media: {
+      title: 'Media',
+      description: 'Press coverage and articles about PyCon Colombia 2025.',
+      readArticle: 'Read article'
     },
     landing: {
       date: 'Medellín, July 4th, 5th and 6th, 2025',
@@ -340,7 +346,13 @@ const data = {
       schedule: 'Agenda',
       sponsors: 'Patrocinadores',
       scholarships: 'Becas',
-      team: 'Equipo'
+      team: 'Equipo',
+      media: 'Medios'
+    },
+    media: {
+      title: 'Medios',
+      description: 'Cobertura de prensa y artículos sobre PyCon Colombia 2025.',
+      readArticle: 'Leer artículo'
     },
     landing: {
       date: 'Medellín, Julio 4, 5 y 6, 2025',

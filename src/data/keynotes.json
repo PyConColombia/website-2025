@@ -18,7 +18,9 @@
     "instagram": "",
     "github": "mdboom",
     "website": "",
-    "country": "us"
+    "country": "us",
+    "keynote_video": "Y279N7JbewU",
+    "interview_video": "O5eJ-l6TtwE"
   },
   {
     "id": "julia-silge",
@@ -39,7 +41,9 @@
     "instagram": "",
     "github": "juliasilge",
     "website": "",
-    "country": "us"
+    "country": "us",
+    "keynote_video": "xiCa6OcXlSs",
+    "interview_video": "M3RfTD_p3LA"
   },
   {
     "id": "angela-oliveira-pisco",
@@ -60,7 +64,9 @@
     "instagram": "aopisco",
     "github": "aopisco",
     "website": "",
-    "country": "pt"
+    "country": "pt",
+    "keynote_video": "vMa8oSlYGXk",
+    "interview_video": "Pygcw47lDyw"
   },
   {
     "id": "erico-andrei",
@@ -81,7 +87,9 @@
     "instagram": "ericof",
     "github": "ericof",
     "website": "",
-    "country": "br"
+    "country": "br",
+    "keynote_video": "hsrsXKmHB9s",
+    "interview_video": "XOvb3hqDFWk"
   },
   {
     "id": "shreya-gupta",
@@ -100,7 +108,9 @@
     "instagram": "",
     "github": "ShreyaGupta08",
     "website": "",
-    "country": "in"
+    "country": "in",
+    "keynote_video": "wxOxMLR_k2M",
+    "interview_video": "qnmQhQOP1qE"
   },
   {
     "id": "peter-wang",
@@ -119,7 +129,9 @@
     "instagram": "",
     "github": "pzwang",
     "website": "",
-    "country": "us"
+    "country": "us",
+    "keynote_video": "0Fh-_AnqEtY",
+    "interview_video": "LvA2nFTIVOc"
   },
   {
     "id": "robert-erdmann",
@@ -138,6 +150,8 @@
     "instagram": "",
     "github": "erdmann",
     "website": "",
-    "country": "nl"
+    "country": "nl",
+    "keynote_video": "lDtE5fU-JOM",
+    "interview_video": "wyThUemDF60"
   }
 ]

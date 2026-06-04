@@ -379,6 +379,61 @@
   }
 }
 
+.media-page {
+  background-color: $blue-dark;
+  padding-top: 150px;
+  padding-bottom: 150px;
+
+  .media-list {
+    list-style: none;
+    padding: 0;
+    margin: 40px 0 0;
+  }
+
+  .media-item {
+    background-color: rgba($white, 0.08);
+    border-radius: 12px;
+    margin-bottom: 24px;
+    padding: 28px 32px;
+  }
+
+  .media-source {
+    color: $pink;
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+  }
+
+  .media-title {
+    font-size: 24px;
+    margin-bottom: 12px;
+  }
+
+  .media-link,
+  .media-read-link {
+    color: $white;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+
+    &:hover {
+      color: $pink;
+    }
+  }
+
+  .media-read-link {
+    display: inline-block;
+    font-weight: 600;
+    margin-top: 8px;
+  }
+
+  .media-description {
+    color: $white;
+    margin-bottom: 0;
+  }
+}
+
 
 /* keynotes */
 
@@ -459,10 +514,26 @@
   text-align: left;
 }
 
-.keynotes-page .keynote-text .keynote-link-wrapper .keynote-link {
+.keynotes-page .keynote-link {
   color: $green;
   text-decoration: underline;
   text-underline-offset: 5px;
+
+  &:hover,
+  &:focus {
+    color: $white;
+  }
+}
+
+.keynotes-page .keynote-name .keynote-link {
+  color: $white;
+  text-decoration: none;
+
+  &:hover,
+  &:focus {
+    color: $green;
+    text-decoration: underline;
+  }
 }
 
 

@@ -73,6 +73,22 @@ const Talk = () => {
                 </Row>
               }
 
+              {video_url && (
+                <Row>
+                  <Col>
+                    <div className="video-talk">
+                      <iframe
+                        src={`https://www.youtube.com/embed/${video_url}`}
+                        frameBorder="0"
+                        allowFullScreen
+                        className="video"
+                        title={`YouTube video player for ${title?.en || ''}`}
+                      />
+                    </div>
+                  </Col>
+                </Row>
+              )}
+
               {description && (
                 <Row>
                   <Col>
@@ -80,18 +96,6 @@ const Talk = () => {
                   </Col>
                 </Row>
               )}
-
-
-              {video_url && <div className="video-talk">
-                <iframe
-                  src={`https://www.youtube.com/embed/${video_url}`}
-                  frameBorder="0"
-                  allowFullScreen
-                  className="video"
-                  title={`YouTube video player for ${title?.en || ''}`}
-                >
-                </iframe>
-              </div>}
 
               <Row>
                 <Col>

@@ -128,7 +128,7 @@ const LandingPage = ({ dataTranslate }) => {
                 <Col md={4} className="mb-4">
                   <div className="testimonial-card">
                     <p className="testimonial-text">
-                      "PyCon Colombia has been an incredible experience. The quality of talks and the networking opportunities are outstanding."
+                      &ldquo;PyCon Colombia has been an incredible experience. The quality of talks and the networking opportunities are outstanding.&rdquo;
                     </p>
                     <div className="testimonial-author">
                       <strong>María González</strong>
@@ -139,7 +139,7 @@ const LandingPage = ({ dataTranslate }) => {
                 <Col md={4} className="mb-4">
                   <div className="testimonial-card">
                     <p className="testimonial-text">
-                      "The community spirit at PyCon Colombia is amazing. I've learned so much and made lasting connections."
+                      &ldquo;The community spirit at PyCon Colombia is amazing. I&apos;ve learned so much and made lasting connections.&rdquo;
                     </p>
                     <div className="testimonial-author">
                       <strong>Carlos Rodríguez</strong>
@@ -150,7 +150,7 @@ const LandingPage = ({ dataTranslate }) => {
                 <Col md={4} className="mb-4">
                   <div className="testimonial-card">
                     <p className="testimonial-text">
-                      "As a first-time attendee, I was impressed by how welcoming and inclusive the event was. Highly recommended!"
+                      &ldquo;As a first-time attendee, I was impressed by how welcoming and inclusive the event was. Highly recommended!&rdquo;
                     </p>
                     <div className="testimonial-author">
                       <strong>Ana Martínez</strong>

@@ -1,5 +1,6 @@
 import propTypes from 'prop-types'
 import { Button, Col, Container, Image, Row } from 'react-bootstrap'
+import { NavLink } from 'react-router-dom'
 import Social from '@/components/Social';
 
 import data from '@/data/keynotes.json'
@@ -44,7 +45,9 @@ const KeynotesList = ({
                         md={6}
                         lg={4} className={index % 2 === 0 ? "order-md-first" : "order-md-last"}>
                         <div className="keynote-image-wrapper">
-                          <Image src={`images/keynotes/${keynote.photo}`} alt={`${keynote.first_name} ${keynote.last_name}`} className="keynote-image" />
+                          <NavLink to={`/keynotes/${keynote.id}`}>
+                            <Image src={`images/keynotes/${keynote.photo}`} alt={`${keynote.first_name} ${keynote.last_name}`} className="keynote-image" />
+                          </NavLink>
                           {keynote.country && (
                             <div className="bandera bandera-superior">
                               <span className="flag">
@@ -62,7 +65,11 @@ const KeynotesList = ({
                         lg={8}
                         className={index % 2 === 0 ? "order-md-last" : "order-md-first"}>
                         <div className={`keynote-text ${index % 2 === 0 ? "" : "text-right"}`}>
-                          <h2 className="keynote-name shantell-sans">{keynote.first_name} {keynote.last_name}</h2>
+                          <h2 className="keynote-name shantell-sans">
+                            <NavLink to={`/keynotes/${keynote.id}`} className="keynote-link">
+                              {keynote.first_name} {keynote.last_name}
+                            </NavLink>
+                          </h2>
                           <div className="separator">
                             <Image src="/images/icons/speaker-separator.svg" alt="Separator" />
                           </div>
@@ -71,11 +78,11 @@ const KeynotesList = ({
 
                           <Row>
                             <Col xs={12} md={6}>
-                              {/* <div className="keynote-link-wrapper">
-                                <a href={`/keynotes/${keynote.id}`} rel="noopener noreferrer" className='keynote-link'>
-                                  See more
-                                </a>
-                              </div> */}
+                              <div className="keynote-link-wrapper">
+                                <NavLink to={`/keynotes/${keynote.id}`} className='keynote-link'>
+                                  {language === 'es' ? 'Ver más' : 'See more'}
+                                </NavLink>
+                              </div>
                             </Col>
                             <Col xs={12} md={6}>
                               <Social socialNetworks={keynote} />
