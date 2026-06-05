@@ -138,6 +138,8 @@ const Schedule = () => {
                           <div className="schedule-title">
                             {block.type === "talk" ? (
                               <NavLink className='shantell-sans' to={`/talks/${event.event_id}`}>{title}</NavLink>
+                            ) : block.type === "keynote" && event.id ? (
+                              <NavLink className='shantell-sans' to={`/keynotes/${event.id}`}>{title}</NavLink>
                             ) : (
                               <span className='shantell-sans'>{title}</span>
                             )}
